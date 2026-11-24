@@ -93,5 +93,14 @@
       "--timeout=120000"
     ],
     "testExitCode": 0
+  },
+  {
+    "date": "2026-11-24T10:36:56.833Z",
+    "origin": "http://127.0.0.1:3002",
+    "arguments": [
+      "--max-failures=3",
+      "--timeout=120000"
+    ],
+    "testExitCode": 0
   }
 ]
