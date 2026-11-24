@@ -82,7 +82,7 @@ export const faqs = [
   {
     question: "What is Flurzi Cinema?",
     answer:
-      "Flurzi Cinema is a premium streaming platform concept built around thoughtful discovery and shared experiences. This public website is a frontend preview. All film titles and artwork shown here form a fictional demo catalog; streaming is not available.",
+      "Flurzi Cinema is a movie and television streaming platform in development, designed to help you discover, browse and watch video entertainment. This public preview lets you explore a fictional movie and TV catalog and try planned features. Streaming is not available yet.",
   },
   {
     question: "How do memberships work?",

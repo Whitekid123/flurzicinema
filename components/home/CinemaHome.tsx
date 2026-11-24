@@ -29,7 +29,7 @@ const infoCopy: Record<string, string> = {
   "A new cinema experience":
     "This is a frontend preview of Flurzi Cinema. Membership prices, launch dates, supported devices and content availability are still to be confirmed. No account, payment or subscription is created here.",
   "About Flurzi":
-    "Flurzi Cinema is a streaming platform concept shaped around beautiful discovery, shared experiences and the stories that stay with us. This is the first public homepage milestone. Every catalog title is fictional.",
+    "Flurzi Cinema is a movie and television streaming platform in development. Explore the catalog and planned viewing features in this public preview. The default catalog is fictional; streaming is not available.",
   "Privacy preview":
     "This demo has no signup form, advertising trackers or analytics integration. Saved demo films are stored in this browser’s local storage only. Clear them from a film’s detail dialog or through your browser settings. A complete privacy policy must be provided before launch.",
   "Terms preview":
@@ -65,16 +65,16 @@ function CinemaHomeContent() {
 
         <section id="faq" className="faq-section wrap section-space">
           <div data-reveal>
-            <p className="eyebrow">A FEW THINGS TO KNOW</p>
+            <p className="eyebrow">FLURZI CINEMA · FAQ</p>
             <h2>
-              Before the
+              Your questions.
               <br />
-              <span className="muted-serif">opening scene.</span>
+              <span className="muted-serif">Answered.</span>
             </h2>
             <p>
-              The concept, the plans,
+              Memberships, viewing features,
               <br />
-              and what comes next.
+              and what is available in this preview.
             </p>
           </div>
           <div className="faq-list">
@@ -134,10 +134,10 @@ function CinemaHomeContent() {
               onClick={() => toggleSaved(selected.id)}
             >
               {saved.includes(selected.id)
-                ? "✓ Saved · Remove from my stories"
-                : "+ Save to my stories"}
+                ? "✓ Saved · Remove from watchlist"
+                : "+ Add to watchlist"}
             </button>
-            <Link className="text-link" href={titleHref({ slug: selected.slug || selected.id, format: selected.format })}>View full story details</Link>
+            <Link className="text-link" href={titleHref({ slug: selected.slug || selected.id, format: selected.format })}>View full title details</Link>
             <p className="feature-footnote" aria-live="polite">
               {saved.includes(selected.id)
                 ? storageError

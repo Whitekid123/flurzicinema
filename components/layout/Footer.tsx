@@ -8,7 +8,7 @@ export function Footer() {
         <Link href="/" aria-label="Flurzi Cinema home">
           <Brand />
         </Link>
-        <p>For the love of the story.</p>
+        <p>Movies. TV series. Flurzi Cinema.</p>
         <Link className="text-link" href="/">
           Back to the beginning
         </Link>
@@ -16,8 +16,8 @@ export function Footer() {
       <div className="footer-columns">
         <div className="footer-description">
           <p>
-            A new perspective on cinema.
-            <br />A public frontend concept, made for what comes next.
+            A movie and TV streaming platform in development.
+            <br />Explore the public preview. Streaming is not available yet.
           </p>
           <span className="label">SOCIAL CHANNELS · COMING LATER</span>
         </div>

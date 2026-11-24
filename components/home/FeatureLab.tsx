@@ -13,30 +13,30 @@ const features = [
   {
     id: "rooms",
     short: "Cinema Rooms",
-    name: "The same story.\nEven miles apart.",
+    name: "Movie night.\nTogether.",
     description:
-      "A shared screen, wherever life takes you. Explore the idea of a movie night that brings everyone into the room.",
+      "A planned way to watch movies with friends, wherever you are. Try the local room demo; shared playback is not available yet.",
   },
   {
     id: "match",
     short: "StoryMatch",
-    name: "A little less searching.\nA lot more feeling.",
+    name: "Find movies that\nmatch your mood.",
     description:
-      "Start with your mood. Discover a story that meets you there, with a preview of preference-led discovery.",
+      "Find movies that fit your mood and preferences. This preview uses sample matches; personalized recommendations are planned.",
   },
   {
     id: "lens",
     short: "StoryLens",
-    name: "There’s more\nbetween the frames.",
+    name: "Get to know\nthe movie.",
     description:
-      "Go a little deeper. Explore the places, themes and creative details behind a fictional film.",
+      "Explore extra information about a movie, from its setting to its themes. Try a sample using a fictional film.",
   },
   {
     id: "data",
     short: "DataSense",
-    name: "Your picture.\nYour perspective.",
+    name: "Streaming quality.\nData explained.",
     description:
-      "Understand the balance between picture quality and data, before you press play.",
+      "Compare picture quality and estimated data use. This demo illustrates a planned streaming tool; it does not change playback settings.",
   },
 ];
 export function FeatureLab({ onMovie }: { onMovie: (movie: Movie) => void }) {
@@ -73,16 +73,16 @@ export function FeatureLab({ onMovie }: { onMovie: (movie: Movie) => void }) {
     >
       <div className="section-heading" data-reveal>
         <div>
-          <p className="eyebrow">02 / GO BEYOND WATCHING</p>
+          <p className="eyebrow">02 / PLANNED STREAMING FEATURES</p>
           <h2 data-editorial-lines>
-            More than a screen.
+            Choose how
             <br />
-            <span className="muted-serif">An experience.</span>
+            <span className="muted-serif">you watch.</span>
           </h2>
         </div>
         <p>
-          Thoughtful ideas for the way you discover,
-          <br className="desktop-break" /> connect, and get lost in a story.
+          Preview tools for finding movies,
+          <br className="desktop-break" /> watching together and managing data.
         </p>
       </div>
       <div className="feature-journey-stage">
@@ -160,7 +160,7 @@ export function FeatureLab({ onMovie }: { onMovie: (movie: Movie) => void }) {
                 </h3>
                 <p>{feature.description}</p>
                 <span className="feature-footnote">
-                  A local demonstration of a planned experience.
+                  Planned feature · Local demo only.
                 </span>
               </div>
               <div className="feature-demo">
@@ -226,7 +226,7 @@ export function FeatureLab({ onMovie }: { onMovie: (movie: Movie) => void }) {
                         <Image src={matched.poster} fill alt="" sizes="150px" />
                       </div>
                       <span>
-                        <small>A STORY FOR YOUR MOOD</small>
+                        <small>A TITLE FOR YOUR MOOD</small>
                         <strong>{matched.title}</strong>
                         <span>{matched.genre}</span>
                         <span className="text-link">Explore your match +</span>
@@ -321,7 +321,7 @@ export function FeatureLab({ onMovie }: { onMovie: (movie: Movie) => void }) {
           />
         </div>
         <p className="feature-journey-note">
-          <span>Four ways to go beyond watching.</span>
+          <span>Four planned tools for movie and TV streaming.</span>
           <span>SCROLL THROUGH THE EXPERIENCES · OR CHOOSE ABOVE</span>
         </p>
       </div>

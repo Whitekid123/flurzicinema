@@ -14,10 +14,10 @@ test("movie details trap focus, save locally, persist and close with Escape", as
   await expect(dialog).toBeVisible();
   await expect(dialog.getByText("Fictional catalog · demo")).toBeVisible();
   await dialog
-    .getByRole("button", { name: "+ Save to my stories", exact: true })
+    .getByRole("button", { name: "+ Add to watchlist", exact: true })
     .click();
   await expect(
-    dialog.getByRole("button", { name: "✓ Saved · Remove from my stories" }),
+    dialog.getByRole("button", { name: "✓ Saved · Remove from watchlist" }),
   ).toBeVisible();
   for (let i = 0; i < 5; i++) {
     await page.keyboard.press("Tab");
@@ -33,13 +33,13 @@ test("movie details trap focus, save locally, persist and close with Escape", as
   await page.reload();
   await poster.click();
   await expect(
-    page.getByRole("button", { name: "✓ Saved · Remove from my stories" }),
+    page.getByRole("button", { name: "✓ Saved · Remove from watchlist" }),
   ).toBeVisible();
   await page
-    .getByRole("button", { name: "✓ Saved · Remove from my stories" })
+    .getByRole("button", { name: "✓ Saved · Remove from watchlist" })
     .click();
   await expect(
-    page.getByRole("button", { name: "+ Save to my stories", exact: true }),
+    page.getByRole("button", { name: "+ Add to watchlist", exact: true }),
   ).toBeVisible();
 });
 
@@ -57,7 +57,7 @@ test("Vault switches layouts and filters movies and series", async ({
   await expect(page.locator(".vault-caption h3")).toHaveText("Velvet Hours");
   await vault.getByRole("button", { name: "Movies", exact: true }).click();
   await expect(page.locator(".vault-item")).toHaveCount(4);
-  await vault.getByRole("button", { name: "All stories", exact: true }).click();
+  await vault.getByRole("button", { name: "All titles", exact: true }).click();
   await vault.getByRole("button", { name: "Timeline", exact: true }).click();
   await expect(page.locator(".vault-timeline .vault-item")).toHaveCount(5);
 });

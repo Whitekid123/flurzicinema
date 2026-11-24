@@ -1,0 +1,50 @@
+[
+  {
+    "file": "components/home/CinemaHero.tsx",
+    "replacements": 5
+  },
+  {
+    "file": "components/home/FallingFilms.tsx",
+    "replacements": 4
+  },
+  {
+    "file": "components/home/FeaturedExhibition.tsx",
+    "replacements": 6
+  },
+  {
+    "file": "components/home/VaultExperience.tsx",
+    "replacements": 6
+  },
+  {
+    "file": "components/home/FeatureLab.tsx",
+    "replacements": 16
+  },
+  {
+    "file": "components/home/EditorialScenes.tsx",
+    "replacements": 7
+  },
+  {
+    "file": "components/home/CinemaHome.tsx",
+    "replacements": 8
+  },
+  {
+    "file": "components/layout/Footer.tsx",
+    "replacements": 3
+  },
+  {
+    "file": "data/movies.ts",
+    "replacements": 1
+  },
+  {
+    "file": "app/layout.tsx",
+    "replacements": 3
+  },
+  {
+    "file": "tests/homepage.spec.ts",
+    "replacements": 3
+  },
+  {
+    "file": "tests/editorial-home.spec.ts",
+    "replacements": 1
+  }
+]

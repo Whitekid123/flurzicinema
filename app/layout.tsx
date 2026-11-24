@@ -10,15 +10,15 @@ export const metadata: Metadata = {
   metadataBase: new URL(
     process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000",
   ),
-  title: "Flurzi Cinema — Beyond watching",
+  title: "Flurzi Cinema — Movies & TV Streaming",
   description:
-    "Discover extraordinary stories. Explore the Flurzi Cinema public concept: a new perspective on cinema, discovery and watching together.",
+    "Discover movies and TV series with Flurzi Cinema, a streaming platform in development. Explore the public preview; streaming is not available yet.",
   applicationName: "Flurzi Cinema",
   robots: { index: false, follow: false },
   openGraph: {
-    title: "Flurzi Cinema — Beyond watching",
+    title: "Flurzi Cinema — Movies & TV Streaming",
     description:
-      "A new perspective on cinema. Explore the public frontend preview.",
+      "Explore movies, TV series and planned streaming features in the Flurzi Cinema public preview. Streaming is not available yet.",
     type: "website",
     images: [
       {
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Flurzi Cinema — Beyond watching",
+    title: "Flurzi Cinema — Movies & TV Streaming",
     images: ["/images/quiet-beyond.webp"],
   },
 };

@@ -85,7 +85,7 @@ export function Vault({ onMovie }: { onMovie: (movie: Movie) => void }) {
       <div className="wrap">
         <div className="vault-masthead">
           <div>
-            <p className="eyebrow">COLLECT MOMENTS. FOLLOW STORIES.</p>
+            <p className="eyebrow">EXPLORE THE MOVIE & TV COLLECTION.</p>
             <h2>
               The Cinema
               <br />
@@ -96,9 +96,9 @@ export function Vault({ onMovie }: { onMovie: (movie: Movie) => void }) {
           </div>
           <div className="vault-intro">
             <p>
-              Every era. Every feeling.
+              Browse movies and series.
               <br />
-              Pick a sleeve. Open a world.
+              Select a title. See the details.
             </p>
             <span className="label">{movies.every(movie=>movie.availability.startsWith("Fictional")) ? "A FICTIONAL FILM COLLECTION" : "THE PUBLIC FILM COLLECTION"}</span>
           </div>
@@ -111,7 +111,7 @@ export function Vault({ onMovie }: { onMovie: (movie: Movie) => void }) {
                 aria-pressed={filter === item}
                 onClick={() => changeFilter(item)}
               >
-                {item === "Film" ? "Movies" : item}
+                {item === "Film" ? "Movies" : item === "All stories" ? "All titles" : item}
               </button>
             ))}
           </div>
@@ -217,7 +217,7 @@ export function Vault({ onMovie }: { onMovie: (movie: Movie) => void }) {
             <div className="selection-year" aria-hidden="true">
               {selected.releaseYear}
             </div>
-            <span className="eyebrow">ON YOUR REEL</span>
+            <span className="eyebrow">SELECTED TITLE</span>
             <div className="selection-copy" aria-live="polite">
               <h3>{selected.title}</h3>
               <p className="selection-meta">
@@ -238,7 +238,7 @@ export function Vault({ onMovie }: { onMovie: (movie: Movie) => void }) {
           </div>
         </div>
         <div className="vault-chronology">
-          <span className="label">FOLLOW THE YEARS</span>
+          <span className="label">BROWSE BY YEAR</span>
           <div className="year-markers" aria-label="Browse films by year">
             {years.map((year) => (
               <button
