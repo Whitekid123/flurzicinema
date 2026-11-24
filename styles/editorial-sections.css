@@ -87,3 +87,6 @@
 .editorial-home .feature-demo .button{background:#f5f5f3!important;box-shadow:none!important}
 
 .editorial-home .footer{width:100%;max-width:none;padding-inline:5%}
+
+/* Static discovery labels stay in document flow at narrow widths and with reduced motion. */
+@media(max-width:1023px),(prefers-reduced-motion:reduce){.editorial-home .floating-labels{position:relative;inset:auto}}

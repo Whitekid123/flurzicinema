@@ -1,6 +1,13 @@
 import {test,expect,type Page} from "@playwright/test";
 async function ready(page:Page){await page.goto("/");await page.waitForSelector(".editorial-home[data-motion-ready=true]");await page.waitForTimeout(1100);}
 async function scroll(page:Page,y:number){await page.evaluate(y=>scrollTo(0,y),y);await page.waitForTimeout(650);}
+async function readableStaticGenres(page:Page){
+ const labels=await page.locator(".floating-label").evaluateAll(els=>els.map(e=>({height:e.getBoundingClientRect().height,bottom:e.getBoundingClientRect().bottom})));
+ const heading=await page.locator(".discovery-title").boundingBox();
+ const mosaic=await page.locator(".mosaic-interface").boundingBox();
+ expect(labels.length).toBeGreaterThan(0);
+ for(const label of labels){expect(label.height).toBeLessThan(100);expect(label.bottom).toBeLessThanOrEqual(mosaic!.y);expect(label.bottom-label.height).toBeGreaterThan(heading!.y+heading!.height);}
+}
 test("native hero wheel progression, concise measured mosaic assembly and exact reverse",async({page})=>{
  await page.setViewportSize({width:1440,height:1000});await ready(page);
  await expect(page.locator(".editorial-hero .pin-spacer")).toHaveCount(0);
@@ -28,13 +35,13 @@ test("mosaic opens the corresponding title and links to its full details",async(
 });
 test("motion preferences and resize release and restore the mosaic without duplicate pins",async({page})=>{
  await page.setViewportSize({width:1440,height:1000});await ready(page);await expect(page.locator(".pin-spacer")).toHaveCount(3);
- await page.emulateMedia({reducedMotion:"reduce"});await expect(page.locator(".pin-spacer")).toHaveCount(0);await expect(page.locator(".mosaic-card")).toHaveCount(5);await expect(page.locator(".mosaic-card").first()).toHaveCSS("transform","none");
+ await page.emulateMedia({reducedMotion:"reduce"});await expect(page.locator(".pin-spacer")).toHaveCount(0);await expect(page.locator(".mosaic-card")).toHaveCount(5);await expect(page.locator(".mosaic-card").first()).toHaveCSS("transform","none");await readableStaticGenres(page);
  await page.setViewportSize({width:390,height:844});await page.emulateMedia({reducedMotion:"no-preference"});await page.waitForTimeout(500);await expect(page.locator(".pin-spacer")).toHaveCount(0);
  await page.setViewportSize({width:1440,height:1000});await page.waitForTimeout(650);await expect(page.locator(".pin-spacer")).toHaveCount(3);await page.setViewportSize({width:1280,height:900});await page.waitForTimeout(650);await expect(page.locator(".pin-spacer")).toHaveCount(3);expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
 });
 for(const width of [1024,768,390])test("normal motion interactions at "+width+"px",async({page})=>{
  await page.setViewportSize({width,height:width===390?844:1000});const errors:string[]=[];page.on("pageerror",e=>errors.push(e.message));await ready(page);
- if(width<1024)await expect(page.locator(".pin-spacer")).toHaveCount(0);
+ if(width<1024){await expect(page.locator(".pin-spacer")).toHaveCount(0);await readableStaticGenres(page);}
  await page.getByRole("tab",{name:"StoryMatch"}).click();await page.getByRole("button",{name:"Escape",exact:true}).click();await expect(page.getByRole("button",{name:"Explore your match: The Last Train North"})).toBeVisible();await page.getByRole("tab",{name:"DataSense"}).click();await page.getByRole("radio",{name:"4K",exact:true}).check();await expect(page.getByText("7 GB",{exact:true})).toBeVisible();
  await page.locator("#vault").getByRole("button",{name:"Grid",exact:true}).click();await expect(page.locator(".vault-grid .vault-item")).toHaveCount(5);await page.waitForTimeout(1100);expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);expect(errors).toEqual([]);
 });

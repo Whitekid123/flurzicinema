@@ -15,6 +15,9 @@ try{
   await page.locator('.editorial-home[data-motion-ready=true]').waitFor({timeout:90000});
   await page.evaluate(()=>document.fonts.ready);
   await page.screenshot({path:dir+'/'+width+'-full.png',fullPage:true,caret:'initial'});
+  for(const [name,selector] of Object.entries({hero:'.editorial-masthead',discovery:'.discovery-stage',spotlight:'.editorial-spotlight',finale:'.editorial-finale'})){
+   await page.locator(selector).screenshot({path:dir+'/'+width+'-'+name+'.png',caret:'initial'});
+  }
   for(const feature of ['rooms','match','lens','data']){
    await page.locator('#tab-'+feature).click();
    await page.locator('#feature-panel-'+feature).screenshot({path:dir+'/'+width+'-feature-'+feature+'.png',caret:'initial'});
