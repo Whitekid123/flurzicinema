@@ -1,0 +1,5 @@
+import Link from "next/link";
+import { Breadcrumbs,PageIntro } from "@/components/public/Primitives";
+import { ContactForm } from "@/components/public/ContactForm";
+export const metadata={title:"Contact · Flurzi Cinema"};
+export default function Page(){return <div className="wrap"><Breadcrumbs items={[{label:"Contact"}]}/><PageIntro eyebrow="LET’S START A CONVERSATION" title="Every good story" emphasis="starts somewhere." description="A question, a creative possibility, a thought about the experience. Prepare a local inquiry while official contact channels are being established."/><section className="public-split"><aside className="public-prose"><h2>A place for<br/>your perspective.</h2><h3>General questions</h3><p>Explore the concept and what is planned for the future.</p><h3>Content & creative partnerships</h3><p>Licensing and creator conversations will use approved channels once established.</p><h3>Accessibility & technical feedback</h3><p>Describe the page, device and interaction you want to discuss.</p><Link className="text-link" href="/help">Browse the help center</Link></aside><ContactForm/></section></div>}

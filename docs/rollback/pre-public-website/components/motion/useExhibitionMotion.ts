@@ -1,0 +1,412 @@
+"use client";
+import { useEffect, type RefObject } from "react";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { SplitText } from "gsap/SplitText";
+
+gsap.registerPlugin(ScrollTrigger, SplitText);
+export function useCinemaMotion(root: RefObject<HTMLElement | null>) {
+  useEffect(() => {
+    const mm = gsap.matchMedia();
+    const ctx = gsap.context(() => {
+      mm.add(
+        "(min-width: 1024px) and (prefers-reduced-motion: no-preference)",
+        () => {
+          const hero = root.current?.querySelector<HTMLElement>(".cinema-hero");
+          const word =
+            root.current?.querySelector<HTMLElement>(".hero-word-beyond");
+          const slot =
+            root.current?.querySelector<HTMLElement>(".hero-dock-slot");
+          if (!hero || !word || !slot) return;
+          const opening = gsap.timeline({
+            defaults: { ease: "none" },
+            scrollTrigger: {
+              id: "cinema-opening",
+              refreshPriority: 20,
+              trigger: hero,
+              start: "top top",
+              // Keep the full choreography within a short, viewport-aware pin.
+              end: () => `+=${Math.min(window.innerHeight * 0.65, 650)}`,
+              pin: true,
+              scrub: 0.25,
+              invalidateOnRefresh: true,
+              anticipatePin: 1,
+            },
+          });
+          opening
+            .to(hero, { "--scene-progress": 1, duration: 1 }, 0)
+            .to(
+              ".hero-entry, .cinema-hero-copy, .hero-exhibit-top, .hero-sequence-controls",
+              { autoAlpha: 0, y: -35, duration: 0.18 },
+              0,
+            )
+            .to(
+              ".hero-word-watching",
+              { xPercent: 120, yPercent: 45, rotation: 7, duration: 0.5 },
+              0,
+            )
+            .to(
+              ".hero-word-beyond",
+              { xPercent: -8, yPercent: -20, duration: 0.28 },
+              0,
+            )
+            .to(
+              ".hero-screen",
+              {
+                width: "80%",
+                left: "10%",
+                top: "16%",
+                height: "69%",
+                rotationY: 0,
+                rotationZ: 0,
+                z: 140,
+                duration: 0.4,
+              },
+              0,
+            )
+            .to(
+              ".environment-camera",
+              { rotationY: -12, rotationX: 5, z: 180, duration: 0.46 },
+              0.1,
+            )
+            .to(
+              ".side-screen-left",
+              { xPercent: -75, rotationY: 18, z: 180, duration: 0.55 },
+              0.1,
+            )
+            .to(
+              ".side-screen-right",
+              { xPercent: 48, rotationY: -15, z: 50, duration: 0.55 },
+              0.1,
+            )
+            .to(
+              ".depth-frame",
+              { z: "+=240", stagger: 0.035, duration: 0.6 },
+              0.12,
+            )
+            .to(
+              ".hero-word-beyond",
+              {
+                xPercent: 0,
+                yPercent: 0,
+                x: () => slot.offsetLeft - word.offsetLeft,
+                y: () => slot.offsetTop - word.offsetTop,
+                scale: () => slot.offsetWidth / word.offsetWidth,
+                transformOrigin: "0% 0%",
+                duration: 0.46,
+              },
+              0.36,
+            )
+            .to(
+              ".hero-screen",
+              {
+                width: "48%",
+                left: "46%",
+                top: "25%",
+                height: "48%",
+                rotationY: -8,
+                rotationZ: 4,
+                z: -90,
+                duration: 0.4,
+              },
+              0.58,
+            )
+            .to(
+              ".environment-camera",
+              { rotationY: 5, rotationX: -3, z: -80, duration: 0.4 },
+              0.58,
+            )
+            .to(".side-screen", { opacity: 0.16, duration: 0.3 }, 0.65)
+            .fromTo(
+              ".hero-dock-caption, .hero-final-caption",
+              { autoAlpha: 0, y: 20 },
+              { autoAlpha: 1, y: 0, duration: 0.2 },
+              0.78,
+            )
+            .to(".hero-scroll-rail span", { scaleX: 1, duration: 1 }, 0);
+          const cards = gsap.utils.toArray<HTMLElement>(".exhibition-card");
+          const starts = [
+            {
+              xPercent: -20,
+              yPercent: -45,
+              rotation: -19,
+              scale: 0.8,
+              z: -120,
+            },
+            { xPercent: 65, yPercent: 28, rotation: 12, scale: 0.86, z: 80 },
+            { xPercent: 15, yPercent: -43, rotation: -9, scale: 1.1, z: 140 },
+            { xPercent: -15, yPercent: 40, rotation: 16, scale: 0.86, z: -70 },
+            { xPercent: 8, yPercent: -26, rotation: 15, scale: 0.78, z: -160 },
+          ];
+          const middle = [
+            { xPercent: 160, yPercent: 18, rotation: 14, scale: 0.83, z: 20 },
+            { xPercent: -65, yPercent: -30, rotation: -13, scale: 0.95, z: 90 },
+            { xPercent: 20, yPercent: 12, rotation: 7, scale: 0.86, z: -40 },
+            {
+              xPercent: -20,
+              yPercent: -28,
+              rotation: -10,
+              scale: 1.04,
+              z: 140,
+            },
+            { xPercent: -115, yPercent: 14, rotation: 11, scale: 0.84, z: -60 },
+          ];
+          const composition = gsap.timeline({
+            defaults: { ease: "none" },
+            scrollTrigger: {
+              id: "poster-composition",
+              refreshPriority: 10,
+              trigger: ".exhibition-stage",
+              start: "top top",
+              end: "+=175%",
+              pin: true,
+              scrub: 0.65,
+              invalidateOnRefresh: true,
+              anticipatePin: 1,
+            },
+          });
+          cards.forEach((card, i) => {
+            composition
+              .fromTo(card, starts[i], { ...middle[i], duration: 0.5 }, 0)
+              .to(
+                card,
+                {
+                  xPercent: 0,
+                  yPercent: 0,
+                  rotation: 0,
+                  scale: 1,
+                  z: 0,
+                  duration: 0.42,
+                },
+                0.5 + i * 0.018,
+              );
+          });
+          composition
+            .to(
+              ".choreo-heading",
+              { xPercent: -28, yPercent: -12, rotation: -4, duration: 0.5 },
+              0,
+            )
+            .to(
+              ".choreo-heading",
+              {
+                xPercent: 0,
+                yPercent: -25,
+                scale: 0.36,
+                transformOrigin: "0% 0%",
+                rotation: 0,
+                duration: 0.5,
+              },
+              0.5,
+            )
+            .to(
+              ".choreo-subtitle",
+              {
+                xPercent: -65,
+                yPercent: -50,
+                rotation: -10,
+                opacity: 0,
+                duration: 0.65,
+              },
+              0.1,
+            )
+            .to(
+              ".choreo-tag-one",
+              { x: 360, y: 110, rotation: 24, duration: 0.6 },
+              0,
+            )
+            .to(
+              ".choreo-tag-two",
+              { x: -400, y: -140, rotation: -20, duration: 0.7 },
+              0,
+            )
+            .to(
+              ".choreo-tag-three",
+              { x: -180, y: -260, rotation: 12, duration: 0.7 },
+              0,
+            )
+            .to(".choreo-tag", { opacity: 0, duration: 0.22 }, 0.65)
+            .fromTo(
+              ".exhibit-caption, .choreo-end-copy",
+              { opacity: 0, y: 20 },
+              { opacity: 1, y: 0, duration: 0.2, stagger: 0.015 },
+              0.78,
+            );
+        },
+      );
+      mm.add("(prefers-reduced-motion: no-preference)", () => {
+        const splits: SplitText[] = [];
+        root.current
+          ?.querySelectorAll<HTMLElement>("[data-split-lines]")
+          .forEach((element) => {
+            splits.push(
+              SplitText.create(element, {
+                type: "lines",
+                mask: "lines",
+                autoSplit: true,
+                linesClass: "motion-line",
+                onSplit(self) {
+                  return gsap.from(self.lines, {
+                    yPercent: 110,
+                    duration: 0.9,
+                    stagger: 0.12,
+                    ease: "power3.inOut",
+                    scrollTrigger: {
+                      trigger: element,
+                      start: "top 88%",
+                      toggleActions: "play none none reverse",
+                    },
+                  });
+                },
+              }),
+            );
+          });
+        root.current
+          ?.querySelectorAll<HTMLElement>("[data-split-chars]")
+          .forEach((element) => {
+            splits.push(
+              SplitText.create(element, {
+                type: "words,chars",
+                charsClass: "motion-character",
+                smartWrap: true,
+                onSplit(self) {
+                  return gsap.from(self.chars, {
+                    yPercent: 90,
+                    rotationX: -85,
+                    opacity: 0,
+                    transformOrigin: "50% 100%",
+                    stagger: 0.025,
+                    duration: 0.9,
+                    ease: "power3.out",
+                    scrollTrigger: {
+                      trigger: element,
+                      start: "top 85%",
+                      toggleActions: "play none none reverse",
+                    },
+                  });
+                },
+              }),
+            );
+          });
+        const cleanups: Array<() => void> = [];
+        root.current
+          ?.querySelectorAll<HTMLElement>("[data-split-hover]")
+          .forEach((element) => {
+            const split = SplitText.create(element, {
+              type: "chars",
+              smartWrap: true,
+              charsClass: "motion-character",
+            });
+            splits.push(split);
+            const animation = gsap
+              .timeline({ paused: true })
+              .to(split.chars, {
+                opacity: 0.15,
+                yPercent: -14,
+                duration: 0.12,
+                stagger: { amount: 0.18 },
+                ease: "power1.out",
+              })
+              .to(
+                split.chars,
+                {
+                  opacity: 1,
+                  yPercent: 0,
+                  duration: 0.18,
+                  stagger: { amount: 0.18 },
+                  ease: "power2.out",
+                },
+                0.2,
+              );
+            const button = element.closest("button,a")!;
+            const enter = () => {
+              animation.play(0);
+            };
+            const leave = () => {
+              animation.reverse();
+            };
+            button.addEventListener("pointerenter", enter);
+            button.addEventListener("pointerleave", leave);
+            button.addEventListener("focus", enter);
+            button.addEventListener("blur", leave);
+            cleanups.push(() => {
+              button.removeEventListener("pointerenter", enter);
+              button.removeEventListener("pointerleave", leave);
+              button.removeEventListener("focus", enter);
+              button.removeEventListener("blur", leave);
+              animation.kill();
+            });
+          });
+        gsap.to(".manifesto-line", {
+          color: "#F6F2E9",
+          stagger: 0.18,
+          ease: "none",
+          scrollTrigger: {
+            trigger: ".manifesto-section",
+            start: "top 75%",
+            end: "bottom 65%",
+            scrub: 0.5,
+          },
+        });
+        gsap.fromTo(
+          ".premiere-visual",
+          { rotation: -8, y: 80 },
+          {
+            rotation: -3,
+            y: -45,
+            ease: "none",
+            scrollTrigger: {
+              trigger: ".premiere-section",
+              start: "top bottom",
+              end: "bottom top",
+              scrub: 0.8,
+            },
+          },
+        );
+        return () => {
+          cleanups.forEach((cleanup) => cleanup());
+          splits.forEach((split) => split.revert());
+        };
+      });
+      mm.add(
+        "(hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference)",
+        () => {
+          const hero = root.current?.querySelector<HTMLElement>(".cinema-hero");
+          if (!hero) return;
+          const x = gsap.quickTo(".hero-parallax", "rotationY", {
+            duration: 1.2,
+            ease: "power3.out",
+          });
+          const y = gsap.quickTo(".hero-parallax", "rotationX", {
+            duration: 1.2,
+            ease: "power3.out",
+          });
+          const move = (event: PointerEvent) => {
+            const rect = hero.getBoundingClientRect();
+            x((event.clientX / rect.width - 0.5) * 5);
+            y((0.5 - (event.clientY - rect.top) / rect.height) * 4);
+          };
+          const leave = () => {
+            x(0);
+            y(0);
+          };
+          hero.addEventListener("pointermove", move);
+          hero.addEventListener("pointerleave", leave);
+          return () => {
+            hero.removeEventListener("pointermove", move);
+            hero.removeEventListener("pointerleave", leave);
+          };
+        },
+      );
+    }, root);
+    let mounted = true;
+    document.fonts.ready.then(() => {
+      if (mounted) ScrollTrigger.refresh();
+    });
+    return () => {
+      mounted = false;
+      mm.revert();
+      ctx.revert();
+    };
+  }, [root]);
+}

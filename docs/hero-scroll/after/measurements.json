@@ -1,0 +1,85 @@
+{
+  "errors": [],
+  "samples": [
+    {
+      "name": "opening",
+      "scroll": 0,
+      "heroTop": 0,
+      "nextTop": 1650,
+      "pinDistance": 650,
+      "titleWidth": 1283.046875,
+      "camera": "matrix(1, 0, 0, 1, 0, 0)",
+      "sceneProgress": "0.000002"
+    },
+    {
+      "name": "wheel-3",
+      "scroll": 360,
+      "heroTop": 0,
+      "nextTop": 1290,
+      "pinDistance": 650,
+      "titleWidth": 799.2098999023438,
+      "camera": "matrix3d(0.978726, 0, 0.205171, 0, -0.0176432, 0.996296, 0.0841631, 0, -0.204411, -0.0859925, 0.975101, 0, 0, 0, 177.592, 1)",
+      "sceneProgress": "0.553847"
+    },
+    {
+      "name": "wheel-6",
+      "scroll": 720,
+      "heroTop": -69.9990234375,
+      "nextTop": 930,
+      "pinDistance": 650,
+      "titleWidth": 134.97653198242188,
+      "camera": "matrix3d(0.996195, 0, -0.0871557, 0, -0.00456138, 0.99863, -0.0521368, 0, 0.0870363, 0.052336, 0.994829, 0, 0, 0, -80, 1)",
+      "sceneProgress": "1"
+    },
+    {
+      "name": "wheel-10",
+      "scroll": 1200,
+      "heroTop": -549.9990234375,
+      "nextTop": 450,
+      "pinDistance": 650,
+      "titleWidth": 134.97653198242188,
+      "camera": "matrix3d(0.996195, 0, -0.0871557, 0, -0.00456138, 0.99863, -0.0521368, 0, 0.0870363, 0.052336, 0.994829, 0, 0, 0, -80, 1)",
+      "sceneProgress": "1"
+    },
+    {
+      "name": "wheel-14",
+      "scroll": 1680,
+      "heroTop": -1029.9990234375,
+      "nextTop": -30,
+      "pinDistance": 650,
+      "titleWidth": 134.97653198242188,
+      "camera": "matrix3d(0.996195, 0, -0.0871557, 0, -0.00456138, 0.99863, -0.0521368, 0, 0.0870363, 0.052336, 0.994829, 0, 0, 0, -80, 1)",
+      "sceneProgress": "1"
+    },
+    {
+      "name": "docked",
+      "scroll": 650,
+      "heroTop": 0.0009765625,
+      "nextTop": 1000,
+      "pinDistance": 650,
+      "titleWidth": 134.97653198242188,
+      "camera": "matrix3d(0.996195, 0, -0.0871557, 0, -0.00456138, 0.99863, -0.0521368, 0, 0.0870363, 0.052336, 0.994829, 0, 0, 0, -80, 1)",
+      "sceneProgress": "1"
+    },
+    {
+      "name": "reverse-middle",
+      "scroll": 325,
+      "heroTop": 0,
+      "nextTop": 1325,
+      "pinDistance": 650,
+      "titleWidth": 933.6732177734375,
+      "camera": "matrix3d(0.983462, 0, 0.181117, 0, -0.0137306, 0.997122, 0.0745568, 0, -0.180595, -0.0758106, 0.980631, 0, 0, 0, 156.522, 1)",
+      "sceneProgress": "0.500001"
+    },
+    {
+      "name": "reverse-opening",
+      "scroll": 0,
+      "heroTop": 0,
+      "nextTop": 1650,
+      "pinDistance": 650,
+      "titleWidth": 1283.046875,
+      "camera": "matrix(1, 0, 0, 1, 0, 0)",
+      "sceneProgress": "0.000002"
+    }
+  ]
+}

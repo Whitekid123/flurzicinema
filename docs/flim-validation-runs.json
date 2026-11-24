@@ -1,0 +1,97 @@
+[
+  {
+    "date": "2026-11-24T02:03:13.373Z",
+    "origin": "http://127.0.0.1:3002",
+    "arguments": [
+      "--skip-capture",
+      "tests/responsive-motion.spec.ts",
+      "--grep",
+      "1024",
+      "--repeat-each",
+      "3"
+    ],
+    "testExitCode": 1
+  },
+  {
+    "date": "2026-11-24T02:06:04.276Z",
+    "origin": "http://127.0.0.1:3002",
+    "arguments": [
+      "--skip-capture",
+      "tests/responsive-motion.spec.ts",
+      "--grep",
+      "1024",
+      "--repeat-each",
+      "3"
+    ],
+    "testExitCode": 1
+  },
+  {
+    "date": "2026-11-24T02:07:49.222Z",
+    "origin": "http://127.0.0.1:3002",
+    "arguments": [
+      "--skip-capture",
+      "tests/responsive-motion.spec.ts",
+      "--grep",
+      "1024",
+      "--repeat-each",
+      "3"
+    ],
+    "testExitCode": 0
+  },
+  {
+    "date": "2026-11-24T02:10:55.233Z",
+    "origin": "http://127.0.0.1:3002",
+    "arguments": [],
+    "testExitCode": 0
+  },
+  {
+    "date": "2026-11-24T05:16:47.441Z",
+    "origin": "http://127.0.0.1:3002",
+    "arguments": [
+      "--skip-capture",
+      "--max-failures=1",
+      "--timeout=120000"
+    ],
+    "testExitCode": 0
+  },
+  {
+    "date": "2026-11-24T07:33:28.539Z",
+    "origin": "http://127.0.0.1:3002",
+    "arguments": [
+      "--skip-capture",
+      "--max-failures=1",
+      "--timeout=120000"
+    ],
+    "testExitCode": 1
+  },
+  {
+    "date": "2026-11-24T07:52:42.975Z",
+    "origin": "http://127.0.0.1:3002",
+    "arguments": [
+      "--skip-capture",
+      "--max-failures=1",
+      "--timeout=120000",
+      "--grep",
+      "catalog-adapter|masked text|public-website|responsive-motion"
+    ],
+    "testExitCode": 1
+  },
+  {
+    "date": "2026-11-24T08:32:26.197Z",
+    "origin": "http://127.0.0.1:3002",
+    "arguments": [
+      "--max-failures=3",
+      "--timeout=120000"
+    ],
+    "testExitCode": 0
+  },
+  {
+    "date": "2026-11-24T09:38:17.409Z",
+    "origin": "http://127.0.0.1:3002",
+    "arguments": [
+      "--max-failures=3",
+      "--timeout=120000"
+    ],
+    "testExitCode": 0
+  }
+]

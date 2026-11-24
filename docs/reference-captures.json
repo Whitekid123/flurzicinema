@@ -1,0 +1,321 @@
+[
+  {
+    "i": 0,
+    "screenshot": "https://storage.googleapis.com/firecrawl-scrape-media/screenshot-2e6bb875-c866-4353-89b9-3e8e7289e4d2.png?GoogleAccessId=fire-engine%40firecrawl.iam.gserviceaccount.com&Expires=1796080485&Signature=dflJpSnUdNV2z%2FB5ekFCbb3JSQwPudiR0R3erJxSJQTJSCNAD6mdJ48FgG2%2F5kMA3rdzNdxjKoyX0%2FO4d9QQHlR5jKL99H5BV%2Bda0PoaeX2p7T5Y1qxqIoiFoBjMPywp4Jy9s6Arr3Xrw1Z8PBdLKscf5zGcU8CIjd0QHIqbx%2FZgPt8TxtlKLZSuTdX%2FjLCSRb6Refvxduzze5MSb%2F1qsHjCZ40KeuN06iaFgRSyS6jzj1JW75Qmkd6KL5QH53wc7Ja78cUAp9YnKNop0hzHf0wiNclnSkrL%2FKv0APaXjArKzwzl1QSDnqo9gno0wH38Y%2BbM%2BAW0WRcUKxi%2FiHv%2BaA%3D%3D",
+    "branding": {
+      "colorScheme": "light",
+      "fonts": [
+        {
+          "family": "Swizzy",
+          "role": "heading"
+        },
+        {
+          "family": "Arial",
+          "role": "body"
+        },
+        {
+          "family": "PP Neue Montreal Mono",
+          "role": "monospace"
+        }
+      ],
+      "colors": {
+        "primary": "#FECC33",
+        "secondary": "#1863DC",
+        "accent": "#FE3600",
+        "background": "#FFFFFF",
+        "textPrimary": "#141414",
+        "link": "#FE3600"
+      },
+      "typography": {
+        "fontFamilies": {
+          "primary": "Arial",
+          "heading": "Swizzy"
+        },
+        "fontStacks": {
+          "heading": [
+            "Swizzy",
+            "Arial",
+            "sans-serif"
+          ],
+          "body": [
+            "Arial",
+            "sans-serif"
+          ],
+          "paragraph": [
+            "Arial",
+            "sans-serif"
+          ]
+        },
+        "fontSizes": {
+          "h1": "38px",
+          "h2": "12px",
+          "body": "18px"
+        }
+      },
+      "spacing": {
+        "baseUnit": 4,
+        "borderRadius": "8px"
+      },
+      "components": {
+        "input": {
+          "background": "transparent",
+          "textColor": "#141414",
+          "borderColor": null,
+          "borderRadius": "0px",
+          "borderRadiusCorners": {
+            "topLeft": "0px",
+            "topRight": "0px",
+            "bottomRight": "0px",
+            "bottomLeft": "0px"
+          },
+          "shadow": "none"
+        },
+        "buttonPrimary": {
+          "background": "#FECC33",
+          "textColor": "#141414",
+          "borderRadius": "0px",
+          "borderRadiusCorners": {
+            "topLeft": "0px",
+            "topRight": "0px",
+            "bottomRight": "0px",
+            "bottomLeft": "0px"
+          },
+          "shadow": "none"
+        },
+        "buttonSecondary": {
+          "background": "#FFFFFF",
+          "textColor": "#141414",
+          "borderRadius": "64px",
+          "borderRadiusCorners": {
+            "topLeft": "64px",
+            "topRight": "64px",
+            "bottomRight": "64px",
+            "bottomLeft": "64px"
+          },
+          "shadow": "none"
+        }
+      },
+      "images": {
+        "logo": "data:image/svg+xml;utf8,%3Csvg%20width%3D%2220%22%20height%3D%2220%22%20viewBox%3D%220%200%2020%2020%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20data-fc-idx%3D%220%22%3E%0A%3Cpath%20d%3D%22M5%207.5L10%2012.5L15%207.5%22%20stroke%3D%22currentColor%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20style%3D%22fill%3A%20none%20!important%3B%20stroke%3A%20rgb(20%2C%2020%2C%2020)%20!important%3B%20stroke-width%3A%202px%20!important%3B%20stroke-linecap%3A%20round%20!important%3B%20stroke-linejoin%3A%20round%20!important%3B%22%2F%3E%0A%3C%2Fsvg%3E",
+        "favicon": "https://cdn.prod.website-files.com/695bc6699e9ebf7bc1099bbf/695bc6699e9ebf7bc1099cbe_favicon%20(1).png",
+        "ogImage": "https://cdn.prod.website-files.com/695bc6699e9ebf7bc1099bbf/695bc6699e9ebf7bc1099cc9_og.png",
+        "logoHref": "/"
+      },
+      "personality": {
+        "tone": "modern",
+        "energy": "medium",
+        "targetAudience": "creative professionals"
+      },
+      "designSystem": {
+        "framework": "custom",
+        "componentLibrary": ""
+      },
+      "confidence": {
+        "buttons": 0.64,
+        "colors": 0.8300000000000001,
+        "overall": 0.7350000000000001
+      },
+      "brandName": "Flim",
+      "logo": "data:image/svg+xml;utf8,%3Csvg%20width%3D%2220%22%20height%3D%2220%22%20viewBox%3D%220%200%2020%2020%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20data-fc-idx%3D%220%22%3E%0A%3Cpath%20d%3D%22M5%207.5L10%2012.5L15%207.5%22%20stroke%3D%22currentColor%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20style%3D%22fill%3A%20none%20!important%3B%20stroke%3A%20rgb(20%2C%2020%2C%2020)%20!important%3B%20stroke-width%3A%202px%20!important%3B%20stroke-linecap%3A%20round%20!important%3B%20stroke-linejoin%3A%20round%20!important%3B%22%2F%3E%0A%3C%2Fsvg%3E"
+    }
+  },
+  {
+    "i": 1,
+    "screenshot": "https://storage.googleapis.com/firecrawl-scrape-media/screenshot-fc1516bc-7f27-4d82-9946-8925d62533d5.png?GoogleAccessId=fire-engine%40firecrawl.iam.gserviceaccount.com&Expires=1796080482&Signature=bSxaZ0vbSMqDQDkPyNFnFLw4nmyT5rPN1KVdmR43DZro%2FiG1u%2FdAk%2FvTeglRapEjB7PrBPQ3u1YpRC0K30dRa3tOTMMkkV8gQR%2Faqs1JHHdU5Z3jyICzYq2dRJHPhy9Di1NWBoLC6nNArne1EPXdJNX0o7WkH3nGXVXgI6d0KzHa81yM%2FFBUuTS3lDy%2FA7Szf0PsGlWZkbw%2BI7m7JTMJB0WgCLMPvyxE4PPdKt1ENN98xOzh4j7uYSLfxrpEkzOJR741gm2RZh8f4Am6E%2FmVUuKeZvOUmc09WG%2F98Q2acGqLUS9P6Ollvhmmp07d9m9T7c0Jj0Dk6IpqiiNzD6ai3g%3D%3D",
+    "branding": {
+      "colorScheme": "dark",
+      "fonts": [
+        {
+          "family": "Inria Serif",
+          "role": "body"
+        },
+        {
+          "family": "Oswald",
+          "role": "heading"
+        }
+      ],
+      "colors": {
+        "primary": "#DF0000",
+        "secondary": "#610A0A",
+        "accent": "#610A0A",
+        "background": "#0F0F0F",
+        "textPrimary": "#FFFFFF",
+        "link": "#610A0A"
+      },
+      "typography": {
+        "fontFamilies": {
+          "primary": "Inria Serif",
+          "heading": "Oswald"
+        },
+        "fontStacks": {
+          "heading": [
+            "Inria Serif",
+            "serif"
+          ],
+          "body": [
+            "Inria Serif",
+            "serif"
+          ],
+          "paragraph": [
+            "Inria Serif",
+            "serif"
+          ]
+        },
+        "fontSizes": {
+          "h1": "18px",
+          "h2": "60px",
+          "body": "17.9999px"
+        }
+      },
+      "spacing": {
+        "baseUnit": 4,
+        "borderRadius": "0px"
+      },
+      "components": {
+        "input": {
+          "background": "#FFFFFF",
+          "textColor": "#5A5A5A",
+          "borderColor": "#343434",
+          "borderRadius": "0px",
+          "borderRadiusCorners": {
+            "topLeft": "0px",
+            "topRight": "0px",
+            "bottomRight": "0px",
+            "bottomLeft": "0px"
+          },
+          "shadow": "none"
+        },
+        "buttonPrimary": {
+          "background": "transparent",
+          "textColor": "#FEFEFE",
+          "borderColor": "#FEFEFE",
+          "borderRadius": "0px",
+          "borderRadiusCorners": {
+            "topLeft": "0px",
+            "topRight": "0px",
+            "bottomRight": "0px",
+            "bottomLeft": "0px"
+          },
+          "shadow": "none"
+        }
+      },
+      "images": {
+        "logo": "https://van-morrison.s3-assets.com/_600x600_fit_center-center_82_none/4856/vm-biography-hero.png?mtime=1780917504",
+        "favicon": "https://vanmorrison.com/build/images/favicon/apple-icon.png",
+        "ogImage": "https://van-morrison.s3-assets.com/_1200x630_crop_center-center_82_none/vm-orangefield-launch.jpg?mtime=1780573741",
+        "logoAlt": "Van Morrison"
+      },
+      "personality": {
+        "tone": "minimalist",
+        "energy": "low",
+        "targetAudience": "general consumers"
+      },
+      "designSystem": {
+        "framework": "custom",
+        "componentLibrary": ""
+      },
+      "confidence": {
+        "buttons": 1,
+        "colors": 0.9,
+        "overall": 0.95
+      },
+      "brandName": "Van Morrison",
+      "logo": "https://van-morrison.s3-assets.com/_600x600_fit_center-center_82_none/4856/vm-biography-hero.png?mtime=1780917504"
+    }
+  },
+  {
+    "i": 3,
+    "screenshot": "https://storage.googleapis.com/firecrawl-scrape-media/screenshot-518baa9e-b449-4117-98ed-34d90f0c2181.png?GoogleAccessId=fire-engine%40firecrawl.iam.gserviceaccount.com&Expires=1796080484&Signature=k4ZBEalWzQ5fIuf17nppTmmhr3gLRigVZ6ppy00ira%2BmgBpp5v7I7dKfmD%2FVVOSuWn2zCN%2FIZT0TTK0ewmmSIGrFPAoazUzqti5GYKtC%2FSO9uuZxtQMW%2BER6mHYcJtAVhBfeIlm3p5oHjhM0CDsuWw0kB6vGHLCyzIlIK0oRrhmsReGe4NhjR7zX8%2B%2F%2BEZARUeA0JuD%2BZSgzDaNsF3r6yQ%2BMYz%2BK%2Fsng8QiVEXOko706DIteoW3wZPH6joQj0i%2B5Cjh5g8YBQvTzGnFiX1MqyYp3Pzso%2BxVeOvj4D6Z8bxGNgoexy3dH1dWiqowMwLiFmBu9CMxpAWcVHuSwp3CC3g%3D%3D",
+    "branding": {
+      "colorScheme": "light",
+      "fonts": [
+        {
+          "family": "Switzer",
+          "role": "body"
+        }
+      ],
+      "colors": {
+        "primary": "#000000",
+        "accent": "#000000",
+        "background": "#FFFFFF",
+        "textPrimary": "#111111",
+        "link": "#000000"
+      },
+      "typography": {
+        "fontFamilies": {
+          "primary": "Switzer",
+          "heading": "Switzer"
+        },
+        "fontStacks": {
+          "heading": [
+            "Switzer",
+            "sans-serif"
+          ],
+          "body": [
+            "Switzer"
+          ],
+          "paragraph": [
+            "Switzer",
+            "sans-serif"
+          ]
+        },
+        "fontSizes": {
+          "h1": "28px",
+          "h2": "28px",
+          "body": "14px"
+        }
+      },
+      "spacing": {
+        "baseUnit": 8,
+        "borderRadius": "15px"
+      },
+      "components": {
+        "input": {
+          "background": "transparent",
+          "textColor": "#FFFFFF",
+          "borderColor": "#FFFFFF",
+          "borderRadius": "10px",
+          "borderRadiusCorners": {
+            "topLeft": "10px",
+            "topRight": "10px",
+            "bottomRight": "10px",
+            "bottomLeft": "10px"
+          },
+          "shadow": "rgba(31, 38, 135, 0.2) 0px 4px 16px 0px, rgba(255, 255, 255, 0.2) 0px 1px 0px 0px inset"
+        },
+        "buttonPrimary": {
+          "background": "transparent",
+          "textColor": "#FFFFFF",
+          "borderColor": "#FFFFFF",
+          "borderRadius": "15px",
+          "borderRadiusCorners": {
+            "topLeft": "15px",
+            "topRight": "15px",
+            "bottomRight": "15px",
+            "bottomLeft": "15px"
+          },
+          "shadow": "rgba(31, 38, 135, 0.3) 0px 4px 16px 0px, rgba(255, 255, 255, 0.3) 0px 1px 0px 0px inset"
+        }
+      },
+      "images": {
+        "favicon": "https://links.avalonplatforms.com/icons/flower1.svg",
+        "ogImage": null
+      },
+      "personality": {
+        "tone": "modern",
+        "energy": "low",
+        "targetAudience": "marketers"
+      },
+      "designSystem": {
+        "framework": "tailwind",
+        "componentLibrary": ""
+      },
+      "confidence": {
+        "buttons": 0.79,
+        "colors": 0.79,
+        "overall": 0.79
+      },
+      "brandName": "Avalon Platforms"
+    }
+  }
+]

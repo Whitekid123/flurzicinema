@@ -1,0 +1,306 @@
+{
+  "created": "2026-11-24T01:21:53.717Z",
+  "git": "No .git repository exists in this checkout; file snapshot preserves the actual uncommitted source.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 105,
+      "sha256": "f12bebaecc52e0eaa223166ae1313b2f2c50b2841a707fd92b162dbf9553ca8f"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 679,
+      "sha256": "063098f6cb31bb44c6f8fbea25b3876de7ee1e5f7d00a50dbab506f6415eb7f0"
+    },
+    {
+      "path": "app\\icon.svg",
+      "bytes": 224,
+      "sha256": "36399f97be7650d2a079ac1307ea1ca3ed9594907806256ab2833fc8aa8961de"
+    },
+    {
+      "path": "app\\layout.tsx",
+      "bytes": 1280,
+      "sha256": "d8ae2416114fb2bec0f6a176bc4ab058df122d838b503f859468e59212265625"
+    },
+    {
+      "path": "app\\page.tsx",
+      "bytes": 119,
+      "sha256": "41fe9d882279a851af844f3302d9cfe8d09c090b79fa4ebae9754b902561daa1"
+    },
+    {
+      "path": "components\\home\\CinemaHero.tsx",
+      "bytes": 4413,
+      "sha256": "7d6d863ab5b63fc3d9edc7d88ea3cbdd20b4f4dc51a74a03d4c313c8e0b2a5cb"
+    },
+    {
+      "path": "components\\home\\CinemaHome.tsx",
+      "bytes": 10566,
+      "sha256": "a0cc0abffa9b94a6439ab91843fd4b1d153fc59e69bb12393c12b25ce59a5749"
+    },
+    {
+      "path": "components\\home\\FeaturedExhibition.tsx",
+      "bytes": 3089,
+      "sha256": "f04b67ede4130f4688a7a910dc5955d13310d505b678f7b117d534e603df223b"
+    },
+    {
+      "path": "components\\home\\FeatureLab.tsx",
+      "bytes": 9998,
+      "sha256": "ffb44f1b3986461e6d910de836596a9036902701ceee6fbf18da74c251dc047c"
+    },
+    {
+      "path": "components\\home\\Manifesto.tsx",
+      "bytes": 1575,
+      "sha256": "f1eaaa7050a90475f02e165e33f4cbd2cbc8654201a960e559c0eba10cac3062"
+    },
+    {
+      "path": "components\\home\\VaultExperience.tsx",
+      "bytes": 9831,
+      "sha256": "49112bb3d180a647174fa8f6d8b5001e8e29dc0bd4047fd1a2f08130518740c9"
+    },
+    {
+      "path": "components\\layout\\Footer.tsx",
+      "bytes": 1873,
+      "sha256": "0e115012585efa36b93bfc3fdff3b4fa8de02453fabc34a0639ef81056c8c1c3"
+    },
+    {
+      "path": "components\\layout\\Header.tsx",
+      "bytes": 2991,
+      "sha256": "a781ac6f3b27a2cc08b3534f39ce7ddd4d8dfe453d3c0af0312b04e8adf1869f"
+    },
+    {
+      "path": "components\\motion\\ProjectionAtmosphere.tsx",
+      "bytes": 3413,
+      "sha256": "762d8d187b641c135cd223ff0f22e3ca88500b953e2d7bd6e1439bc12fa50673"
+    },
+    {
+      "path": "components\\motion\\useExhibitionMotion.ts",
+      "bytes": 9494,
+      "sha256": "d8a9554a601f05904d3abe1a2bfbabbfab4c29834e0ce4caa4653bc6db3b2a58"
+    },
+    {
+      "path": "components\\ui\\Icon.tsx",
+      "bytes": 1127,
+      "sha256": "6c1b02acbfb8a72b612d841fb3a09a7b6449048e24739c4cad7a2285da52f141"
+    },
+    {
+      "path": "components\\ui\\Modal.tsx",
+      "bytes": 1923,
+      "sha256": "d88f86933d4e725b99b272be8b662a9599cbd97de60fa4865015accd5f853fdf"
+    },
+    {
+      "path": "components\\ui\\Poster.tsx",
+      "bytes": 1226,
+      "sha256": "2981b5fd2b8ad21535df9008951f91e335e9f9bdfed4bc71f5b31240214652fa"
+    },
+    {
+      "path": "data\\movies.ts",
+      "bytes": 4222,
+      "sha256": "c9eed85c03511a6c85736761c8c005f813fd7b12d73562762facfbbe795d0b2c"
+    },
+    {
+      "path": "eslint.config.mjs",
+      "bytes": 389,
+      "sha256": "0b23774ac60f89bf493c626fb6453f587e3cbc479ddf0382e886d3e6c680b330"
+    },
+    {
+      "path": "lib\\useSavedStories.ts",
+      "bytes": 1786,
+      "sha256": "926a92d49ce79268646ad8e08f30e075eddbfaa53072d54f72f7292c07bac8ec"
+    },
+    {
+      "path": "next-env.d.ts",
+      "bytes": 288,
+      "sha256": "1862ac4bbbc5192d4bf562161df66ea547ed3e67173100656ab606ae9797db2b"
+    },
+    {
+      "path": "next.config.ts",
+      "bytes": 148,
+      "sha256": "36fbacb2fedfad6f8a80dbf06e67a3797a98f5bd783029398a9af81ad0f79f27"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 238007,
+      "sha256": "9a3827b1bca8ac1ecf82a6f375948cb5de10d506e922e16c8e383a3ffbc3b106"
+    },
+    {
+      "path": "package.json",
+      "bytes": 737,
+      "sha256": "2fdbd3cc83c44788fe2bfdcfdf38c7ca12813d7a4ae57fd4b69c5cbf4b1e7bff"
+    },
+    {
+      "path": "playwright.config.ts",
+      "bytes": 440,
+      "sha256": "a5161e90a8a47ad486b7e0e5bfa7ffe91a9dacb27f4d7a347c49cf5343d1823c"
+    },
+    {
+      "path": "postcss.config.mjs",
+      "bytes": 83,
+      "sha256": "b783348d5618047d0f37e12acd15c5a2c5f02809d8711e0764c9cea52750346c"
+    },
+    {
+      "path": "public\\fonts\\manrope-variable.ttf",
+      "bytes": 164700,
+      "sha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6"
+    },
+    {
+      "path": "public\\fonts\\OFL-Manrope.txt",
+      "bytes": 4387,
+      "sha256": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b"
+    },
+    {
+      "path": "public\\images\\afterlight.png",
+      "bytes": 2551288,
+      "sha256": "109f3f8b9d21eedda91c673ec661aeff2fc0a29daf38d672988887f9f0c02863"
+    },
+    {
+      "path": "public\\images\\afterlight.webp",
+      "bytes": 129260,
+      "sha256": "4ae893e41e77c28f0e3bb1b28a7db85e7cd38064a7eefe22565d36001ab8b640"
+    },
+    {
+      "path": "public\\images\\last-train.png",
+      "bytes": 2512532,
+      "sha256": "e0e0f7d70264a1b6ca5c5f99824abab5bd9f7449ddd533ddb4c95aab674aecf5"
+    },
+    {
+      "path": "public\\images\\last-train.webp",
+      "bytes": 183130,
+      "sha256": "7a44df0348101c08d6f09013b04a04080376d0bef42fb2a87a0f5b0169b04aa4"
+    },
+    {
+      "path": "public\\images\\quiet-beyond.png",
+      "bytes": 2158177,
+      "sha256": "d6bf6ed1030c7ea8142ded5006ab327fc7164290447d21561bda38fb8b46671b"
+    },
+    {
+      "path": "public\\images\\quiet-beyond.webp",
+      "bytes": 97096,
+      "sha256": "20e913a66a8a2c92f80e22ef7040a1a99ca1211b2cac3a28423092043ebda60a"
+    },
+    {
+      "path": "public\\images\\README.md",
+      "bytes": 894,
+      "sha256": "0b484f4e0891378f215f159b0c42a2eaf33cd1d7cb7db3fb9425d3566c62fdf6"
+    },
+    {
+      "path": "public\\images\\tides.png",
+      "bytes": 2559066,
+      "sha256": "d0fcbdea75057b4df77a6a2c6632acd9bd2bcbdafd5b42d86aaad61a7bc59393"
+    },
+    {
+      "path": "public\\images\\tides.webp",
+      "bytes": 137344,
+      "sha256": "f93c397d9816b5347c321e7af4436a9a048b94055d48d0e9cb461122b3452188"
+    },
+    {
+      "path": "public\\images\\velvet-hours.png",
+      "bytes": 2379448,
+      "sha256": "f921e8897a421742e45bd6269910491e8aec46af5b0653b15996f4aa3383e585"
+    },
+    {
+      "path": "public\\images\\velvet-hours.webp",
+      "bytes": 183660,
+      "sha256": "d56a6192d238bdea8a6258d71f46b7a9c7269afd04a29ef8a3d79a377d8ec798"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2789,
+      "sha256": "b91a4e53c9b01573f52ec9c04c13353e4d285dcf0a79f3a44a6b2295025c1862"
+    },
+    {
+      "path": "scripts\\capture-home.mjs",
+      "bytes": 1286,
+      "sha256": "6178e6476f9576d8ac0fb677506d25d995db1624d00ea7b35c9fa57c398ddee3"
+    },
+    {
+      "path": "scripts\\capture-motion-current.mjs",
+      "bytes": 37,
+      "sha256": "292437a746fb91eb0a54376d3e17c9ce0dbd15441d1110233f1fb946657fb788"
+    },
+    {
+      "path": "scripts\\download-references.mjs",
+      "bytes": 470,
+      "sha256": "6b45e3ade98842662d2b5007c78feb3481ad3c16f7b198490fbde5235d25a2b5"
+    },
+    {
+      "path": "scripts\\inspect-trace.py",
+      "bytes": 906,
+      "sha256": "86ca3aba61bed9460508b19bddb4c4109ec98f6aa5231aa28ae0d617644e8681"
+    },
+    {
+      "path": "scripts\\integration-inspect.mjs",
+      "bytes": 4493,
+      "sha256": "78da1233c7ae2c18d222bd612ecacb7341a50dee0a6c8a57b31315085eaeb9b5"
+    },
+    {
+      "path": "scripts\\integration-snapshot.mjs",
+      "bytes": 1477,
+      "sha256": "0a98fda6754ea8d0684fb14d12d32825a6f10833dfffd80a68edcc4b20562e6a"
+    },
+    {
+      "path": "scripts\\optimize-assets.mjs",
+      "bytes": 436,
+      "sha256": "2d1fe8800cc729e94352ebbc8fe07bf96d08542b2cc34b44c15bd6e9281521d7"
+    },
+    {
+      "path": "scripts\\production-qa.mjs",
+      "bytes": 1096,
+      "sha256": "a64ec45b23a337621141b2d6ce07fafb69997acac972c582169a113ed4747c42"
+    },
+    {
+      "path": "scripts\\rescue-baseline.mjs",
+      "bytes": 1712,
+      "sha256": "c190dff528cb49bec505bb71af9990f5327c8eac542f962f5f4b0cbc3cc90d1c"
+    },
+    {
+      "path": "scripts\\rescue-final-capture.mjs",
+      "bytes": 4459,
+      "sha256": "7f1841faca4f87280f314f10ad6332810c3e37242d2666bf4f9113400c629e4e"
+    },
+    {
+      "path": "scripts\\rescue-research.mjs",
+      "bytes": 5746,
+      "sha256": "6e8442722530d440f1cc71a2d0089a64f551bd0c9d88bb9fb72653e96fbf985a"
+    },
+    {
+      "path": "scripts\\research-browser.mjs",
+      "bytes": 3052,
+      "sha256": "d9c048371879c2e54737c4c09bbb66e025ddbb8799902c4d12dae1d610adfd4b"
+    },
+    {
+      "path": "scripts\\smoke-production.mjs",
+      "bytes": 1343,
+      "sha256": "cf10b88101f068c490823015c1b9a28886b7873d1cb1087026390f57d32ac285"
+    },
+    {
+      "path": "styles\\exhibition.css",
+      "bytes": 42132,
+      "sha256": "602afb875bd9818fefd6d408b3e6f126451bfaba3b8e2cf04ddb0e3e78d3459e"
+    },
+    {
+      "path": "styles\\globals.css",
+      "bytes": 44659,
+      "sha256": "654b17b614c568e701c8e4bb3f44f49695490c156513f7e711b4ab82a0e0129b"
+    },
+    {
+      "path": "tests\\exhibition.spec.ts",
+      "bytes": 7801,
+      "sha256": "3f54de899512b8119347961dc9be8264ea6a0c9f3c0d56257c7a1498ad420b44"
+    },
+    {
+      "path": "tests\\homepage.spec.ts",
+      "bytes": 7239,
+      "sha256": "d11ed033f33cba26926b88d9077f88e0166e05ba88e59b288214fa3f0164a849"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 614,
+      "sha256": "f8d0b520709fdb43469b405edc23d9c66fc3642e73ea135456fe02b3173c7ea0"
+    },
+    {
+      "path": "types\\cinema.ts",
+      "bytes": 950,
+      "sha256": "97d48652c13963e665712fc10dcb69601320f10f222502c3a38322dc05e96ea9"
+    }
+  ]
+}

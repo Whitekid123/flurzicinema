@@ -1,0 +1,5 @@
+import { getPublicTitles } from "@/lib/catalog/provider";
+import { Breadcrumbs, PageIntro, CinemaSpotlight, DemoNotice } from "@/components/public/Primitives";
+import { CatalogExplorer } from "@/components/public/CatalogExplorer";
+export const metadata={title:"Movies · Flurzi Cinema"};
+export default async function Page(){const titles=await getPublicTitles();const featured=titles.find(t=>t.format==="Film");return <><div className="wrap"><Breadcrumbs items={[{label:"Movies"}]}/><PageIntro eyebrow="THE CINEMA COLLECTION" title="A different world." emphasis="Every time." description="Great journeys, intimate moments, unexpected discoveries. Make a little room for the extraordinary."/></div>{featured&&<CinemaSpotlight title={featured} eyebrow="FEATURED FILM · CATALOG PREVIEW"/>}<div className="wrap public-section-heading public-section"><div><p className="eyebrow">FIND YOUR NEXT FILM</p><h2>The film collection.</h2></div><DemoNotice/></div><CatalogExplorer titles={titles} format="Film"/></>}

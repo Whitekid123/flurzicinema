@@ -1,0 +1,23 @@
+{
+  "tool": "Built-in image_gen",
+  "purpose": "Original additional scenes for named fictional demo titles only; never promotional assets for real titles",
+  "prompts": [
+    [
+      "quiet",
+      "Use case: stylized-concept. Create one original widescreen cinematic still for the fictional Flurzi Cinema film The Quiet Beyond. A dark-coated lone explorer inside a vast black basalt sea cave, looking toward a narrow opening where a distant golden eclipse reflects across still tidal water. Intimate medium-wide composition from behind, real rock textures, volumetric mist, photographic film grain, dramatic restrained light. New scene in the same imagined world as the provided original artwork, not a crop or reproduction. No text, no logos, no real film characters, no poster typography. Landscape 16:9, fill frame."
+    ],
+    [
+      "train",
+      "Use case: stylized-concept. Create one original widescreen cinematic still for the fictional Flurzi Cinema film The Last Train North. An elderly fictional conductor at the window inside a vintage red Alpine train, holding an unopened cream envelope; beyond the rain-streaked window, misty evergreen mountains at dawn. Warm practical carriage light and cold mountain light, natural photographic cinema, beautiful texture and visible human subject, medium shot. A distinct interior scene rather than another exterior train image. No recognizable actor, no text, no logos, no real-film artwork. Landscape 16:9."
+    ],
+    [
+      "velvet",
+      "Use case: stylized-concept. Create one original widescreen cinematic still for the fictional Flurzi Cinema series Velvet Hours. A fictional young night-shift translator in a quiet Tokyo apartment, handwritten letters spread on a desk, red neon from the rain-soaked street painting the window and her face. Moody close-medium shot, real cinematic photography texture, shallow depth of field, mysterious human story, rich red and shadow. A distinct interior scene, not the existing street art. No recognizable actor, no legible writing, no logos, no real-film artwork. Landscape 16:9."
+    ]
+  ],
+  "assets": [
+    "public/images/hero/quiet-cave.webp",
+    "public/images/hero/train-carriage.webp",
+    "public/images/hero/velvet-translator.webp"
+  ]
+}

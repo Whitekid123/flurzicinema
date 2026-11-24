@@ -1,0 +1,545 @@
+[
+  {
+    "width": 1440,
+    "requested": 0,
+    "errors": [],
+    "y": 0,
+    "overflow": false,
+    "headings": [],
+    "elements": [
+      {
+        "class": "projection-dust",
+        "transform": "none"
+      },
+      {
+        "class": "environment-camera",
+        "transform": "none"
+      },
+      {
+        "class": "hero-word-beyond",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-0 ",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-1 ",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-2 ",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-3 ",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-4 ",
+        "transform": "none"
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "requested": 750,
+    "errors": [],
+    "y": 750,
+    "overflow": false,
+    "headings": [
+      "GET LOST."
+    ],
+    "elements": [
+      {
+        "class": "projection-dust",
+        "transform": "none"
+      },
+      {
+        "class": "environment-camera",
+        "transform": "none"
+      },
+      {
+        "class": "hero-word-beyond",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-0 ",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-1 ",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-2 ",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-3 ",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-4 ",
+        "transform": "none"
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "requested": 1500,
+    "errors": [],
+    "y": 1500,
+    "overflow": false,
+    "headings": [
+      "The Quiet Beyond",
+      "The Last Train North",
+      "Velvet Hours",
+      "Where the Tides Go",
+      "Afterlight",
+      "You don’t justwatch  a great film.You feel it."
+    ],
+    "elements": [
+      {
+        "class": "projection-dust",
+        "transform": "none"
+      },
+      {
+        "class": "environment-camera",
+        "transform": "none"
+      },
+      {
+        "class": "hero-word-beyond",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-0 ",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-1 ",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-2 ",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-3 ",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-4 ",
+        "transform": "none"
+      }
+    ]
+  },
+  {
+    "width": 1024,
+    "requested": 0,
+    "errors": [],
+    "y": 0,
+    "overflow": false,
+    "headings": [],
+    "elements": [
+      {
+        "class": "projection-dust",
+        "transform": "none"
+      },
+      {
+        "class": "environment-camera",
+        "transform": "none"
+      },
+      {
+        "class": "hero-word-beyond",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-0 ",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-1 ",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-2 ",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-3 ",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-4 ",
+        "transform": "none"
+      }
+    ]
+  },
+  {
+    "width": 1024,
+    "requested": 750,
+    "errors": [],
+    "y": 750,
+    "overflow": false,
+    "headings": [
+      "GET LOST.",
+      "The Quiet Beyond",
+      "The Last Train North",
+      "Velvet Hours",
+      "Where the Tides Go",
+      "Afterlight"
+    ],
+    "elements": [
+      {
+        "class": "projection-dust",
+        "transform": "none"
+      },
+      {
+        "class": "environment-camera",
+        "transform": "none"
+      },
+      {
+        "class": "hero-word-beyond",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-0 ",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-1 ",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-2 ",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-3 ",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-4 ",
+        "transform": "none"
+      }
+    ]
+  },
+  {
+    "width": 1024,
+    "requested": 1500,
+    "errors": [],
+    "y": 1500,
+    "overflow": false,
+    "headings": [
+      "The Quiet Beyond",
+      "The Last Train North",
+      "Velvet Hours",
+      "Where the Tides Go",
+      "Afterlight",
+      "You don’t justwatch  a great film.You feel it."
+    ],
+    "elements": [
+      {
+        "class": "projection-dust",
+        "transform": "none"
+      },
+      {
+        "class": "environment-camera",
+        "transform": "none"
+      },
+      {
+        "class": "hero-word-beyond",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-0 ",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-1 ",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-2 ",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-3 ",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-4 ",
+        "transform": "none"
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "requested": 0,
+    "errors": [],
+    "y": 0,
+    "overflow": false,
+    "headings": [],
+    "elements": [
+      {
+        "class": "projection-dust",
+        "transform": "none"
+      },
+      {
+        "class": "environment-camera",
+        "transform": "none"
+      },
+      {
+        "class": "hero-word-beyond",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-0 ",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-1 ",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-2 ",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-3 ",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-4 ",
+        "transform": "none"
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "requested": 750,
+    "errors": [],
+    "y": 750,
+    "overflow": false,
+    "headings": [
+      "GET LOST."
+    ],
+    "elements": [
+      {
+        "class": "projection-dust",
+        "transform": "none"
+      },
+      {
+        "class": "environment-camera",
+        "transform": "none"
+      },
+      {
+        "class": "hero-word-beyond",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-0 ",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-1 ",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-2 ",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-3 ",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-4 ",
+        "transform": "none"
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "requested": 1500,
+    "errors": [],
+    "y": 1500,
+    "overflow": false,
+    "headings": [
+      "The Quiet Beyond",
+      "The Last Train North",
+      "Velvet Hours",
+      "Where the Tides Go",
+      "Afterlight"
+    ],
+    "elements": [
+      {
+        "class": "projection-dust",
+        "transform": "none"
+      },
+      {
+        "class": "environment-camera",
+        "transform": "none"
+      },
+      {
+        "class": "hero-word-beyond",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-0 ",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-1 ",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-2 ",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-3 ",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-4 ",
+        "transform": "none"
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "requested": 0,
+    "errors": [],
+    "y": 0,
+    "overflow": false,
+    "headings": [],
+    "elements": [
+      {
+        "class": "projection-dust",
+        "transform": "none"
+      },
+      {
+        "class": "environment-camera",
+        "transform": "none"
+      },
+      {
+        "class": "hero-word-beyond",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-0 ",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-1 ",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-2 ",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-3 ",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-4 ",
+        "transform": "none"
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "requested": 750,
+    "errors": [],
+    "y": 750,
+    "overflow": false,
+    "headings": [
+      "GET LOST.",
+      "The Quiet Beyond",
+      "The Last Train North"
+    ],
+    "elements": [
+      {
+        "class": "projection-dust",
+        "transform": "none"
+      },
+      {
+        "class": "environment-camera",
+        "transform": "none"
+      },
+      {
+        "class": "hero-word-beyond",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-0 ",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-1 ",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-2 ",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-3 ",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-4 ",
+        "transform": "none"
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "requested": 1500,
+    "errors": [],
+    "y": 1500,
+    "overflow": false,
+    "headings": [
+      "Velvet Hours",
+      "Where the Tides Go",
+      "Afterlight"
+    ],
+    "elements": [
+      {
+        "class": "projection-dust",
+        "transform": "none"
+      },
+      {
+        "class": "environment-camera",
+        "transform": "none"
+      },
+      {
+        "class": "hero-word-beyond",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-0 ",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-1 ",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-2 ",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-3 ",
+        "transform": "none"
+      },
+      {
+        "class": "exhibition-card exhibit-card-4 ",
+        "transform": "none"
+      }
+    ]
+  }
+]

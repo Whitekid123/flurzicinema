@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function NotFound(){return <section className="public-section wrap public-prose"><p className="eyebrow">A STORY STILL TO BE FOUND</p><h1>This story isn’t here.</h1><p>The title or document may have moved, or may not be part of the public catalog.</p><div className="public-actions"><Link className="button" href="/explore">Explore the collection</Link><Link className="button button-outline" href="/help">Visit Help</Link></div></section>}

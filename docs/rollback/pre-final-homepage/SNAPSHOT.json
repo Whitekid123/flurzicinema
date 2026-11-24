@@ -1,0 +1,66 @@
+{
+  "created": "2026-11-24T08:34:36.872Z",
+  "note": "Prior homepage source, root layout, prior design note and archived superseded tests. No Git repository; restore selectively. New editorial files did not exist in this baseline.",
+  "files": [
+    {
+      "path": "app\\layout.tsx",
+      "bytes": 1315,
+      "sha256": "a438fbcf8718e892cd82b1a42c2cd5a9b57faef56e1e09bbdb2e3c3caa91c172"
+    },
+    {
+      "path": "components\\home\\CinemaHero.tsx",
+      "bytes": 6585,
+      "sha256": "7d6371c2547aa0a6114cd1d7b778212dd97cf713b06bb6a69ee8a5bf3b1c57a2"
+    },
+    {
+      "path": "components\\home\\CinemaHome.tsx",
+      "bytes": 11878,
+      "sha256": "cb03e47504964e065c78bbbf031501dd67929822607e01e0c0829a375edd690c"
+    },
+    {
+      "path": "components\\home\\FeaturedExhibition.tsx",
+      "bytes": 3527,
+      "sha256": "ed08642e7b28e01f3dd9876e4e5a084281ee9e9ee5b7e1b3cd3398586a9e1c09"
+    },
+    {
+      "path": "components\\home\\FeatureLab.tsx",
+      "bytes": 14280,
+      "sha256": "07e7a94cfbceab81f127a488b2a24db47a412b6dbc1d1bc97f745c6a118653d5"
+    },
+    {
+      "path": "components\\home\\VaultExperience.tsx",
+      "bytes": 10439,
+      "sha256": "93e1c8c169ad88e309295dd06f556699965bc763a3d58132ebcea9f0cbca77e5"
+    },
+    {
+      "path": "docs\\DESIGN.md",
+      "bytes": 1278,
+      "sha256": "4d60f52a9cd301197037ff617f0bec3d4e4081e6962e5014f08764d262acbb55"
+    },
+    {
+      "path": "tests\\exhibition.spec.ts",
+      "bytes": 7879,
+      "sha256": "ed962fb6effd587badb812798fde488148fe1fcbc9338e03129605e869aa1e29"
+    },
+    {
+      "path": "tests\\hero-scroll.spec.ts",
+      "bytes": 5848,
+      "sha256": "54ba867d55130199b654dd1b8aa8b35d50b75d94f700088a64359ac073fa6a7b"
+    },
+    {
+      "path": "tests\\homepage.spec.ts",
+      "bytes": 7232,
+      "sha256": "e73d462d2e5b7c1aa397fce1461f8ee5a7bbc992eaa9dd32bf7eeca267aa2eba"
+    },
+    {
+      "path": "tests\\integration.spec.ts",
+      "bytes": 8527,
+      "sha256": "814aad7583457949b538f7353fd24732761fd8346db09ebe5bf933683f0c476a"
+    },
+    {
+      "path": "tests\\responsive-motion.spec.ts",
+      "bytes": 2808,
+      "sha256": "fe56ce102f5c6c55ce4d6daf1ad647889d5f5e55eb25766d8e65b3f4b15be5a4"
+    }
+  ]
+}
