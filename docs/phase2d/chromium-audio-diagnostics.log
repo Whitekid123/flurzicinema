@@ -1,0 +1,13 @@
+[1124/224404.578:WARNING:media\audio\audio_output_device.cc:341] Output device authorization timed out
+[1124/224420.831:WARNING:services\audio\sync_reader.cc:175] SyncReader::Read timed out, audio glitch count=10
+[1124/224420.996:WARNING:services\audio\sync_reader.cc:175] SyncReader::Read timed out, audio glitch count=20
+[1124/224421.131:WARNING:services\audio\sync_reader.cc:175] SyncReader::Read timed out, audio glitch count=30
+[1124/224421.297:WARNING:services\audio\sync_reader.cc:175] SyncReader::Read timed out, audio glitch count=40
+[1124/224421.431:WARNING:services\audio\sync_reader.cc:175] SyncReader::Read timed out, audio glitch count=50
+[1124/224421.559:WARNING:services\audio\sync_reader.cc:175] SyncReader::Read timed out, audio glitch count=60
+[1124/224421.696:WARNING:services\audio\sync_reader.cc:175] SyncReader::Read timed out, audio glitch count=70
+[1124/224421.863:WARNING:services\audio\sync_reader.cc:175] SyncReader::Read timed out, audio glitch count=80
+[1124/224422.021:WARNING:services\audio\sync_reader.cc:175] SyncReader::Read timed out, audio glitch count=90
+[1124/224422.154:WARNING:services\audio\sync_reader.cc:175] SyncReader::Read timed out, audio glitch count=100
+[1124/224422.154:WARNING:services\audio\sync_reader.cc:178] (log cap reached, suppressing further logs)
+[1124/224522.899:WARNING:services\audio\sync_reader.cc:154] ASR: No room in socket buffer.: The pipe is being closed. (0xE8)

@@ -1,0 +1,44 @@
+import {describe,it,expect,vi} from "vitest";
+import {accountNavActive,accountError,ownedAccount,ownedSubscription,membershipStatus,canCancelMembership,accountDate,billingAmount,invoiceHref,devicesForDisplay,canRevokeDevice,validateDisplayName,languagePreference,saveLanguagePreferences,deadline} from "../lib/account-centre";
+import {createMockServices} from "../lib/api/mocks/mockServices";
+import {ServiceError} from "../lib/api/errors";
+import type {Account,Subscription,ViewerProfile} from "../types/streaming";
+const a:Account={id:"a",email:"test@example.test",emailVerified:true,createdAt:"2026-01-01"};
+const p:ViewerProfile={id:"p",accountId:"a",name:"Viewer",isKids:false,hasPin:false,preferences:{reducedMotion:true,autoplay:false,language:"fr",playbackQuality:"low"},createdAt:"2026-01-01"};
+const sub=(status:Subscription["status"]):Subscription=>({id:"s",accountId:"a",planId:"plan",status});
+const fail=(code:string)=>new ServiceError({code,message:"secret-sensitive-detail"});
+async function signedIn(){const s=createMockServices();await s.auth.login({email:"demo@flurzi.example",password:"preview-only"});return s;}
+describe("account identity and navigation",()=>{
+ it("does not substitute profile identity for an account",()=>{expect(ownedAccount(a,"a")).toBe(a);expect(()=>ownedAccount(a,"p")).toThrow();});
+ it("rejects missing or cross-account records",()=>{expect(()=>ownedAccount(null,"a")).toThrow();expect(()=>ownedSubscription(sub("active"),"other")).toThrow();});
+ it("accepts an account with no subscription",()=>expect(ownedSubscription(null,"a")).toBeNull());
+ it("marks only the exact account section current",()=>{expect(accountNavActive("/account/security","/account")).toBe(false);expect(accountNavActive("/account/security","/account/security")).toBe(true);});
+});
+describe("membership and missing billing data",()=>{
+ it("never promotes a development preference to membership",()=>{expect(membershipStatus(sub("active"),true).label).toBe("No active membership");expect(canCancelMembership(sub("active"),true)).toBe(false);});
+ it.each([["none","No active membership"],["cancelled","Membership cancelled"],["paused","Membership paused"],["past-due","Payment needs attention"],["active","Active membership"],["trialing","Trial membership"]] as const)("labels supplied %s state",(status,label)=>{expect(membershipStatus(sub(status),false).label).toBe(label);});
+ it("describes a missing membership honestly",()=>expect(membershipStatus(null,false).label).toBe("No active membership"));
+ it("does not offer duplicate or irrelevant cancellation",()=>{expect(canCancelMembership({...sub("active"),cancelAtPeriodEnd:true},false)).toBe(false);expect(canCancelMembership(sub("cancelled"),false)).toBe(false);expect(canCancelMembership(null,false)).toBe(false);expect(canCancelMembership(sub("active"),false)).toBe(true);});
+ it("omits missing or invalid dates",()=>{expect(accountDate()).toBe("Not supplied");expect(accountDate("bad")).toBe("Not supplied");expect(accountDate("2026-02-20")).toContain("2026");});
+ it("only allows secure absolute invoice links",()=>{expect(invoiceHref("https://billing.example.test/invoice")).toContain("https:");for(const value of [undefined,"javascript:alert(1)","data:text/html,x","//evil.example","http://invoice.test","https://user:pass@example.test"])expect(invoiceHref(value)).toBeUndefined();});
+ it("formats supplied minor currency units without inventing amounts",()=>{expect(billingAmount(1234,"EUR")).toContain("12.34");expect(billingAmount(1200,"JPY")).toContain("1,200");expect(billingAmount(-1,"EUR")).toBe("Amount unavailable");expect(billingAmount(1.1,"EUR")).toBe("Amount unavailable");expect(billingAmount(100,"bad")).toBe("Amount unavailable");});
+});
+describe("security and devices",()=>{
+ it.each(["SESSION_EXPIRED","UNAUTHENTICATED"])("routes %s errors to sign-in",code=>expect(accountError(fail(code)).signIn).toBe(true));
+ it.each(["ACCESS_DENIED","SUBSCRIPTION_REQUIRED","SERVICE_UNAVAILABLE","VALIDATION"])("does not disclose service details for %s",code=>{expect(accountError(fail(code)).message).not.toContain("secret");expect(accountError(fail(code)).signIn).toBe(false);});
+ it("deduplicates devices and preserves any reported current-session indicator",()=>{const list=devicesForDisplay([{id:"",isCurrent:true},{id:"one",isCurrent:false},{id:"one",isCurrent:true}]);expect(list).toEqual([{id:"one",isCurrent:true}]);expect(devicesForDisplay([])).toEqual([]);});
+ it("requires confirmed non-current production device identity for revocation",()=>{expect(canRevokeDevice({id:"one",isCurrent:true},false)).toBe(false);expect(canRevokeDevice({id:"one"} as never,false)).toBe(false);expect(canRevokeDevice({id:"one",isCurrent:false},true)).toBe(false);expect(canRevokeDevice({id:"one",isCurrent:false},false)).toBe(true);});
+ it("requires sign-in for mock billing/device reads",async()=>{const s=createMockServices();await expect(s.subscriptions.getBillingHistory()).rejects.toMatchObject({code:"UNAUTHENTICATED"});await expect(s.subscriptions.listDevices()).rejects.toMatchObject({code:"UNAUTHENTICATED"});});
+ it("does not fake mock device revocation or account editing",async()=>{const s=await signedIn();expect(await s.subscriptions.listDevices()).toEqual([]);await expect(s.subscriptions.revokeDevice("invented")).rejects.toMatchObject({code:"NOT_FOUND"});expect(s.auth.updateAccount).toBeUndefined();});
+ it("demo recovery never changes verified identity or grants streaming",async()=>{const s=await signedIn();const before=await s.auth.getAccount();await s.auth.requestPasswordRecovery({email:before!.email});expect(await s.auth.getAccount()).toEqual(before);expect((await s.subscriptions.getEntitlement()).canStream).toBe(false);});
+});
+describe("profile preferences and saves",()=>{
+ it("bounds account display names separately from profile names",()=>{expect(validateDisplayName(" Viewer ")).toBe("");expect(validateDisplayName("")).not.toBe("");expect(validateDisplayName("a".repeat(81))).not.toBe("");});
+ it("validates supported language preference values",()=>{for(const value of ["","off","en","fr","es","pt-BR"])expect(languagePreference(value)).toBe(true);for(const value of ["English","../../bad","<script>","en_uk"])expect(languagePreference(value)).toBe(false);});
+ it("merges language changes without deleting other profile settings",async()=>{const updateProfile=vi.fn(async(id:string,input:import("../lib/api/services").UpdateProfileRequest)=>({...p,id,preferences:input.preferences}));const s={updateProfile} as unknown as Parameters<typeof saveLanguagePreferences>[0];const result=await saveLanguagePreferences(s,"a",p,{audioLanguage:"en",subtitleLanguage:"off"});expect(result.preferences).toEqual({...p.preferences,audioLanguage:"en",subtitleLanguage:"off"});expect(updateProfile.mock.calls[0][0]).toBe("p");});
+ it("rejects cross-account input without making a mutation",async()=>{const updateProfile=vi.fn();await expect(saveLanguagePreferences({updateProfile} as never,"other",p,{subtitleLanguage:"en"})).rejects.toMatchObject({code:"ACCESS_DENIED"});expect(updateProfile).not.toHaveBeenCalled();});
+ it("rejects unsupported preference values",async()=>{const updateProfile=vi.fn();await expect(saveLanguagePreferences({updateProfile} as never,"a",p,{audioLanguage:"off"})).rejects.toMatchObject({code:"VALIDATION"});expect(updateProfile).not.toHaveBeenCalled();});
+ it("does not report a successful save on a failed or mismatched response",async()=>{await expect(saveLanguagePreferences({updateProfile:vi.fn().mockRejectedValue(fail("ACCESS_DENIED"))} as never,"a",p,{})).rejects.toMatchObject({code:"ACCESS_DENIED"});await expect(saveLanguagePreferences({updateProfile:vi.fn().mockResolvedValue({...p,id:"other"})} as never,"a",p,{})).rejects.toMatchObject({code:"ACCESS_DENIED"});});
+ it("isolates saved preferences while switching profiles, then resets with a new mock service",async()=>{const s=await signedIn();const profiles=await s.profiles.listProfiles();const main=profiles.find(p=>!p.hasPin)!;const kids=profiles.find(p=>p.hasPin)!;const before=structuredClone(kids);const account=await s.auth.getAccount();await saveLanguagePreferences(s.profiles,account!.id,main,{subtitleLanguage:"fr"});await s.profiles.verifyPin!(kids.id,"1234");expect(await s.profiles.selectProfile(kids.id)).toEqual(before);expect((await s.profiles.selectProfile(main.id)).preferences.subtitleLanguage).toBe("fr");expect(await s.auth.getAccount()).toEqual(account);const fresh=await signedIn();expect((await fresh.profiles.listProfiles()).find(p=>p.id===main.id)?.preferences.subtitleLanguage).toBeUndefined();});
+ it("times out pending reads and clears the deadline for success",async()=>{await expect(deadline(Promise.resolve("ready"),100)).resolves.toBe("ready");await expect(deadline(new Promise(()=>{}),5)).rejects.toMatchObject({code:"SERVICE_UNAVAILABLE"});});
+});

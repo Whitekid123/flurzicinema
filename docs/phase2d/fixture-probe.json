@@ -1,0 +1,128 @@
+{
+  "initial": {
+    "duration": 19.955492,
+    "currentTime": 3.576,
+    "seekable": [
+      [
+        0,
+        19.955492
+      ]
+    ],
+    "buffered": [
+      [
+        0,
+        19.955492
+      ]
+    ]
+  },
+  "seeks": [
+    {
+      "target": 2,
+      "event": true,
+      "duration": 19.955492,
+      "currentTime": 3.576,
+      "seekable": [
+        [
+          0,
+          19.955492
+        ]
+      ],
+      "buffered": [
+        [
+          0,
+          19.955492
+        ]
+      ]
+    },
+    {
+      "target": 6,
+      "event": true,
+      "duration": 19.955492,
+      "currentTime": 6,
+      "seekable": [
+        [
+          0,
+          19.955492
+        ]
+      ],
+      "buffered": [
+        [
+          0,
+          19.955492
+        ]
+      ]
+    },
+    {
+      "target": 7,
+      "event": true,
+      "duration": 19.955492,
+      "currentTime": 7,
+      "seekable": [
+        [
+          0,
+          19.955492
+        ]
+      ],
+      "buffered": [
+        [
+          0,
+          19.955492
+        ]
+      ]
+    },
+    {
+      "target": 8,
+      "event": true,
+      "duration": 19.955492,
+      "currentTime": 8,
+      "seekable": [
+        [
+          0,
+          19.955492
+        ]
+      ],
+      "buffered": [
+        [
+          0,
+          19.955492
+        ]
+      ]
+    },
+    {
+      "target": 12,
+      "event": true,
+      "duration": 19.955492,
+      "currentTime": 12,
+      "seekable": [
+        [
+          0,
+          19.955492
+        ]
+      ],
+      "buffered": [
+        [
+          0,
+          19.955492
+        ]
+      ]
+    },
+    {
+      "target": 19,
+      "event": true,
+      "duration": 19.955492,
+      "currentTime": 19,
+      "seekable": [
+        [
+          0,
+          19.955492
+        ]
+      ],
+      "buffered": [
+        [
+          0,
+          19.955492
+        ]
+      ]
+    }
+  ]
+}

@@ -1,10 +1,14 @@
 import type { Metadata, Viewport } from "next";
+import { SessionProvider } from "@/lib/state/SessionContext";
 import "@/styles/globals.css";
 import "@/styles/exhibition.css";
 import "@/styles/integration.css";
 import "@/styles/editorial.css";
 import "@/styles/editorial-sections.css";
 import "@/styles/motion-followup.css";
+import "@/styles/streaming-entry.css";
+import "@/styles/streaming-browse.css";
+import "@/styles/streaming-discovery.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL(
@@ -43,7 +47,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body><SessionProvider>{children}</SessionProvider></body>
     </html>
   );
 }

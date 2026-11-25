@@ -1,0 +1,52 @@
+{
+  "controls": [
+    "Actual media loaded, no autoplay, Play and Pause",
+    "Seek buttons, interactive range, mute/unmute and volume",
+    "Real speed change, supplied VTT loaded, captions on/off",
+    "Fullscreen enter and exit",
+    "Picture-in-Picture enter/exit",
+    "Scoped keyboard play/pause, real progress reporting and reload resume",
+    "Genuine ended event, completion reporting and replay",
+    "Invalid source reaches recoverable unsupported state without spinner",
+    "Progress service failure is visible and does not stop playback",
+    "390px touch play/pause/settings/captions and landscape no overflow"
+  ],
+  "viewports": [
+    {
+      "width": 1920,
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1440,
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1024,
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 768,
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 390,
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 320,
+      "overflow": 0,
+      "clipped": []
+    }
+  ],
+  "errors": [],
+  "browser": "passed",
+  "media": {
+    "initialPosition": 3.576,
+    "duration": 19.955492
+  }
+}

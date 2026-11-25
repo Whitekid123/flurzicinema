@@ -53,7 +53,7 @@ function CinemaHomeContent() {
   useEditorialMotion(root);
   return (
     <div ref={root} className="cinema-home editorial-home">
-      <Header onSignIn={() => setInfo("Sign in is coming later")} />
+      <Header />
       <main id="main">
         <CinemaHero onMovie={setSelected} />
         <FallingFilms onMovie={setSelected} />

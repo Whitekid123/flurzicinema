@@ -1,0 +1,82 @@
+{
+  "http": [
+    {
+      "route": "/browse",
+      "status": 200
+    },
+    {
+      "route": "/browse/movies",
+      "status": 200
+    },
+    {
+      "route": "/browse/series",
+      "status": 200
+    },
+    {
+      "route": "/browse/search",
+      "status": 200
+    },
+    {
+      "route": "/browse/my-list",
+      "status": 200
+    },
+    {
+      "route": "/browse/title/mock-quiet-beyond",
+      "status": 200
+    },
+    {
+      "route": "/profiles",
+      "status": 200
+    },
+    {
+      "route": "/account",
+      "status": 200
+    }
+  ],
+  "viewports": [
+    {
+      "width": 1920,
+      "overflow": 0,
+      "heroClipped": false,
+      "nav": "none"
+    },
+    {
+      "width": 1440,
+      "overflow": 0,
+      "heroClipped": false,
+      "nav": "none"
+    },
+    {
+      "width": 1024,
+      "overflow": 0,
+      "heroClipped": false,
+      "nav": "none"
+    },
+    {
+      "width": 768,
+      "overflow": 0,
+      "heroClipped": false,
+      "nav": "flex"
+    },
+    {
+      "width": 390,
+      "overflow": 0,
+      "heroClipped": false,
+      "nav": "flex"
+    },
+    {
+      "width": 320,
+      "overflow": 0,
+      "heroClipped": false,
+      "nav": "flex"
+    }
+  ],
+  "interactions": [
+    "Normal demo login, plan preference and Main profile selection",
+    "Featured forward/reverse, watchlist synchronization, quick information dialog/Escape, profile menu/Escape, reduced motion",
+    "Native horizontal wheel scrolling, keyboard quick information/focus restoration, Kids PIN switch, profile watchlist isolation, switch back/persisted list, removal, active Movies navigation and sign out",
+    "390px mobile touch context: native horizontal swipe without page overflow"
+  ],
+  "errors": [],
+  "browser": "passed"
+}

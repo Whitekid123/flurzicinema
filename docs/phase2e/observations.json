@@ -1,0 +1,403 @@
+{
+  "http": [
+    {
+      "path": "/account",
+      "status": 200
+    },
+    {
+      "path": "/account/details",
+      "status": 200
+    },
+    {
+      "path": "/account/billing",
+      "status": 200
+    },
+    {
+      "path": "/account/security",
+      "status": 200
+    },
+    {
+      "path": "/account/devices",
+      "status": 200
+    },
+    {
+      "path": "/account/preferences",
+      "status": 200
+    }
+  ],
+  "viewports": [
+    {
+      "width": 1920,
+      "screen": "overview",
+      "overflow": 0,
+      "clipped": [],
+      "primaryControls": [],
+      "avatarWidths": [
+        "64px"
+      ]
+    },
+    {
+      "width": 1920,
+      "screen": "details",
+      "overflow": 0,
+      "clipped": [],
+      "primaryControls": [],
+      "avatarWidths": []
+    },
+    {
+      "width": 1920,
+      "screen": "billing",
+      "overflow": 0,
+      "clipped": [],
+      "primaryControls": [],
+      "avatarWidths": []
+    },
+    {
+      "width": 1920,
+      "screen": "security",
+      "overflow": 0,
+      "clipped": [],
+      "primaryControls": [],
+      "avatarWidths": []
+    },
+    {
+      "width": 1920,
+      "screen": "devices",
+      "overflow": 0,
+      "clipped": [],
+      "primaryControls": [],
+      "avatarWidths": []
+    },
+    {
+      "width": 1920,
+      "screen": "preferences",
+      "overflow": 0,
+      "clipped": [],
+      "primaryControls": [
+        {
+          "label": "Save language preferences",
+          "color": "rgb(8, 9, 11)",
+          "background": "rgb(245, 245, 243)",
+          "contrastRatio": 18.248043258810537
+        }
+      ],
+      "avatarWidths": [
+        "64px"
+      ]
+    },
+    {
+      "width": 1440,
+      "screen": "overview",
+      "overflow": 0,
+      "clipped": [],
+      "primaryControls": [],
+      "avatarWidths": [
+        "64px"
+      ]
+    },
+    {
+      "width": 1440,
+      "screen": "details",
+      "overflow": 0,
+      "clipped": [],
+      "primaryControls": [],
+      "avatarWidths": []
+    },
+    {
+      "width": 1440,
+      "screen": "billing",
+      "overflow": 0,
+      "clipped": [],
+      "primaryControls": [],
+      "avatarWidths": []
+    },
+    {
+      "width": 1440,
+      "screen": "security",
+      "overflow": 0,
+      "clipped": [],
+      "primaryControls": [],
+      "avatarWidths": []
+    },
+    {
+      "width": 1440,
+      "screen": "devices",
+      "overflow": 0,
+      "clipped": [],
+      "primaryControls": [],
+      "avatarWidths": []
+    },
+    {
+      "width": 1440,
+      "screen": "preferences",
+      "overflow": 0,
+      "clipped": [],
+      "primaryControls": [
+        {
+          "label": "Save language preferences",
+          "color": "rgb(8, 9, 11)",
+          "background": "rgb(245, 245, 243)",
+          "contrastRatio": 18.248043258810537
+        }
+      ],
+      "avatarWidths": [
+        "64px"
+      ]
+    },
+    {
+      "width": 1024,
+      "screen": "overview",
+      "overflow": 0,
+      "clipped": [],
+      "primaryControls": [],
+      "avatarWidths": [
+        "64px"
+      ]
+    },
+    {
+      "width": 1024,
+      "screen": "details",
+      "overflow": 0,
+      "clipped": [],
+      "primaryControls": [],
+      "avatarWidths": []
+    },
+    {
+      "width": 1024,
+      "screen": "billing",
+      "overflow": 0,
+      "clipped": [],
+      "primaryControls": [],
+      "avatarWidths": []
+    },
+    {
+      "width": 1024,
+      "screen": "security",
+      "overflow": 0,
+      "clipped": [],
+      "primaryControls": [],
+      "avatarWidths": []
+    },
+    {
+      "width": 1024,
+      "screen": "devices",
+      "overflow": 0,
+      "clipped": [],
+      "primaryControls": [],
+      "avatarWidths": []
+    },
+    {
+      "width": 1024,
+      "screen": "preferences",
+      "overflow": 0,
+      "clipped": [],
+      "primaryControls": [
+        {
+          "label": "Save language preferences",
+          "color": "rgb(8, 9, 11)",
+          "background": "rgb(245, 245, 243)",
+          "contrastRatio": 18.248043258810537
+        }
+      ],
+      "avatarWidths": [
+        "64px"
+      ]
+    },
+    {
+      "width": 768,
+      "screen": "overview",
+      "overflow": 0,
+      "clipped": [],
+      "primaryControls": [],
+      "avatarWidths": [
+        "64px"
+      ]
+    },
+    {
+      "width": 768,
+      "screen": "details",
+      "overflow": 0,
+      "clipped": [],
+      "primaryControls": [],
+      "avatarWidths": []
+    },
+    {
+      "width": 768,
+      "screen": "billing",
+      "overflow": 0,
+      "clipped": [],
+      "primaryControls": [],
+      "avatarWidths": []
+    },
+    {
+      "width": 768,
+      "screen": "security",
+      "overflow": 0,
+      "clipped": [],
+      "primaryControls": [],
+      "avatarWidths": []
+    },
+    {
+      "width": 768,
+      "screen": "devices",
+      "overflow": 0,
+      "clipped": [],
+      "primaryControls": [],
+      "avatarWidths": []
+    },
+    {
+      "width": 768,
+      "screen": "preferences",
+      "overflow": 0,
+      "clipped": [],
+      "primaryControls": [
+        {
+          "label": "Save language preferences",
+          "color": "rgb(8, 9, 11)",
+          "background": "rgb(245, 245, 243)",
+          "contrastRatio": 18.248043258810537
+        }
+      ],
+      "avatarWidths": [
+        "64px"
+      ]
+    },
+    {
+      "width": 390,
+      "screen": "overview",
+      "overflow": 0,
+      "clipped": [],
+      "primaryControls": [],
+      "avatarWidths": [
+        "64px"
+      ]
+    },
+    {
+      "width": 390,
+      "screen": "details",
+      "overflow": 0,
+      "clipped": [],
+      "primaryControls": [],
+      "avatarWidths": []
+    },
+    {
+      "width": 390,
+      "screen": "billing",
+      "overflow": 0,
+      "clipped": [],
+      "primaryControls": [],
+      "avatarWidths": []
+    },
+    {
+      "width": 390,
+      "screen": "security",
+      "overflow": 0,
+      "clipped": [],
+      "primaryControls": [],
+      "avatarWidths": []
+    },
+    {
+      "width": 390,
+      "screen": "devices",
+      "overflow": 0,
+      "clipped": [],
+      "primaryControls": [],
+      "avatarWidths": []
+    },
+    {
+      "width": 390,
+      "screen": "preferences",
+      "overflow": 0,
+      "clipped": [],
+      "primaryControls": [
+        {
+          "label": "Save language preferences",
+          "color": "rgb(8, 9, 11)",
+          "background": "rgb(245, 245, 243)",
+          "contrastRatio": 18.248043258810537
+        }
+      ],
+      "avatarWidths": [
+        "64px"
+      ]
+    },
+    {
+      "width": 320,
+      "screen": "overview",
+      "overflow": 0,
+      "clipped": [],
+      "primaryControls": [],
+      "avatarWidths": [
+        "64px"
+      ]
+    },
+    {
+      "width": 320,
+      "screen": "details",
+      "overflow": 0,
+      "clipped": [],
+      "primaryControls": [],
+      "avatarWidths": []
+    },
+    {
+      "width": 320,
+      "screen": "billing",
+      "overflow": 0,
+      "clipped": [],
+      "primaryControls": [],
+      "avatarWidths": []
+    },
+    {
+      "width": 320,
+      "screen": "security",
+      "overflow": 0,
+      "clipped": [],
+      "primaryControls": [],
+      "avatarWidths": []
+    },
+    {
+      "width": 320,
+      "screen": "devices",
+      "overflow": 0,
+      "clipped": [],
+      "primaryControls": [],
+      "avatarWidths": []
+    },
+    {
+      "width": 320,
+      "screen": "preferences",
+      "overflow": 0,
+      "clipped": [],
+      "primaryControls": [
+        {
+          "label": "Save language preferences",
+          "color": "rgb(8, 9, 11)",
+          "background": "rgb(245, 245, 243)",
+          "contrastRatio": 18.248043258810537
+        }
+      ],
+      "avatarWidths": [
+        "64px"
+      ]
+    }
+  ],
+  "interactions": [
+    "Normal sign-in, preview preference, profile selection and account navigation without guard bypass",
+    "36 viewport/route checks and captures; primary labels meet 4.5:1 contrast and account avatars retain readable size",
+    "Read-only unsupported identity; no active membership, prices, fake billing or device records",
+    "Preference cancel, confirmed save, navigation persistence, existing profile-editor integration, profile reduced motion",
+    "Keyboard dialog activation, trapped focus, Escape and focus restoration; confirmed demo recovery without email claims",
+    "Kids PIN selection, profile-separated language preferences, stable account identity and Main preference restoration",
+    "Return to streaming homepage",
+    "Separate 390px touch context: taps, language save/cancel, reduced motion, unclipped recovery dialog and logout",
+    "Desktop logout, unauthenticated account guard returns to login"
+  ],
+  "errors": [],
+  "browser": "passed",
+  "touchDialogBounds": {
+    "x": 16,
+    "y": 229.3125,
+    "width": 358,
+    "height": 385.375
+  }
+}

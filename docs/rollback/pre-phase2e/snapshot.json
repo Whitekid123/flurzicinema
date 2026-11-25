@@ -1,0 +1,37 @@
+{
+  "touched": [
+    "app/account/layout.tsx",
+    "app/account/page.tsx",
+    "app/account/billing/page.tsx",
+    "app/account/security/page.tsx",
+    "app/account/devices/page.tsx",
+    "lib/api/services.ts",
+    "lib/api/mocks/mockServices.ts"
+  ],
+  "protectedFiles": {
+    "app/layout.tsx": "9822b32955d370c1602fa364e10fca0eb544f8007c19e4c662f130cf5963e19d",
+    "package.json": "389948da47b837e2d12e61c6c17e11b92805dc81a73f35734bc4ff3cdbf7e6f8",
+    "package-lock.json": "3db345466620d7f39002554735333a45e14d6c74002d91ad929afdc53cdb5559",
+    "playwright.config.ts": "203271c28bdfd03168cc0e94ad96b22d1daa0b0ca36584d6ab5e4825b3a7a95f",
+    "proxy.ts": "9ba49aec2360bfdd7fd0aec9db5af89bc62c36015626176591f542f1d3b79084",
+    "types/streaming.ts": "5155b2a106db3dd7126e673bc0fd530208d83c7bcb0529ce2d1ced2179c6bd3b",
+    "lib/state/SessionContext.tsx": "d3d412d4bc230d9d84ce2b6e339080a5bded412f9ef009348173703cb42ddaf0",
+    "components/streaming/RequireAuth.tsx": "4f63e016f6a67978c4a5bc49fc680b14872e7d19ddf89c0eac9c9b5793c32b66",
+    "components/streaming/StreamingShell.tsx": "800d891073afad00e6f8a6ff8bf455f9043eb5d7dc10f372d824fe95a149ba92",
+    "components/streaming/ProfileScreens.tsx": "a918079e847ce8440213d0cf0cacd8a09c1870ad8e14c823eaa4ac504527db68",
+    "components/streaming/OnboardingScreens.tsx": "ab83eed70101b11b1b71ec1d3d736c4aefc45b782fec5338507b420eda70898f",
+    "components/streaming/AuthScreens.tsx": "54c6bdc3beb67596c6e44f2aa9f14dd8bad2eb7f09def27f9085155be3bff667",
+    "components/streaming/BrowseHome.tsx": "12c150b0ed1cea7e8172fb72d270f5314225a8d61dd104b74c04e39087d15469",
+    "components/streaming/CatalogScreens.tsx": "98d23b6124552d15b1f62e9598e03f25f2f70f35dede744c4523869155a5f960",
+    "components/streaming/LibraryScreens.tsx": "61fdb4ca835fae32ef7abe9259aeffb9d8a71f3878bbb55e7657ca6d82ade996",
+    "components/streaming/TitleDetails.tsx": "c59253bb4ac22518568c577e3eedfb2abe06bc159127b586788c662aecf0750d",
+    "components/streaming/MediaPlayer.tsx": "ae2df5201b627fe03e2db2c29c7ef93b16640fbd0a281688c92c33a710800eaf",
+    "components/streaming/WatchScreen.tsx": "dbc59a83dfdb2ba03764c4a0006317197d2de07e39a8d2447309eabd5766ff15",
+    "components/streaming/player.css": "84e8af8a80990d52c682fcd0aab420237f36661315d80917b307a3e9fe165102",
+    "components/home/CinemaHome.tsx": "333604a70a468703033aa10dc7eff248d7ee0b3de6dcb0d7fc77c23aefcd6fbb",
+    "lib/api/mocks/mockData.ts": "e90e73960fbffe590e54336c3dca356bc4bd176140c45aff5fc0fe5bd7649b2e",
+    "lib/playback.ts": "735632c9558d42469d11afa600cb97daac140f3c0ee4829465a998bc4513f1b5",
+    "lib/media-transport.ts": "b1cc0682b4ea16477db70aac17eb88bb6ff086c9d91b785aa6842342bcc3be83",
+    "lib/playback-progress.ts": "225ed3a39dd7e28bfe5a80b6c41a6d1f8336a93104ce16534d303ba163261958"
+  }
+}

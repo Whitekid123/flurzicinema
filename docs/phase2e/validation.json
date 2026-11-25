@@ -1,0 +1,26 @@
+{
+  "recordedAt": "2026-11-25T11:42:21.716Z",
+  "buildId": "dFRlQ5h6EmE03TsY6C-qC",
+  "commands": {
+    "typecheck": "passed",
+    "lint": "passed",
+    "build": "passed",
+    "unit": "passed"
+  },
+  "staticPagesGenerated": 47,
+  "unitTests": 139,
+  "newAccountTests": 35,
+  "testFiles": 6,
+  "browser": "passed",
+  "responsiveChecks": 36,
+  "pageErrors": 0,
+  "protectedSources": 24,
+  "primaryLabelContrast": 18.248043258810537,
+  "touchDialogBounds": {
+    "x": 16,
+    "y": 229.3125,
+    "width": 358,
+    "height": 385.375
+  },
+  "ownedPreviewStopped": true
+}

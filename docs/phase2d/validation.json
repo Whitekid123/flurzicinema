@@ -1,0 +1,19 @@
+{
+  "typecheck": "passed",
+  "lint": "passed",
+  "build": {
+    "status": "passed",
+    "bundler": "Turbopack",
+    "buildId": "cgqK8_tqGiU0BrHY6nvVb",
+    "staticPages": 45
+  },
+  "unit": {
+    "status": "passed",
+    "tests": 104,
+    "files": 5,
+    "newPlayerTests": 43
+  },
+  "mediaBrowser": "passed",
+  "productionBrowser": "passed",
+  "protectedSources": 26
+}

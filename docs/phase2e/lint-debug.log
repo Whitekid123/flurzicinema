@@ -1,0 +1,18 @@
+
+> flurzi-cinema@0.1.0 lint
+> eslint . --debug
+
+2026-11-25T10:20:15.038Z eslint:cli CLI args: [ '.', '--debug' ]
+2026-11-25T10:20:15.040Z eslint:cli Using flat config? true
+2026-11-25T10:20:15.047Z eslint:cli Running on files
+2026-11-25T10:20:15.050Z eslint:eslint Using config loader LegacyConfigLoader
+2026-11-25T10:20:15.051Z eslint:eslint Using file patterns: .
+2026-11-25T10:20:15.051Z eslint:eslint Deleting cache file at C:\Users\USER\Downloads\flurzicinema\.eslintcache
+2026-11-25T10:20:15.086Z eslint:config-loader Calculating config for file C:\Users\USER\Downloads\flurzicinema\.env.example
+2026-11-25T10:20:15.086Z eslint:config-loader Searching for eslint.config.js
+2026-11-25T10:20:15.088Z eslint:config-loader [Legacy]: Calculating config for C:\Users\USER\Downloads\flurzicinema\.env.example
+2026-11-25T10:20:15.088Z eslint:config-loader [Legacy]: Using config file C:\Users\USER\Downloads\flurzicinema\eslint.config.mjs and base path C:\Users\USER\Downloads\flurzicinema
+2026-11-25T10:20:15.089Z eslint:config-loader Calculating config array from config file C:\Users\USER\Downloads\flurzicinema\eslint.config.mjs and base path C:\Users\USER\Downloads\flurzicinema
+2026-11-25T10:20:15.090Z eslint:config-loader Loading config file C:\Users\USER\Downloads\flurzicinema\eslint.config.mjs
+2026-11-25T10:20:15.090Z eslint:config-loader Loading config from C:\Users\USER\Downloads\flurzicinema\eslint.config.mjs
+2026-11-25T10:20:15.090Z eslint:config-loader Config file URL is file:///C:/Users/USER/Downloads/flurzicinema/eslint.config.mjs

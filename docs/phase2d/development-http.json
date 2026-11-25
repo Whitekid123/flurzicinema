@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "results": [
+    {
+      "route": "/player-lab",
+      "status": 200,
+      "labUI": true
+    },
+    {
+      "route": "/api/player-lab/original.webm",
+      "status": 206,
+      "rangeBytes": 128
+    },
+    {
+      "route": "/scripts/fixtures/player/original.webm",
+      "status": 404
+    }
+  ]
+}

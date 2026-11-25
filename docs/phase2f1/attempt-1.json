@@ -1,0 +1,142 @@
+{
+  "browser": "failed",
+  "http": [
+    {
+      "path": "/browse/rooms",
+      "status": 200
+    },
+    {
+      "path": "/browse/rooms/create",
+      "status": 200
+    },
+    {
+      "path": "/browse/rooms/join",
+      "status": 200
+    },
+    {
+      "path": "/browse/rooms/unknown",
+      "status": 200
+    },
+    {
+      "path": "/player-lab",
+      "status": 404
+    },
+    {
+      "path": "/api/player-lab/media",
+      "status": 404
+    }
+  ],
+  "viewports": [
+    {
+      "width": 1920,
+      "screen": "home",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1920,
+      "screen": "create",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1920,
+      "screen": "join",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1440,
+      "screen": "home",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1440,
+      "screen": "create",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1440,
+      "screen": "join",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1024,
+      "screen": "home",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1024,
+      "screen": "create",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1024,
+      "screen": "join",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 768,
+      "screen": "home",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 768,
+      "screen": "create",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 768,
+      "screen": "join",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 390,
+      "screen": "home",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 390,
+      "screen": "create",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 390,
+      "screen": "join",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 320,
+      "screen": "home",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 320,
+      "screen": "create",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 320,
+      "screen": "join",
+      "overflow": 0,
+      "clipped": []
+    }
+  ],
+  "interactions": [],
+  "errors": [],
+  "failure": "Error: expect(locator).toContainText(expected) failed\n\nLocator: getByRole('alert')\nExpected substring: \"invalid\"\nError: strict mode violation: getByRole('alert') resolved to 2 elements:\n    1) <div role=\"alert\" class=\"rooms-feedback\">…</div> aka getByText('This invitation is invalid. Check the link or code.Back to Cinema Rooms')\n    2) <div role=\"alert\" aria-live=\"assertive\" id=\"__next-route-announcer__\">Flurzi Cinema — Movies & TV Streaming</div> aka getByText('Flurzi Cinema — Movies & TV')\n\nCall log:\n  - Expect \"toContainText\" getByRole('alert') with timeout 5000ms\n  - waiting for getByRole('alert')\n"
+}

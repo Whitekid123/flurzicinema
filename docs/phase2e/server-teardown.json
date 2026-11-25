@@ -1,0 +1,15 @@
+{
+  "ports": [
+    {
+      "port": 3000,
+      "listening": true
+    },
+    {
+      "port": 3009,
+      "listening": false,
+      "error": "ECONNREFUSED"
+    }
+  ],
+  "ownedPort": 3009,
+  "existingServersStopped": false
+}

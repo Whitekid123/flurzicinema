@@ -1,0 +1,60 @@
+{
+  "flagEnabled": true,
+  "results": [
+    {
+      "route": "/player-lab",
+      "status": 404,
+      "labUI": false,
+      "notFoundUI": false
+    },
+    {
+      "route": "/scripts/fixtures/player/original.webm",
+      "status": 404,
+      "labUI": false,
+      "notFoundUI": false
+    },
+    {
+      "route": "/api/player-lab/original.webm",
+      "status": 404,
+      "labUI": false,
+      "notFoundUI": false
+    },
+    {
+      "route": "/api/player-lab/captions.vtt",
+      "status": 404,
+      "labUI": false,
+      "notFoundUI": false
+    },
+    {
+      "route": "/api/player-lab/broken.webm",
+      "status": 404,
+      "labUI": false,
+      "notFoundUI": false
+    },
+    {
+      "route": "/watch/mock-quiet-beyond",
+      "status": 200,
+      "labUI": false,
+      "notFoundUI": false
+    },
+    {
+      "route": "/watch/mock-velvet-hours?episodeId=mock-vh-s1e1",
+      "status": 200,
+      "labUI": false,
+      "notFoundUI": false
+    },
+    {
+      "route": "/browse/title/mock-quiet-beyond",
+      "status": 200,
+      "labUI": false,
+      "notFoundUI": false
+    }
+  ],
+  "browser": "passed",
+  "interactions": [
+    "Normal demo sign-in, preview preference and Main profile selection without guard bypass",
+    "Movie details to watch and back; metadata-only title cannot obtain a video element",
+    "Lab page and all fixture endpoints return 404 in production even with FLURZI_PLAYER_LAB=1"
+  ],
+  "errors": []
+}

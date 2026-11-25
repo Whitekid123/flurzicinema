@@ -1,0 +1,16 @@
+[
+  {
+    "port": 3000,
+    "live": true
+  },
+  {
+    "port": 3007,
+    "live": false,
+    "error": "ECONNREFUSED"
+  },
+  {
+    "port": 3008,
+    "live": false,
+    "error": "ECONNREFUSED"
+  }
+]

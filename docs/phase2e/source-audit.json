@@ -1,0 +1,101 @@
+{
+  "protectedCount": 24,
+  "results": [
+    {
+      "path": "app/layout.tsx",
+      "unchanged": true
+    },
+    {
+      "path": "package.json",
+      "unchanged": true
+    },
+    {
+      "path": "package-lock.json",
+      "unchanged": true
+    },
+    {
+      "path": "playwright.config.ts",
+      "unchanged": true
+    },
+    {
+      "path": "proxy.ts",
+      "unchanged": true
+    },
+    {
+      "path": "types/streaming.ts",
+      "unchanged": true
+    },
+    {
+      "path": "lib/state/SessionContext.tsx",
+      "unchanged": true
+    },
+    {
+      "path": "components/streaming/RequireAuth.tsx",
+      "unchanged": true
+    },
+    {
+      "path": "components/streaming/StreamingShell.tsx",
+      "unchanged": true
+    },
+    {
+      "path": "components/streaming/ProfileScreens.tsx",
+      "unchanged": true
+    },
+    {
+      "path": "components/streaming/OnboardingScreens.tsx",
+      "unchanged": true
+    },
+    {
+      "path": "components/streaming/AuthScreens.tsx",
+      "unchanged": true
+    },
+    {
+      "path": "components/streaming/BrowseHome.tsx",
+      "unchanged": true
+    },
+    {
+      "path": "components/streaming/CatalogScreens.tsx",
+      "unchanged": true
+    },
+    {
+      "path": "components/streaming/LibraryScreens.tsx",
+      "unchanged": true
+    },
+    {
+      "path": "components/streaming/TitleDetails.tsx",
+      "unchanged": true
+    },
+    {
+      "path": "components/streaming/MediaPlayer.tsx",
+      "unchanged": true
+    },
+    {
+      "path": "components/streaming/WatchScreen.tsx",
+      "unchanged": true
+    },
+    {
+      "path": "components/streaming/player.css",
+      "unchanged": true
+    },
+    {
+      "path": "components/home/CinemaHome.tsx",
+      "unchanged": true
+    },
+    {
+      "path": "lib/api/mocks/mockData.ts",
+      "unchanged": true
+    },
+    {
+      "path": "lib/playback.ts",
+      "unchanged": true
+    },
+    {
+      "path": "lib/media-transport.ts",
+      "unchanged": true
+    },
+    {
+      "path": "lib/playback-progress.ts",
+      "unchanged": true
+    }
+  ]
+}

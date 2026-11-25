@@ -1,0 +1,309 @@
+{
+  "http": [
+    {
+      "route": "/browse/movies",
+      "status": 200
+    },
+    {
+      "route": "/browse/series",
+      "status": 200
+    },
+    {
+      "route": "/browse/search",
+      "status": 200
+    },
+    {
+      "route": "/browse/my-list",
+      "status": 200
+    },
+    {
+      "route": "/browse/history",
+      "status": 200
+    },
+    {
+      "route": "/browse/title/mock-quiet-beyond",
+      "status": 200
+    },
+    {
+      "route": "/browse/title/mock-velvet-hours",
+      "status": 200
+    },
+    {
+      "route": "/browse/title/unknown",
+      "status": 200
+    }
+  ],
+  "viewports": [
+    {
+      "width": 1440,
+      "screen": "initial-movies",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1920,
+      "screen": "movies",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1920,
+      "screen": "series",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1920,
+      "screen": "search",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1920,
+      "screen": "my-list",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1920,
+      "screen": "history",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1920,
+      "screen": "movie-detail",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1920,
+      "screen": "series-detail",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1440,
+      "screen": "movies",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1440,
+      "screen": "series",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1440,
+      "screen": "search",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1440,
+      "screen": "my-list",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1440,
+      "screen": "history",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1440,
+      "screen": "movie-detail",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1440,
+      "screen": "series-detail",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1024,
+      "screen": "movies",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1024,
+      "screen": "series",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1024,
+      "screen": "search",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1024,
+      "screen": "my-list",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1024,
+      "screen": "history",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1024,
+      "screen": "movie-detail",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1024,
+      "screen": "series-detail",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 768,
+      "screen": "movies",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 768,
+      "screen": "series",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 768,
+      "screen": "search",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 768,
+      "screen": "my-list",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 768,
+      "screen": "history",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 768,
+      "screen": "movie-detail",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 768,
+      "screen": "series-detail",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 390,
+      "screen": "movies",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 390,
+      "screen": "series",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 390,
+      "screen": "search",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 390,
+      "screen": "my-list",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 390,
+      "screen": "history",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 390,
+      "screen": "movie-detail",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 390,
+      "screen": "series-detail",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 320,
+      "screen": "movies",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 320,
+      "screen": "series",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 320,
+      "screen": "search",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 320,
+      "screen": "my-list",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 320,
+      "screen": "history",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 320,
+      "screen": "movie-detail",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 320,
+      "screen": "series-detail",
+      "overflow": 0,
+      "clipped": []
+    }
+  ],
+  "interactions": [
+    "Genre/year/sort filters, URL synchronization, reset and browser Back",
+    "Keyboard search, mixed/type-filtered results, no-results, clear query, empty suggestions and rapid query replacement",
+    "Profile library shows saved movies and series from other routes",
+    "Removal in My List synchronizes with homepage saved state",
+    "Kids profile PIN flow and isolated empty library",
+    "Keyboard quick information, dialog focus/Escape and reduced-motion context",
+    "Out-of-range URL page and return to an available page",
+    "Refresh honors explicit in-memory mock session reset and auth guard",
+    "390px touch context: native select, tap-based filters/search/details/save/removal, 44px control targets, reduced-motion transition suppression and no page overflow"
+  ],
+  "errors": [],
+  "browser": "passed"
+}

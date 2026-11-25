@@ -1,0 +1,7 @@
+{
+  "app/browse/page.tsx": "34c42ece1150da5a88b7414a6e4286229631dc29cbfdc60d4cad064815fa2c4f",
+  "components/streaming/StreamingShell.tsx": "5dd267f9376dd40ad42f1eab8251e75f9058afbac151bbdeea288bf2556ddc1a",
+  "app/layout.tsx": "6dbef2725d9b4a1162942b07b4039edb220c6670eee4b91b90d75664743e171c",
+  "lib/api/mocks/mockData.ts": "4d526b2d7a61febb926a59ac109885be59962a04f4081634e7d79acd3d305537",
+  "lib/api/mocks/mockServices.ts": "78808fd261b849f306429107a056861e8daa2e3dfddb7770e7fbab344cd71d00"
+}

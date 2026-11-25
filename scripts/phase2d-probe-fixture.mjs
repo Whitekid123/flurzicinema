@@ -1,0 +1,9 @@
+import {chromium} from '@playwright/test';import fs from 'node:fs/promises';
+console.log('Launching native fixture probe');
+const browser=await chromium.launch({timeout:120000,executablePath:'C:/Users/USER/AppData/Local/ms-playwright/chromium_headless_shell-1243/chrome-headless-shell-win64/chrome-headless-shell.exe'});
+try{console.log('Probe browser ready');const page=await browser.newPage();const data=(await fs.readFile('scripts/fixtures/player/original.webm')).toString('base64');
+const result=await page.evaluate(async data=>{const video=document.createElement('video');document.body.append(video);const bytes=Uint8Array.from(atob(data),c=>c.charCodeAt(0));const url=URL.createObjectURL(new Blob([bytes],{type:'video/webm'}));const ready=new Promise((resolve,reject)=>{video.onloadedmetadata=resolve;video.onerror=reject;});video.src=url;video.preload='auto';await Promise.race([ready,new Promise((_,reject)=>setTimeout(()=>reject(Error('Metadata timeout')),60000))]);
+function snapshot(){return{duration:video.duration,currentTime:video.currentTime,seekable:Array.from({length:video.seekable.length},(_,i)=>[video.seekable.start(i),video.seekable.end(i)]),buffered:Array.from({length:video.buffered.length},(_,i)=>[video.buffered.start(i),video.buffered.end(i)])};}
+const initial=snapshot(),seeks=[];for(const target of [2,6,7,8,12,19]){let event=false;const seeked=new Promise(resolve=>{video.onseeked=()=>{event=true;resolve();};});video.currentTime=target;await Promise.race([seeked,new Promise(resolve=>setTimeout(resolve,1500))]);seeks.push({target,event,...snapshot()});}
+video.pause();video.removeAttribute('src');video.load();URL.revokeObjectURL(url);return{initial,seeks};},data);
+await fs.writeFile('docs/phase2d/fixture-probe.json',JSON.stringify(result,null,2));console.log(JSON.stringify(result,null,2));}finally{await browser.close();}

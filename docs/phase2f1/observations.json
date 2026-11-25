@@ -1,0 +1,254 @@
+{
+  "browser": "passed",
+  "http": [
+    {
+      "path": "/browse/rooms",
+      "status": 200
+    },
+    {
+      "path": "/browse/rooms/create",
+      "status": 200
+    },
+    {
+      "path": "/browse/rooms/join",
+      "status": 200
+    },
+    {
+      "path": "/browse/rooms/unknown",
+      "status": 200
+    },
+    {
+      "path": "/player-lab",
+      "status": 404
+    },
+    {
+      "path": "/api/player-lab/original.webm",
+      "status": 404
+    },
+    {
+      "path": "/api/player-lab/captions.vtt",
+      "status": 404
+    },
+    {
+      "path": "/api/player-lab/broken.webm",
+      "status": 404
+    },
+    {
+      "path": "/scripts/fixtures/player/original.webm",
+      "status": 404
+    }
+  ],
+  "viewports": [
+    {
+      "width": 1920,
+      "screen": "home",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1920,
+      "screen": "create",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1920,
+      "screen": "join",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1440,
+      "screen": "home",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1440,
+      "screen": "create",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1440,
+      "screen": "join",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1024,
+      "screen": "home",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1024,
+      "screen": "create",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1024,
+      "screen": "join",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 768,
+      "screen": "home",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 768,
+      "screen": "create",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 768,
+      "screen": "join",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 390,
+      "screen": "home",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 390,
+      "screen": "create",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 390,
+      "screen": "join",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 320,
+      "screen": "home",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 320,
+      "screen": "create",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 320,
+      "screen": "join",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1920,
+      "screen": "lobby",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1440,
+      "screen": "lobby",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1024,
+      "screen": "lobby",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 768,
+      "screen": "lobby",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 390,
+      "screen": "lobby",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 320,
+      "screen": "lobby",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1920,
+      "screen": "viewing",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1440,
+      "screen": "viewing",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1024,
+      "screen": "viewing",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 768,
+      "screen": "viewing",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 390,
+      "screen": "viewing",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 320,
+      "screen": "viewing",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 390,
+      "screen": "ended",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 390,
+      "screen": "touch-viewing",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 844,
+      "screen": "landscape",
+      "overflow": 0,
+      "clipped": []
+    }
+  ],
+  "interactions": [
+    "Normal demo authentication, plan preference and profile guards; desktop and mobile profile navigation",
+    "Search, catalog selection, local room creation and persisted in-memory return",
+    "Invalid/external invitation rejection and service-confirmed resolve/join",
+    "Readiness toggles gate starting; one genuine profile participant only",
+    "Metadata-only viewing denies player creation, no source or streaming rights fabricated",
+    "Confirmed self reactions, mute, collapsible participants and distraction-free mode",
+    "Connection loss disables controls, fresh snapshot reconnect and access recheck",
+    "Dialog keyboard activation, trapped focus, Escape, focus restoration and mobile bounds",
+    "Confirmed end removes current room; Kids profile cannot resolve Main invitation",
+    "Separate touch context: creation, readiness, viewing, reaction, reduced motion, landscape and confirmed leave"
+  ],
+  "errors": []
+}

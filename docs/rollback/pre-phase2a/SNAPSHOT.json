@@ -1,0 +1,98 @@
+[
+  {
+    "file": "app/layout.tsx",
+    "sha256": "03d5b5756199f4d8fd471cdfd067905bb394ed38d33d2d575474220d6e3e8df6"
+  },
+  {
+    "file": "lib/state/SessionContext.tsx",
+    "sha256": "7a41b01a244f3afb2de140204cfffea19598f74eb6feeb79cb3cfcfb642572dd"
+  },
+  {
+    "file": "lib/api/mocks/mockServices.ts",
+    "sha256": "09be89f1e63e18c1edc86aca609bb4055beefb6a2b7ac408daeeb669cbfea6d7"
+  },
+  {
+    "file": "components/streaming/RequireAuth.tsx",
+    "sha256": "638007c414595c74cfc85992d052a4dfdf341fd6ffaa7b2d6926ca0fccaa0c78"
+  },
+  {
+    "file": "components/streaming/StreamingShell.tsx",
+    "sha256": "8b5c3edb292e5e82a81b6e1f2bd88b1289e7442bd9d88ad2189b7dbf414b6d76"
+  },
+  {
+    "file": "app/browse/layout.tsx",
+    "sha256": "2f66a11f859a2eb01b4c13d30b7cfc2afec06484134eb48f0cf38c36497c3391"
+  },
+  {
+    "file": "app/watch/layout.tsx",
+    "sha256": "99f9289c0672dc8a5598c782178c6073b2180c49196eb101382089612d2188e9"
+  },
+  {
+    "file": "app/(public)/sign-in/page.tsx",
+    "sha256": "6d87ea936a3c96905d060ad1342a0ca4b53686a5ecc077956f84fc6bfc1f0a12"
+  },
+  {
+    "file": "app/(public)/get-started/page.tsx",
+    "sha256": "2b1a704faa789c89b201db63509e838adda1c33af89a71952a841c16af1095c1"
+  },
+  {
+    "file": "components/home/CinemaHome.tsx",
+    "sha256": "b982f71d006cff748bc15dbced4f794396110073a93e2fa4c1a8a52a18185306"
+  },
+  {
+    "file": ".env.example",
+    "sha256": "51a1c9fa064e649b5789f7c07cef3ae1c2b21c7e139f3775caef4e30a5d6320c"
+  },
+  {
+    "file": "app/login/page.tsx",
+    "sha256": "53ba38dcca539d49e773fa7f69bb940ec19c1c498f2ee431c2486773efb1e679"
+  },
+  {
+    "file": "app/signup/page.tsx",
+    "sha256": "49197e7835a1cf050d13a0f47517e38f5591ee89a0449d1eb12278fc96bad6cb"
+  },
+  {
+    "file": "app/forgot-password/page.tsx",
+    "sha256": "151f53167db6d87cec2d8a5a68a6a5a292fee86562d9df3aa3135cdb5296a920"
+  },
+  {
+    "file": "app/reset-password/page.tsx",
+    "sha256": "93e0afa222ed842e18d7e8c0e3d31ab3d4d6952f2ab3d65f6cecd02fb8968ca0"
+  },
+  {
+    "file": "app/verify-email/page.tsx",
+    "sha256": "ed68be9b6da5cf5fc5b6922d3c8ca0eee7c8448e4b9f73009bd94e62c5afb105"
+  },
+  {
+    "file": "app/welcome/page.tsx",
+    "sha256": "7ef20cf6e87c0c8418b7416a6c6b7a48cbfd57f82fff35124c94b5ce4e9cac44"
+  },
+  {
+    "file": "app/subscribe/page.tsx",
+    "sha256": "00b9b8ff2cc80c210baf6931760689c2e0fa9f4687f3cf69acc0051b7e631570"
+  },
+  {
+    "file": "app/profiles/page.tsx",
+    "sha256": "cb6d18628eb44f610fbdf3562d55ac2890cfc9fb5028e8e5262e64e8cb79d55a"
+  },
+  {
+    "file": "app/profiles/new/page.tsx",
+    "sha256": "1003f37fd10b63d84e710976ad77bf1b06b39907412ebafc3b6aece18ccbdac8"
+  },
+  {
+    "file": "app/profiles/manage/page.tsx",
+    "sha256": "a4345d906d5c1d67afdf1799aa7faf91653632c9d5dda9118823b8d6142123c7"
+  },
+  {
+    "file": "docs/STREAMING_APP_ARCHITECTURE.md",
+    "sha256": "d560df0590357d78244e532e4496b47cf2cf1d425d259a2066e809673c603144"
+  },
+  {
+    "file": "docs/CODEX_IMPLEMENTATION_HANDOFF.md",
+    "sha256": "7408763e37201babff50f3bb5a0768d4ff38508861ba341643ac18ca274dec2f"
+  },
+  {
+    "file": "docs/IMPLEMENTATION_SUMMARY.md",
+    "sha256": "5d63399154c7a8067a04e9de53b9f741abe437aaad1979cffc78cca5756af9dd"
+  }
+]

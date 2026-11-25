@@ -1,0 +1,57 @@
+{
+  "origin": "http://127.0.0.1:3004",
+  "results": [
+    {
+      "route": "login",
+      "status": 200
+    },
+    {
+      "route": "signup",
+      "status": 200
+    },
+    {
+      "route": "forgot-password",
+      "status": 200
+    },
+    {
+      "route": "reset-password",
+      "status": 200
+    },
+    {
+      "route": "verify-email",
+      "status": 200
+    },
+    {
+      "route": "welcome",
+      "status": 200
+    },
+    {
+      "route": "subscribe",
+      "status": 200
+    },
+    {
+      "route": "profiles",
+      "status": 200
+    },
+    {
+      "route": "profiles/new",
+      "status": 200
+    },
+    {
+      "route": "profiles/manage",
+      "status": 200
+    },
+    {
+      "route": "sign-in",
+      "status": 307,
+      "location": "/login"
+    },
+    {
+      "route": "get-started",
+      "status": 307,
+      "location": "/signup"
+    }
+  ],
+  "homeCompositionPreserved": true,
+  "latestTouchStyle": true
+}
