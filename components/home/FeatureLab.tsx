@@ -1,4 +1,6 @@
 "use client";
+import Link from 'next/link';
+import {mockMode} from '@/lib/api/client';
 import { useState, useRef, useCallback, useEffect } from "react";
 import { Artwork as Image } from "@/components/ui/Artwork";
 import { useMovieCatalog } from "@/lib/CinemaCatalog";
@@ -15,14 +17,14 @@ const features = [
     short: "Cinema Rooms",
     name: "Movie night.\nTogether.",
     description:
-      "A planned way to watch movies with friends, wherever you are. Try the local room demo; shared playback is not available yet.",
+      "A private place for your next shared movie night. Every viewer needs their own playback access.",
   },
   {
     id: "match",
     short: "StoryMatch",
     name: "Find movies that\nmatch your mood.",
     description:
-      "Find movies that fit your mood and preferences. This preview uses sample matches; personalized recommendations are planned.",
+      "Start with a feeling and explore stories that connect with your choices.",
   },
   {
     id: "lens",
@@ -36,7 +38,7 @@ const features = [
     short: "DataSense",
     name: "Streaming quality.\nData explained.",
     description:
-      "Compare picture quality and estimated data use. This demo illustrates a planned streaming tool; it does not change playback settings.",
+      "Compare picture quality and estimated data use. Illustrative estimates do not change playback settings.",
   },
 ];
 export function FeatureLab({ onMovie }: { onMovie: (movie: Movie) => void }) {
@@ -81,7 +83,7 @@ export function FeatureLab({ onMovie }: { onMovie: (movie: Movie) => void }) {
           </h2>
         </div>
         <p>
-          Preview tools for finding movies,
+          Thoughtful ways to discover movies,
           <br className="desktop-break" /> watching together and managing data.
         </p>
       </div>
@@ -149,7 +151,7 @@ export function FeatureLab({ onMovie }: { onMovie: (movie: Movie) => void }) {
               className={`feature-panel panel-${feature.id} ${active === feature.id ? "is-current" : ""}`}
             >
               <div className="feature-text">
-                <span className="demo-tag">INTERACTIVE CONCEPT</span>
+                <span className="demo-tag">THE FLURZI EXPERIENCE</span>
                 <h3>
                   {feature.name.split("\n").map((line) => (
                     <span key={line}>
@@ -160,11 +162,11 @@ export function FeatureLab({ onMovie }: { onMovie: (movie: Movie) => void }) {
                 </h3>
                 <p>{feature.description}</p>
                 <span className="feature-footnote">
-                  Planned feature · Local demo only.
+                  Check availability in your account.
                 </span>
               </div>
               <div className="feature-demo">
-                {feature.id === "rooms" && (
+                {!mockMode&&<div className="room-demo"><div className="room-screen"><Image src={movies[0].backdrop} alt="Flurzi Cinema artwork" fill sizes="(max-width:800px) 90vw,45vw"/></div><div className="room-people"><Link className="button" href={feature.id==="rooms"?"/browse/rooms":feature.id==="match"?"/browse/storymatch":"/help"}>{feature.id==="rooms"?"Explore Cinema Rooms":feature.id==="match"?"Find your next story":"Learn more"}</Link></div></div>}{mockMode&&<p className="feature-footnote">Development preview · Illustrative interactions, not live services.</p>}{mockMode&&feature.id === "rooms" && (
                   <div className="room-demo">
                     <div className="demo-window-top">
                       <span>Friday, together.</span>
@@ -191,7 +193,7 @@ export function FeatureLab({ onMovie }: { onMovie: (movie: Movie) => void }) {
                       </div>
                       <span aria-live="polite">
                         {joined
-                          ? "You’re in the demo room"
+                          ? "Your local seat is selected"
                           : "A seat saved for you"}
                       </span>
                       <button
@@ -203,7 +205,7 @@ export function FeatureLab({ onMovie }: { onMovie: (movie: Movie) => void }) {
                     </div>
                   </div>
                 )}
-                {feature.id === "match" && (
+                {mockMode&&feature.id === "match" && (
                   <div className="match-demo">
                     <p className="label">WHAT ARE YOU IN THE MOOD FOR?</p>
                     <div className="mood-options">
@@ -238,7 +240,7 @@ export function FeatureLab({ onMovie }: { onMovie: (movie: Movie) => void }) {
                     </p>
                   </div>
                 )}
-                {feature.id === "lens" && (
+                {mockMode&&feature.id === "lens" && (
                   <div className="lens-demo">
                     <div className="lens-image">
                       <Image
@@ -269,7 +271,7 @@ export function FeatureLab({ onMovie }: { onMovie: (movie: Movie) => void }) {
                     </p>
                   </div>
                 )}
-                {feature.id === "data" && (
+                {mockMode&&feature.id === "data" && (
                   <div className="data-demo">
                     <span className="quality-display">
                       {quality}

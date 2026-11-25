@@ -1,0 +1,35 @@
+{
+  "typecheck": "passed",
+  "lint": {
+    "status": "passed",
+    "warnings": 0
+  },
+  "build": {
+    "status": "passed",
+    "staticPages": 53,
+    "buildId": "BVkuVBV_KLnyhU4tG4qja"
+  },
+  "unit": {
+    "command": "npm run test:unit -- --maxWorkers=1",
+    "status": "passed",
+    "files": 8,
+    "tests": 235,
+    "newStoryMatchTests": 58,
+    "initialAttempt": "Existing account date-formatting initialization timed out while build was active; unchanged retry passed."
+  },
+  "browser": {
+    "status": "passed",
+    "viewportChecks": 47,
+    "pageErrors": 0,
+    "engine": "Chromium; emulated touch/viewport contexts"
+  },
+  "sourceAudit": {
+    "unchangedProtectedFiles": 171,
+    "unexpectedChanges": []
+  },
+  "teardown": {
+    "port": 3012,
+    "closed": true,
+    "code": "ECONNREFUSED"
+  }
+}

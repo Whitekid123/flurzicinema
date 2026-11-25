@@ -1,0 +1,8 @@
+import Link from "next/link";
+import { premieres, titleHref } from "@/data/catalog";
+import { getPublicTitles } from "@/lib/catalog/provider";
+import { Artwork } from "@/components/ui/Artwork";
+import { Reminder } from "@/components/public/Reminder";
+import { Breadcrumbs, PageIntro } from "@/components/public/Primitives";
+export const metadata={title:"Premieres & coming soon · Flurzi Cinema"};
+export default async function Page(){const titles=await getPublicTitles();return <><div className="wrap"><Breadcrumbs items={[{label:"Premieres & coming soon"}]}/><PageIntro eyebrow="THE ANTICIPATION IS PART OF THE STORY" title="Something good" emphasis="is on the horizon." description="A first look at imagined opening nights. No release dates have been confirmed; local reminders help you keep track of the concepts you love."/>{premieres.map(p=>{const t=titles.find(t=>t.slug===p.slug);return t?<section className="public-premiere" key={p.slug}><div className="public-premiere-art" data-art-drift><Artwork src={t.backdrop} alt={`Artwork for ${t.title}`} fill sizes="(max-width:650px) 90vw,55vw"/></div><div data-public-reveal><p className="eyebrow">FICTIONAL PREMIERE SHOWCASE</p><h2>{p.title}</h2><p>{p.description}</p><p className="public-small">{p.dateLabel}</p><div className="public-actions"><Reminder id={t.id}/><Link className="text-link" href={titleHref(t)}>About {t.title}</Link></div></div></section>:null})}<div className="public-detail-note"><h3>The opening-night clock</h3><p>A countdown will appear once an approved release date is supplied. We do not invent launch dates or scheduled events.</p><p className="public-small">This is an editorial concept. No ticket, reservation or notification is created.</p></div></div></>}

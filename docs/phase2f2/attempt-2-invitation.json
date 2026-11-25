@@ -1,0 +1,70 @@
+{
+  "browser": "failed",
+  "http": [
+    {
+      "path": "/browse/storymatch",
+      "status": 200
+    },
+    {
+      "path": "/browse/storymatch/new",
+      "status": 200
+    },
+    {
+      "path": "/browse/storymatch/session/unknown",
+      "status": 200
+    },
+    {
+      "path": "/browse/storymatch/results",
+      "status": 200
+    },
+    {
+      "path": "/player-lab",
+      "status": 404
+    },
+    {
+      "path": "/api/player-lab/original.webm",
+      "status": 404
+    }
+  ],
+  "viewports": [
+    {
+      "width": 1920,
+      "screen": "home",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1440,
+      "screen": "home",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1024,
+      "screen": "home",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 768,
+      "screen": "home",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 390,
+      "screen": "home",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 320,
+      "screen": "home",
+      "overflow": 0,
+      "clipped": []
+    }
+  ],
+  "interactions": [],
+  "errors": [],
+  "failure": "Error: expect(locator).toContainText(expected) failed\n\nLocator: locator('.sm-feedback')\nExpected substring: \"invalid\"\nReceived string:    \"StoryMatch could not complete that request. Please try again.Back to StoryMatch\"\nTimeout: 5000ms\n\nCall log:\n  - Expect \"toContainText\" locator('.sm-feedback') with timeout 5000ms\n  - waiting for locator('.sm-feedback')\n    14 × locator resolved to <div role=\"alert\" class=\"sm-feedback\">…</div>\n       - unexpected value \"StoryMatch could not complete that request. Please try again.Back to StoryMatch\"\n"
+}

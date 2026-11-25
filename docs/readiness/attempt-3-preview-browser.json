@@ -1,0 +1,2256 @@
+{
+  "channel": "preview",
+  "auth": [
+    {
+      "width": 1920,
+      "screen": "login",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        },
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "screen": "signup",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        },
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "screen": "forgot-password",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "screen": "reset-password?token=mock-reset",
+      "hits": [
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "screen": "verify-email?token=mock-verification",
+      "hits": []
+    },
+    {
+      "width": 1440,
+      "screen": "login",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        },
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "screen": "signup",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        },
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "screen": "forgot-password",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "screen": "reset-password?token=mock-reset",
+      "hits": [
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "screen": "verify-email?token=mock-verification",
+      "hits": []
+    },
+    {
+      "width": 1024,
+      "screen": "login",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        },
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "screen": "signup",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        },
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "screen": "forgot-password",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "screen": "reset-password?token=mock-reset",
+      "hits": [
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "screen": "verify-email?token=mock-verification",
+      "hits": []
+    },
+    {
+      "width": 768,
+      "screen": "login",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        },
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "screen": "signup",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        },
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "screen": "forgot-password",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "screen": "reset-password?token=mock-reset",
+      "hits": [
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "screen": "verify-email?token=mock-verification",
+      "hits": []
+    },
+    {
+      "width": 430,
+      "screen": "login",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        },
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 430,
+      "screen": "signup",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        },
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 430,
+      "screen": "forgot-password",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 430,
+      "screen": "reset-password?token=mock-reset",
+      "hits": [
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 430,
+      "screen": "verify-email?token=mock-verification",
+      "hits": []
+    },
+    {
+      "width": 390,
+      "screen": "login",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        },
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "screen": "signup",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        },
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "screen": "forgot-password",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "screen": "reset-password?token=mock-reset",
+      "hits": [
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "screen": "verify-email?token=mock-verification",
+      "hits": []
+    },
+    {
+      "width": 375,
+      "screen": "login",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        },
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "screen": "signup",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        },
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "screen": "forgot-password",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "screen": "reset-password?token=mock-reset",
+      "hits": [
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "screen": "verify-email?token=mock-verification",
+      "hits": []
+    },
+    {
+      "width": 360,
+      "screen": "login",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        },
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "screen": "signup",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        },
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "screen": "forgot-password",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "screen": "reset-password?token=mock-reset",
+      "hits": [
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "screen": "verify-email?token=mock-verification",
+      "hits": []
+    },
+    {
+      "width": 320,
+      "screen": "login",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        },
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "screen": "signup",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        },
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "screen": "forgot-password",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "screen": "reset-password?token=mock-reset",
+      "hits": [
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "screen": "verify-email?token=mock-verification",
+      "hits": []
+    }
+  ],
+  "screens": [
+    {
+      "name": "login",
+      "width": 1920,
+      "overflow": 0,
+      "heading": "Welcomeback."
+    },
+    {
+      "name": "signup",
+      "width": 1920,
+      "overflow": 0,
+      "heading": "Make yourselfat home."
+    },
+    {
+      "name": "forgot-password",
+      "width": 1920,
+      "overflow": 0,
+      "heading": "Forgot yourpassword?"
+    },
+    {
+      "name": "reset-password?token=mock-reset",
+      "width": 1920,
+      "overflow": 0,
+      "heading": "A freshstart."
+    },
+    {
+      "name": "verify-email?token=mock-verification",
+      "width": 1920,
+      "overflow": 0,
+      "heading": "Confirmyour email."
+    },
+    {
+      "name": "login",
+      "width": 1440,
+      "overflow": 0,
+      "heading": "Welcomeback."
+    },
+    {
+      "name": "signup",
+      "width": 1440,
+      "overflow": 0,
+      "heading": "Make yourselfat home."
+    },
+    {
+      "name": "forgot-password",
+      "width": 1440,
+      "overflow": 0,
+      "heading": "Forgot yourpassword?"
+    },
+    {
+      "name": "reset-password?token=mock-reset",
+      "width": 1440,
+      "overflow": 0,
+      "heading": "A freshstart."
+    },
+    {
+      "name": "verify-email?token=mock-verification",
+      "width": 1440,
+      "overflow": 0,
+      "heading": "Confirmyour email."
+    },
+    {
+      "name": "login",
+      "width": 1024,
+      "overflow": 0,
+      "heading": "Welcomeback."
+    },
+    {
+      "name": "signup",
+      "width": 1024,
+      "overflow": 0,
+      "heading": "Make yourselfat home."
+    },
+    {
+      "name": "forgot-password",
+      "width": 1024,
+      "overflow": 0,
+      "heading": "Forgot yourpassword?"
+    },
+    {
+      "name": "reset-password?token=mock-reset",
+      "width": 1024,
+      "overflow": 0,
+      "heading": "A freshstart."
+    },
+    {
+      "name": "verify-email?token=mock-verification",
+      "width": 1024,
+      "overflow": 0,
+      "heading": "Confirmyour email."
+    },
+    {
+      "name": "login",
+      "width": 768,
+      "overflow": 0,
+      "heading": "Welcomeback."
+    },
+    {
+      "name": "signup",
+      "width": 768,
+      "overflow": 0,
+      "heading": "Make yourselfat home."
+    },
+    {
+      "name": "forgot-password",
+      "width": 768,
+      "overflow": 0,
+      "heading": "Forgot yourpassword?"
+    },
+    {
+      "name": "reset-password?token=mock-reset",
+      "width": 768,
+      "overflow": 0,
+      "heading": "A freshstart."
+    },
+    {
+      "name": "verify-email?token=mock-verification",
+      "width": 768,
+      "overflow": 0,
+      "heading": "Confirmyour email."
+    },
+    {
+      "name": "login",
+      "width": 430,
+      "overflow": 0,
+      "heading": "Welcomeback."
+    },
+    {
+      "name": "signup",
+      "width": 430,
+      "overflow": 0,
+      "heading": "Make yourselfat home."
+    },
+    {
+      "name": "forgot-password",
+      "width": 430,
+      "overflow": 0,
+      "heading": "Forgot yourpassword?"
+    },
+    {
+      "name": "reset-password?token=mock-reset",
+      "width": 430,
+      "overflow": 0,
+      "heading": "A freshstart."
+    },
+    {
+      "name": "verify-email?token=mock-verification",
+      "width": 430,
+      "overflow": 0,
+      "heading": "Confirmyour email."
+    },
+    {
+      "name": "login",
+      "width": 390,
+      "overflow": 0,
+      "heading": "Welcomeback."
+    },
+    {
+      "name": "signup",
+      "width": 390,
+      "overflow": 0,
+      "heading": "Make yourselfat home."
+    },
+    {
+      "name": "forgot-password",
+      "width": 390,
+      "overflow": 0,
+      "heading": "Forgot yourpassword?"
+    },
+    {
+      "name": "reset-password?token=mock-reset",
+      "width": 390,
+      "overflow": 0,
+      "heading": "A freshstart."
+    },
+    {
+      "name": "verify-email?token=mock-verification",
+      "width": 390,
+      "overflow": 0,
+      "heading": "Confirmyour email."
+    },
+    {
+      "name": "login",
+      "width": 375,
+      "overflow": 0,
+      "heading": "Welcomeback."
+    },
+    {
+      "name": "signup",
+      "width": 375,
+      "overflow": 0,
+      "heading": "Make yourselfat home."
+    },
+    {
+      "name": "forgot-password",
+      "width": 375,
+      "overflow": 0,
+      "heading": "Forgot yourpassword?"
+    },
+    {
+      "name": "reset-password?token=mock-reset",
+      "width": 375,
+      "overflow": 0,
+      "heading": "A freshstart."
+    },
+    {
+      "name": "verify-email?token=mock-verification",
+      "width": 375,
+      "overflow": 0,
+      "heading": "Confirmyour email."
+    },
+    {
+      "name": "login",
+      "width": 360,
+      "overflow": 0,
+      "heading": "Welcomeback."
+    },
+    {
+      "name": "signup",
+      "width": 360,
+      "overflow": 0,
+      "heading": "Make yourselfat home."
+    },
+    {
+      "name": "forgot-password",
+      "width": 360,
+      "overflow": 0,
+      "heading": "Forgot yourpassword?"
+    },
+    {
+      "name": "reset-password?token=mock-reset",
+      "width": 360,
+      "overflow": 0,
+      "heading": "A freshstart."
+    },
+    {
+      "name": "verify-email?token=mock-verification",
+      "width": 360,
+      "overflow": 0,
+      "heading": "Confirmyour email."
+    },
+    {
+      "name": "login",
+      "width": 320,
+      "overflow": 0,
+      "heading": "Welcomeback."
+    },
+    {
+      "name": "signup",
+      "width": 320,
+      "overflow": 0,
+      "heading": "Make yourselfat home."
+    },
+    {
+      "name": "forgot-password",
+      "width": 320,
+      "overflow": 0,
+      "heading": "Forgot yourpassword?"
+    },
+    {
+      "name": "reset-password?token=mock-reset",
+      "width": 320,
+      "overflow": 0,
+      "heading": "A freshstart."
+    },
+    {
+      "name": "verify-email?token=mock-verification",
+      "width": 320,
+      "overflow": 0,
+      "heading": "Confirmyour email."
+    },
+    {
+      "name": "/browse",
+      "width": 1920,
+      "overflow": 0
+    },
+    {
+      "name": "/browse",
+      "width": 1440,
+      "overflow": 0
+    },
+    {
+      "name": "/browse",
+      "width": 1024,
+      "overflow": 0
+    },
+    {
+      "name": "/browse",
+      "width": 768,
+      "overflow": 0
+    },
+    {
+      "name": "/browse",
+      "width": 430,
+      "overflow": 0
+    },
+    {
+      "name": "/browse",
+      "width": 390,
+      "overflow": 0
+    },
+    {
+      "name": "/browse",
+      "width": 375,
+      "overflow": 0
+    },
+    {
+      "name": "/browse",
+      "width": 360,
+      "overflow": 0
+    },
+    {
+      "name": "/browse",
+      "width": 320,
+      "overflow": 0
+    },
+    {
+      "name": "/browse/movies",
+      "width": 1920,
+      "overflow": 0,
+      "heading": "Movies."
+    },
+    {
+      "name": "/browse/movies",
+      "width": 1440,
+      "overflow": 0,
+      "heading": "Movies."
+    },
+    {
+      "name": "/browse/movies",
+      "width": 1024,
+      "overflow": 0,
+      "heading": "Movies."
+    },
+    {
+      "name": "/browse/movies",
+      "width": 768,
+      "overflow": 0,
+      "heading": "Movies."
+    },
+    {
+      "name": "/browse/movies",
+      "width": 430,
+      "overflow": 0,
+      "heading": "Movies."
+    },
+    {
+      "name": "/browse/movies",
+      "width": 390,
+      "overflow": 0,
+      "heading": "Movies."
+    },
+    {
+      "name": "/browse/movies",
+      "width": 375,
+      "overflow": 0,
+      "heading": "Movies."
+    },
+    {
+      "name": "/browse/movies",
+      "width": 360,
+      "overflow": 0,
+      "heading": "Movies."
+    },
+    {
+      "name": "/browse/movies",
+      "width": 320,
+      "overflow": 0,
+      "heading": "Movies."
+    },
+    {
+      "name": "/browse/series",
+      "width": 1920,
+      "overflow": 0,
+      "heading": "Series."
+    },
+    {
+      "name": "/browse/series",
+      "width": 1440,
+      "overflow": 0,
+      "heading": "Series."
+    },
+    {
+      "name": "/browse/series",
+      "width": 1024,
+      "overflow": 0,
+      "heading": "Series."
+    },
+    {
+      "name": "/browse/series",
+      "width": 768,
+      "overflow": 0,
+      "heading": "Series."
+    },
+    {
+      "name": "/browse/series",
+      "width": 430,
+      "overflow": 0,
+      "heading": "Series."
+    },
+    {
+      "name": "/browse/series",
+      "width": 390,
+      "overflow": 0,
+      "heading": "Series."
+    },
+    {
+      "name": "/browse/series",
+      "width": 375,
+      "overflow": 0,
+      "heading": "Series."
+    },
+    {
+      "name": "/browse/series",
+      "width": 360,
+      "overflow": 0,
+      "heading": "Series."
+    },
+    {
+      "name": "/browse/series",
+      "width": 320,
+      "overflow": 0,
+      "heading": "Series."
+    },
+    {
+      "name": "/browse/search",
+      "width": 1920,
+      "overflow": 0,
+      "heading": "Find your next watch."
+    },
+    {
+      "name": "/browse/search",
+      "width": 1440,
+      "overflow": 0,
+      "heading": "Find your next watch."
+    },
+    {
+      "name": "/browse/search",
+      "width": 1024,
+      "overflow": 0,
+      "heading": "Find your next watch."
+    },
+    {
+      "name": "/browse/search",
+      "width": 768,
+      "overflow": 0,
+      "heading": "Find your next watch."
+    },
+    {
+      "name": "/browse/search",
+      "width": 430,
+      "overflow": 0,
+      "heading": "Find your next watch."
+    },
+    {
+      "name": "/browse/search",
+      "width": 390,
+      "overflow": 0,
+      "heading": "Find your next watch."
+    },
+    {
+      "name": "/browse/search",
+      "width": 375,
+      "overflow": 0,
+      "heading": "Find your next watch."
+    },
+    {
+      "name": "/browse/search",
+      "width": 360,
+      "overflow": 0,
+      "heading": "Find your next watch."
+    },
+    {
+      "name": "/browse/search",
+      "width": 320,
+      "overflow": 0,
+      "heading": "Find your next watch."
+    },
+    {
+      "name": "/browse/my-list",
+      "width": 1920,
+      "overflow": 0,
+      "heading": "My List."
+    },
+    {
+      "name": "/browse/my-list",
+      "width": 1440,
+      "overflow": 0,
+      "heading": "My List."
+    },
+    {
+      "name": "/browse/my-list",
+      "width": 1024,
+      "overflow": 0,
+      "heading": "My List."
+    },
+    {
+      "name": "/browse/my-list",
+      "width": 768,
+      "overflow": 0,
+      "heading": "My List."
+    },
+    {
+      "name": "/browse/my-list",
+      "width": 430,
+      "overflow": 0,
+      "heading": "My List."
+    },
+    {
+      "name": "/browse/my-list",
+      "width": 390,
+      "overflow": 0,
+      "heading": "My List."
+    },
+    {
+      "name": "/browse/my-list",
+      "width": 375,
+      "overflow": 0,
+      "heading": "My List."
+    },
+    {
+      "name": "/browse/my-list",
+      "width": 360,
+      "overflow": 0,
+      "heading": "My List."
+    },
+    {
+      "name": "/browse/my-list",
+      "width": 320,
+      "overflow": 0,
+      "heading": "My List."
+    },
+    {
+      "name": "/browse/history",
+      "width": 1920,
+      "overflow": 0,
+      "heading": "Viewing history."
+    },
+    {
+      "name": "/browse/history",
+      "width": 1440,
+      "overflow": 0,
+      "heading": "Viewing history."
+    },
+    {
+      "name": "/browse/history",
+      "width": 1024,
+      "overflow": 0,
+      "heading": "Viewing history."
+    },
+    {
+      "name": "/browse/history",
+      "width": 768,
+      "overflow": 0,
+      "heading": "Viewing history."
+    },
+    {
+      "name": "/browse/history",
+      "width": 430,
+      "overflow": 0,
+      "heading": "Viewing history."
+    },
+    {
+      "name": "/browse/history",
+      "width": 390,
+      "overflow": 0,
+      "heading": "Viewing history."
+    },
+    {
+      "name": "/browse/history",
+      "width": 375,
+      "overflow": 0,
+      "heading": "Viewing history."
+    },
+    {
+      "name": "/browse/history",
+      "width": 360,
+      "overflow": 0,
+      "heading": "Viewing history."
+    },
+    {
+      "name": "/browse/history",
+      "width": 320,
+      "overflow": 0,
+      "heading": "Viewing history."
+    },
+    {
+      "name": "/browse/title/mock-quiet-beyond",
+      "width": 1920,
+      "overflow": 0
+    },
+    {
+      "name": "/browse/title/mock-quiet-beyond",
+      "width": 1440,
+      "overflow": 0
+    },
+    {
+      "name": "/browse/title/mock-quiet-beyond",
+      "width": 1024,
+      "overflow": 0
+    },
+    {
+      "name": "/browse/title/mock-quiet-beyond",
+      "width": 768,
+      "overflow": 0
+    },
+    {
+      "name": "/browse/title/mock-quiet-beyond",
+      "width": 430,
+      "overflow": 0
+    },
+    {
+      "name": "/browse/title/mock-quiet-beyond",
+      "width": 390,
+      "overflow": 0
+    },
+    {
+      "name": "/browse/title/mock-quiet-beyond",
+      "width": 375,
+      "overflow": 0
+    },
+    {
+      "name": "/browse/title/mock-quiet-beyond",
+      "width": 360,
+      "overflow": 0
+    },
+    {
+      "name": "/browse/title/mock-quiet-beyond",
+      "width": 320,
+      "overflow": 0
+    },
+    {
+      "name": "/browse/title/mock-velvet-hours",
+      "width": 1920,
+      "overflow": 0
+    },
+    {
+      "name": "/browse/title/mock-velvet-hours",
+      "width": 1440,
+      "overflow": 0
+    },
+    {
+      "name": "/browse/title/mock-velvet-hours",
+      "width": 1024,
+      "overflow": 0
+    },
+    {
+      "name": "/browse/title/mock-velvet-hours",
+      "width": 768,
+      "overflow": 0
+    },
+    {
+      "name": "/browse/title/mock-velvet-hours",
+      "width": 430,
+      "overflow": 0
+    },
+    {
+      "name": "/browse/title/mock-velvet-hours",
+      "width": 390,
+      "overflow": 0
+    },
+    {
+      "name": "/browse/title/mock-velvet-hours",
+      "width": 375,
+      "overflow": 0
+    },
+    {
+      "name": "/browse/title/mock-velvet-hours",
+      "width": 360,
+      "overflow": 0
+    },
+    {
+      "name": "/browse/title/mock-velvet-hours",
+      "width": 320,
+      "overflow": 0
+    },
+    {
+      "name": "/welcome",
+      "width": 1920,
+      "overflow": 0,
+      "heading": "Make yourselfat home."
+    },
+    {
+      "name": "/welcome",
+      "width": 1440,
+      "overflow": 0,
+      "heading": "Make yourselfat home."
+    },
+    {
+      "name": "/welcome",
+      "width": 1024,
+      "overflow": 0,
+      "heading": "Make yourselfat home."
+    },
+    {
+      "name": "/welcome",
+      "width": 768,
+      "overflow": 0,
+      "heading": "Make yourselfat home."
+    },
+    {
+      "name": "/welcome",
+      "width": 430,
+      "overflow": 0,
+      "heading": "Make yourselfat home."
+    },
+    {
+      "name": "/welcome",
+      "width": 390,
+      "overflow": 0,
+      "heading": "Make yourselfat home."
+    },
+    {
+      "name": "/welcome",
+      "width": 375,
+      "overflow": 0,
+      "heading": "Make yourselfat home."
+    },
+    {
+      "name": "/welcome",
+      "width": 360,
+      "overflow": 0,
+      "heading": "Make yourselfat home."
+    },
+    {
+      "name": "/welcome",
+      "width": 320,
+      "overflow": 0,
+      "heading": "Make yourselfat home."
+    },
+    {
+      "name": "/subscribe",
+      "width": 1920,
+      "overflow": 0,
+      "heading": "Your cinema.Your choice."
+    },
+    {
+      "name": "/subscribe",
+      "width": 1440,
+      "overflow": 0,
+      "heading": "Your cinema.Your choice."
+    },
+    {
+      "name": "/subscribe",
+      "width": 1024,
+      "overflow": 0,
+      "heading": "Your cinema.Your choice."
+    },
+    {
+      "name": "/subscribe",
+      "width": 768,
+      "overflow": 0,
+      "heading": "Your cinema.Your choice."
+    },
+    {
+      "name": "/subscribe",
+      "width": 430,
+      "overflow": 0,
+      "heading": "Your cinema.Your choice."
+    },
+    {
+      "name": "/subscribe",
+      "width": 390,
+      "overflow": 0,
+      "heading": "Your cinema.Your choice."
+    },
+    {
+      "name": "/subscribe",
+      "width": 375,
+      "overflow": 0,
+      "heading": "Your cinema.Your choice."
+    },
+    {
+      "name": "/subscribe",
+      "width": 360,
+      "overflow": 0,
+      "heading": "Your cinema.Your choice."
+    },
+    {
+      "name": "/subscribe",
+      "width": 320,
+      "overflow": 0,
+      "heading": "Your cinema.Your choice."
+    },
+    {
+      "name": "/account",
+      "width": 1920,
+      "overflow": 0,
+      "heading": "Make yourself at home."
+    },
+    {
+      "name": "/account",
+      "width": 1440,
+      "overflow": 0,
+      "heading": "Make yourself at home."
+    },
+    {
+      "name": "/account",
+      "width": 1024,
+      "overflow": 0,
+      "heading": "Make yourself at home."
+    },
+    {
+      "name": "/account",
+      "width": 768,
+      "overflow": 0,
+      "heading": "Make yourself at home."
+    },
+    {
+      "name": "/account",
+      "width": 430,
+      "overflow": 0,
+      "heading": "Make yourself at home."
+    },
+    {
+      "name": "/account",
+      "width": 390,
+      "overflow": 0,
+      "heading": "Make yourself at home."
+    },
+    {
+      "name": "/account",
+      "width": 375,
+      "overflow": 0,
+      "heading": "Make yourself at home."
+    },
+    {
+      "name": "/account",
+      "width": 360,
+      "overflow": 0,
+      "heading": "Make yourself at home."
+    },
+    {
+      "name": "/account",
+      "width": 320,
+      "overflow": 0,
+      "heading": "Make yourself at home."
+    },
+    {
+      "name": "/account/details",
+      "width": 1920,
+      "overflow": 0,
+      "heading": "The essentials."
+    },
+    {
+      "name": "/account/details",
+      "width": 1440,
+      "overflow": 0,
+      "heading": "The essentials."
+    },
+    {
+      "name": "/account/details",
+      "width": 1024,
+      "overflow": 0,
+      "heading": "The essentials."
+    },
+    {
+      "name": "/account/details",
+      "width": 768,
+      "overflow": 0,
+      "heading": "The essentials."
+    },
+    {
+      "name": "/account/details",
+      "width": 430,
+      "overflow": 0,
+      "heading": "The essentials."
+    },
+    {
+      "name": "/account/details",
+      "width": 390,
+      "overflow": 0,
+      "heading": "The essentials."
+    },
+    {
+      "name": "/account/details",
+      "width": 375,
+      "overflow": 0,
+      "heading": "The essentials."
+    },
+    {
+      "name": "/account/details",
+      "width": 360,
+      "overflow": 0,
+      "heading": "The essentials."
+    },
+    {
+      "name": "/account/details",
+      "width": 320,
+      "overflow": 0,
+      "heading": "The essentials."
+    },
+    {
+      "name": "/account/billing",
+      "width": 1920,
+      "overflow": 0,
+      "heading": "Every detail, clear."
+    },
+    {
+      "name": "/account/billing",
+      "width": 1440,
+      "overflow": 0,
+      "heading": "Every detail, clear."
+    },
+    {
+      "name": "/account/billing",
+      "width": 1024,
+      "overflow": 0,
+      "heading": "Every detail, clear."
+    },
+    {
+      "name": "/account/billing",
+      "width": 768,
+      "overflow": 0,
+      "heading": "Every detail, clear."
+    },
+    {
+      "name": "/account/billing",
+      "width": 430,
+      "overflow": 0,
+      "heading": "Every detail, clear."
+    },
+    {
+      "name": "/account/billing",
+      "width": 390,
+      "overflow": 0,
+      "heading": "Every detail, clear."
+    },
+    {
+      "name": "/account/billing",
+      "width": 375,
+      "overflow": 0,
+      "heading": "Every detail, clear."
+    },
+    {
+      "name": "/account/billing",
+      "width": 360,
+      "overflow": 0,
+      "heading": "Every detail, clear."
+    },
+    {
+      "name": "/account/billing",
+      "width": 320,
+      "overflow": 0,
+      "heading": "Every detail, clear."
+    },
+    {
+      "name": "/account/security",
+      "width": 1920,
+      "overflow": 0,
+      "heading": "Keep cinema yours."
+    },
+    {
+      "name": "/account/security",
+      "width": 1440,
+      "overflow": 0,
+      "heading": "Keep cinema yours."
+    },
+    {
+      "name": "/account/security",
+      "width": 1024,
+      "overflow": 0,
+      "heading": "Keep cinema yours."
+    },
+    {
+      "name": "/account/security",
+      "width": 768,
+      "overflow": 0,
+      "heading": "Keep cinema yours."
+    },
+    {
+      "name": "/account/security",
+      "width": 430,
+      "overflow": 0,
+      "heading": "Keep cinema yours."
+    },
+    {
+      "name": "/account/security",
+      "width": 390,
+      "overflow": 0,
+      "heading": "Keep cinema yours."
+    },
+    {
+      "name": "/account/security",
+      "width": 375,
+      "overflow": 0,
+      "heading": "Keep cinema yours."
+    },
+    {
+      "name": "/account/security",
+      "width": 360,
+      "overflow": 0,
+      "heading": "Keep cinema yours."
+    },
+    {
+      "name": "/account/security",
+      "width": 320,
+      "overflow": 0,
+      "heading": "Keep cinema yours."
+    },
+    {
+      "name": "/account/devices",
+      "width": 1920,
+      "overflow": 0,
+      "heading": "Where you watch."
+    },
+    {
+      "name": "/account/devices",
+      "width": 1440,
+      "overflow": 0,
+      "heading": "Where you watch."
+    },
+    {
+      "name": "/account/devices",
+      "width": 1024,
+      "overflow": 0,
+      "heading": "Where you watch."
+    },
+    {
+      "name": "/account/devices",
+      "width": 768,
+      "overflow": 0,
+      "heading": "Where you watch."
+    },
+    {
+      "name": "/account/devices",
+      "width": 430,
+      "overflow": 0,
+      "heading": "Where you watch."
+    },
+    {
+      "name": "/account/devices",
+      "width": 390,
+      "overflow": 0,
+      "heading": "Where you watch."
+    },
+    {
+      "name": "/account/devices",
+      "width": 375,
+      "overflow": 0,
+      "heading": "Where you watch."
+    },
+    {
+      "name": "/account/devices",
+      "width": 360,
+      "overflow": 0,
+      "heading": "Where you watch."
+    },
+    {
+      "name": "/account/devices",
+      "width": 320,
+      "overflow": 0,
+      "heading": "Where you watch."
+    },
+    {
+      "name": "/account/preferences",
+      "width": 1920,
+      "overflow": 0,
+      "heading": "Cinema, your way."
+    },
+    {
+      "name": "/account/preferences",
+      "width": 1440,
+      "overflow": 0,
+      "heading": "Cinema, your way."
+    },
+    {
+      "name": "/account/preferences",
+      "width": 1024,
+      "overflow": 0,
+      "heading": "Cinema, your way."
+    },
+    {
+      "name": "/account/preferences",
+      "width": 768,
+      "overflow": 0,
+      "heading": "Cinema, your way."
+    },
+    {
+      "name": "/account/preferences",
+      "width": 430,
+      "overflow": 0,
+      "heading": "Cinema, your way."
+    },
+    {
+      "name": "/account/preferences",
+      "width": 390,
+      "overflow": 0,
+      "heading": "Cinema, your way."
+    },
+    {
+      "name": "/account/preferences",
+      "width": 375,
+      "overflow": 0,
+      "heading": "Cinema, your way."
+    },
+    {
+      "name": "/account/preferences",
+      "width": 360,
+      "overflow": 0,
+      "heading": "Cinema, your way."
+    },
+    {
+      "name": "/account/preferences",
+      "width": 320,
+      "overflow": 0,
+      "heading": "Cinema, your way."
+    },
+    {
+      "name": "/browse/rooms",
+      "width": 1920,
+      "overflow": 0,
+      "heading": "A story worth sharing."
+    },
+    {
+      "name": "/browse/rooms",
+      "width": 1440,
+      "overflow": 0,
+      "heading": "A story worth sharing."
+    },
+    {
+      "name": "/browse/rooms",
+      "width": 1024,
+      "overflow": 0,
+      "heading": "A story worth sharing."
+    },
+    {
+      "name": "/browse/rooms",
+      "width": 768,
+      "overflow": 0,
+      "heading": "A story worth sharing."
+    },
+    {
+      "name": "/browse/rooms",
+      "width": 430,
+      "overflow": 0,
+      "heading": "A story worth sharing."
+    },
+    {
+      "name": "/browse/rooms",
+      "width": 390,
+      "overflow": 0,
+      "heading": "A story worth sharing."
+    },
+    {
+      "name": "/browse/rooms",
+      "width": 375,
+      "overflow": 0,
+      "heading": "A story worth sharing."
+    },
+    {
+      "name": "/browse/rooms",
+      "width": 360,
+      "overflow": 0,
+      "heading": "A story worth sharing."
+    },
+    {
+      "name": "/browse/rooms",
+      "width": 320,
+      "overflow": 0,
+      "heading": "A story worth sharing."
+    },
+    {
+      "name": "/browse/rooms/create",
+      "width": 1920,
+      "overflow": 0,
+      "heading": "Set the scene."
+    },
+    {
+      "name": "/browse/rooms/create",
+      "width": 1440,
+      "overflow": 0,
+      "heading": "Set the scene."
+    },
+    {
+      "name": "/browse/rooms/create",
+      "width": 1024,
+      "overflow": 0,
+      "heading": "Set the scene."
+    },
+    {
+      "name": "/browse/rooms/create",
+      "width": 768,
+      "overflow": 0,
+      "heading": "Set the scene."
+    },
+    {
+      "name": "/browse/rooms/create",
+      "width": 430,
+      "overflow": 0,
+      "heading": "Set the scene."
+    },
+    {
+      "name": "/browse/rooms/create",
+      "width": 390,
+      "overflow": 0,
+      "heading": "Set the scene."
+    },
+    {
+      "name": "/browse/rooms/create",
+      "width": 375,
+      "overflow": 0,
+      "heading": "Set the scene."
+    },
+    {
+      "name": "/browse/rooms/create",
+      "width": 360,
+      "overflow": 0,
+      "heading": "Set the scene."
+    },
+    {
+      "name": "/browse/rooms/create",
+      "width": 320,
+      "overflow": 0,
+      "heading": "Set the scene."
+    },
+    {
+      "name": "/browse/rooms/join",
+      "width": 1920,
+      "overflow": 0,
+      "heading": "There’s a seat for you."
+    },
+    {
+      "name": "/browse/rooms/join",
+      "width": 1440,
+      "overflow": 0,
+      "heading": "There’s a seat for you."
+    },
+    {
+      "name": "/browse/rooms/join",
+      "width": 1024,
+      "overflow": 0,
+      "heading": "There’s a seat for you."
+    },
+    {
+      "name": "/browse/rooms/join",
+      "width": 768,
+      "overflow": 0,
+      "heading": "There’s a seat for you."
+    },
+    {
+      "name": "/browse/rooms/join",
+      "width": 430,
+      "overflow": 0,
+      "heading": "There’s a seat for you."
+    },
+    {
+      "name": "/browse/rooms/join",
+      "width": 390,
+      "overflow": 0,
+      "heading": "There’s a seat for you."
+    },
+    {
+      "name": "/browse/rooms/join",
+      "width": 375,
+      "overflow": 0,
+      "heading": "There’s a seat for you."
+    },
+    {
+      "name": "/browse/rooms/join",
+      "width": 360,
+      "overflow": 0,
+      "heading": "There’s a seat for you."
+    },
+    {
+      "name": "/browse/rooms/join",
+      "width": 320,
+      "overflow": 0,
+      "heading": "There’s a seat for you."
+    },
+    {
+      "name": "/browse/storymatch",
+      "width": 1920,
+      "overflow": 0,
+      "heading": "Less scrolling.More “that one.”"
+    },
+    {
+      "name": "/browse/storymatch",
+      "width": 1440,
+      "overflow": 0,
+      "heading": "Less scrolling.More “that one.”"
+    },
+    {
+      "name": "/browse/storymatch",
+      "width": 1024,
+      "overflow": 0,
+      "heading": "Less scrolling.More “that one.”"
+    },
+    {
+      "name": "/browse/storymatch",
+      "width": 768,
+      "overflow": 0,
+      "heading": "Less scrolling.More “that one.”"
+    },
+    {
+      "name": "/browse/storymatch",
+      "width": 430,
+      "overflow": 0,
+      "heading": "Less scrolling.More “that one.”"
+    },
+    {
+      "name": "/browse/storymatch",
+      "width": 390,
+      "overflow": 0,
+      "heading": "Less scrolling.More “that one.”"
+    },
+    {
+      "name": "/browse/storymatch",
+      "width": 375,
+      "overflow": 0,
+      "heading": "Less scrolling.More “that one.”"
+    },
+    {
+      "name": "/browse/storymatch",
+      "width": 360,
+      "overflow": 0,
+      "heading": "Less scrolling.More “that one.”"
+    },
+    {
+      "name": "/browse/storymatch",
+      "width": 320,
+      "overflow": 0,
+      "heading": "Less scrolling.More “that one.”"
+    },
+    {
+      "name": "/browse/storymatch/new",
+      "width": 1920,
+      "overflow": 0,
+      "heading": "Follow your feeling."
+    },
+    {
+      "name": "/browse/storymatch/new",
+      "width": 1440,
+      "overflow": 0,
+      "heading": "Follow your feeling."
+    },
+    {
+      "name": "/browse/storymatch/new",
+      "width": 1024,
+      "overflow": 0,
+      "heading": "Follow your feeling."
+    },
+    {
+      "name": "/browse/storymatch/new",
+      "width": 768,
+      "overflow": 0,
+      "heading": "Follow your feeling."
+    },
+    {
+      "name": "/browse/storymatch/new",
+      "width": 430,
+      "overflow": 0,
+      "heading": "Follow your feeling."
+    },
+    {
+      "name": "/browse/storymatch/new",
+      "width": 390,
+      "overflow": 0,
+      "heading": "Follow your feeling."
+    },
+    {
+      "name": "/browse/storymatch/new",
+      "width": 375,
+      "overflow": 0,
+      "heading": "Follow your feeling."
+    },
+    {
+      "name": "/browse/storymatch/new",
+      "width": 360,
+      "overflow": 0,
+      "heading": "Follow your feeling."
+    },
+    {
+      "name": "/browse/storymatch/new",
+      "width": 320,
+      "overflow": 0,
+      "heading": "Follow your feeling."
+    },
+    {
+      "name": "/profiles",
+      "width": 1920,
+      "overflow": 0
+    },
+    {
+      "name": "/profiles",
+      "width": 1440,
+      "overflow": 0
+    },
+    {
+      "name": "/profiles",
+      "width": 1024,
+      "overflow": 0
+    },
+    {
+      "name": "/profiles",
+      "width": 768,
+      "overflow": 0
+    },
+    {
+      "name": "/profiles",
+      "width": 430,
+      "overflow": 0
+    },
+    {
+      "name": "/profiles",
+      "width": 390,
+      "overflow": 0
+    },
+    {
+      "name": "/profiles",
+      "width": 375,
+      "overflow": 0
+    },
+    {
+      "name": "/profiles",
+      "width": 360,
+      "overflow": 0
+    },
+    {
+      "name": "/profiles",
+      "width": 320,
+      "overflow": 0
+    },
+    {
+      "name": "/profiles/manage",
+      "width": 1920,
+      "overflow": 0
+    },
+    {
+      "name": "/profiles/manage",
+      "width": 1440,
+      "overflow": 0
+    },
+    {
+      "name": "/profiles/manage",
+      "width": 1024,
+      "overflow": 0
+    },
+    {
+      "name": "/profiles/manage",
+      "width": 768,
+      "overflow": 0
+    },
+    {
+      "name": "/profiles/manage",
+      "width": 430,
+      "overflow": 0
+    },
+    {
+      "name": "/profiles/manage",
+      "width": 390,
+      "overflow": 0
+    },
+    {
+      "name": "/profiles/manage",
+      "width": 375,
+      "overflow": 0
+    },
+    {
+      "name": "/profiles/manage",
+      "width": 360,
+      "overflow": 0
+    },
+    {
+      "name": "/profiles/manage",
+      "width": 320,
+      "overflow": 0
+    },
+    {
+      "name": "/profiles/new",
+      "width": 1920,
+      "overflow": 0
+    },
+    {
+      "name": "/profiles/new",
+      "width": 1440,
+      "overflow": 0
+    },
+    {
+      "name": "/profiles/new",
+      "width": 1024,
+      "overflow": 0
+    },
+    {
+      "name": "/profiles/new",
+      "width": 768,
+      "overflow": 0
+    },
+    {
+      "name": "/profiles/new",
+      "width": 430,
+      "overflow": 0
+    },
+    {
+      "name": "/profiles/new",
+      "width": 390,
+      "overflow": 0
+    },
+    {
+      "name": "/profiles/new",
+      "width": 375,
+      "overflow": 0
+    },
+    {
+      "name": "/profiles/new",
+      "width": 360,
+      "overflow": 0
+    },
+    {
+      "name": "/profiles/new",
+      "width": 320,
+      "overflow": 0
+    },
+    {
+      "name": "landscape-login",
+      "width": 844,
+      "overflow": 0,
+      "heading": "Welcomeback."
+    }
+  ],
+  "interactions": [
+    "Validation recovery, email/password taps, typing, visibility toggle, submission, viewport shrink scrolling",
+    "Recovery and registration links",
+    {
+      "path": "/browse",
+      "actualPath": "/browse",
+      "hitTestedControls": 0
+    },
+    {
+      "path": "/browse/movies",
+      "actualPath": "/browse/movies",
+      "hitTestedControls": 23
+    },
+    {
+      "path": "/browse/series",
+      "actualPath": "/browse/series",
+      "hitTestedControls": 13
+    },
+    {
+      "path": "/browse/search",
+      "actualPath": "/browse/search",
+      "hitTestedControls": 15
+    },
+    {
+      "path": "/browse/my-list",
+      "actualPath": "/browse/my-list",
+      "hitTestedControls": 6
+    },
+    {
+      "path": "/browse/history",
+      "actualPath": "/browse/history",
+      "hitTestedControls": 6
+    },
+    {
+      "path": "/browse/title/mock-quiet-beyond",
+      "actualPath": "/browse/title/mock-quiet-beyond",
+      "hitTestedControls": 0
+    },
+    {
+      "path": "/browse/title/mock-velvet-hours",
+      "actualPath": "/browse/title/mock-velvet-hours",
+      "hitTestedControls": 0
+    },
+    {
+      "path": "/welcome",
+      "actualPath": "/welcome",
+      "hitTestedControls": 1
+    },
+    {
+      "path": "/subscribe",
+      "actualPath": "/subscribe",
+      "hitTestedControls": 2
+    },
+    {
+      "path": "/account",
+      "actualPath": "/account",
+      "hitTestedControls": 16
+    },
+    {
+      "path": "/account/details",
+      "actualPath": "/account/details",
+      "hitTestedControls": 8
+    },
+    {
+      "path": "/account/billing",
+      "actualPath": "/account/billing",
+      "hitTestedControls": 9
+    },
+    {
+      "path": "/account/security",
+      "actualPath": "/account/security",
+      "hitTestedControls": 11
+    },
+    {
+      "path": "/account/devices",
+      "actualPath": "/account/devices",
+      "hitTestedControls": 9
+    },
+    {
+      "path": "/account/preferences",
+      "actualPath": "/account/preferences",
+      "hitTestedControls": 14
+    },
+    {
+      "path": "/browse/rooms",
+      "actualPath": "/browse/rooms",
+      "hitTestedControls": 6
+    },
+    {
+      "path": "/browse/rooms/create",
+      "actualPath": "/browse/rooms/create",
+      "hitTestedControls": 2
+    },
+    {
+      "path": "/browse/rooms/join",
+      "actualPath": "/browse/rooms/join",
+      "hitTestedControls": 4
+    },
+    {
+      "path": "/browse/storymatch",
+      "actualPath": "/browse/storymatch",
+      "hitTestedControls": 7
+    },
+    {
+      "path": "/browse/storymatch/new",
+      "actualPath": "/browse/storymatch/new",
+      "hitTestedControls": 5
+    },
+    {
+      "path": "/profiles",
+      "actualPath": "/profiles",
+      "hitTestedControls": 0
+    },
+    {
+      "path": "/profiles/manage",
+      "actualPath": "/profiles/manage",
+      "hitTestedControls": 0
+    },
+    {
+      "path": "/profiles/new",
+      "actualPath": "/profiles/new",
+      "hitTestedControls": 0
+    },
+    "Search typed/submitted, preference select/cancel, recovery dialog open/close/bounds, profile name/avatar/cancel, mobile profile menu navigation"
+  ],
+  "engines": [
+    {
+      "name": "chromium",
+      "available": true
+    },
+    {
+      "name": "firefox",
+      "available": false,
+      "reason": "Error: browserType.launch: Executable doesn't exist at C:\\Users\\USER\\AppData\\Local\\ms-playwright\\firefox-1572\\firefox\\firefox.exe"
+    },
+    {
+      "name": "webkit",
+      "available": false,
+      "reason": "Error: browserType.launch: Executable doesn't exist at C:\\Users\\USER\\AppData\\Local\\ms-playwright\\webkit-2388\\Playwright.exe"
+    }
+  ],
+  "errors": [],
+  "limitations": [
+    "Physical keyboard and operating-system virtual keyboard behavior require phone verification. Viewport shrink is an emulation only."
+  ],
+  "failure": "Error: expect(locator).toContainText(expected) failed\n\nLocator: locator('.entry-intro')\nExpected substring: \"No password was stored\"\nReceived string:    \"This reset link is missing, invalid or has expired. Request a new one to continue.\"\nTimeout: 5000ms\n\nCall log:\n  - Expect \"toContainText\" locator('.entry-intro') with timeout 5000ms\n  - waiting for locator('.entry-intro')\n    14 × locator resolved to <p class=\"entry-intro\">This reset link is missing, invalid or has expire…</p>\n       - unexpected value \"This reset link is missing, invalid or has expired. Request a new one to continue.\"\n\n    at captureRawStack (C:\\Users\\USER\\Downloads\\flurzicinema\\node_modules\\playwright-core\\lib\\coreBundle.js:9551:17)\n    at callMatcherAsStep (C:\\Users\\USER\\Downloads\\flurzicinema\\node_modules\\playwright\\lib\\matchers\\expect.js:13342:57)\n    at Object.toContainText (C:\\Users\\USER\\Downloads\\flurzicinema\\node_modules\\playwright\\lib\\matchers\\expect.js:13334:23)\n    at completeAuthForms (C:\\Users\\USER\\Downloads\\flurzicinema\\scripts\\readiness-browser-qa.mjs:19:53)\n    at async file:///C:/Users/USER/Downloads/flurzicinema/scripts/readiness-browser-qa.mjs:89:2"
+}

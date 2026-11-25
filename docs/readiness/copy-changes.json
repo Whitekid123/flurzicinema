@@ -1,0 +1,222 @@
+[
+  {
+    "file": "components/streaming/RequireAuth.tsx",
+    "from": "Account services are not connected yet. Please try again later.",
+    "to": "We’re unable to access your account right now. Please try again."
+  },
+  {
+    "file": "components/streaming/Rooms.tsx",
+    "from": "Cinema Rooms is getting ready.",
+    "to": "Cinema Rooms is currently unavailable."
+  },
+  {
+    "file": "components/streaming/Rooms.tsx",
+    "from": "Room services are not connected yet. Explore the catalog while we prepare your private cinema.",
+    "to": "Please try again, or explore the catalog while you wait."
+  },
+  {
+    "file": "components/streaming/Rooms.tsx",
+    "from": "Local preview",
+    "to": "On this device"
+  },
+  {
+    "file": "components/streaming/StoryMatch.tsx",
+    "from": "Only sessions supplied for this viewer",
+    "to": "Your matching sessions"
+  },
+  {
+    "file": "components/streaming/StoryMatch.tsx",
+    "from": "StoryMatch is getting ready.",
+    "to": "Recommendations are temporarily unavailable."
+  },
+  {
+    "file": "components/streaming/StoryMatch.tsx",
+    "from": "Matching services are not connected. You can keep exploring the catalog.",
+    "to": "Please try again later. You can keep exploring the catalog."
+  },
+  {
+    "file": "components/streaming/StoryMatch.tsx",
+    "from": "Matching services are not connected.",
+    "to": "Recommendations are temporarily unavailable."
+  },
+  {
+    "file": "components/streaming/StoryMatch.tsx",
+    "from": "Come back when the approved StoryMatch service is available.",
+    "to": "Please try again later."
+  },
+  {
+    "file": "components/streaming/StoryMatch.tsx",
+    "from": "Production invitations require the matching service. Local same-device previews do not create invitation codes.",
+    "to": "Enter the code you received. Same-device exercises do not support invitations."
+  },
+  {
+    "file": "components/streaming/LibraryScreens.tsx",
+    "from": " for this demo session",
+    "to": " for this session"
+  },
+  {
+    "file": "components/streaming/LibraryScreens.tsx",
+    "from": "Movies and episodes will appear here when the viewing service records activity for this profile.",
+    "to": "Your viewing history will appear here."
+  },
+  {
+    "file": "components/streaming/FeaturedHero.tsx",
+    "from": "Fictional development title. Streaming is not available in this preview.",
+    "to": "This title is currently unavailable to watch."
+  },
+  {
+    "file": "components/streaming/AccountBilling.tsx",
+    "from": "Selected development preference",
+    "to": "Viewing preference"
+  },
+  {
+    "file": "components/streaming/AccountBilling.tsx",
+    "from": "Change development plan preference",
+    "to": "Change viewing preference"
+  },
+  {
+    "file": "components/streaming/AccountBilling.tsx",
+    "from": "Plan changes are not connected",
+    "to": "Plan changes are currently unavailable"
+  },
+  {
+    "file": "components/streaming/AccountBilling.tsx",
+    "from": "Purchasing or changing a membership will be available when payments are connected. No payment information is collected here.",
+    "to": "Please try again later. No payment information is collected here."
+  },
+  {
+    "file": "components/streaming/AccountBilling.tsx",
+    "from": "Payment information is not connected",
+    "to": "Payment information is currently unavailable"
+  },
+  {
+    "file": "components/streaming/AccountBilling.tsx",
+    "from": "Payment methods will appear when billing is connected. No card or bank information is collected here.",
+    "to": "Your payment methods will appear here when available."
+  },
+  {
+    "file": "components/streaming/AccountBilling.tsx",
+    "from": "Plan descriptions supplied by the membership service. Purchase and price quotes require the approved billing workflow.",
+    "to": "Explore your available membership options."
+  },
+  {
+    "file": "components/streaming/AccountBilling.tsx",
+    "from": "Pricing is not connected here",
+    "to": "Pricing unavailable"
+  },
+  {
+    "file": "components/streaming/AccountBilling.tsx",
+    "from": "No billing activity in this preview",
+    "to": "No billing activity"
+  },
+  {
+    "file": "components/streaming/AccountBilling.tsx",
+    "from": "Choosing a development plan creates no charge, invoice or transaction.",
+    "to": "Your viewing preference creates no charge, invoice or transaction."
+  },
+  {
+    "file": "components/streaming/AccountScreens.tsx",
+    "from": " · Development data",
+    "to": ""
+  },
+  {
+    "file": "components/streaming/AccountScreens.tsx",
+    "from": " in development data",
+    "to": ""
+  },
+  {
+    "file": "components/streaming/AccountScreens.tsx",
+    "from": "Account editing is not connected yet",
+    "to": "Account editing is currently unavailable"
+  },
+  {
+    "file": "components/streaming/AccountScreens.tsx",
+    "from": "Your details are available to view. Display-name changes will be available when account editing is connected.",
+    "to": "Your details are available to view. Please try again later to make changes."
+  },
+  {
+    "file": "components/layout/Footer.tsx",
+    "from": "A movie and TV streaming platform in development.",
+    "to": "Movies and series, thoughtfully brought together."
+  },
+  {
+    "file": "components/layout/Footer.tsx",
+    "from": "Explore the public preview. Streaming is not available yet.",
+    "to": "Explore the collection. Check each title for availability."
+  },
+  {
+    "file": "components/layout/Footer.tsx",
+    "from": "Concept preview.",
+    "to": ""
+  },
+  {
+    "file": "components/layout/Footer.tsx",
+    "from": "About the concept",
+    "to": "About Flurzi Cinema"
+  },
+  {
+    "file": "components/layout/Footer.tsx",
+    "from": "Privacy draft",
+    "to": "Privacy"
+  },
+  {
+    "file": "components/layout/Footer.tsx",
+    "from": "Terms draft",
+    "to": "Terms"
+  },
+  {
+    "file": "components/layout/Footer.tsx",
+    "from": "Cookies draft",
+    "to": "Cookies"
+  },
+  {
+    "file": "components/home/FallingFilms.tsx",
+    "from": "CATALOG PREVIEW",
+    "to": "THE COLLECTION"
+  },
+  {
+    "file": "components/home/VaultExperience.tsx",
+    "from": "Filter the demo catalog",
+    "to": "Filter the catalog"
+  },
+  {
+    "file": "components/home/VaultExperience.tsx",
+    "from": "Catalog preview · Availability to be confirmed.",
+    "to": "Check each title for availability."
+  },
+  {
+    "file": "components/public/Primitives.tsx",
+    "from": "Public concept preview. Demonstration collections are editorial examples, not streaming charts. Playback availability is unannounced.",
+    "to": "Explore our editorial collections. Check each title for playback availability."
+  },
+  {
+    "file": "components/public/EntryPage.tsx",
+    "from": "Your seat is",
+    "to": "Your seat is"
+  },
+  {
+    "file": "components/public/EntryPage.tsx",
+    "from": "still taking shape.",
+    "to": "waiting."
+  },
+  {
+    "file": "components/public/EntryPage.tsx",
+    "from": "Sign-in and accounts are a future integration. This public preview does not collect credentials.",
+    "to": "Sign in to manage your account and discover your next story."
+  },
+  {
+    "file": "components/public/EntryPage.tsx",
+    "from": "Welcome to the public Flurzi Cinema concept. Memberships, pricing and launch details are still to be confirmed. No account, payment or subscription is created here.",
+    "to": "Discover movies, series and a viewing experience that starts with you. Membership availability and pricing will be shown before purchase."
+  },
+  {
+    "file": "components/public/EntryPage.tsx",
+    "from": "href=\"/explore\">Explore the stories",
+    "to": "href={signIn?\"/login\":\"/signup\"}>{signIn?\"Sign in\":\"Create an account\"}"
+  },
+  {
+    "file": "components/public/EntryPage.tsx",
+    "from": "Public frontend preview · authentication and payments are not active.",
+    "to": "Account and membership services may be temporarily unavailable."
+  }
+]

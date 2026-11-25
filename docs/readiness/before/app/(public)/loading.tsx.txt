@@ -1,0 +1,1 @@
+export default function Loading(){return <div className="public-section wrap" role="status"><p className="eyebrow">A MOMENT BETWEEN FRAMES</p><h2>Finding the stories…</h2><p>The catalog is loading.</p></div>}

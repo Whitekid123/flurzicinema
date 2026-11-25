@@ -1,0 +1,1745 @@
+{
+  "channel": "release",
+  "auth": [
+    {
+      "width": 1920,
+      "screen": "login",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        },
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "screen": "signup",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        },
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "screen": "forgot-password",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "screen": "reset-password?token=mock-reset",
+      "hits": [
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "screen": "verify-email?token=mock-verification",
+      "hits": []
+    },
+    {
+      "width": 1440,
+      "screen": "login",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        },
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "screen": "signup",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        },
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "screen": "forgot-password",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "screen": "reset-password?token=mock-reset",
+      "hits": [
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "screen": "verify-email?token=mock-verification",
+      "hits": []
+    },
+    {
+      "width": 1024,
+      "screen": "login",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        },
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "screen": "signup",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        },
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "screen": "forgot-password",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "screen": "reset-password?token=mock-reset",
+      "hits": [
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "screen": "verify-email?token=mock-verification",
+      "hits": []
+    },
+    {
+      "width": 768,
+      "screen": "login",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        },
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "screen": "signup",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        },
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "screen": "forgot-password",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "screen": "reset-password?token=mock-reset",
+      "hits": [
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "screen": "verify-email?token=mock-verification",
+      "hits": []
+    },
+    {
+      "width": 430,
+      "screen": "login",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        },
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 430,
+      "screen": "signup",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        },
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 430,
+      "screen": "forgot-password",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 430,
+      "screen": "reset-password?token=mock-reset",
+      "hits": [
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 430,
+      "screen": "verify-email?token=mock-verification",
+      "hits": []
+    },
+    {
+      "width": 390,
+      "screen": "login",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        },
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "screen": "signup",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        },
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "screen": "forgot-password",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "screen": "reset-password?token=mock-reset",
+      "hits": [
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "screen": "verify-email?token=mock-verification",
+      "hits": []
+    },
+    {
+      "width": 375,
+      "screen": "login",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        },
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "screen": "signup",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        },
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "screen": "forgot-password",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "screen": "reset-password?token=mock-reset",
+      "hits": [
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "screen": "verify-email?token=mock-verification",
+      "hits": []
+    },
+    {
+      "width": 360,
+      "screen": "login",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        },
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "screen": "signup",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        },
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "screen": "forgot-password",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "screen": "reset-password?token=mock-reset",
+      "hits": [
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "screen": "verify-email?token=mock-verification",
+      "hits": []
+    },
+    {
+      "width": 320,
+      "screen": "login",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        },
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "screen": "signup",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        },
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "screen": "forgot-password",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "screen": "reset-password?token=mock-reset",
+      "hits": [
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "screen": "verify-email?token=mock-verification",
+      "hits": []
+    }
+  ],
+  "screens": [
+    {
+      "name": "login",
+      "width": 1920,
+      "overflow": 0,
+      "heading": "Welcomeback."
+    },
+    {
+      "name": "signup",
+      "width": 1920,
+      "overflow": 0,
+      "heading": "Make yourselfat home."
+    },
+    {
+      "name": "forgot-password",
+      "width": 1920,
+      "overflow": 0,
+      "heading": "Forgot yourpassword?"
+    },
+    {
+      "name": "reset-password?token=mock-reset",
+      "width": 1920,
+      "overflow": 0,
+      "heading": "A freshstart."
+    },
+    {
+      "name": "verify-email?token=mock-verification",
+      "width": 1920,
+      "overflow": 0,
+      "heading": "Confirmyour email."
+    },
+    {
+      "name": "login",
+      "width": 1440,
+      "overflow": 0,
+      "heading": "Welcomeback."
+    },
+    {
+      "name": "signup",
+      "width": 1440,
+      "overflow": 0,
+      "heading": "Make yourselfat home."
+    },
+    {
+      "name": "forgot-password",
+      "width": 1440,
+      "overflow": 0,
+      "heading": "Forgot yourpassword?"
+    },
+    {
+      "name": "reset-password?token=mock-reset",
+      "width": 1440,
+      "overflow": 0,
+      "heading": "A freshstart."
+    },
+    {
+      "name": "verify-email?token=mock-verification",
+      "width": 1440,
+      "overflow": 0,
+      "heading": "Confirmyour email."
+    },
+    {
+      "name": "login",
+      "width": 1024,
+      "overflow": 0,
+      "heading": "Welcomeback."
+    },
+    {
+      "name": "signup",
+      "width": 1024,
+      "overflow": 0,
+      "heading": "Make yourselfat home."
+    },
+    {
+      "name": "forgot-password",
+      "width": 1024,
+      "overflow": 0,
+      "heading": "Forgot yourpassword?"
+    },
+    {
+      "name": "reset-password?token=mock-reset",
+      "width": 1024,
+      "overflow": 0,
+      "heading": "A freshstart."
+    },
+    {
+      "name": "verify-email?token=mock-verification",
+      "width": 1024,
+      "overflow": 0,
+      "heading": "Confirmyour email."
+    },
+    {
+      "name": "login",
+      "width": 768,
+      "overflow": 0,
+      "heading": "Welcomeback."
+    },
+    {
+      "name": "signup",
+      "width": 768,
+      "overflow": 0,
+      "heading": "Make yourselfat home."
+    },
+    {
+      "name": "forgot-password",
+      "width": 768,
+      "overflow": 0,
+      "heading": "Forgot yourpassword?"
+    },
+    {
+      "name": "reset-password?token=mock-reset",
+      "width": 768,
+      "overflow": 0,
+      "heading": "A freshstart."
+    },
+    {
+      "name": "verify-email?token=mock-verification",
+      "width": 768,
+      "overflow": 0,
+      "heading": "Confirmyour email."
+    },
+    {
+      "name": "login",
+      "width": 430,
+      "overflow": 0,
+      "heading": "Welcomeback."
+    },
+    {
+      "name": "signup",
+      "width": 430,
+      "overflow": 0,
+      "heading": "Make yourselfat home."
+    },
+    {
+      "name": "forgot-password",
+      "width": 430,
+      "overflow": 0,
+      "heading": "Forgot yourpassword?"
+    },
+    {
+      "name": "reset-password?token=mock-reset",
+      "width": 430,
+      "overflow": 0,
+      "heading": "A freshstart."
+    },
+    {
+      "name": "verify-email?token=mock-verification",
+      "width": 430,
+      "overflow": 0,
+      "heading": "Confirmyour email."
+    },
+    {
+      "name": "login",
+      "width": 390,
+      "overflow": 0,
+      "heading": "Welcomeback."
+    },
+    {
+      "name": "signup",
+      "width": 390,
+      "overflow": 0,
+      "heading": "Make yourselfat home."
+    },
+    {
+      "name": "forgot-password",
+      "width": 390,
+      "overflow": 0,
+      "heading": "Forgot yourpassword?"
+    },
+    {
+      "name": "reset-password?token=mock-reset",
+      "width": 390,
+      "overflow": 0,
+      "heading": "A freshstart."
+    },
+    {
+      "name": "verify-email?token=mock-verification",
+      "width": 390,
+      "overflow": 0,
+      "heading": "Confirmyour email."
+    },
+    {
+      "name": "login",
+      "width": 375,
+      "overflow": 0,
+      "heading": "Welcomeback."
+    },
+    {
+      "name": "signup",
+      "width": 375,
+      "overflow": 0,
+      "heading": "Make yourselfat home."
+    },
+    {
+      "name": "forgot-password",
+      "width": 375,
+      "overflow": 0,
+      "heading": "Forgot yourpassword?"
+    },
+    {
+      "name": "reset-password?token=mock-reset",
+      "width": 375,
+      "overflow": 0,
+      "heading": "A freshstart."
+    },
+    {
+      "name": "verify-email?token=mock-verification",
+      "width": 375,
+      "overflow": 0,
+      "heading": "Confirmyour email."
+    },
+    {
+      "name": "login",
+      "width": 360,
+      "overflow": 0,
+      "heading": "Welcomeback."
+    },
+    {
+      "name": "signup",
+      "width": 360,
+      "overflow": 0,
+      "heading": "Make yourselfat home."
+    },
+    {
+      "name": "forgot-password",
+      "width": 360,
+      "overflow": 0,
+      "heading": "Forgot yourpassword?"
+    },
+    {
+      "name": "reset-password?token=mock-reset",
+      "width": 360,
+      "overflow": 0,
+      "heading": "A freshstart."
+    },
+    {
+      "name": "verify-email?token=mock-verification",
+      "width": 360,
+      "overflow": 0,
+      "heading": "Confirmyour email."
+    },
+    {
+      "name": "login",
+      "width": 320,
+      "overflow": 0,
+      "heading": "Welcomeback."
+    },
+    {
+      "name": "signup",
+      "width": 320,
+      "overflow": 0,
+      "heading": "Make yourselfat home."
+    },
+    {
+      "name": "forgot-password",
+      "width": 320,
+      "overflow": 0,
+      "heading": "Forgot yourpassword?"
+    },
+    {
+      "name": "reset-password?token=mock-reset",
+      "width": 320,
+      "overflow": 0,
+      "heading": "A freshstart."
+    },
+    {
+      "name": "verify-email?token=mock-verification",
+      "width": 320,
+      "overflow": 0,
+      "heading": "Confirmyour email."
+    },
+    {
+      "name": "/",
+      "width": 1920,
+      "overflow": 0,
+      "heading": "flurzi®cinema.Flurzi Cinema — Movies and TV streaming."
+    },
+    {
+      "name": "/",
+      "width": 1440,
+      "overflow": 0,
+      "heading": "flurzi®cinema.Flurzi Cinema — Movies and TV streaming."
+    },
+    {
+      "name": "/",
+      "width": 1024,
+      "overflow": 0,
+      "heading": "flurzi®cinema.Flurzi Cinema — Movies and TV streaming."
+    },
+    {
+      "name": "/",
+      "width": 768,
+      "overflow": 0,
+      "heading": "flurzi®cinema.Flurzi Cinema — Movies and TV streaming."
+    },
+    {
+      "name": "/",
+      "width": 430,
+      "overflow": 0,
+      "heading": "flurzi®cinema.Flurzi Cinema — Movies and TV streaming."
+    },
+    {
+      "name": "/",
+      "width": 390,
+      "overflow": 0,
+      "heading": "flurzi®cinema.Flurzi Cinema — Movies and TV streaming."
+    },
+    {
+      "name": "/",
+      "width": 375,
+      "overflow": 0,
+      "heading": "flurzi®cinema.Flurzi Cinema — Movies and TV streaming."
+    },
+    {
+      "name": "/",
+      "width": 360,
+      "overflow": 0,
+      "heading": "flurzi®cinema.Flurzi Cinema — Movies and TV streaming."
+    },
+    {
+      "name": "/",
+      "width": 320,
+      "overflow": 0,
+      "heading": "flurzi®cinema.Flurzi Cinema — Movies and TV streaming."
+    },
+    {
+      "name": "/explore",
+      "width": 1920,
+      "overflow": 0,
+      "heading": "Follow your curiosity.Find your story."
+    },
+    {
+      "name": "/explore",
+      "width": 1440,
+      "overflow": 0,
+      "heading": "Follow your curiosity.Find your story."
+    },
+    {
+      "name": "/explore",
+      "width": 1024,
+      "overflow": 0,
+      "heading": "Follow your curiosity.Find your story."
+    },
+    {
+      "name": "/explore",
+      "width": 768,
+      "overflow": 0,
+      "heading": "Follow your curiosity.Find your story."
+    },
+    {
+      "name": "/explore",
+      "width": 430,
+      "overflow": 0,
+      "heading": "Follow your curiosity.Find your story."
+    },
+    {
+      "name": "/explore",
+      "width": 390,
+      "overflow": 0,
+      "heading": "Follow your curiosity.Find your story."
+    },
+    {
+      "name": "/explore",
+      "width": 375,
+      "overflow": 0,
+      "heading": "Follow your curiosity.Find your story."
+    },
+    {
+      "name": "/explore",
+      "width": 360,
+      "overflow": 0,
+      "heading": "Follow your curiosity.Find your story."
+    },
+    {
+      "name": "/explore",
+      "width": 320,
+      "overflow": 0,
+      "heading": "Follow your curiosity.Find your story."
+    },
+    {
+      "name": "/movies",
+      "width": 1920,
+      "overflow": 0,
+      "heading": "A different world.Every time."
+    },
+    {
+      "name": "/movies",
+      "width": 1440,
+      "overflow": 0,
+      "heading": "A different world.Every time."
+    },
+    {
+      "name": "/movies",
+      "width": 1024,
+      "overflow": 0,
+      "heading": "A different world.Every time."
+    },
+    {
+      "name": "/movies",
+      "width": 768,
+      "overflow": 0,
+      "heading": "A different world.Every time."
+    },
+    {
+      "name": "/movies",
+      "width": 430,
+      "overflow": 0,
+      "heading": "A different world.Every time."
+    },
+    {
+      "name": "/movies",
+      "width": 390,
+      "overflow": 0,
+      "heading": "A different world.Every time."
+    },
+    {
+      "name": "/movies",
+      "width": 375,
+      "overflow": 0,
+      "heading": "A different world.Every time."
+    },
+    {
+      "name": "/movies",
+      "width": 360,
+      "overflow": 0,
+      "heading": "A different world.Every time."
+    },
+    {
+      "name": "/movies",
+      "width": 320,
+      "overflow": 0,
+      "heading": "A different world.Every time."
+    },
+    {
+      "name": "/series",
+      "width": 1920,
+      "overflow": 0,
+      "heading": "Stories worthstaying with."
+    },
+    {
+      "name": "/series",
+      "width": 1440,
+      "overflow": 0,
+      "heading": "Stories worthstaying with."
+    },
+    {
+      "name": "/series",
+      "width": 1024,
+      "overflow": 0,
+      "heading": "Stories worthstaying with."
+    },
+    {
+      "name": "/series",
+      "width": 768,
+      "overflow": 0,
+      "heading": "Stories worthstaying with."
+    },
+    {
+      "name": "/series",
+      "width": 430,
+      "overflow": 0,
+      "heading": "Stories worthstaying with."
+    },
+    {
+      "name": "/series",
+      "width": 390,
+      "overflow": 0,
+      "heading": "Stories worthstaying with."
+    },
+    {
+      "name": "/series",
+      "width": 375,
+      "overflow": 0,
+      "heading": "Stories worthstaying with."
+    },
+    {
+      "name": "/series",
+      "width": 360,
+      "overflow": 0,
+      "heading": "Stories worthstaying with."
+    },
+    {
+      "name": "/series",
+      "width": 320,
+      "overflow": 0,
+      "heading": "Stories worthstaying with."
+    },
+    {
+      "name": "/features",
+      "width": 1920,
+      "overflow": 0,
+      "heading": "Made for the waystories move you."
+    },
+    {
+      "name": "/features",
+      "width": 1440,
+      "overflow": 0,
+      "heading": "Made for the waystories move you."
+    },
+    {
+      "name": "/features",
+      "width": 1024,
+      "overflow": 0,
+      "heading": "Made for the waystories move you."
+    },
+    {
+      "name": "/features",
+      "width": 768,
+      "overflow": 0,
+      "heading": "Made for the waystories move you."
+    },
+    {
+      "name": "/features",
+      "width": 430,
+      "overflow": 0,
+      "heading": "Made for the waystories move you."
+    },
+    {
+      "name": "/features",
+      "width": 390,
+      "overflow": 0,
+      "heading": "Made for the waystories move you."
+    },
+    {
+      "name": "/features",
+      "width": 375,
+      "overflow": 0,
+      "heading": "Made for the waystories move you."
+    },
+    {
+      "name": "/features",
+      "width": 360,
+      "overflow": 0,
+      "heading": "Made for the waystories move you."
+    },
+    {
+      "name": "/features",
+      "width": 320,
+      "overflow": 0,
+      "heading": "Made for the waystories move you."
+    },
+    {
+      "name": "/pricing",
+      "width": 1920,
+      "overflow": 0,
+      "heading": "Cinema, onyour terms."
+    },
+    {
+      "name": "/pricing",
+      "width": 1440,
+      "overflow": 0,
+      "heading": "Cinema, onyour terms."
+    },
+    {
+      "name": "/pricing",
+      "width": 1024,
+      "overflow": 0,
+      "heading": "Cinema, onyour terms."
+    },
+    {
+      "name": "/pricing",
+      "width": 768,
+      "overflow": 0,
+      "heading": "Cinema, onyour terms."
+    },
+    {
+      "name": "/pricing",
+      "width": 430,
+      "overflow": 0,
+      "heading": "Cinema, onyour terms."
+    },
+    {
+      "name": "/pricing",
+      "width": 390,
+      "overflow": 0,
+      "heading": "Cinema, onyour terms."
+    },
+    {
+      "name": "/pricing",
+      "width": 375,
+      "overflow": 0,
+      "heading": "Cinema, onyour terms."
+    },
+    {
+      "name": "/pricing",
+      "width": 360,
+      "overflow": 0,
+      "heading": "Cinema, onyour terms."
+    },
+    {
+      "name": "/pricing",
+      "width": 320,
+      "overflow": 0,
+      "heading": "Cinema, onyour terms."
+    },
+    {
+      "name": "/about",
+      "width": 1920,
+      "overflow": 0,
+      "heading": "Cinema is a placeyou carry with you."
+    },
+    {
+      "name": "/about",
+      "width": 1440,
+      "overflow": 0,
+      "heading": "Cinema is a placeyou carry with you."
+    },
+    {
+      "name": "/about",
+      "width": 1024,
+      "overflow": 0,
+      "heading": "Cinema is a placeyou carry with you."
+    },
+    {
+      "name": "/about",
+      "width": 768,
+      "overflow": 0,
+      "heading": "Cinema is a placeyou carry with you."
+    },
+    {
+      "name": "/about",
+      "width": 430,
+      "overflow": 0,
+      "heading": "Cinema is a placeyou carry with you."
+    },
+    {
+      "name": "/about",
+      "width": 390,
+      "overflow": 0,
+      "heading": "Cinema is a placeyou carry with you."
+    },
+    {
+      "name": "/about",
+      "width": 375,
+      "overflow": 0,
+      "heading": "Cinema is a placeyou carry with you."
+    },
+    {
+      "name": "/about",
+      "width": 360,
+      "overflow": 0,
+      "heading": "Cinema is a placeyou carry with you."
+    },
+    {
+      "name": "/about",
+      "width": 320,
+      "overflow": 0,
+      "heading": "Cinema is a placeyou carry with you."
+    },
+    {
+      "name": "/help",
+      "width": 1920,
+      "overflow": 0,
+      "heading": "How can wehelp you?"
+    },
+    {
+      "name": "/help",
+      "width": 1440,
+      "overflow": 0,
+      "heading": "How can wehelp you?"
+    },
+    {
+      "name": "/help",
+      "width": 1024,
+      "overflow": 0,
+      "heading": "How can wehelp you?"
+    },
+    {
+      "name": "/help",
+      "width": 768,
+      "overflow": 0,
+      "heading": "How can wehelp you?"
+    },
+    {
+      "name": "/help",
+      "width": 430,
+      "overflow": 0,
+      "heading": "How can wehelp you?"
+    },
+    {
+      "name": "/help",
+      "width": 390,
+      "overflow": 0,
+      "heading": "How can wehelp you?"
+    },
+    {
+      "name": "/help",
+      "width": 375,
+      "overflow": 0,
+      "heading": "How can wehelp you?"
+    },
+    {
+      "name": "/help",
+      "width": 360,
+      "overflow": 0,
+      "heading": "How can wehelp you?"
+    },
+    {
+      "name": "/help",
+      "width": 320,
+      "overflow": 0,
+      "heading": "How can wehelp you?"
+    },
+    {
+      "name": "/contact",
+      "width": 1920,
+      "overflow": 0,
+      "heading": "Every good storystarts somewhere."
+    },
+    {
+      "name": "/contact",
+      "width": 1440,
+      "overflow": 0,
+      "heading": "Every good storystarts somewhere."
+    },
+    {
+      "name": "/contact",
+      "width": 1024,
+      "overflow": 0,
+      "heading": "Every good storystarts somewhere."
+    },
+    {
+      "name": "/contact",
+      "width": 768,
+      "overflow": 0,
+      "heading": "Every good storystarts somewhere."
+    },
+    {
+      "name": "/contact",
+      "width": 430,
+      "overflow": 0,
+      "heading": "Every good storystarts somewhere."
+    },
+    {
+      "name": "/contact",
+      "width": 390,
+      "overflow": 0,
+      "heading": "Every good storystarts somewhere."
+    },
+    {
+      "name": "/contact",
+      "width": 375,
+      "overflow": 0,
+      "heading": "Every good storystarts somewhere."
+    },
+    {
+      "name": "/contact",
+      "width": 360,
+      "overflow": 0,
+      "heading": "Every good storystarts somewhere."
+    },
+    {
+      "name": "/contact",
+      "width": 320,
+      "overflow": 0,
+      "heading": "Every good storystarts somewhere."
+    },
+    {
+      "name": "/get-started",
+      "width": 1920,
+      "overflow": 0,
+      "heading": "Make yourselfat home."
+    },
+    {
+      "name": "/get-started",
+      "width": 1440,
+      "overflow": 0,
+      "heading": "Make yourselfat home."
+    },
+    {
+      "name": "/get-started",
+      "width": 1024,
+      "overflow": 0,
+      "heading": "Make yourselfat home."
+    },
+    {
+      "name": "/get-started",
+      "width": 768,
+      "overflow": 0,
+      "heading": "Make yourselfat home."
+    },
+    {
+      "name": "/get-started",
+      "width": 430,
+      "overflow": 0,
+      "heading": "Make yourselfat home."
+    },
+    {
+      "name": "/get-started",
+      "width": 390,
+      "overflow": 0,
+      "heading": "Make yourselfat home."
+    },
+    {
+      "name": "/get-started",
+      "width": 375,
+      "overflow": 0,
+      "heading": "Make yourselfat home."
+    },
+    {
+      "name": "/get-started",
+      "width": 360,
+      "overflow": 0,
+      "heading": "Make yourselfat home."
+    },
+    {
+      "name": "/get-started",
+      "width": 320,
+      "overflow": 0,
+      "heading": "Make yourselfat home."
+    },
+    {
+      "name": "/sign-in",
+      "width": 1920,
+      "overflow": 0,
+      "heading": "Welcomeback."
+    },
+    {
+      "name": "/sign-in",
+      "width": 1440,
+      "overflow": 0,
+      "heading": "Welcomeback."
+    },
+    {
+      "name": "/sign-in",
+      "width": 1024,
+      "overflow": 0,
+      "heading": "Welcomeback."
+    },
+    {
+      "name": "/sign-in",
+      "width": 768,
+      "overflow": 0,
+      "heading": "Welcomeback."
+    },
+    {
+      "name": "/sign-in",
+      "width": 430,
+      "overflow": 0,
+      "heading": "Welcomeback."
+    },
+    {
+      "name": "/sign-in",
+      "width": 390,
+      "overflow": 0,
+      "heading": "Welcomeback."
+    },
+    {
+      "name": "/sign-in",
+      "width": 375,
+      "overflow": 0,
+      "heading": "Welcomeback."
+    },
+    {
+      "name": "/sign-in",
+      "width": 360,
+      "overflow": 0,
+      "heading": "Welcomeback."
+    },
+    {
+      "name": "/sign-in",
+      "width": 320,
+      "overflow": 0,
+      "heading": "Welcomeback."
+    },
+    {
+      "name": "/legal/privacy",
+      "width": 1920,
+      "overflow": 0,
+      "heading": "Privacy Policy"
+    },
+    {
+      "name": "/legal/privacy",
+      "width": 1440,
+      "overflow": 0,
+      "heading": "Privacy Policy"
+    },
+    {
+      "name": "/legal/privacy",
+      "width": 1024,
+      "overflow": 0,
+      "heading": "Privacy Policy"
+    },
+    {
+      "name": "/legal/privacy",
+      "width": 768,
+      "overflow": 0,
+      "heading": "Privacy Policy"
+    },
+    {
+      "name": "/legal/privacy",
+      "width": 430,
+      "overflow": 0,
+      "heading": "Privacy Policy"
+    },
+    {
+      "name": "/legal/privacy",
+      "width": 390,
+      "overflow": 0,
+      "heading": "Privacy Policy"
+    },
+    {
+      "name": "/legal/privacy",
+      "width": 375,
+      "overflow": 0,
+      "heading": "Privacy Policy"
+    },
+    {
+      "name": "/legal/privacy",
+      "width": 360,
+      "overflow": 0,
+      "heading": "Privacy Policy"
+    },
+    {
+      "name": "/legal/privacy",
+      "width": 320,
+      "overflow": 0,
+      "heading": "Privacy Policy"
+    },
+    {
+      "name": "/movies/quiet-beyond",
+      "width": 1920,
+      "overflow": 0
+    },
+    {
+      "name": "/movies/quiet-beyond",
+      "width": 1440,
+      "overflow": 0
+    },
+    {
+      "name": "/movies/quiet-beyond",
+      "width": 1024,
+      "overflow": 0
+    },
+    {
+      "name": "/movies/quiet-beyond",
+      "width": 768,
+      "overflow": 0
+    },
+    {
+      "name": "/movies/quiet-beyond",
+      "width": 430,
+      "overflow": 0
+    },
+    {
+      "name": "/movies/quiet-beyond",
+      "width": 390,
+      "overflow": 0
+    },
+    {
+      "name": "/movies/quiet-beyond",
+      "width": 375,
+      "overflow": 0
+    },
+    {
+      "name": "/movies/quiet-beyond",
+      "width": 360,
+      "overflow": 0
+    },
+    {
+      "name": "/movies/quiet-beyond",
+      "width": 320,
+      "overflow": 0
+    },
+    {
+      "name": "/series/velvet-hours",
+      "width": 1920,
+      "overflow": 0,
+      "heading": "Velvet Hours"
+    },
+    {
+      "name": "/series/velvet-hours",
+      "width": 1440,
+      "overflow": 0,
+      "heading": "Velvet Hours"
+    },
+    {
+      "name": "/series/velvet-hours",
+      "width": 1024,
+      "overflow": 0,
+      "heading": "Velvet Hours"
+    },
+    {
+      "name": "/series/velvet-hours",
+      "width": 768,
+      "overflow": 0,
+      "heading": "Velvet Hours"
+    },
+    {
+      "name": "/series/velvet-hours",
+      "width": 430,
+      "overflow": 0,
+      "heading": "Velvet Hours"
+    },
+    {
+      "name": "/series/velvet-hours",
+      "width": 390,
+      "overflow": 0,
+      "heading": "Velvet Hours"
+    },
+    {
+      "name": "/series/velvet-hours",
+      "width": 375,
+      "overflow": 0,
+      "heading": "Velvet Hours"
+    },
+    {
+      "name": "/series/velvet-hours",
+      "width": 360,
+      "overflow": 0,
+      "heading": "Velvet Hours"
+    },
+    {
+      "name": "/series/velvet-hours",
+      "width": 320,
+      "overflow": 0,
+      "heading": "Velvet Hours"
+    },
+    {
+      "name": "/premieres",
+      "width": 1920,
+      "overflow": 0,
+      "heading": "Something goodis on the horizon."
+    },
+    {
+      "name": "/premieres",
+      "width": 1440,
+      "overflow": 0,
+      "heading": "Something goodis on the horizon."
+    },
+    {
+      "name": "/premieres",
+      "width": 1024,
+      "overflow": 0,
+      "heading": "Something goodis on the horizon."
+    },
+    {
+      "name": "/premieres",
+      "width": 768,
+      "overflow": 0,
+      "heading": "Something goodis on the horizon."
+    },
+    {
+      "name": "/premieres",
+      "width": 430,
+      "overflow": 0,
+      "heading": "Something goodis on the horizon."
+    },
+    {
+      "name": "/premieres",
+      "width": 390,
+      "overflow": 0,
+      "heading": "Something goodis on the horizon."
+    },
+    {
+      "name": "/premieres",
+      "width": 375,
+      "overflow": 0,
+      "heading": "Something goodis on the horizon."
+    },
+    {
+      "name": "/premieres",
+      "width": 360,
+      "overflow": 0,
+      "heading": "Something goodis on the horizon."
+    },
+    {
+      "name": "/premieres",
+      "width": 320,
+      "overflow": 0,
+      "heading": "Something goodis on the horizon."
+    },
+    {
+      "name": "/originals",
+      "width": 1920,
+      "overflow": 0,
+      "heading": "Extraordinary stories.Singular perspectives."
+    },
+    {
+      "name": "/originals",
+      "width": 1440,
+      "overflow": 0,
+      "heading": "Extraordinary stories.Singular perspectives."
+    },
+    {
+      "name": "/originals",
+      "width": 1024,
+      "overflow": 0,
+      "heading": "Extraordinary stories.Singular perspectives."
+    },
+    {
+      "name": "/originals",
+      "width": 768,
+      "overflow": 0,
+      "heading": "Extraordinary stories.Singular perspectives."
+    },
+    {
+      "name": "/originals",
+      "width": 430,
+      "overflow": 0,
+      "heading": "Extraordinary stories.Singular perspectives."
+    },
+    {
+      "name": "/originals",
+      "width": 390,
+      "overflow": 0,
+      "heading": "Extraordinary stories.Singular perspectives."
+    },
+    {
+      "name": "/originals",
+      "width": 375,
+      "overflow": 0,
+      "heading": "Extraordinary stories.Singular perspectives."
+    },
+    {
+      "name": "/originals",
+      "width": 360,
+      "overflow": 0,
+      "heading": "Extraordinary stories.Singular perspectives."
+    },
+    {
+      "name": "/originals",
+      "width": 320,
+      "overflow": 0,
+      "heading": "Extraordinary stories.Singular perspectives."
+    }
+  ],
+  "interactions": [
+    "Validation recovery, email/password taps, typing, visibility toggle, submission, viewport shrink scrolling",
+    "Recovery and registration links",
+    "Public navigation dialog opens, Movies link navigates, dialog closes and scrolling restores",
+    "Release fails closed for protected routes, contact unavailable, test footage returns 404",
+    "Signup validation/submission, missing reset link, password confirmation validation/submission and verification action"
+  ],
+  "engines": [
+    {
+      "name": "chromium",
+      "available": true
+    },
+    {
+      "name": "firefox",
+      "available": false,
+      "reason": "Error: browserType.launch: Executable doesn't exist at C:\\Users\\USER\\AppData\\Local\\ms-playwright\\firefox-1572\\firefox\\firefox.exe"
+    },
+    {
+      "name": "webkit",
+      "available": false,
+      "reason": "Error: browserType.launch: Executable doesn't exist at C:\\Users\\USER\\AppData\\Local\\ms-playwright\\webkit-2388\\Playwright.exe"
+    }
+  ],
+  "errors": [],
+  "limitations": [
+    "Physical keyboard and operating-system virtual keyboard behavior require phone verification. Viewport shrink is an emulation only."
+  ],
+  "complete": true
+}

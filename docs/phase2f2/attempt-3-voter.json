@@ -1,0 +1,298 @@
+{
+  "browser": "failed",
+  "http": [
+    {
+      "path": "/browse/storymatch",
+      "status": 200
+    },
+    {
+      "path": "/browse/storymatch/new",
+      "status": 200
+    },
+    {
+      "path": "/browse/storymatch/session/unknown",
+      "status": 200
+    },
+    {
+      "path": "/browse/storymatch/results",
+      "status": 200
+    },
+    {
+      "path": "/player-lab",
+      "status": 404
+    },
+    {
+      "path": "/api/player-lab/original.webm",
+      "status": 404
+    }
+  ],
+  "viewports": [
+    {
+      "width": 1920,
+      "screen": "home",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1440,
+      "screen": "home",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1024,
+      "screen": "home",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 768,
+      "screen": "home",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 390,
+      "screen": "home",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 320,
+      "screen": "home",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1920,
+      "screen": "new",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1440,
+      "screen": "new",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1024,
+      "screen": "new",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 768,
+      "screen": "new",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 390,
+      "screen": "new",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 320,
+      "screen": "new",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1920,
+      "screen": "mood",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1440,
+      "screen": "mood",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1024,
+      "screen": "mood",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 768,
+      "screen": "mood",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 390,
+      "screen": "mood",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 320,
+      "screen": "mood",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1920,
+      "screen": "evening",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1440,
+      "screen": "evening",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1024,
+      "screen": "evening",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 768,
+      "screen": "evening",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 390,
+      "screen": "evening",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 320,
+      "screen": "evening",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1920,
+      "screen": "boundaries",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1440,
+      "screen": "boundaries",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1024,
+      "screen": "boundaries",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 768,
+      "screen": "boundaries",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 390,
+      "screen": "boundaries",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 320,
+      "screen": "boundaries",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1920,
+      "screen": "results",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1440,
+      "screen": "results",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1024,
+      "screen": "results",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 768,
+      "screen": "results",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 390,
+      "screen": "results",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 320,
+      "screen": "results",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 390,
+      "screen": "decision",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1920,
+      "screen": "group",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1440,
+      "screen": "group",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1024,
+      "screen": "group",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 768,
+      "screen": "group",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 390,
+      "screen": "group",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 320,
+      "screen": "group",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1440,
+      "screen": "no-match",
+      "overflow": 0,
+      "clipped": []
+    }
+  ],
+  "interactions": [],
+  "errors": [],
+  "failure": "TimeoutError: locator.selectOption: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByLabel('Person entering this vote', { exact: true })\u001b[22m\n"
+}

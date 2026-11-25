@@ -14,7 +14,7 @@ export const movies: Movie[] = [
     accentColor: "#F1AE64",
     featured: true,
     format: "Film",
-    availability: "Fictional catalog · demo",
+    availability: "Original editorial collection · Playback unavailable",
   },
   {
     id: "last-train",
@@ -29,7 +29,7 @@ export const movies: Movie[] = [
     accentColor: "#7FC9C2",
     featured: true,
     format: "Film",
-    availability: "Fictional catalog · demo",
+    availability: "Original editorial collection · Playback unavailable",
   },
   {
     id: "velvet-hours",
@@ -44,7 +44,7 @@ export const movies: Movie[] = [
     accentColor: "#d18b93",
     featured: true,
     format: "Series",
-    availability: "Fictional catalog · demo",
+    availability: "Original editorial collection · Playback unavailable",
   },
   {
     id: "tides",
@@ -59,7 +59,7 @@ export const movies: Movie[] = [
     accentColor: "#7FC9C2",
     featured: false,
     format: "Film",
-    availability: "Fictional catalog · demo",
+    availability: "Original editorial collection · Playback unavailable",
   },
   {
     id: "afterlight",
@@ -74,7 +74,7 @@ export const movies: Movie[] = [
     accentColor: "#e59469",
     featured: false,
     format: "Film",
-    availability: "Fictional catalog · demo",
+    availability: "Original editorial collection · Playback unavailable",
   },
 ];
 
@@ -82,12 +82,12 @@ export const faqs = [
   {
     question: "What is Flurzi Cinema?",
     answer:
-      "Flurzi Cinema is a movie and television streaming platform in development, designed to help you discover, browse and watch video entertainment. This public preview lets you explore a fictional movie and TV catalog and try planned features. Streaming is not available yet.",
+      "Flurzi Cinema brings movie and television discovery together. Explore the collection, read title details and check availability in your account.",
   },
   {
     question: "How do memberships work?",
     answer:
-      "Memberships are being designed. The preview outlines the intended experience, but prices, plan limits and launch details have not been confirmed. This website does not accept payments or create subscriptions.",
+      "Membership pricing and plan availability will be shown before purchase. Payments are currently unavailable.",
   },
   {
     question: "Can I watch on different devices?",
@@ -97,12 +97,12 @@ export const faqs = [
   {
     question: "Can I watch with friends?",
     answer:
-      "Flurzi Cinema Rooms is a proposed shared-viewing experience. Try the local demonstration to see the concept. Room invitations, synchronized playback and chat will need backend services before they are available.",
+      "Cinema Rooms offers a private space for a shared movie night. Open Cinema Rooms in your account to check availability. Every viewer needs their own playback access.",
   },
   {
     question: "How will content availability work?",
     answer:
-      "The future catalog will depend on licensing and regional availability. No streaming rights, release dates or availability are represented by the fictional films in this preview.",
+      "Playback depends on licensing and regional availability. Original editorial artwork and title listings do not grant streaming access.",
   },
   {
     question: "How will subscriptions be managed?",

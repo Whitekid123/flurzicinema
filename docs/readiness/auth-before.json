@@ -1,0 +1,9 @@
+{
+  "disabled": false,
+  "readOnly": false,
+  "inert": false,
+  "hit": "<input id=\"email\" type=\"email\" autocomplete=\"email\" inputmode=\"email\" required=\"\" maxlength=\"254\" aria-invalid=\"false\" value=\"\">",
+  "pointerEvents": "auto",
+  "focus": "email",
+  "preview": "DEVELOPMENT PREVIEW\nUse fictional details. No real account, email or payment is created. This demo resets on refresh."
+}

@@ -21,7 +21,7 @@ async function path(page,route){await page.waitForURL(url=>url.pathname===route,
 const click=(page,name)=>page.getByRole('button',{name,exact:true}).click();
 const link=(page,name)=>page.getByRole('link',{name,exact:true}).click();
 async function choosePlan(page,id='mock-essential'){
- await page.locator('input[value="'+id+'"]').check();await click(page,'Save preview preference');await link(page,'Continue to profiles');await path(page,'/profiles');await page.locator('.profile-grid').waitFor();
+ await page.locator('input[value="'+id+'"]').check();await click(page,'Save viewing preference');await link(page,'Continue to profiles');await path(page,'/profiles');await page.locator('.profile-grid').waitFor();
 }
 try{
  for(const width of (process.env.PHASE2A_WIDTHS||"1440,1920,1024,768,390,320").split(",").map(Number)){
@@ -33,9 +33,9 @@ try{
   await capture(page,width,'login');
   if(width===1440){
    await click(page,'Sign in');assert.equal(await page.locator('#email').getAttribute('aria-invalid'),'true');
-   await click(page,'Use demo details');await click(page,'Show password');assert.equal(await page.locator('#password').getAttribute('type'),'text');await click(page,'Hide password');
+   await click(page,'Fill test credentials');await click(page,'Show password');assert.equal(await page.locator('#password').getAttribute('type'),'text');await click(page,'Hide password');
    await click(page,'Sign in');await path(page,'/subscribe');await choosePlan(page);
-   await click(page,'Choose Kids');await page.getByLabel('Profile PIN',{exact:true}).fill('9999');await click(page,'Open profile');await page.getByText('Incorrect demo PIN.',{exact:false}).waitFor();
+   await click(page,'Choose Kids');await page.getByLabel('Profile PIN',{exact:true}).fill('9999');await click(page,'Open profile');await page.getByText('Incorrect test PIN.',{exact:false}).waitFor();
    await page.getByLabel('Profile PIN',{exact:true}).fill('1234');await click(page,'Open profile');await path(page,'/browse');await link(page,'Switch profile: Kids');await path(page,'/profiles');
    await link(page,'Manage profiles');await path(page,'/profiles/manage');await click(page,'Edit Main');
    await page.getByLabel('Profile name',{exact:true}).fill('Main TV');await page.getByLabel('Language preference',{exact:true}).selectOption('fr');await page.getByLabel('Playback preference',{exact:true}).selectOption('high');await page.getByLabel('Reduce motion preference',{exact:true}).check();
@@ -44,7 +44,7 @@ try{
   }
   await link(page,'Create an account');await path(page,'/signup');await capture(page,width,'signup');
   await page.getByLabel('Email address',{exact:true}).fill('viewer'+width+'@flurzi.example');await page.getByLabel('Password',{exact:true}).fill('fictional-only');await page.locator('#legal').check();await click(page,'Create account');await path(page,'/verify-email');await capture(page,width,'verify-email');
-  await link(page,'Open demo verification link');await click(page,'Verify email');await page.getByRole('heading',{name:'You’re verified.',exact:true}).waitFor();
+  await link(page,'Open test verification link');await click(page,'Verify email');await page.getByRole('heading',{name:'You’re verified.',exact:true}).waitFor();
   await click(page,'Continue');await path(page,'/welcome');await capture(page,width,'welcome');
   await click(page,'Continue setup');await path(page,'/subscribe');await capture(page,width,'subscribe');assert.equal(await page.getByText('€8.99',{exact:false}).count(),0);await choosePlan(page,'mock-premium');
   await link(page,'Add profile');await path(page,'/profiles/new');await capture(page,width,'profile-new');
@@ -55,7 +55,7 @@ try{
   await link(page,'Done');
   if(width!==1440){await page.emulateMedia({reducedMotion:'reduce'});await page.getByRole('button',{name:'Choose Nova',exact:true}).hover();assert.equal(await page.locator('.profile-art').first().evaluate(e=>getComputedStyle(e).transform),'none');}
   await click(page,'Sign out');await path(page,'/login');await link(page,'Forgot password?');await path(page,'/forgot-password');await capture(page,width,'forgot-password');
-  await page.getByLabel('Email address',{exact:true}).fill('viewer'+width+'@flurzi.example');await click(page,'Request reset link');await page.getByRole('link',{name:'Open demo reset link',exact:true}).waitFor();await capture(page,width,'recovery-submitted');await link(page,'Open demo reset link');await path(page,'/reset-password');await capture(page,width,'reset-password');
+  await page.getByLabel('Email address',{exact:true}).fill('viewer'+width+'@flurzi.example');await click(page,'Request reset link');await page.getByRole('link',{name:'Open test reset link',exact:true}).waitFor();await capture(page,width,'recovery-submitted');await link(page,'Open test reset link');await path(page,'/reset-password');await capture(page,width,'reset-password');
   await page.getByLabel('New password',{exact:true}).fill('fictional-reset');await page.getByLabel('Confirm new password',{exact:true}).fill('fictional-reset');await click(page,'Save new password');await page.getByRole('heading',{name:'Password reset complete.',exact:true}).waitFor();await capture(page,width,'reset-confirmation');
   await link(page,'Return to sign in');await path(page,'/login');
   assert.equal(await page.evaluate(()=>Object.keys(localStorage).some(k=>/auth|password|token|session/i.test(k))),false);

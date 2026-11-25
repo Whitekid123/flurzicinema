@@ -15,7 +15,7 @@ export function RequireAuth({children,requireProfile=false}:{children:React.Reac
   else if(auth.status==="onboarding-incomplete")router.replace("/welcome");
   else if(auth.status==="authenticated"&&requireProfile&&!profile)router.replace("/profiles");
  },[auth.status,profile,requireProfile,router]);
- if(auth.status==="service-unavailable"||auth.status==="access-denied")return <ViewerFrame><div className="entry-gate"><span className="entry-overline">FLURZI CINEMA ACCOUNTS</span><h1>We can’t connect<br/>right now.</h1><p>Account services are not connected yet. Please try again later.</p><button className="entry-button" onClick={()=>void refresh()}>Try again</button><Link className="entry-text-button" href="/login">Return to sign in</Link></div></ViewerFrame>;
+ if(auth.status==="service-unavailable"||auth.status==="access-denied")return <ViewerFrame><div className="entry-gate"><span className="entry-overline">FLURZI CINEMA ACCOUNTS</span><h1>We can’t connect<br/>right now.</h1><p>We’re unable to access your account right now. Please try again.</p><button className="entry-button" onClick={()=>void refresh()}>Try again</button><Link className="entry-text-button" href="/login">Return to sign in</Link></div></ViewerFrame>;
  if(auth.status!=="authenticated"||(requireProfile&&!profile))return <ViewerFrame><EntryLoading message={auth.status==="authenticating"?"Checking your session…":"Opening your next step…"}/></ViewerFrame>;
  return <>{children}</>;
 }

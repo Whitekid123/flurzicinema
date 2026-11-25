@@ -7,6 +7,7 @@ import type { PublicTitle } from "@/types/public";
 import { titleHref } from "@/data/catalog";
 import type { Movie } from "@/types/cinema";
 import { faqs } from "@/data/movies";
+import {DevelopmentNotice} from "@/components/ui/DevelopmentNotice";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 
@@ -23,23 +24,10 @@ import { useSavedStories } from "@/lib/useSavedStories";
 import { EditorialSpotlight, EditorialFinale } from "./EditorialScenes";
 import { PublicShell } from "@/components/public/PublicShell";
 
-const infoCopy: Record<string, string> = {
-  "Sign in is coming later":
-    "You’re exploring the public Flurzi Cinema concept. Accounts and authentication are part of a future phase. No credentials are collected here. For now, explore the films and try the local feature demonstrations.",
-  "A new cinema experience":
-    "This is a frontend preview of Flurzi Cinema. Membership prices, launch dates, supported devices and content availability are still to be confirmed. No account, payment or subscription is created here.",
-  "About Flurzi":
-    "Flurzi Cinema is a movie and television streaming platform in development. Explore the catalog and planned viewing features in this public preview. The default catalog is fictional; streaming is not available.",
-  "Privacy preview":
-    "This demo has no signup form, advertising trackers or analytics integration. Saved demo films are stored in this browser’s local storage only. Clear them from a film’s detail dialog or through your browser settings. A complete privacy policy must be provided before launch.",
-  "Terms preview":
-    "This website is an interactive product concept. Artwork and fictional titles demonstrate a possible experience. No streaming rights, release dates, subscription offers or commercial availability are implied. Official terms will be published before launch.",
-  Support:
-    "For this frontend preview, see the FAQ for details about the concept and planned capabilities. A support team and contact channels have not been established in this demo.",
-};
+const infoCopy: Record<string,string> = {Support:"Visit the help center for account and viewing guidance."};
 
 export function CinemaHome({ titles }: { titles: PublicTitle[] }) {
-  if (!titles.length) return <PublicShell><div className="wrap section-space"><h1>The collection is taking shape.</h1><Link className="button" href="/help">Visit Help</Link></div></PublicShell>;
+  if (!titles.length) return <PublicShell><div className="wrap section-space"><h1>The collection is currently unavailable.</h1><Link className="button" href="/help">Visit Help</Link></div></PublicShell>;
   return <CinemaCatalogProvider titles={titles.slice(0, 5)}><CinemaHomeContent /></CinemaCatalogProvider>;
 }
 function CinemaHomeContent() {
@@ -55,7 +43,7 @@ function CinemaHomeContent() {
     <div ref={root} className="cinema-home editorial-home">
       <Header />
       <main id="main">
-        <CinemaHero onMovie={setSelected} />
+        <CinemaHero onMovie={setSelected} /><DevelopmentNotice/>
         <FallingFilms onMovie={setSelected} />
         <FeaturedExhibition onMovie={setSelected} />
         <Vault onMovie={setSelected} />

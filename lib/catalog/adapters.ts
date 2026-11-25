@@ -13,7 +13,7 @@ export function toPublicTitle(title: CatalogTitle): PublicTitle {
     runtime: title.durationMinutes ? `${title.durationMinutes} min` : "Runtime unannounced",
     poster: approvedImage(title.poster, title.id) || "", backdrop: approvedImage(title.backdrop, title.id) || "",
     accentColor: "#F1AE64", featured: title.featured ?? false, tagline: "Discover the story.",
-    availability: title.isLicensedForPlayback && title.availabilityStatus === "licensed" ? "Catalog rights confirmed · access checked separately" : "Metadata preview · playback unavailable",
+    availability: title.isLicensedForPlayback && title.availabilityStatus === "licensed" ? "Catalog rights confirmed · access checked separately" : "Currently unavailable to watch",
     credits: [...(title.crew || []), ...(title.cast || [])], seasons: title.seasons?.map(season=>({...season,episodes:season.episodes.map(episode=>({...episode,image:episode.artwork?.episodeId===episode.id ? approvedImage(episode.artwork,title.id)||"" : ""}))})),
     addedAt: title.addedAt || "", discoveryRank: title.editorialOrder ?? 0, collection: title.collection || "", originalConcept: false,
     contentSource: title.source, externalMetadataId: title.externalMetadataId, isLicensedForPlayback: title.isLicensedForPlayback && title.availabilityStatus === "licensed",

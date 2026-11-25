@@ -1,0 +1,270 @@
+[
+  {
+    "file": "components/home/CinemaHome.tsx",
+    "text": "demo-tag"
+  },
+  {
+    "file": "components/home/FeatureLab.tsx",
+    "text": "demo-tag"
+  },
+  {
+    "file": "components/home/FeatureLab.tsx",
+    "text": "feature-demo"
+  },
+  {
+    "file": "components/home/FeatureLab.tsx",
+    "text": "room-demo"
+  },
+  {
+    "file": "components/home/FeatureLab.tsx",
+    "text": ">Development preview · Illustrative interactions, not live services.</p>}{mockMode&&feature.id === "
+  },
+  {
+    "file": "components/home/FeatureLab.tsx",
+    "text": "room-demo"
+  },
+  {
+    "file": "components/home/FeatureLab.tsx",
+    "text": "demo-window-top"
+  },
+  {
+    "file": "components/home/FeatureLab.tsx",
+    "text": "match-demo"
+  },
+  {
+    "file": "components/home/FeatureLab.tsx",
+    "text": "lens-demo"
+  },
+  {
+    "file": "components/public/ContactForm.tsx",
+    "text": "Confirm that you understand this is a local preview."
+  },
+  {
+    "file": "components/public/ContactForm.tsx",
+    "text": "Preparing preview…"
+  },
+  {
+    "file": "components/public/ContactForm.tsx",
+    "text": "Preview inquiry"
+  },
+  {
+    "file": "components/public/ContactForm.tsx",
+    "text": "Checking the local preview…"
+  },
+  {
+    "file": "components/public/DetailControls.tsx",
+    "text": ">{demo?"
+  },
+  {
+    "file": "components/public/DetailControls.tsx",
+    "text": "><Artwork src={e.image} alt={`${demo?"
+  },
+  {
+    "file": "components/public/FeatureShowcase.tsx",
+    "text": "public-feature-demo"
+  },
+  {
+    "file": "components/public/FeatureShowcase.tsx",
+    "text": "public-demo-screen"
+  },
+  {
+    "file": "components/public/FeatureShowcase.tsx",
+    "text": ">Development preview · Illustrated seats, not connected viewers.</p>}<div aria-hidden="
+  },
+  {
+    "file": "components/public/FeatureShowcase.tsx",
+    "text": "Two illustrated demo seats and your local seat"
+  },
+  {
+    "file": "components/public/FeatureShowcase.tsx",
+    "text": "Two illustrated demo seats"
+  },
+  {
+    "file": "components/public/FeatureShowcase.tsx",
+    "text": "public-feature-demo"
+  },
+  {
+    "file": "components/public/FeatureShowcase.tsx",
+    "text": "public-demo-screen"
+  },
+  {
+    "file": "components/public/FeatureShowcase.tsx",
+    "text": "public-feature-demo"
+  },
+  {
+    "file": "components/public/FeatureShowcase.tsx",
+    "text": "public-feature-demo"
+  },
+  {
+    "file": "components/public/Primitives.tsx",
+    "text": "fictional-demo"
+  },
+  {
+    "file": "components/public/Primitives.tsx",
+    "text": "DEMO"
+  },
+  {
+    "file": "components/public/Primitives.tsx",
+    "text": "public-demo-notice"
+  },
+  {
+    "file": "components/public/TitleDetails.tsx",
+    "text": "fictional-demo"
+  },
+  {
+    "file": "components/public/TitleDetails.tsx",
+    "text": "}</p>}{title.contentRating&&<p>{title.contentRating.label} · {title.contentRating.region} · {title.contentRating.source}</p>}</aside></section>{series&&<SeasonBrowser seasons={title.seasons||[]} demo={title.contentSource==="
+  },
+  {
+    "file": "components/streaming/AccountScreens.tsx",
+    "text": "These are development account details. No real account was created."
+  },
+  {
+    "file": "components/streaming/AccountSecurity.tsx",
+    "text": "Development request confirmed. No email was sent and no password was changed."
+  },
+  {
+    "file": "components/streaming/AccountSecurity.tsx",
+    "text": ">Development preview: emails are not delivered and no real password is maintained.</p>}</SettingsSection><SettingsSection title="
+  },
+  {
+    "file": "components/streaming/AccountSecurity.tsx",
+    "text": "This is a development request. No email will be delivered."
+  },
+  {
+    "file": "components/streaming/AccountSecurity.tsx",
+    "text": "Development device actions unavailable"
+  },
+  {
+    "file": "components/streaming/AccountSecurity.tsx",
+    "text": "The preview does not register devices or create real sessions."
+  },
+  {
+    "file": "components/streaming/AccountUI.tsx",
+    "text": "You’ll leave this development session. No other devices are affected."
+  },
+  {
+    "file": "components/streaming/AuthScreens.tsx",
+    "text": "&&mockMode&&<DevelopmentAuthTools kind="
+  },
+  {
+    "file": "components/streaming/AuthScreens.tsx",
+    "text": "Development demonstration only. No email delivery or security change has occurred."
+  },
+  {
+    "file": "components/streaming/AuthScreens.tsx",
+    "text": "&&!reset&&mockMode&&<DevelopmentAuthTools kind="
+  },
+  {
+    "file": "components/streaming/AuthScreens.tsx",
+    "text": "&&mockMode&&<DevelopmentAuthTools kind="
+  },
+  {
+    "file": "components/streaming/EntryUI.tsx",
+    "text": "entry-preview"
+  },
+  {
+    "file": "components/streaming/MediaPlayer.tsx",
+    "text": "><div><p>{development?"
+  },
+  {
+    "file": "components/streaming/MediaPlayer.tsx",
+    "text": "><span>{development?"
+  },
+  {
+    "file": "components/streaming/OnboardingScreens.tsx",
+    "text": "Development preview. No subscription or payment is created."
+  },
+  {
+    "file": "components/streaming/PlayerLab.tsx",
+    "text": "Leave development lab"
+  },
+  {
+    "file": "components/streaming/PlayerLab.tsx",
+    "text": "}}><strong>Development only · Original generated test media</strong><p>Independent from the fictional catalog. Progress is component memory and resets when this page is left.</p><button onClick={()=>{setResume(saved??undefined);renew();}}>Reload with saved progress</button>{"
+  },
+  {
+    "file": "components/streaming/ProfileScreens.tsx",
+    "text": "Incorrect test PIN. Use 1234 in this preview."
+  },
+  {
+    "file": "components/streaming/ProfileScreens.tsx",
+    "text": "profile-demo-note"
+  },
+  {
+    "file": "components/streaming/ProfileScreens.tsx",
+    "text": "Use test PIN 1234 in this preview. Custom PINs are unavailable."
+  },
+  {
+    "file": "components/streaming/ProfileScreens.tsx",
+    "text": "profile-preview"
+  },
+  {
+    "file": "components/streaming/ProfileScreens.tsx",
+    "text": "Use 1234 for the demo lock. The PIN is not stored; this is not secure parental protection."
+  },
+  {
+    "file": "components/streaming/Rooms.tsx",
+    "text": "Codes in this preview work only in this browser and profile."
+  },
+  {
+    "file": "components/streaming/StoryMatch.tsx",
+    "text": ">{session.isPreview?'Person entering this vote':'Your vote'}<select id="
+  },
+  {
+    "file": "components/streaming/StreamingShell.tsx",
+    "text": "cinema-preview"
+  },
+  {
+    "file": "components/ui/DevelopmentNotice.tsx",
+    "text": "development-notice"
+  },
+  {
+    "file": "data/catalog.ts",
+    "text": "fictional-demo"
+  },
+  {
+    "file": "data/catalog.ts",
+    "text": "An editorial preview of a possible future premiere for The Last Train North."
+  },
+  {
+    "file": "data/help.ts",
+    "text": "preview"
+  },
+  {
+    "file": "data/help.ts",
+    "text": "Membership names, prices and capabilities remain provisional. Monthly and yearly controls demonstrate the layout only. There are no approved prices or savings, and no payment can be made."
+  },
+  {
+    "file": "data/legal.ts",
+    "text": "A structured draft for the approved privacy notice. The public preview does not establish final data-processing terms."
+  },
+  {
+    "file": "data/legal.ts",
+    "text": "Local preview storage"
+  },
+  {
+    "file": "data/legal.ts",
+    "text": "Implementation inventory for review: saved demo stories use flurzi-saved-demo; premiere markers use flurzi-local-reminders in browser local storage. They are not account data. The Contact page previews an inquiry without transmitting or storing it."
+  },
+  {
+    "file": "data/legal.ts",
+    "text": "Insert approved pricing, renewal, cancellation and refund terms before any subscription is offered. The current public preview accepts no payments."
+  },
+  {
+    "file": "data/legal.ts",
+    "text": "The frontend uses local storage for optional saved stories and local premiere markers. No analytics or advertising integration has been configured in this preview."
+  },
+  {
+    "file": "data/legal.ts",
+    "text": "The two demo storage keys remain in this browser until the user removes entries or clears site storage. Production storage categories, lifetimes and service dependencies need verification."
+  },
+  {
+    "file": "data/legal.ts",
+    "text": "A draft content-policy structure. No movie rights, distribution agreements or exclusivity claims are established by the demonstration catalog."
+  },
+  {
+    "file": "data/legal.ts",
+    "text": "Current demonstration artwork"
+  }
+]

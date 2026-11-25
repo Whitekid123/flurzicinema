@@ -1,0 +1,44 @@
+/* Follow-up motion refinements, scoped to the approved homepage. */
+.editorial-masthead h1{display:flex;flex-direction:column;align-items:flex-start}
+.hero-cinema-word{display:block;font-size:clamp(50px,6.1vw,100px);font-weight:500;letter-spacing:.015em;line-height:1;margin-top:14px;text-transform:uppercase}
+.hero-pointer-trail{position:absolute;inset:0;z-index:3;pointer-events:none;overflow:hidden}
+.pointer-film{position:absolute;top:0;left:0;width:220px;height:150px;background:#08090b;border-radius:7px;overflow:hidden;opacity:0;visibility:hidden;box-shadow:0 12px 30px #08090b30;will-change:transform,opacity}
+.pointer-film img{display:block;width:100%;height:100%;object-fit:contain;background:#08090b}
+.pointer-film>span{position:absolute;inset:auto 0 0;padding:18px 10px 8px;background:linear-gradient(transparent,#08090bda);color:#f5f5f3;font:9px monospace}
+.falling-films{background:#e8e8e6;color:#08090b}
+.film-fall-stage{position:relative;min-height:680px;height:calc(100svh - 64px);max-height:920px;padding:24px;overflow:hidden;isolation:isolate}
+.fall-top{display:flex;justify-content:space-between;font:10px monospace;letter-spacing:.04em}
+.film-fall-stage h2{position:absolute;left:5%;top:12%;font-size:clamp(65px,8vw,130px);line-height:.91;letter-spacing:-.075em;font-weight:500;z-index:0}
+.fall-cards{position:absolute;inset:0;z-index:1}
+.fall-card{position:absolute;width:17%;height:auto;aspect-ratio:1;top:26%;left:5%;padding:7px;background:#08090b;color:#f5f5f3;border-radius:8px;box-shadow:0 14px 25px #08090b25;transform:rotate(-7deg)}
+.fall-card-1{left:23%;top:22%;transform:rotate(5deg)}
+.fall-card-2{left:41%;top:28%;transform:rotate(-3deg)}
+.fall-card-3{left:59%;top:20%;transform:rotate(9deg)}
+.fall-card-4{left:77%;top:25%;transform:rotate(-5deg)}
+.fall-card-image{position:absolute;inset:7px 7px 45px;overflow:hidden;border-radius:4px}
+.fall-card-image img{object-position:center 40%}
+.fall-card-caption{position:absolute;inset:auto 12px 10px;display:grid;gap:4px;text-align:left}
+.fall-card-caption strong{font-size:clamp(10px,1vw,15px);font-weight:500;letter-spacing:-.025em}
+.fall-card-caption small{font:8px monospace;color:#aaaab0}
+.fall-card-index{position:absolute;right:12px;top:12px;font:10px monospace}
+.fall-floor{position:absolute;bottom:9%;left:5%;right:5%;border-top:1px solid #08090b60;padding-top:20px;display:flex;justify-content:space-between;font:10px monospace;z-index:2}
+.editorial-home .feature-journey-stage.feature-scroll-active{height:min(750px,calc(100svh - 95px));min-height:550px;overflow:hidden}
+.editorial-home .feature-scroll-active .feature-journey-track{display:flex;height:calc(100% - 115px);width:100%;transform:translate3d(0,0,0)!important;will-change:transform}
+/* GSAP controls a CSS variable so legacy static-tab overrides cannot cancel motion. */
+.editorial-home .feature-scroll-active .feature-journey-track{transform:translate3d(var(--feature-travel,0px),0,0)!important}
+.editorial-home .feature-scroll-active .feature-panel{display:grid;flex:0 0 100%;width:100%;height:100%;min-height:0;padding:32px 3px 20px;grid-template-columns:1fr 1.08fr;gap:8%;opacity:1!important;transform:none!important}
+.editorial-home .feature-scroll-active .feature-panel.is-current{display:grid}
+.editorial-home .feature-scroll-active .feature-tabs{padding:0 0 20px}
+.editorial-home .feature-scroll-active .feature-journey-note{padding:16px 0 0}
+.editorial-home .feature-scroll-active .feature-demo{transform:none}
+.editorial-home .feature-scroll-active .feature-journey-progress{display:block;height:2px;background:#ffffff20;position:relative}
+.editorial-home .feature-scroll-active .feature-journey-progress>span{display:block;width:25%;height:100%;background:#f5f5f3;transition:transform .3s}
+.finale-window{width:clamp(95px,14vw,240px);height:clamp(75px,11vw,190px);left:0;top:4%;right:auto;bottom:auto;perspective:900px}
+.finale-reveal-art{position:absolute;inset:0;overflow:hidden;border-radius:2px;background:#1b1b1f}
+.finale-reveal-art img{object-fit:cover;object-position:52% 50%}
+.finale-door{display:grid;place-items:center;transform-origin:0% 50%;background:#08090b;border:1px solid #ffffff15;transform-style:preserve-3d;backface-visibility:visible;box-shadow:5px 0 12px #08090b25}
+.finale-door>span{font:600 clamp(25px,5vw,65px)/1 var(--font-sans);color:#f5f5f3;letter-spacing:-.09em}
+@media(max-width:1023px){.film-fall-stage{height:auto;min-height:0;padding:35px 5% 40px}.film-fall-stage h2{position:relative;inset:auto;font-size:10vw;margin:45px 0 35px}.fall-cards{position:relative;display:flex;flex-wrap:wrap;justify-content:center;gap:20px 14px;padding:15px 0 40px}.fall-card{position:relative;inset:auto;width:28%;aspect-ratio:1}.fall-floor{position:relative;inset:auto;font-size:9px}.hero-pointer-trail{display:none}.finale-window{width:14vw;height:11vw}}
+@media(max-width:600px){.hero-cinema-word{font-size:10.6vw;margin-top:12px;letter-spacing:.02em}.editorial-masthead{padding-bottom:25px}.hero-statement{margin-top:25px}.film-fall-stage{padding:28px 18px 35px}.fall-top{font-size:8px}.film-fall-stage h2{font-size:15vw;margin-top:35px}.fall-cards{gap:20px 12px}.fall-card{width:43%}.fall-card:last-child{margin-left:20%}.fall-card-caption strong{font-size:11px}.fall-card-caption small{font-size:7px}.fall-floor{font-size:8px;gap:20px}.finale-window{width:16vw;height:13vw;top:3%;left:-1vw}.finale-door>span{font-size:24px}}
+@media(min-width:1024px) and (prefers-reduced-motion:reduce){.film-fall-stage{height:auto;min-height:0;padding:50px 5%}.film-fall-stage h2{position:relative;inset:auto;font-size:90px;margin:45px 0}.fall-cards{position:relative;display:flex;gap:16px;padding:20px 0 65px}.fall-card{position:relative;inset:auto;width:20%;transform:none}.fall-floor{position:relative;inset:auto}}
+@media(prefers-reduced-motion:reduce){.hero-pointer-trail{display:none}.finale-door{display:none}.fall-card{transform:none!important}}

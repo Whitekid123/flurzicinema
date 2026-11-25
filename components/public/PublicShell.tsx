@@ -3,6 +3,7 @@ import { useEffect, useRef } from "react";
 import { usePathname } from "next/navigation";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import {DevelopmentNotice} from "@/components/ui/DevelopmentNotice";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 gsap.registerPlugin(ScrollTrigger);
@@ -26,5 +27,5 @@ function Motion({ children }: { children: React.ReactNode }) {
 }
 export function PublicShell({ children }: { children: React.ReactNode }) {
   const path = usePathname();
-  return <div className="public-site"><Header /><main id="main"><Motion key={path}>{children}</Motion></main><Footer /></div>;
+  return <div className="public-site"><Header /><main id="main"><DevelopmentNotice/><Motion key={path}>{children}</Motion></main><Footer /></div>;
 }

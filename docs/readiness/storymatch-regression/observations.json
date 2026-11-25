@@ -1,0 +1,329 @@
+{
+  "browser": "passed",
+  "http": [
+    {
+      "path": "/browse/storymatch",
+      "status": 200
+    },
+    {
+      "path": "/browse/storymatch/new",
+      "status": 200
+    },
+    {
+      "path": "/browse/storymatch/session/unknown",
+      "status": 200
+    },
+    {
+      "path": "/browse/storymatch/results",
+      "status": 200
+    },
+    {
+      "path": "/player-lab",
+      "status": 404
+    },
+    {
+      "path": "/api/player-lab/original.webm",
+      "status": 404
+    }
+  ],
+  "viewports": [
+    {
+      "width": 1920,
+      "screen": "home",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1440,
+      "screen": "home",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1024,
+      "screen": "home",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 768,
+      "screen": "home",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 390,
+      "screen": "home",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 320,
+      "screen": "home",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1920,
+      "screen": "new",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1440,
+      "screen": "new",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1024,
+      "screen": "new",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 768,
+      "screen": "new",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 390,
+      "screen": "new",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 320,
+      "screen": "new",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1920,
+      "screen": "mood",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1440,
+      "screen": "mood",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1024,
+      "screen": "mood",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 768,
+      "screen": "mood",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 390,
+      "screen": "mood",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 320,
+      "screen": "mood",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1920,
+      "screen": "evening",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1440,
+      "screen": "evening",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1024,
+      "screen": "evening",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 768,
+      "screen": "evening",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 390,
+      "screen": "evening",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 320,
+      "screen": "evening",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1920,
+      "screen": "boundaries",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1440,
+      "screen": "boundaries",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1024,
+      "screen": "boundaries",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 768,
+      "screen": "boundaries",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 390,
+      "screen": "boundaries",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 320,
+      "screen": "boundaries",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1920,
+      "screen": "results",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1440,
+      "screen": "results",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1024,
+      "screen": "results",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 768,
+      "screen": "results",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 390,
+      "screen": "results",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 320,
+      "screen": "results",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 390,
+      "screen": "decision",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1920,
+      "screen": "group",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1440,
+      "screen": "group",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1024,
+      "screen": "group",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 768,
+      "screen": "group",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 390,
+      "screen": "group",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 320,
+      "screen": "group",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1440,
+      "screen": "no-match",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 1440,
+      "screen": "group-decision",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 390,
+      "screen": "touch-results",
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "width": 844,
+      "screen": "landscape-results",
+      "overflow": 0,
+      "clipped": []
+    }
+  ],
+  "interactions": [
+    "Normal demo sign-in, plan preference and profile guards; profile-menu discovery",
+    "Six-width home/new/mood/evening/boundaries/results/group captures",
+    "Mood multi-select/deselect, reset, Back retention and explicit submission consent",
+    "Catalog-grounded solo result, strict runtime/exclusion and no video/entitlement",
+    "Confirmed My List save, title details and navigation persistence",
+    "Shortlist, actual vote, keyboard dialog trap/Escape/focus restoration and mobile bounds",
+    "Confirmed final selection and existing RoomService creation with preselected exact title",
+    "Together waiting, separate responses, compromise explanation and confirmed participant removal",
+    "Group conflicting restrictions produce no match; explicit refinement preserves another participant’s exclusion",
+    "Independent explicitly entered guest votes, host confirmation without unanimity claim",
+    "Exact series episode/runtime handoff without automatic room creation",
+    "Confirmed end; Kids profile sees no other sessions and cannot start unrestricted matching",
+    "Separate touch complete preference/results flow, reduced motion and landscape"
+  ],
+  "errors": []
+}

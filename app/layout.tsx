@@ -9,6 +9,7 @@ import "@/styles/motion-followup.css";
 import "@/styles/streaming-entry.css";
 import "@/styles/streaming-browse.css";
 import "@/styles/streaming-discovery.css";
+import "@/styles/interaction-corrections.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL(
@@ -16,13 +17,13 @@ export const metadata: Metadata = {
   ),
   title: "Flurzi Cinema — Movies & TV Streaming",
   description:
-    "Discover movies and TV series with Flurzi Cinema, a streaming platform in development. Explore the public preview; streaming is not available yet.",
+    "Discover movies and TV series with Flurzi Cinema. Find your next story and explore a viewing experience that starts with you.",
   applicationName: "Flurzi Cinema",
   robots: { index: false, follow: false },
   openGraph: {
     title: "Flurzi Cinema — Movies & TV Streaming",
     description:
-      "Explore movies, TV series and planned streaming features in the Flurzi Cinema public preview. Streaming is not available yet.",
+      "Explore movies, TV series and your next shared movie night with Flurzi Cinema.",
     type: "website",
     images: [
       {

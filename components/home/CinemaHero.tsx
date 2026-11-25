@@ -67,7 +67,7 @@ export function CinemaHero({ onMovie }: { onMovie: (movie: Movie) => void }) {
         <input id="hero-discovery" placeholder="Search movies and TV series…" value={query} onChange={e=>setQuery(e.target.value)} onFocus={()=>setFocused(true)} onBlur={()=>setFocused(false)} />
         <button type="submit"><span data-editorial-hover>Explore</span><span aria-hidden="true">↗</span></button>
       </form>
-      <div className="hero-field-bottom"><a href="#falling-title">SCROLL TO DISCOVER ↓</a><span>{movies.every(m=>m.availability.startsWith("Fictional")) ? "ORIGINAL CONCEPT FILMS · PUBLIC PREVIEW" : "THE FLURZI CINEMA COLLECTION"}</span><button className="field-pause" aria-pressed={paused} onClick={()=>setPaused(!paused)}>{paused ? "Resume image sequence" : "Pause image sequence"}<span aria-hidden="true">{paused ? " ▷" : " Ⅱ"}</span></button></div>
+      <div className="hero-field-bottom"><a href="#falling-title">SCROLL TO DISCOVER ↓</a><span>{movies.every(m=>m.availability.startsWith("Fictional")) ? "THE FLURZI CINEMA COLLECTION" : "THE FLURZI CINEMA COLLECTION"}</span><button className="field-pause" aria-pressed={paused} onClick={()=>setPaused(!paused)}>{paused ? "Resume image sequence" : "Pause image sequence"}<span aria-hidden="true">{paused ? " ▷" : " Ⅱ"}</span></button></div>
     </div>
   </section>;
 }

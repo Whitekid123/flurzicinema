@@ -1,0 +1,31 @@
+{
+  "removed": [
+    "readiness-audit-refinements.mjs",
+    "readiness-auth-completion.mjs",
+    "readiness-availability.mjs",
+    "readiness-backup-extensions.mjs",
+    "readiness-boundary.mjs",
+    "readiness-cleanup.mjs",
+    "readiness-config-helper.mjs",
+    "readiness-consumer-errors.mjs",
+    "readiness-copy-final.mjs",
+    "readiness-copy.mjs",
+    "readiness-corrections.mjs",
+    "readiness-expand-qa.mjs",
+    "readiness-final-source.mjs",
+    "readiness-final-tweaks.mjs",
+    "readiness-harness-labels.mjs",
+    "readiness-help-copy.mjs",
+    "readiness-integrations.mjs",
+    "readiness-make-regression.mjs",
+    "readiness-preview-navigation.mjs",
+    "readiness-probe.mjs",
+    "readiness-public-copy.mjs",
+    "readiness-public-finish.mjs",
+    "readiness-qa-refine.mjs",
+    "readiness-release-separation.mjs",
+    "readiness-status.mjs",
+    "readiness-touch-refinements.mjs"
+  ],
+  "scope": "Only task-created one-time correction scripts; no recursive deletion."
+}

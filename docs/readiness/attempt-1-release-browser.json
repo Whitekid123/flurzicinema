@@ -1,0 +1,884 @@
+{
+  "channel": "release",
+  "auth": [
+    {
+      "width": 1920,
+      "screen": "login",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        },
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "screen": "signup",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        },
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "screen": "forgot-password",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "screen": "reset-password?token=mock-reset",
+      "hits": [
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "screen": "verify-email?token=mock-verification",
+      "hits": []
+    },
+    {
+      "width": 1440,
+      "screen": "login",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        },
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "screen": "signup",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        },
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "screen": "forgot-password",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "screen": "reset-password?token=mock-reset",
+      "hits": [
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "screen": "verify-email?token=mock-verification",
+      "hits": []
+    },
+    {
+      "width": 1024,
+      "screen": "login",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        },
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "screen": "signup",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        },
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "screen": "forgot-password",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "screen": "reset-password?token=mock-reset",
+      "hits": [
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "screen": "verify-email?token=mock-verification",
+      "hits": []
+    },
+    {
+      "width": 768,
+      "screen": "login",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        },
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "screen": "signup",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        },
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "screen": "forgot-password",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "screen": "reset-password?token=mock-reset",
+      "hits": [
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "screen": "verify-email?token=mock-verification",
+      "hits": []
+    },
+    {
+      "width": 430,
+      "screen": "login",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        },
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 430,
+      "screen": "signup",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        },
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 430,
+      "screen": "forgot-password",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 430,
+      "screen": "reset-password?token=mock-reset",
+      "hits": [
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 430,
+      "screen": "verify-email?token=mock-verification",
+      "hits": []
+    },
+    {
+      "width": 390,
+      "screen": "login",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        },
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "screen": "signup",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        },
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "screen": "forgot-password",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "screen": "reset-password?token=mock-reset",
+      "hits": [
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "screen": "verify-email?token=mock-verification",
+      "hits": []
+    },
+    {
+      "width": 375,
+      "screen": "login",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        },
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "screen": "signup",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        },
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "screen": "forgot-password",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "screen": "reset-password?token=mock-reset",
+      "hits": [
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "screen": "verify-email?token=mock-verification",
+      "hits": []
+    },
+    {
+      "width": 360,
+      "screen": "login",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        },
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "screen": "signup",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        },
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "screen": "forgot-password",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "screen": "reset-password?token=mock-reset",
+      "hits": [
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "screen": "verify-email?token=mock-verification",
+      "hits": []
+    },
+    {
+      "width": 320,
+      "screen": "login",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        },
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "screen": "signup",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        },
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "screen": "forgot-password",
+      "hits": [
+        {
+          "id": "email",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "screen": "reset-password?token=mock-reset",
+      "hits": [
+        {
+          "id": "password",
+          "disabled": false,
+          "inert": false,
+          "size": "16px"
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "screen": "verify-email?token=mock-verification",
+      "hits": []
+    }
+  ],
+  "screens": [
+    {
+      "name": "login",
+      "width": 1920,
+      "overflow": 0,
+      "heading": "Welcomeback."
+    },
+    {
+      "name": "signup",
+      "width": 1920,
+      "overflow": 0,
+      "heading": "Make yourselfat home."
+    },
+    {
+      "name": "forgot-password",
+      "width": 1920,
+      "overflow": 0,
+      "heading": "Forgot yourpassword?"
+    },
+    {
+      "name": "reset-password?token=mock-reset",
+      "width": 1920,
+      "overflow": 0,
+      "heading": "A freshstart."
+    },
+    {
+      "name": "verify-email?token=mock-verification",
+      "width": 1920,
+      "overflow": 0,
+      "heading": "Confirmyour email."
+    },
+    {
+      "name": "login",
+      "width": 1440,
+      "overflow": 0,
+      "heading": "Welcomeback."
+    },
+    {
+      "name": "signup",
+      "width": 1440,
+      "overflow": 0,
+      "heading": "Make yourselfat home."
+    },
+    {
+      "name": "forgot-password",
+      "width": 1440,
+      "overflow": 0,
+      "heading": "Forgot yourpassword?"
+    },
+    {
+      "name": "reset-password?token=mock-reset",
+      "width": 1440,
+      "overflow": 0,
+      "heading": "A freshstart."
+    },
+    {
+      "name": "verify-email?token=mock-verification",
+      "width": 1440,
+      "overflow": 0,
+      "heading": "Confirmyour email."
+    },
+    {
+      "name": "login",
+      "width": 1024,
+      "overflow": 0,
+      "heading": "Welcomeback."
+    },
+    {
+      "name": "signup",
+      "width": 1024,
+      "overflow": 0,
+      "heading": "Make yourselfat home."
+    },
+    {
+      "name": "forgot-password",
+      "width": 1024,
+      "overflow": 0,
+      "heading": "Forgot yourpassword?"
+    },
+    {
+      "name": "reset-password?token=mock-reset",
+      "width": 1024,
+      "overflow": 0,
+      "heading": "A freshstart."
+    },
+    {
+      "name": "verify-email?token=mock-verification",
+      "width": 1024,
+      "overflow": 0,
+      "heading": "Confirmyour email."
+    },
+    {
+      "name": "login",
+      "width": 768,
+      "overflow": 0,
+      "heading": "Welcomeback."
+    },
+    {
+      "name": "signup",
+      "width": 768,
+      "overflow": 0,
+      "heading": "Make yourselfat home."
+    },
+    {
+      "name": "forgot-password",
+      "width": 768,
+      "overflow": 0,
+      "heading": "Forgot yourpassword?"
+    },
+    {
+      "name": "reset-password?token=mock-reset",
+      "width": 768,
+      "overflow": 0,
+      "heading": "A freshstart."
+    },
+    {
+      "name": "verify-email?token=mock-verification",
+      "width": 768,
+      "overflow": 0,
+      "heading": "Confirmyour email."
+    },
+    {
+      "name": "login",
+      "width": 430,
+      "overflow": 0,
+      "heading": "Welcomeback."
+    },
+    {
+      "name": "signup",
+      "width": 430,
+      "overflow": 0,
+      "heading": "Make yourselfat home."
+    },
+    {
+      "name": "forgot-password",
+      "width": 430,
+      "overflow": 0,
+      "heading": "Forgot yourpassword?"
+    },
+    {
+      "name": "reset-password?token=mock-reset",
+      "width": 430,
+      "overflow": 0,
+      "heading": "A freshstart."
+    },
+    {
+      "name": "verify-email?token=mock-verification",
+      "width": 430,
+      "overflow": 0,
+      "heading": "Confirmyour email."
+    },
+    {
+      "name": "login",
+      "width": 390,
+      "overflow": 0,
+      "heading": "Welcomeback."
+    },
+    {
+      "name": "signup",
+      "width": 390,
+      "overflow": 0,
+      "heading": "Make yourselfat home."
+    },
+    {
+      "name": "forgot-password",
+      "width": 390,
+      "overflow": 0,
+      "heading": "Forgot yourpassword?"
+    },
+    {
+      "name": "reset-password?token=mock-reset",
+      "width": 390,
+      "overflow": 0,
+      "heading": "A freshstart."
+    },
+    {
+      "name": "verify-email?token=mock-verification",
+      "width": 390,
+      "overflow": 0,
+      "heading": "Confirmyour email."
+    },
+    {
+      "name": "login",
+      "width": 375,
+      "overflow": 0,
+      "heading": "Welcomeback."
+    },
+    {
+      "name": "signup",
+      "width": 375,
+      "overflow": 0,
+      "heading": "Make yourselfat home."
+    },
+    {
+      "name": "forgot-password",
+      "width": 375,
+      "overflow": 0,
+      "heading": "Forgot yourpassword?"
+    },
+    {
+      "name": "reset-password?token=mock-reset",
+      "width": 375,
+      "overflow": 0,
+      "heading": "A freshstart."
+    },
+    {
+      "name": "verify-email?token=mock-verification",
+      "width": 375,
+      "overflow": 0,
+      "heading": "Confirmyour email."
+    },
+    {
+      "name": "login",
+      "width": 360,
+      "overflow": 0,
+      "heading": "Welcomeback."
+    },
+    {
+      "name": "signup",
+      "width": 360,
+      "overflow": 0,
+      "heading": "Make yourselfat home."
+    },
+    {
+      "name": "forgot-password",
+      "width": 360,
+      "overflow": 0,
+      "heading": "Forgot yourpassword?"
+    },
+    {
+      "name": "reset-password?token=mock-reset",
+      "width": 360,
+      "overflow": 0,
+      "heading": "A freshstart."
+    },
+    {
+      "name": "verify-email?token=mock-verification",
+      "width": 360,
+      "overflow": 0,
+      "heading": "Confirmyour email."
+    },
+    {
+      "name": "login",
+      "width": 320,
+      "overflow": 0,
+      "heading": "Welcomeback."
+    },
+    {
+      "name": "signup",
+      "width": 320,
+      "overflow": 0,
+      "heading": "Make yourselfat home."
+    },
+    {
+      "name": "forgot-password",
+      "width": 320,
+      "overflow": 0,
+      "heading": "Forgot yourpassword?"
+    },
+    {
+      "name": "reset-password?token=mock-reset",
+      "width": 320,
+      "overflow": 0,
+      "heading": "A freshstart."
+    },
+    {
+      "name": "verify-email?token=mock-verification",
+      "width": 320,
+      "overflow": 0,
+      "heading": "Confirmyour email."
+    }
+  ],
+  "interactions": [],
+  "engines": [
+    {
+      "name": "chromium",
+      "available": true
+    },
+    {
+      "name": "firefox",
+      "available": false,
+      "reason": "Error: browserType.launch: Executable doesn't exist at C:\\Users\\USER\\AppData\\Local\\ms-playwright\\firefox-1572\\firefox\\firefox.exe"
+    },
+    {
+      "name": "webkit",
+      "available": false,
+      "reason": "Error: browserType.launch: Executable doesn't exist at C:\\Users\\USER\\AppData\\Local\\ms-playwright\\webkit-2388\\Playwright.exe"
+    }
+  ],
+  "errors": [],
+  "limitations": [
+    "Physical keyboard and operating-system virtual keyboard behavior require phone verification. Viewport shrink is an emulation only."
+  ],
+  "failure": "Error: expect(locator).toContainText(expected) failed\n\nLocator: getByRole('alert')\nExpected substring: \"Unable to complete your request\"\nError: strict mode violation: getByRole('alert') resolved to 2 elements:\n    1) <div role=\"alert\" tabindex=\"-1\" class=\"entry-feedback is-error\">Unable to complete your request. Please try again.</div> aka getByText('Unable to complete your')\n    2) <div role=\"alert\" aria-live=\"assertive\" id=\"__next-route-announcer__\"></div> aka locator('[id=\"__next-route-announcer__\"]')\n\nCall log:\n  - Expect \"toContainText\" getByRole('alert') with timeout 5000ms\n  - waiting for getByRole('alert')\n\n    at captureRawStack (C:\\Users\\USER\\Downloads\\flurzicinema\\node_modules\\playwright-core\\lib\\coreBundle.js:9551:17)\n    at callMatcherAsStep (C:\\Users\\USER\\Downloads\\flurzicinema\\node_modules\\playwright\\lib\\matchers\\expect.js:13342:57)\n    at Object.toContainText (C:\\Users\\USER\\Downloads\\flurzicinema\\node_modules\\playwright\\lib\\matchers\\expect.js:13334:23)\n    at C:\\Users\\USER\\Downloads\\flurzicinema\\scripts\\readiness-browser-qa.mjs:35:50"
+}

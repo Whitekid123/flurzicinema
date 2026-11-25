@@ -1,0 +1,88 @@
+import type {CatalogTitle,ViewerProfile} from '@/types/streaming';
+import {ServiceError,toServiceError} from '@/lib/api/errors';
+
+export const moodDefinitions=[
+ {id:'intense',label:'Something intense',note:'A little edge to the evening.',genres:['thriller']},
+ {id:'relaxing',label:'Something relaxing',note:'Room to slow down.',genres:['discovery']},
+ {id:'moving',label:'Something moving',note:'A story to sit with.',genres:['drama']},
+ {id:'adventure',label:'An adventure',note:'Somewhere beyond the familiar.',genres:['adventure']},
+ {id:'mystery',label:'A good mystery',note:'One more question. One more clue.',genres:['mystery']},
+] as const;
+export type MatchMood=typeof moodDefinitions[number]['id'];
+export type MatchMode='solo'|'together'|'group';
+export type MatchTime='any'|'under60'|'60to90'|'90to120'|'over120';
+export type MatchPeriod='any'|'2020s'|'2010s'|'before2000';
+export interface MatchConstraint {types:('movie'|'series')[];excludedGenres:string[];time:MatchTime;period:MatchPeriod;allowedRatings?:{region:string;labels:string[]}}
+export interface ViewerMatchPreferences {moods:MatchMood[];genres:string[];constraints:MatchConstraint}
+export interface MatchingParticipant {id:string;profileId?:string;name:string;avatarKey?:string;role:'host'|'participant';presence:'invited'|'joined'|'left';source:'profile'|'same-device';preferences?:ViewerMatchPreferences;vote?:string}
+export interface MatchExplanation {kind:'genres'|'mood'|'runtime'|'shared'|'compromise'|'open'|'missing-runtime';text:string}
+export interface MatchCandidate {id:string;title:CatalogTitle;episodeId?:string;episodeLabel?:string;runtimeMinutes?:number;explanations:MatchExplanation[];compatibility:{participantId:string;matchedGenres:string[];moodGenres:string[];open:boolean;fit:number}[];minimumFit:number;totalFit:number}
+export interface MatchDecision {candidateId:string;chosenBy:string;chosenAt:string}
+export interface MatchingSession {id:string;name:string;mode:MatchMode;revision:number;viewerProfileId:string;selfId:string;phase:'collecting'|'results'|'decided'|'ended';participants:MatchingParticipant[];expiresAt:string;isPreview:boolean;shortlist:string[];candidates?:MatchCandidate[];decision?:MatchDecision;invitation?:{code:string;expiresAt:string}}
+export interface MatchCapabilities {available:boolean;isPreview:boolean;modes:MatchMode[];genres:{slug:string;name:string}[];moods:MatchMood[];participantLimit:number;ratings?:{region:string;labels:string[]}[];restrictionBlocked?:boolean}
+export interface StoryMatchService {
+ capabilities():Promise<MatchCapabilities>;
+ list():Promise<MatchingSession[]>;
+ create(input:{mode:MatchMode;name:string}):Promise<MatchingSession>;
+ get(id:string):Promise<MatchingSession>;
+ submitPreferences(id:string,participantId:string,preferences:ViewerMatchPreferences,revision:number):Promise<MatchingSession>;
+ generateResults(id:string,revision:number):Promise<MatchingSession>;
+ shortlist(id:string,candidateId:string,selected:boolean,revision:number):Promise<MatchingSession>;
+ vote(id:string,participantId:string,candidateId:string,revision:number):Promise<MatchingSession>;
+ finalize(id:string,candidateId:string,revision:number):Promise<MatchingSession>;
+ leave(id:string):Promise<void>;
+ end(id:string,revision:number):Promise<MatchingSession>;
+ resolveInvitation(code:string):Promise<MatchingSession>;
+ join(code:string):Promise<MatchingSession>;
+ addLocalParticipant?(id:string,name:string,revision:number):Promise<MatchingSession>;
+ removeLocalParticipant?(id:string,participantId:string,revision:number):Promise<MatchingSession>;
+}
+export const defaultMatchPreferences=():ViewerMatchPreferences=>({moods:[],genres:[],constraints:{types:['movie','series'],excludedGenres:[],time:'any',period:'any'}});
+export function matchFail(code:string):never{throw new ServiceError({code,message:'StoryMatch request failed.'});}
+export function matchError(error:unknown){const code=error&&typeof error==='object'&&'code' in error?String(error.code):toServiceError(error).code;return ({VALIDATION:'Check the selections and try again.',SERVICE_UNAVAILABLE:'Recommendations are temporarily unavailable. Please try again.',ACCESS_DENIED:'This matching session is not available to this viewer.',UNAUTHENTICATED:'Sign in again to continue.',SESSION_EXPIRED:'Your session has expired. Sign in again.',MATCH_EXPIRED:'This matching session has expired. Start another match.',MATCH_ENDED:'This matching session has ended.',NOT_FOUND:'This matching session is unavailable. Start another match.',INCOMPLETE_PREFERENCES:'Every joined viewer needs to submit their own choices before matching.',PARTICIPANTS_REQUIRED:'Invite the other viewers or add their explicitly entered same-device responses.',CONFLICT:'This session changed. Reload it before submitting again.',INVITATION_INVALID:'This invitation is invalid.',INVITATION_EXPIRED:'This invitation has expired.',DECISION_UNAVAILABLE:'Choose a current shortlisted result before confirming a decision.',PROFILE_RESTRICTION_UNAVAILABLE:'Matching is currently unavailable for this profile because an age-appropriate selection cannot be confirmed.',TIMEOUT:'StoryMatch took too long to respond. Please try again.'} as Record<string,string>)[code]||'StoryMatch could not complete that request. Please try again.';}
+export function validateMatchPreferences(value:ViewerMatchPreferences,capabilities:Pick<MatchCapabilities,'genres'|'moods'|'ratings'>){
+ const c=value?.constraints;const slugs=new Set(capabilities.genres.map(g=>g.slug));
+ if(!c||!Array.isArray(value.moods)||!Array.isArray(value.genres)||!Array.isArray(c.types)||!Array.isArray(c.excludedGenres)||!c.types.length||c.types.some(t=>!['movie','series'].includes(t))||value.moods.some(m=>!capabilities.moods.includes(m))||[...value.genres,...c.excludedGenres].some(g=>!slugs.has(g))||value.genres.some(g=>c.excludedGenres.includes(g))||!['any','under60','60to90','90to120','over120'].includes(c.time)||!['any','2020s','2010s','before2000'].includes(c.period))matchFail('VALIDATION');
+ if([value.moods,value.genres,c.types,c.excludedGenres].some(values=>new Set(values).size!==values.length))matchFail('VALIDATION');
+ if(c.allowedRatings&&(!Array.isArray(c.allowedRatings.labels)||!c.allowedRatings.labels.length||!capabilities.ratings?.some(r=>r.region===c.allowedRatings!.region&&c.allowedRatings!.labels.every(label=>r.labels.includes(label)))))matchFail('VALIDATION');
+ return structuredClone(value);
+}
+export function runtimeFits(minutes:number|undefined,time:MatchTime){if(time==='any')return true;if(!Number.isFinite(minutes)||minutes!<=0)return false;return time==='under60'?minutes!<60:time==='60to90'?minutes!>=60&&minutes!<90:time==='90to120'?minutes!>=90&&minutes!<=120:minutes!>120;}
+export function periodFits(year:number|undefined,period:MatchPeriod){if(period==='any')return true;if(!Number.isInteger(year))return false;return period==='2020s'?year!>=2020&&year!<=2029:period==='2010s'?year!>=2010&&year!<=2019:year!>=1888&&year!<2000;}
+function eligible(title:CatalogTitle,runtime:number|undefined,p:ViewerMatchPreferences){const c=p.constraints;return c.types.includes(title.mediaType)&&(!c.excludedGenres.length||title.genres.length>0)&&!title.genres.some(g=>c.excludedGenres.includes(g.slug))&&runtimeFits(runtime,c.time)&&periodFits(title.releaseYear,c.period)&&(!c.allowedRatings||(!!title.contentRating&&title.contentRating.region===c.allowedRatings.region&&c.allowedRatings.labels.includes(title.contentRating.label)));}
+export function matchCatalog(titles:CatalogTitle[],participants:MatchingParticipant[]):MatchCandidate[]{
+ const viewers=participants.filter(p=>p.presence==='joined');if(!viewers.length||viewers.some(p=>!p.preferences))matchFail('INCOMPLETE_PREFERENCES');
+ const candidates:MatchCandidate[]=[];
+ for(const title of titles){
+  const entries=title.mediaType==='movie'?[{runtime:title.durationMinutes,episodeId:undefined as string|undefined,episodeLabel:undefined as string|undefined}]:title.seasons.flatMap(s=>s.episodes.map(e=>({runtime:e.runtimeMinutes,episodeId:e.id,episodeLabel:'S'+s.number+' · E'+e.episodeNumber+' — '+e.title})));
+  if(!entries.length)entries.push({runtime:undefined,episodeId:undefined,episodeLabel:undefined});
+  for(const entry of entries){if(!viewers.every(p=>eligible(title,entry.runtime,p.preferences!)))continue;
+   const compatibility=viewers.map(p=>{const pref=p.preferences!;const matchedGenres=pref.genres.filter(g=>title.genres.some(t=>t.slug===g));const moodOptions=[...new Set(moodDefinitions.filter(m=>pref.moods.includes(m.id)).flatMap(m=>[...m.genres]))];const moodGenres=moodOptions.filter(g=>title.genres.some(t=>t.slug===g));const open=!pref.genres.length&&!pref.moods.length;const fit=open?1:(pref.genres.length?matchedGenres.length/pref.genres.length:0)+(pref.moods.length&&moodGenres.length?1:0);return {participantId:p.id,matchedGenres,moodGenres,open,fit};});
+   const explanations:MatchExplanation[]=[];const selectedGenres=[...new Set(compatibility.flatMap(p=>p.matchedGenres))];const moodGenres=[...new Set(compatibility.flatMap(p=>p.moodGenres))];
+   if(selectedGenres.length)explanations.push({kind:'genres',text:'Matches selected genres: '+selectedGenres.map(g=>title.genres.find(t=>t.slug===g)!.name).join(', ')+'.'});
+   if(moodGenres.length)explanations.push({kind:'mood',text:'An editorial mood connection through '+moodGenres.map(g=>title.genres.find(t=>t.slug===g)!.name).join(', ')+'. Mood is inferred from genres, not verified tone.'});
+   if(viewers.some(p=>p.preferences!.constraints.time!=='any'))explanations.push({kind:'runtime',text:'Its known '+(title.mediaType==='series'?'episode':'movie')+' runtime fits every selected time window.'});
+   if(viewers.length>1)explanations.push(compatibility.every(p=>p.fit>0)?{kind:'shared',text:'Connects with each viewer’s selected preferences, including anyone open to a surprise.'}:{kind:'compromise',text:'A possible compromise: it meets everyone’s required restrictions, but does not match every viewer’s preferred genres or mood.'});
+   if(!selectedGenres.length&&!moodGenres.length)explanations.push({kind:'open',text:compatibility.every(p=>p.open)?'You left the mood and genres open. These are eligible choices, with no unique preference-based winner.':'Meets the required restrictions; the selected genre and mood preferences do not identify a strong fit.'});
+   if(!Number.isFinite(entry.runtime)||entry.runtime!<=0)explanations.push({kind:'missing-runtime',text:title.mediaType==='series'?'Episode runtime is not supplied. It is included only because no strict time window was selected.':'Runtime is not supplied. It is included only because no strict time window was selected.'});
+   candidates.push({id:title.id+(entry.episodeId?'::'+entry.episodeId:''),title,episodeId:entry.episodeId,episodeLabel:entry.episodeLabel,runtimeMinutes:entry.runtime,explanations,compatibility,minimumFit:Math.min(...compatibility.map(p=>p.fit)),totalFit:compatibility.reduce((n,p)=>n+p.fit,0)});
+  }
+ }
+ candidates.sort((a,b)=>b.minimumFit-a.minimumFit||b.totalFit-a.totalFit||a.id.localeCompare(b.id,'en'));
+ // One concrete episode per title. Diversity breaks equal-fit ties, never eligibility or fairness.
+ const unique=candidates.filter((c,i)=>candidates.findIndex(t=>t.title.id===c.title.id)===i);const result:MatchCandidate[]=[];const seenGenres=new Set<string>();
+ while(unique.length){const first=unique[0];const tied=unique.filter(c=>c.minimumFit===first.minimumFit&&c.totalFit===first.totalFit);tied.sort((a,b)=>b.title.genres.filter(g=>!seenGenres.has(g.slug)).length-a.title.genres.filter(g=>!seenGenres.has(g.slug)).length||a.id.localeCompare(b.id,'en'));const next=tied[0];result.push(next);next.title.genres.forEach(g=>seenGenres.add(g.slug));unique.splice(unique.indexOf(next),1);}
+ return result;
+}
+export function uniqueLeadingSuggestion(candidates:MatchCandidate[]){return !!candidates[0]&&(!candidates[1]||candidates[0].minimumFit!==candidates[1].minimumFit||candidates[0].totalFit!==candidates[1].totalFit);}
+export function matchRoomHref(candidate:Pick<MatchCandidate,'title'|'episodeId'>){const q=new URLSearchParams({titleId:candidate.title.id});if(candidate.episodeId)q.set('episodeId',candidate.episodeId);return '/browse/rooms/create?'+q.toString();}
+export function joinedMatchers(session:MatchingSession){return session.participants.filter(p=>p.presence==='joined');}
+export function canGenerateMatch(session:MatchingSession){const joined=joinedMatchers(session);return session.phase!=='ended'&&joined.length>=(session.mode==='solo'?1:session.mode==='together'?2:3)&&joined.every(p=>!!p.preferences);}
+export function matchHost(session:MatchingSession){return session.participants.some(p=>p.id===session.selfId&&p.profileId===session.viewerProfileId&&p.role==='host'&&p.presence==='joined');}
+export function validateMatchingSession(session:MatchingSession,profileId:string,id?:string,now=Date.now()){
+ if(session.viewerProfileId!==profileId||(id&&session.id!==id)||!Number.isSafeInteger(session.revision)||session.revision<1||!session.participants.some(p=>p.id===session.selfId&&p.profileId===profileId)||new Set(session.participants.map(p=>p.id)).size!==session.participants.length||!['collecting','results','decided','ended'].includes(session.phase))matchFail('ACCESS_DENIED');
+ if(!Number.isFinite(Date.parse(session.expiresAt))||Date.parse(session.expiresAt)<=now)matchFail('MATCH_EXPIRED');return session;
+}
+export function createMatchSessionController(profileId:string,id:string){let current:MatchingSession|undefined;let request=0;return {begin:()=>++request,invalidate:()=>{request++;},snapshot:()=>current,accept(next:MatchingSession,ticket?:number){if(ticket!==undefined&&ticket!==request)return current;validateMatchingSession(next,profileId,id);if(current&&(next.revision<=current.revision||current.phase==='ended'))return current;current=next;return current;}};}
+export async function matchDeadline<T>(work:Promise<T>,ms=20000):Promise<T>{let timer:ReturnType<typeof setTimeout>|undefined;try{return await Promise.race([work,new Promise<never>((_,reject)=>{timer=setTimeout(()=>reject(new ServiceError({code:'TIMEOUT',message:'Timed out'})),ms);})]);}finally{clearTimeout(timer);}}
+export function profileNeedsAuthorizedMatchCatalog(profile:ViewerProfile){return profile.isKids||!!profile.preferences.maturityRating;}

@@ -1,0 +1,207 @@
+/* Progressive additions to the existing exhibition, not a replacement theme. */
+.cinema-home {
+  overflow-anchor: none;
+}
+.immersive-cinema {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  overflow: hidden;
+  contain: strict;
+}
+.immersive-cinema canvas,
+.projection-chamber-fallback,
+.chamber-vignette {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+.immersive-cinema canvas {
+  display: block;
+}
+.immersive-cinema[data-renderer="webgl"] .projection-chamber-fallback {
+  visibility: hidden;
+}
+.chamber-vignette {
+  background: linear-gradient(
+    180deg,
+    #0b1018cc 0%,
+    transparent 23%,
+    transparent 67%,
+    #0b10188c 100%
+  );
+}
+.hero-film-layer {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+.hero-film-layer[data-film="0"] {
+  opacity: 1;
+}
+.hero-film-layer img {
+  object-fit: cover;
+}
+.side-screen > span {
+  z-index: 4;
+}
+.hero-sequence-controls {
+  position: absolute;
+  left: 48%;
+  right: 6%;
+  bottom: 10.8%;
+  z-index: 8;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.hero-sequence-films {
+  display: flex;
+  gap: 10px;
+  flex: 1;
+}
+.hero-sequence-films button {
+  min-width: 30px;
+  min-height: 44px;
+  flex: 1;
+  padding: 6px 0;
+  color: var(--silver);
+  background: none;
+  border: 0;
+  position: relative;
+}
+.sequence-film-mark {
+  display: block;
+  height: 3px;
+  background: #abb4c04d;
+  transition:
+    background 0.25s,
+    height 0.25s;
+}
+.hero-sequence-films button[aria-pressed="true"] .sequence-film-mark {
+  background: var(--amber);
+  height: 5px;
+}
+.sequence-film-name {
+  display: block;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  white-space: nowrap;
+  font-size: 12px;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+.hero-sequence-films button:is(:hover, :focus-visible) .sequence-film-name {
+  opacity: 1;
+}
+.hero-sequence-pause {
+  color: var(--ivory);
+  font-size: 10px;
+  letter-spacing: 0.13em;
+  padding: 12px 0 12px 10px;
+  background: none;
+  border: 0;
+}
+.motion-character {
+  display: inline-block;
+}
+.motion-line-mask {
+  padding-bottom: 0.075em;
+  margin-bottom: -0.075em;
+}
+.feature-journey-track > .feature-panel {
+  display: none;
+}
+.feature-journey-track > .feature-panel.is-current {
+  display: grid;
+}
+.feature-journey-progress {
+  height: 1px;
+  background: var(--divider);
+  margin-top: 26px;
+  overflow: hidden;
+}
+.feature-journey-progress span {
+  display: block;
+  width: 25%;
+  height: 100%;
+  background: var(--amber);
+  transition: transform 0.5s;
+}
+.feature-journey-note {
+  display: none;
+}
+@media (min-width: 1024px) and (prefers-reduced-motion: no-preference) {
+  .feature-journey-stage {
+    overflow: hidden;
+    padding: 22px 0 20px;
+    background: var(--ink);
+  }
+  .feature-journey-track {
+    display: flex;
+    align-items: stretch;
+  }
+  .feature-journey-track > .feature-panel {
+    display: grid;
+    flex: 0 0 100%;
+    width: 100%;
+    min-width: 0;
+    margin: 0;
+    min-height: 530px;
+    overflow: hidden;
+  }
+  .feature-journey-note {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 0;
+    color: var(--silver);
+    font-size: 12px;
+    letter-spacing: 0.04em;
+  }
+  .feature-panel .feature-demo {
+    animation: none;
+  }
+}
+@media (max-width: 1023px) {
+  .hero-sequence-controls {
+    left: 33%;
+    right: 6%;
+    top: 75%;
+    bottom: auto;
+  }
+  .sequence-film-name {
+    display: none;
+  }
+  .hero-sequence-films {
+    max-width: 260px;
+  }
+}
+@media (max-width: 600px) {
+  .hero-sequence-controls {
+    left: 20px;
+    right: 20px;
+    top: 66%;
+    gap: 20px;
+  }
+  .hero-sequence-films {
+    max-width: 200px;
+  }
+  .hero-sequence-films button {
+    min-width: 24px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero-sequence-pause {
+    display: none;
+  }
+  .hero-sequence-films button,
+  .sequence-film-mark,
+  .sequence-film-name,
+  .feature-journey-progress span {
+    transition: none;
+  }
+}

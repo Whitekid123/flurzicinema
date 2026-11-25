@@ -1,0 +1,63 @@
+{
+  "release": {
+    "complete": true,
+    "authScreenWidths": 45,
+    "responsiveChecks": 189,
+    "errors": []
+  },
+  "preview": {
+    "complete": true,
+    "authScreenWidths": 45,
+    "responsiveChecks": 262,
+    "hitTestedControls": 157,
+    "screenPaths": [
+      "/browse",
+      "/browse/movies",
+      "/browse/series",
+      "/browse/search",
+      "/browse/my-list",
+      "/browse/history",
+      "/browse/title/mock-quiet-beyond",
+      "/browse/title/mock-velvet-hours",
+      "/welcome",
+      "/subscribe",
+      "/account",
+      "/account/details",
+      "/account/billing",
+      "/account/security",
+      "/account/devices",
+      "/account/preferences",
+      "/browse/rooms",
+      "/browse/rooms/create",
+      "/browse/rooms/join",
+      "/browse/storymatch",
+      "/browse/storymatch/new",
+      "/profiles",
+      "/profiles/manage",
+      "/profiles/new"
+    ],
+    "errors": []
+  },
+  "storymatchRegression": {
+    "passed": true,
+    "responsiveChecks": 47,
+    "errors": []
+  },
+  "engines": [
+    {
+      "name": "chromium",
+      "available": true
+    },
+    {
+      "name": "firefox",
+      "available": false,
+      "reason": "Error: browserType.launch: Executable doesn't exist at C:\\Users\\USER\\AppData\\Local\\ms-playwright\\firefox-1572\\firefox\\firefox.exe"
+    },
+    {
+      "name": "webkit",
+      "available": false,
+      "reason": "Error: browserType.launch: Executable doesn't exist at C:\\Users\\USER\\AppData\\Local\\ms-playwright\\webkit-2388\\Playwright.exe"
+    }
+  ],
+  "releaseBuildId": "QbfQS-yha6-Ibo6K6rtf6"
+}

@@ -1,0 +1,29 @@
+{
+  "channel": "preview",
+  "auth": [],
+  "screens": [],
+  "interactions": [
+    "Signup validation/submission, missing reset link, password confirmation validation/submission and verification action"
+  ],
+  "engines": [
+    {
+      "name": "chromium",
+      "available": true
+    },
+    {
+      "name": "firefox",
+      "available": false,
+      "reason": "Error: browserType.launch: Executable doesn't exist at C:\\Users\\USER\\AppData\\Local\\ms-playwright\\firefox-1572\\firefox\\firefox.exe"
+    },
+    {
+      "name": "webkit",
+      "available": false,
+      "reason": "Error: browserType.launch: Executable doesn't exist at C:\\Users\\USER\\AppData\\Local\\ms-playwright\\webkit-2388\\Playwright.exe"
+    }
+  ],
+  "errors": [],
+  "limitations": [
+    "Physical keyboard and operating-system virtual keyboard behavior require phone verification. Viewport shrink is an emulation only."
+  ],
+  "complete": true
+}

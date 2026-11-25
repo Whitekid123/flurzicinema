@@ -8,8 +8,8 @@ function contrastRatio(foreground,background){const luminance=value=>{const chan
 async function login(target){
  const button=name=>target.getByRole('button',{name,exact:true});
  await target.goto(origin+'/login',{waitUntil:'domcontentloaded',timeout:180000});
- await expect(async()=>{await button('Use demo details').click();await expect(target.locator('input[type="email"]')).toHaveValue('demo@flurzi.example',{timeout:2000});}).toPass({timeout:60000,intervals:[500,1000,2000]});
- await button('Sign in').click();await target.waitForURL('**/subscribe');await target.locator('input[value="mock-essential"]').check();await button('Save preview preference').click();await target.getByRole('link',{name:'Continue to profiles',exact:true}).click();await button('Choose Main').click();await target.waitForURL('**/browse');
+ await expect(async()=>{await button('Fill test credentials').click();await expect(target.locator('input[type="email"]')).toHaveValue('demo@flurzi.example',{timeout:2000});}).toPass({timeout:60000,intervals:[500,1000,2000]});
+ await button('Sign in').click();await target.waitForURL('**/subscribe');await target.locator('input[value="mock-essential"]').check();await button('Save viewing preference').click();await target.getByRole('link',{name:'Continue to profiles',exact:true}).click();await button('Choose Main').click();await target.waitForURL('**/browse');
  await target.locator('.cinema-profile-trigger').click();await target.locator('.cinema-profile-menu').getByRole('link',{name:'Account settings',exact:true}).click();await target.waitForURL('**/account');
 }
 async function section(target,name,path){

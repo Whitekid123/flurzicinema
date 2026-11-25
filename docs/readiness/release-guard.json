@@ -1,0 +1,5 @@
+{
+  "code": 1,
+  "passed": true,
+  "output": "▲ Next.js 16.4.6\n- Local:         http://127.0.0.1:3015\n- Network:       http://127.0.0.1:3015\n✓ Ready in 1172ms\n⨯ Failed to load next.config.ts, see more info here https://nextjs.org/docs/messages/next-config-error\nError: Mock services require an explicit preview build. Clear NEXT_PUBLIC_USE_MOCKS for a release.\n    at Object.<anonymous> (C:\\Users\\USER\\Downloads\\flurzicinema\\next.config.compiled.js:13:11)\n"
+}

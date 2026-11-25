@@ -1,0 +1,27 @@
+{
+  "editorialCopy": [
+    {
+      "file": "data/help.ts",
+      "baseline": "HEAD; file was clean in initial git status",
+      "before": "a09e5da010411529d642a54f3e465ab530bec70eb35810fa77c171cf72aa109e",
+      "after": "ed39e86c711e78216dab12fd59fe4b34ac49a3533a547e24f1b8bdac8c6108b6"
+    },
+    {
+      "file": "data/movies.ts",
+      "baseline": "HEAD; file was clean in initial git status",
+      "before": "a59b9274be3c99c99bd83e5852bdff4a8b12353b01c1b8f34b4d2c1f61873b35",
+      "after": "7d97533fbbf269bee2eac3750982c981a6691b43267fcdd580d3c3b21330b900"
+    }
+  ],
+  "newSources": [
+    "components/streaming/DevelopmentAuthTools.tsx",
+    "components/ui/DevelopmentNotice.tsx",
+    "lib/api/customer-errors.ts",
+    "lib/api/deadline.ts",
+    "lib/api/environment.ts",
+    "lib/api/experience-services.ts",
+    "styles/interaction-corrections.css",
+    "tests/readiness.unit.test.ts"
+  ],
+  "focusedHarnesses": "Existing phase2 browser harness labels updated for Fill test credentials, Save viewing preference, test email links and Create room."
+}

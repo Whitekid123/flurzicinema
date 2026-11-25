@@ -104,7 +104,7 @@ export function Vault({ onMovie }: { onMovie: (movie: Movie) => void }) {
           </div>
         </div>
         <div className="vault-toolbar">
-          <div className="filter-group" aria-label="Filter the demo catalog">
+          <div className="filter-group" aria-label="Filter the catalog">
             {["All stories", ...[...new Set(movies.map(movie => movie.format))]].map((item) => (
               <button
                 key={item}
@@ -233,7 +233,7 @@ export function Vault({ onMovie }: { onMovie: (movie: Movie) => void }) {
               +
             </button>
             <span className="selection-disclaimer">
-              Catalog preview · Availability to be confirmed.
+              Check each title for availability.
             </span>
           </div>
         </div>

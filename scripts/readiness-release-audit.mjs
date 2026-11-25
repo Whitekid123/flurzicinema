@@ -1,0 +1,3 @@
+import fs from 'node:fs/promises';
+const hits=[];async function scan(dir){for(const e of await fs.readdir(dir,{withFileTypes:true})){const p=dir+'/'+e.name;if(e.isDirectory())await scan(p);else if(p.endsWith('.js')){const s=await fs.readFile(p,'utf8');for(const term of ['demo@flurzi.example','preview-only','mock-reset','mock-verification','mock-account-1','Use 1234','test PIN 1234','demo lock'])if(s.includes(term))hits.push({file:p,term});}}}
+await scan('.next/static');await fs.writeFile('docs/readiness/release-bundle-audit.json',JSON.stringify({hits,passed:hits.length===0},null,2));console.log(JSON.stringify(hits));if(hits.length)process.exitCode=1;

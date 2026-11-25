@@ -1,0 +1,3 @@
+import fs from 'node:fs/promises';
+const hits=[];async function walk(d){for(const e of await fs.readdir(d,{withFileTypes:true})){const p=d+'/'+e.name;if(e.isDirectory())await walk(p);else if(/\.(tsx|ts)$/.test(p)){const s=await fs.readFile(p,'utf8');for(const m of s.matchAll(/"([^"\n]*(?:demo|preview|development|fixture|simulated|not connected)[^"\n]*)"/gi)){if(m[1].length<280&&!/className|@|^\.|^data-|^mock-|^sm-|^rooms-|^player-/.test(m[1]))hits.push({file:p,text:m[1]});}}}}
+await walk('components');await walk('data');await fs.writeFile('docs/readiness/copy-audit.json',JSON.stringify(hits,null,2));console.log(JSON.stringify(hits,null,2));

@@ -15,7 +15,7 @@ export function FeaturedExhibition({onMovie}:{onMovie:(movie:Movie)=>void}){
    <div className="mosaic-interface">
     <div className="mosaic-browser-bar"><span className="browser-mark">f.</span><span>Explore movies & series.</span><Link href="/explore">OPEN COLLECTION ↗</Link></div>
     <div className="mosaic-cards">{movies.map((movie,i)=><button className={"mosaic-card mosaic-card-"+i} key={movie.id} onClick={()=>onMovie(movie)} aria-label={"Discover "+movie.title}><span className="mosaic-image"><Artwork src={movie.backdrop} alt={movie.title} fill sizes="(max-width: 700px) 90vw, 35vw"/></span><span className="mosaic-caption"><strong>{movie.title}</strong><small>{movie.releaseYear} / {movie.genre}</small><span aria-hidden="true">↗</span></span></button>)}</div>
-    <div className="mosaic-browser-bottom"><span>{String(movies.length).padStart(2,"0")} TITLES IN THIS PREVIEW</span><Link href="/explore">VIEW ALL ↗</Link></div>
+    <div className="mosaic-browser-bottom"><span>{String(movies.length).padStart(2,"0")} TITLES TO DISCOVER</span><Link href="/explore">VIEW ALL ↗</Link></div>
    </div>
    <div className="discovery-end"><p>Movies and series.<br/>Find your next favorite.</p><Link className="editorial-link" href="/explore">Explore the collection <span>↗</span></Link></div>
   </div>

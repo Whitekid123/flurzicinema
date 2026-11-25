@@ -15,7 +15,7 @@ export function accountError(error:unknown){
 export function ownedAccount(account:Account|null,id:string){if(!account||account.id!==id)throw new ServiceError({code:"ACCESS_DENIED",message:"Account identity mismatch."});return account;}
 export function ownedSubscription(subscription:Subscription|null,id:string){if(subscription&&subscription.accountId!==id)throw new ServiceError({code:"ACCESS_DENIED",message:"Subscription identity mismatch."});return subscription;}
 export function membershipStatus(subscription:Subscription|null,isMock:boolean){
- if(isMock)return {label:"No active membership",description:subscription?.planId?"A development plan preference is selected. No payment or streaming access.":"Development preview. No payment or streaming access."};
+ if(isMock)return {label:"No active membership",description:subscription?.planId?"A viewing preference is selected. No payment or streaming access.":"No payment or streaming access."};
  if(!subscription||subscription.status==="none")return {label:"No active membership",description:"There is no active membership on this account."};
  const labels={active:"Active membership",trialing:"Trial membership","past-due":"Payment needs attention",cancelled:"Membership cancelled",paused:"Membership paused"};
  return {label:labels[subscription.status],description:subscription.cancelAtPeriodEnd?"Cancellation is scheduled for the end of the supplied membership period.":"Membership status supplied by your account service."};

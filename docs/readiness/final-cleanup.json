@@ -1,0 +1,13 @@
+{
+  "removed": [
+    "readiness-auth-retry.mjs",
+    "readiness-copy-polish.mjs",
+    "readiness-merge-preview.mjs",
+    "readiness-pin-separation.mjs",
+    "readiness-preserve-log.mjs",
+    "readiness-inventory.mjs",
+    "readiness-record-validation.mjs",
+    "readiness-cleanup-final.mjs"
+  ],
+  "scope": "Task-created one-time scripts only; reusable regression scripts and evidence retained."
+}

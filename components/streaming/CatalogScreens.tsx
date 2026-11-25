@@ -19,11 +19,11 @@ function ProfileCatalog({profileId,kind}:{profileId:string;kind:"movie"|"series"
  const params=useSearchParams();const query=params.toString();const state=useMemo(()=>readDiscoveryState(new URLSearchParams(query)),[query]);
  const path=usePathname();const watchlist=useProfileWatchlist(profileId);
  const loadGenres=useCallback(()=>streamingServices.catalog.listGenres(),[]);const genres=useResource(loadGenres);
- const {profile}=useSession();const isSearch=kind==="search";
+ const {profile,auth}=useSession();const isSearch=kind==="search";
  const hasSearch=Boolean(state.q||state.genre||state.year||state.type||state.page>1);
  const title=isSearch?"Find your next watch.":kind==="movie"?"Movies.":"Series.";
  return <div className={"discovery-page discovery-"+kind}><DiscoveryHeader eyebrow={isSearch?"SEARCH THE CATALOG":kind==="movie"?"THE MOVIE COLLECTION":"TELEVISION, EPISODE BY EPISODE"} title={title} aside={!isSearch&&<Link className="discovery-header-link" href="/browse/search">Search the catalog ↗</Link>}>{isSearch?"A title, a genre, a different world. Start here.":kind==="movie"?"From first frames to final credits. Explore the movie collection.":"Find a series to settle into. Explore seasons and the episodes listed in the catalog."}</DiscoveryHeader>
- {profile?.isKids&&<DiscoveryNotice>Kids profile preview. The demo catalog is unrated; secure maturity filtering requires the catalog backend.</DiscoveryNotice>}
+ {profile?.isKids&&auth.isMock&&<DiscoveryNotice>Age restrictions are not enforced in this preview. Playback is unavailable.</DiscoveryNotice>}
  <CatalogFilters key={"filters:"+query} path={path} kind={kind} state={state} genres={genres.data||[]} loading={genres.loading}/>
  {genres.error&&<DiscoveryNotice action={genres.retry}>Genres could not load. You can still search or browse available titles.</DiscoveryNotice>}
  <ActiveFilters path={path} state={state} genres={genres.data||[]} search={isSearch}/>
