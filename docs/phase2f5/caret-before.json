@@ -1,0 +1,42 @@
+[
+  {
+    "stage": "entered",
+    "start": 13,
+    "end": 13,
+    "length": 13,
+    "type": "password",
+    "active": "password"
+  },
+  {
+    "stage": "shown",
+    "start": 0,
+    "end": 0,
+    "length": 13,
+    "type": "text",
+    "active": "password"
+  },
+  {
+    "stage": "appended",
+    "start": 14,
+    "end": 14,
+    "length": 14,
+    "type": "text",
+    "active": "password"
+  },
+  {
+    "stage": "hidden",
+    "start": 0,
+    "end": 0,
+    "length": 14,
+    "type": "password",
+    "active": "password"
+  },
+  {
+    "stage": "backspace",
+    "start": 0,
+    "end": 0,
+    "length": 14,
+    "type": "password",
+    "active": "password"
+  }
+]

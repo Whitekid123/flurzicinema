@@ -1,0 +1,93 @@
+
+> flurzi-cinema@0.1.0 build
+> next build
+
+▲ Next.js 16.4.6 (Turbopack)
+- Environments: .env.local
+✓ Running next.config.ts took 323ms
+- Experiments (use with caution):
+  ⨯ serverSourceMaps
+  ⨯ turbopackSourceMaps
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 33.5s
+  Running TypeScript ...
+  Finished TypeScript in 12.8s ...
+  Collecting page data using 3 workers ...
+  Generating static pages using 3 workers (0/53) ...
+  Generating static pages using 3 workers (13/53) 
+  Generating static pages using 3 workers (26/53) 
+  Generating static pages using 3 workers (39/53) 
+✓ Generating static pages using 3 workers (53/53) in 5.8s
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ○ /about
+├ ○ /account
+├ ○ /account/billing
+├ ○ /account/details
+├ ○ /account/devices
+├ ○ /account/preferences
+├ ○ /account/security
+├ ƒ /api/player-lab/[asset]
+├ ○ /browse
+├ ○ /browse/history
+├ ○ /browse/movies
+├ ○ /browse/my-list
+├ ○ /browse/rooms
+├ ƒ /browse/rooms/[roomId]
+├ ƒ /browse/rooms/create
+├ ○ /browse/rooms/join
+├ ○ /browse/search
+├ ○ /browse/series
+├ ○ /browse/storymatch
+├ ○ /browse/storymatch/new
+├ ○ /browse/storymatch/results
+├ ƒ /browse/storymatch/session/[id]
+├ ƒ /browse/title/[id]
+├ ○ /contact
+├ ○ /explore
+├ ○ /features
+├ ○ /forgot-password
+├ ○ /get-started
+├ ○ /help
+├ ○ /icon.png
+├   /legal/[document]
+│ ├ ● /legal/privacy
+│ ├ ● /legal/terms
+│ ├ ● /legal/cookies
+│ └ ● /legal/copyright
+├ ○ /login
+├ ○ /movies
+├   /movies/[slug]
+│ ├ ● /movies/quiet-beyond
+│ ├ ● /movies/last-train
+│ ├ ● /movies/tides
+│ └ ● /movies/afterlight
+├ ○ /originals
+├ ƒ /player-lab
+├ ○ /premieres
+├ ○ /pricing
+├ ○ /profiles
+├ ○ /profiles/manage
+├ ○ /profiles/new
+├ ○ /reset-password
+├ ○ /series
+├   /series/[slug]
+│ └ ● /series/velvet-hours
+├ ○ /sign-in
+├ ○ /signup
+├ ○ /subscribe
+├ ○ /verify-email
+├ ƒ /watch/[id]
+└ ○ /welcome
+
+
+ƒ Proxy (Middleware)
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses generateStaticParams)
+ƒ  (Dynamic)  server-rendered on demand
+

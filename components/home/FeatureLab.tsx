@@ -31,14 +31,14 @@ const features = [
     short: "StoryLens",
     name: "Get to know\nthe movie.",
     description:
-      "Explore extra information about a movie, from its setting to its themes. Try a sample using a fictional film.",
+      "Explore supplied cast, creative details and scene notes on title details or while watching.",
   },
   {
     id: "data",
     short: "DataSense",
     name: "Streaming quality.\nData explained.",
     description:
-      "Compare picture quality and estimated data use. Illustrative estimates do not change playback settings.",
+      "Plan viewing around your data allowance and explore the information available for your source.",
   },
 ];
 export function FeatureLab({ onMovie }: { onMovie: (movie: Movie) => void }) {
@@ -46,8 +46,8 @@ export function FeatureLab({ onMovie }: { onMovie: (movie: Movie) => void }) {
   const [active, setActive] = useState("rooms");
   const [joined, setJoined] = useState(false);
   const [mood, setMood] = useState("Wonder");
-  const [lens, setLens] = useState("The world");
-  const [quality, setQuality] = useState("HD");
+
+
   const root = useRef<HTMLElement>(null);
   const journey = useRef<ScrollTrigger|null>(null);
   const onProgress = useCallback((index:number)=>setActive(features[index].id),[]);
@@ -75,7 +75,7 @@ export function FeatureLab({ onMovie }: { onMovie: (movie: Movie) => void }) {
     >
       <div className="section-heading" data-reveal>
         <div>
-          <p className="eyebrow">02 / PLANNED STREAMING FEATURES</p>
+          <p className="eyebrow">02 / YOUR VIEWING EXPERIENCE</p>
           <h2 data-editorial-lines>
             Choose how
             <br />
@@ -166,7 +166,7 @@ export function FeatureLab({ onMovie }: { onMovie: (movie: Movie) => void }) {
                 </span>
               </div>
               <div className="feature-demo">
-                {!mockMode&&<div className="room-demo"><div className="room-screen"><Image src={movies[0].backdrop} alt="Flurzi Cinema artwork" fill sizes="(max-width:800px) 90vw,45vw"/></div><div className="room-people"><Link className="button" href={feature.id==="rooms"?"/browse/rooms":feature.id==="match"?"/browse/storymatch":"/help"}>{feature.id==="rooms"?"Explore Cinema Rooms":feature.id==="match"?"Find your next story":"Learn more"}</Link></div></div>}{mockMode&&<p className="feature-footnote">Development preview · Illustrative interactions, not live services.</p>}{mockMode&&feature.id === "rooms" && (
+                {!mockMode&&<div className="room-demo"><div className="room-screen"><Image src={movies[0].backdrop} alt="Flurzi Cinema artwork" fill sizes="(max-width:800px) 90vw,45vw"/></div><div className="room-people"><Link className="button" href={feature.id==="rooms"?"/browse/rooms":feature.id==="match"?"/browse/storymatch":feature.id==="lens"?"/browse/movies":feature.id==="data"?"/features#datasense":"/help"}>{feature.id==="rooms"?"Explore Cinema Rooms":feature.id==="match"?"Find your next story":feature.id==="lens"?"Explore StoryLens":feature.id==="data"?"Plan with DataSense":"Learn more"}</Link></div></div>}{mockMode&&<p className="feature-footnote">Development preview · Illustrative interactions, not live services.</p>}{mockMode&&feature.id === "rooms" && (
                   <div className="room-demo">
                     <div className="demo-window-top">
                       <span>Friday, together.</span>
@@ -240,77 +240,8 @@ export function FeatureLab({ onMovie }: { onMovie: (movie: Movie) => void }) {
                     </p>
                   </div>
                 )}
-                {mockMode&&feature.id === "lens" && (
-                  <div className="lens-demo">
-                    <div className="lens-image">
-                      <Image
-                        src={movies[0].backdrop}
-                        alt="Film landscape"
-                        fill
-                        sizes="500px"
-                      />
-                      <span className="lens-pin">A world beyond the map</span>
-                    </div>
-                    <div className="lens-options">
-                      {["The world", "The theme", "The craft"].map((item) => (
-                        <button
-                          key={item}
-                          aria-pressed={lens === item}
-                          onClick={() => setLens(item)}
-                        >
-                          {item}
-                        </button>
-                      ))}
-                    </div>
-                    <p aria-live="polite">
-                      {lens === "The world"
-                        ? "An imagined volcanic coastline, where a familiar landscape becomes something entirely unknown."
-                        : lens === "The theme"
-                          ? "The story explores the courage it takes to step beyond certainty, and the quiet things that guide us."
-                          : "Warm amber against blue-black shadows creates a visual tension between invitation and uncertainty."}
-                    </p>
-                  </div>
-                )}
-                {mockMode&&feature.id === "data" && (
-                  <div className="data-demo">
-                    <span className="quality-display">
-                      {quality}
-                      <span>YOUR VIEWING PREFERENCE</span>
-                    </span>
-                    <fieldset>
-                      <legend>Choose a picture quality</legend>
-                      <div className="quality-options">
-                        {["SD", "HD", "4K"].map((item) => (
-                          <label key={item}>
-                            <input
-                              type="radio"
-                              name="quality"
-                              value={item}
-                              checked={quality === item}
-                              onChange={() => setQuality(item)}
-                            />
-                            <span>{item}</span>
-                          </label>
-                        ))}
-                      </div>
-                    </fieldset>
-                    <div className="data-estimate" aria-live="polite">
-                      <strong>
-                        {quality === "SD"
-                          ? "0.7"
-                          : quality === "HD"
-                            ? "3"
-                            : "7"}{" "}
-                        GB
-                      </strong>
-                      <span>Illustrative data per hour</span>
-                    </div>
-                    <p className="feature-footnote">
-                      Estimates only. Actual usage depends on codec, bitrate and
-                      device; these are not available streaming tiers.
-                    </p>
-                  </div>
-                )}
+                {mockMode&&feature.id === "lens"&&<div className="room-demo"><h4>Beyond the frame.</h4><p>Open StoryLens on title details to explore supplied information.</p><Link className="button" href="/browse/movies">Explore StoryLens</Link></div>}
+                {mockMode&&feature.id === "data"&&<div className="room-demo"><h4>Every megabyte, considered.</h4><p>Use your own viewing budget and bitrate assumption. No network balance or live usage is inferred.</p><Link className="button" href="/features#datasense">Open DataSense calculator</Link></div>}
               </div>
             </div>
           ))}

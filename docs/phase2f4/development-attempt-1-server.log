@@ -1,0 +1,38 @@
+▲ Next.js 16.4.6 (Turbopack)
+- Local:         http://127.0.0.1:3017
+- Network:       http://127.0.0.1:3017
+✓ Ready in 37.0s
+⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of C:\Users\USER\Downloads\flurzicinema\package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * C:\Users\USER\Downloads\flurzicinema\.phase2f4-lab\package-lock.json
+
+✓ Running next.config.ts took 2.5s
+Creating turbopack project {
+  dir: 'C:\\Users\\USER\\Downloads\\flurzicinema\\.phase2f4-lab',
+  testMode: true
+}
+⚠ Slow filesystem detected. The benchmark took 486ms. If \\?\C:\Users\USER\Downloads\flurzicinema\.phase2f4-lab\.next\dev is a network drive, consider moving it to a local folder.
+See more: https://nextjs.org/docs/app/guides/local-development
+○ Compiling proxy ...
+
+✓ Generated AGENTS.md for AI agents. Set `agentRules: false` in next.config to disable.
+○ Compiling /login ...
+ GET /login 200 in 13.8s (next.js: 7.1s, application-code: 6.7s)
+✓ Finished writing to filesystem cache in 13.9s
+ GET /login 200 in 659ms (next.js: 8ms, application-code: 651ms)
+○ Compiling /player-lab ...
+ GET /player-lab 200 in 6.8s (next.js: 6.1s, proxy.ts: 501ms, application-code: 223ms)
+○ Compiling /features ...
+ GET /features 200 in 959ms (next.js: 526ms, application-code: 433ms)
+ GET /browse/title/mock-quiet-beyond 200 in 3.8s (next.js: 3.6s, application-code: 204ms)
+✓ Finished writing to filesystem cache in 21.8s
+ GET /player-lab 200 in 1865ms (next.js: 891ms, proxy.ts: 37ms, application-code: 937ms)
+✓ Finished filesystem cache database compaction in 62s
+○ Compiling /api/player-lab/[asset] ...
+ GET /api/player-lab/original.webm 206 in 7.8s (next.js: 7.6s, proxy.ts: 22ms, application-code: 173ms)
+ GET /api/player-lab/original.webm 206 in 227ms (next.js: 171ms, proxy.ts: 23ms, application-code: 33ms)
+ GET /api/player-lab/original.webm 206 in 110ms (next.js: 42ms, proxy.ts: 32ms, application-code: 36ms)
+ GET /features 200 in 181ms (next.js: 4ms, application-code: 177ms)

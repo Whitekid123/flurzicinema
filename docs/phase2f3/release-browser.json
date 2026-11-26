@@ -1,0 +1,73 @@
+{
+  "mode": "release",
+  "screens": [
+    {
+      "name": "release-auth-input",
+      "width": 1920,
+      "overflow": 0
+    },
+    {
+      "name": "release-auth-input",
+      "width": 1440,
+      "overflow": 0
+    },
+    {
+      "name": "release-auth-input",
+      "width": 1024,
+      "overflow": 0
+    },
+    {
+      "name": "release-auth-input",
+      "width": 768,
+      "overflow": 0
+    },
+    {
+      "name": "release-auth-input",
+      "width": 430,
+      "overflow": 0
+    },
+    {
+      "name": "release-auth-input",
+      "width": 390,
+      "overflow": 0
+    },
+    {
+      "name": "release-auth-input",
+      "width": 375,
+      "overflow": 0
+    },
+    {
+      "name": "release-auth-input",
+      "width": 360,
+      "overflow": 0
+    },
+    {
+      "name": "release-auth-input",
+      "width": 320,
+      "overflow": 0
+    }
+  ],
+  "interactions": [
+    "Release auth fields tap/focus/type at nine widths; real unavailable submission; StoryLens discovery uses auth guard; no test credential utility"
+  ],
+  "errors": [],
+  "http": [
+    {
+      "path": "/player-lab",
+      "status": 404
+    },
+    {
+      "path": "/api/player-lab/original.webm",
+      "status": 404
+    },
+    {
+      "path": "/api/player-lab/captions.vtt",
+      "status": 404
+    },
+    {
+      "path": "/scripts/fixtures/player/original.webm",
+      "status": 404
+    }
+  ],
+  "complete": true
+}

@@ -1,21 +1,21 @@
 @import "tailwindcss";
 
 @theme inline {
-  --color-ink: #0b1018;
-  --color-surface: #171e28;
-  --color-amber: #f1ae64;
-  --color-ivory: #f6f2e9;
+  --color-ink: var(--brand-bg);
+  --color-surface: var(--brand-surface);
+  --color-amber: var(--brand-accent);
+  --color-ivory: var(--brand-text);
 }
 
 :root {
-  --ink: #0b1018;
-  --surface: #171e28;
-  --amber: #f1ae64;
-  --soft-amber: #ffca8b;
-  --teal: #7fc9c2;
-  --ivory: #f6f2e9;
-  --silver: #abb4c0;
-  --divider: #343a42;
+  --ink: var(--brand-bg);
+  --surface: var(--brand-surface);
+  --amber: var(--brand-accent);
+  --soft-amber: var(--brand-champagne);
+  --teal: var(--brand-success);
+  --ivory: var(--brand-text);
+  --silver: var(--brand-text-secondary);
+  --divider: var(--brand-border);
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
   --font-sans: "Cinema Sans", Arial, Helvetica, sans-serif;
 }
@@ -299,7 +299,7 @@ section {
 }
 .desktop-nav a {
   font-size: 12px;
-  color: #c1c3c5;
+  color: var(--brand-text);
   padding: 15px 0;
   position: relative;
   transition: color 0.2s;
@@ -514,7 +514,7 @@ section {
   font-size: 7px;
   letter-spacing: 0.13em;
   text-transform: uppercase;
-  color: #dedad5;
+  color: var(--brand-text);
 }
 .poster-bottom span {
   opacity: 0;
@@ -780,7 +780,7 @@ section {
   animation: demoEnter 0.5s var(--ease);
 }
 .room-demo {
-  background: #0b1018;
+  background: var(--brand-bg-secondary);
   border: 1px solid #fff2;
   border-radius: 6px;
   padding: 14px;
@@ -853,14 +853,14 @@ section {
   place-items: center;
   border-radius: 50%;
   background: #725746;
-  border: 2px solid #0b1018;
+  border: 2px solid var(--brand-border);
   font-size: 9px;
 }
 .avatars > span:nth-child(2) {
   background: #42635b;
 }
 .avatars > span:nth-child(3) {
-  background: #4e546e;
+  background: var(--brand-surface-hover);
 }
 .avatars > span.you-avatar {
   background: var(--amber);
@@ -1122,7 +1122,7 @@ section {
 }
 .premiere-main > p:not(.label) {
   font-size: 14px;
-  color: #dbd4d0;
+  color: var(--brand-text);
 }
 .premiere-main .button {
   margin-top: 25px;
@@ -1337,7 +1337,7 @@ section {
   display: block;
   margin-top: 25px;
   font-size: 8px;
-  color: #8b959f;
+  color: var(--brand-text-secondary);
 }
 .footer-columns h3 {
   font-size: 11px;
@@ -1366,7 +1366,7 @@ section {
   justify-content: space-between;
   gap: 20px;
   font-size: 9px;
-  color: #89929c;
+  color: var(--brand-text-secondary);
   border-top: 1px solid var(--divider);
   padding-top: 20px;
 }
@@ -1995,7 +1995,7 @@ section {
   .premiere-scrim {
     background:
       linear-gradient(90deg, #0b1018c9, transparent),
-      linear-gradient(0deg, #0b1018, transparent 45%, #0b10184d);
+      linear-gradient(0deg, var(--brand-bg-secondary), transparent 45%, #0b10184d);
   }
   .premiere-main {
     padding-block: 95px 70px;

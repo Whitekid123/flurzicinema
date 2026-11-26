@@ -1,10 +1,11 @@
 
 "use client";
 import Link from "next/link";
-import {useState,type ReactNode,type InputHTMLAttributes} from "react";
+import {BrandWordmark} from "@/components/ui/BrandWordmark";
+import {useState,useRef,useLayoutEffect,type ReactNode,type InputHTMLAttributes} from "react";
 import {Artwork} from "@/components/ui/Artwork";
 import {mockMode} from "@/lib/api/client";
-export function EntryBrand(){return <Link className="entry-brand" href="/" aria-label="Flurzi Cinema home"><strong>flurzi<span aria-hidden="true">✳</span></strong><span>CINEMA</span></Link>;}
+export function EntryBrand(){return <Link className="entry-brand" href="/" aria-label="Flurzi Cinema home"><BrandWordmark/></Link>;}
 export function AuthFrame({children,scene="quiet",title="A good night.\nA great movie."}:{children:ReactNode;scene?:"quiet"|"train"|"velvet";title?:string}){
  const artwork=scene==="train"?"/images/last-train.webp":scene==="velvet"?"/images/velvet-hours.webp":"/images/quiet-beyond.webp";
  const film=scene==="train"?"The Last Train North":scene==="velvet"?"Velvet Hours":"The Quiet Beyond";
@@ -20,7 +21,11 @@ export function Field({label,error,hint,id,...props}:InputHTMLAttributes<HTMLInp
 }
 export function PasswordField({label="Password",error,hint,id="password",...props}:InputHTMLAttributes<HTMLInputElement>&{label?:string;error?:string;hint?:string;id?:string}){
  const [visible,setVisible]=useState(false);
- return <div className="entry-field"><label htmlFor={id}>{label}</label><div className="entry-password"><input id={id} {...props} type={visible?"text":"password"} aria-invalid={Boolean(error)} aria-describedby={error?id+"-error":hint?id+"-hint":undefined}/><button type="button" disabled={props.disabled} aria-label={(visible?"Hide ":"Show ")+label.toLowerCase()} aria-pressed={visible} onPointerDown={event=>event.preventDefault()} onClick={()=>setVisible(!visible)}><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12Z" stroke="currentColor" strokeWidth="1.4"/><circle cx="12" cy="12" r="3" stroke="currentColor" strokeWidth="1.4"/>{visible&&<path d="m3 3 18 18" stroke="currentColor" strokeWidth="1.4"/>}</svg></button></div>{hint&&<p id={id+"-hint"} className="entry-hint">{hint}</p>}{error&&<p id={id+"-error"} className="entry-field-error">{error}</p>}</div>;
+ const inputRef=useRef<HTMLInputElement>(null);
+ const selection=useRef<{start:number;end:number;direction:"forward"|"backward"|"none"}|null>(null);
+ useLayoutEffect(()=>{const saved=selection.current;const input=inputRef.current;if(!saved||!input)return;const frame=requestAnimationFrame(()=>{if(inputRef.current!==input||selection.current!==saved)return;input.setSelectionRange(saved.start,saved.end,saved.direction);selection.current=null;});return()=>cancelAnimationFrame(frame);},[visible]);
+ function toggle(){const input=inputRef.current;if(input&&input.selectionStart!==null&&input.selectionEnd!==null)selection.current={start:input.selectionStart,end:input.selectionEnd,direction:input.selectionDirection??"none"};setVisible(value=>!value);}
+ return <div className="entry-field"><label htmlFor={id}>{label}</label><div className="entry-password"><input ref={inputRef} id={id} {...props} type={visible?"text":"password"} aria-invalid={Boolean(error)} aria-describedby={error?id+"-error":hint?id+"-hint":undefined}/><button type="button" disabled={props.disabled} aria-label={(visible?"Hide ":"Show ")+label.toLowerCase()} aria-pressed={visible} onPointerDown={event=>event.preventDefault()} onClick={toggle}><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12Z" stroke="currentColor" strokeWidth="1.4"/><circle cx="12" cy="12" r="3" stroke="currentColor" strokeWidth="1.4"/>{visible&&<path d="m3 3 18 18" stroke="currentColor" strokeWidth="1.4"/>}</svg></button></div>{hint&&<p id={id+"-hint"} className="entry-hint">{hint}</p>}{error&&<p id={id+"-error"} className="entry-field-error">{error}</p>}</div>;
 }
 export function Submit({busy,children,disabled=false}:{busy:boolean;children:ReactNode;disabled?:boolean}){return <button className="entry-button" type="submit" disabled={disabled||busy} aria-busy={busy}>{busy?<><span className="entry-spinner" aria-hidden="true"/>Please wait…</>:children}</button>;}
 export function EntryLoading({message="Getting things ready…"}:{message?:string}){return <div className="entry-loading" role="status"><span className="entry-spinner" aria-hidden="true"/><p>{message}</p></div>;}

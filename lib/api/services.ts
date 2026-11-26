@@ -1,3 +1,4 @@
+import type {DataIdentity,DataPlanningMetadata} from "@/types/datasense";
 // Typed service contracts for the authenticated streaming app.
 // Production adapters implement these interfaces against the backend API
 // (docs/BACKEND_API_CONTRACTS.md). Dev mocks live in lib/api/mocks/ and
@@ -96,6 +97,8 @@ export interface WatchlistService {
 // --- Playback -------------------------------------------------------------
 
 export interface PlaybackService {
+  // Optional authorized metadata only; this never grants a playback session.
+  getDataPlanningMetadata?(input:DataIdentity&{signal?:AbortSignal}):Promise<DataPlanningMetadata>;
   getPlaybackMetadata(titleId: string, episodeId?: string, context?: { profileId: string; signal?: AbortSignal }): Promise<PlaybackMetadata>;
   reportProgress(progress: Omit<ViewingProgress, "id">): Promise<ViewingProgress>;
   reportCompleted(titleId: string, episodeId?: string, context?: { profileId: string; playbackSessionId: string }): Promise<void>;

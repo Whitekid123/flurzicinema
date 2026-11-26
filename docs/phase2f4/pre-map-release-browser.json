@@ -1,0 +1,118 @@
+{
+  "mode": "release",
+  "screens": [
+    {
+      "name": "public-calculator",
+      "width": 1920,
+      "overflow": 0
+    },
+    {
+      "name": "public-calculator",
+      "width": 1440,
+      "overflow": 0
+    },
+    {
+      "name": "public-calculator",
+      "width": 1024,
+      "overflow": 0
+    },
+    {
+      "name": "public-calculator",
+      "width": 768,
+      "overflow": 0
+    },
+    {
+      "name": "public-calculator",
+      "width": 430,
+      "overflow": 0
+    },
+    {
+      "name": "public-calculator",
+      "width": 390,
+      "overflow": 0
+    },
+    {
+      "name": "public-calculator",
+      "width": 375,
+      "overflow": 0
+    },
+    {
+      "name": "public-calculator",
+      "width": 360,
+      "overflow": 0
+    },
+    {
+      "name": "public-calculator",
+      "width": 320,
+      "overflow": 0
+    },
+    {
+      "name": "release-auth",
+      "width": 1920,
+      "overflow": 0
+    },
+    {
+      "name": "release-auth",
+      "width": 1440,
+      "overflow": 0
+    },
+    {
+      "name": "release-auth",
+      "width": 1024,
+      "overflow": 0
+    },
+    {
+      "name": "release-auth",
+      "width": 768,
+      "overflow": 0
+    },
+    {
+      "name": "release-auth",
+      "width": 430,
+      "overflow": 0
+    },
+    {
+      "name": "release-auth",
+      "width": 390,
+      "overflow": 0
+    },
+    {
+      "name": "release-auth",
+      "width": 375,
+      "overflow": 0
+    },
+    {
+      "name": "release-auth",
+      "width": 360,
+      "overflow": 0
+    },
+    {
+      "name": "release-auth",
+      "width": 320,
+      "overflow": 0
+    }
+  ],
+  "interactions": [
+    "Release login tap/type/visibility focus at nine widths; unavailable submission remains accurate; no test credentials"
+  ],
+  "errors": [],
+  "http": [
+    {
+      "path": "/player-lab",
+      "status": 404
+    },
+    {
+      "path": "/api/player-lab/original.webm",
+      "status": 404
+    },
+    {
+      "path": "/api/player-lab/captions.vtt",
+      "status": 404
+    },
+    {
+      "path": "/scripts/fixtures/player/original.webm",
+      "status": 404
+    }
+  ],
+  "complete": true
+}

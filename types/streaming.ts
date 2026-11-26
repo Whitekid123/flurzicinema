@@ -1,3 +1,4 @@
+import type {PlaybackDataMetadata} from "./datasense";
 // Flurzi Cinema — authenticated streaming app domain models.
 // Frontend contracts only. The backend engineer owns persistence,
 // permissions and playback authorisation. These types are deliberately
@@ -215,6 +216,7 @@ export interface ViewingProgress {
 }
 
 export interface PlaybackMetadata {
+  dataSense?: PlaybackDataMetadata;
   profileId?: Id;
   playbackSessionId?: string;
   sourceType?: "mp4" | "webm" | "hls" | "dash";

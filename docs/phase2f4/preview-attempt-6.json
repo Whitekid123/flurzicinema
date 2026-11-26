@@ -1,0 +1,77 @@
+{
+  "mode": "preview",
+  "screens": [],
+  "interactions": [],
+  "errors": [],
+  "http": [],
+  "authSteps": [
+    {
+      "name": "password-tap",
+      "email": "demo@flurzi.example",
+      "passwordLength": 0,
+      "passwordAttributeLength": 0,
+      "active": "password",
+      "documentFocus": true,
+      "readOnly": false,
+      "disabled": false
+    },
+    {
+      "name": "password-entered",
+      "email": "demo@flurzi.example",
+      "passwordLength": 12,
+      "passwordAttributeLength": 12,
+      "active": "password",
+      "documentFocus": true,
+      "readOnly": false,
+      "disabled": false
+    },
+    {
+      "name": "password-shown",
+      "email": "demo@flurzi.example",
+      "passwordLength": 12,
+      "passwordAttributeLength": 12,
+      "active": "password",
+      "documentFocus": true,
+      "readOnly": false,
+      "disabled": false
+    },
+    {
+      "name": "password-hidden",
+      "email": "demo@flurzi.example",
+      "passwordLength": 12,
+      "passwordAttributeLength": 12,
+      "active": "password",
+      "documentFocus": true,
+      "readOnly": false,
+      "disabled": false
+    }
+  ],
+  "passwordEntryMethod": "tap and standard input events",
+  "failure": "locator.fill: Error: strict mode violation: locator('.ds-title').getByLabel('Available viewing budget', { exact: true }) resolved to 2 elements:\n    1) <input value=\"\" id=\"_r_4_\" type=\"text\" maxlength=\"18\" autocomplete=\"off\" inputmode=\"decimal\" aria-invalid=\"false\" aria-describedby=\"_r_4_-hint\" placeholder=\"Enter your allowance\" aria-label=\"Available viewing budget\"/> aka getByRole('textbox', { name: 'Available viewing budget' })\n    2) <input value=\"\" id=\"_r_5_\" type=\"text\" maxlength=\"18\" autocomplete=\"off\" inputmode=\"decimal\" aria-invalid=\"false\" aria-describedby=\"_r_5_-hint\" placeholder=\"Enter your allowance\" aria-label=\"Available viewing budget\"/> aka getByLabel('Independent data calculator').getByPlaceholder('Enter your allowance')\n\nCall log:\n\u001b[2m  - waiting for locator('.ds-title').getByLabel('Available viewing budget', { exact: true })\u001b[22m\n\n    at C:\\Users\\USER\\Downloads\\flurzicinema\\scripts\\phase2f4-browser.mjs:84:288",
+  "failedPage": {
+    "url": "http://127.0.0.1:3017/browse/title/mock-quiet-beyond",
+    "text": "Skip to content\nflurzi✳\nCINEMA\nHome\nMovies\nSeries\nSearch\nMy List\nCinema Rooms\nMain\n⌄\n\n○ Development preview · Fictional catalog. No streaming access. Changes reset on refresh.\n\nHome\n/\nMovies\n\nMOVIE\n\nThe Quiet Beyond\nMovie\n2026\n1h 58m\n\nMystery / Adventure\n\n+\nMy List\nAbout this movie ↓\n\n○\nFictional preview title. Streaming is not available in this development preview.\n\nCheck playback availability\n◎\nStoryLens\nLook a little closer\n◒\nDataSense\nPlan your viewing data\n\nBEFORE YOU WATCH\n\nEvery story.\nA considered choice.\n×\n\nThe Quiet Beyond\n\nSupplied runtime: 1h 58m\n\nData estimates for this title are unavailable. No verified bitrate is available.\n\nCheck estimates again\nAvailable viewing budget\nGB\nMB\n\nYour own allowance, not a mobile-provider balance. Decimal MB and GB.\n\nEnter a budget to compare viewing time and estimated use.\n\nEstimates describe encoded media, not measured transfer or provider charges. Comparing an option does not change playback quality.\n\nCalculate with your own assumptions\n\nABOUT THE MOVIE\n\nThe Quiet Beyond\n\nAt the edge of a world falling silent, a cartographer follows a light that appears on no map. Some journeys begin where the known world ends.\n\nType\nMovie\nReleased\n2026\nRuntime\n118 minutes\nGenres\nMystery, Adventure\nMore to explore\n\nMore stories with related genres.\n\n←\n→\nMOVIE\ni\n+\nThe Last Train North\nMovie\n2025\n1h 46m\n\nAdventure · Drama\n\nMOVIE\ni\n+\nAfterlight\nMovie\n2023\n1h 51m\n\nDrama · Adventure\n\nflurzi cinema.\nBack to Home ↗\nViewing history ↗",
+    "inputs": [
+      {
+        "id": "_r_4_",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "id": "_r_5_",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "id": "",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "id": "",
+        "type": "text",
+        "value": ""
+      }
+    ]
+  }
+}

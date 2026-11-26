@@ -1,0 +1,5 @@
+import fs from 'node:fs/promises';import {spawn} from 'node:child_process';import assert from 'node:assert/strict';
+const file='docs/rebranding/preview-build.log';const log=await fs.open(file,'w');const start=Date.now();const child=spawn(process.env.ComSpec??'cmd.exe',['/d','/s','/c','npm run build'],{windowsHide:true,stdio:['ignore',log.fd,log.fd],env:{...process.env,NEXT_PUBLIC_USE_MOCKS:'1',NEXT_PUBLIC_FLURZI_CHANNEL:'preview',FLURZI_PLAYER_LAB:'0'}});
+const code=await new Promise((resolve,reject)=>{child.on('error',reject);child.on('exit',resolve);});await log.close();assert.equal(code,0);
+const records=JSON.parse(await fs.readFile('docs/rebranding/preview-validation.json','utf8'));const index=records.findIndex(r=>r.command==='npm run build');records[index]={command:'npm run build',code,seconds:(Date.now()-start)/1000,log:file,note:'Final paint-only hero strip correction. Other checks retain the same source logic.'};await fs.writeFile('docs/rebranding/preview-validation.json',JSON.stringify(records,null,2));
+const id=await fs.readFile('.next/BUILD_ID','utf8');await fs.writeFile('docs/rebranding/preview-build-id.txt',id);console.log('Final preview '+id);

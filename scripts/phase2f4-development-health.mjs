@@ -1,0 +1,2 @@
+import fs from 'node:fs/promises';
+const started=Date.now();const response=await fetch('http://127.0.0.1:3000/login',{signal:AbortSignal.timeout(180000)});const html=await response.text();const result={status:response.status,seconds:(Date.now()-started)/1000,htmlBytes:Buffer.byteLength(html),contentType:response.headers.get('content-type')};await fs.writeFile('docs/phase2f4/development-cold-health.json',JSON.stringify(result,null,2));console.log(JSON.stringify(result));if(!response.ok)process.exitCode=1;

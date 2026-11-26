@@ -821,11 +821,11 @@
   border-radius: 50%;
   background: repeating-radial-gradient(
     circle at center,
-    #111722 0 2px,
-    #26303d 3px,
-    #111722 4px 7px
+    var(--brand-surface) 0 2px,
+    var(--brand-surface-hover) 3px,
+    var(--brand-surface) 4px 7px
   );
-  border: 2px solid #56606a;
+  border: 2px solid var(--brand-border);
   animation: reelTurn 32s linear infinite;
   animation-play-state: paused;
 }

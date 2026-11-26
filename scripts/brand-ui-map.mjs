@@ -1,0 +1,3 @@
+import fs from 'node:fs/promises';
+for(const p of ['components/streaming/Rooms.tsx','components/streaming/StoryMatch.tsx','components/streaming/StoryLens.tsx','components/streaming/DataSense.tsx','components/streaming/ProfileScreens.tsx']){const s=await fs.readFile(p,'utf8');console.log(p);console.log([...new Set([...s.matchAll(/className="([^"]+)"/g)].map(m=>m[1]))].filter(x=>/app|shell|primary|button|dialog|lens|choice|result/.test(x)).join(', '));console.log([...s.matchAll(/<button[^>]*>[^<]{3,50}</g)].map(m=>m[0].slice(-70)).join(' | ').slice(0,1100));}
+const before=JSON.parse(await fs.readFile('docs/rebranding/before-browser.json','utf8'));console.log('Before evidence',before.map(x=>[x.name,x.url?.replace('http://127.0.0.1:3000','')]));

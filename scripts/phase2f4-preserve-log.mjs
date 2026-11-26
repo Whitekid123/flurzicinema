@@ -1,0 +1,14 @@
+import fs from 'node:fs/promises';import crypto from 'node:crypto';import {execFile} from 'node:child_process';import assert from 'node:assert/strict';
+const hash=b=>crypto.createHash('sha256').update(b).digest('hex');
+const expected=JSON.parse(await fs.readFile('docs/phase2f4/baseline.json','utf8'))['debug.log'];
+const current=await fs.readFile('debug.log');
+const tracked=await new Promise((resolve,reject)=>execFile('git',['show','HEAD:debug.log'],{encoding:'buffer',maxBuffer:2000000,windowsHide:true},(error,stdout)=>error?reject(error):resolve(stdout)));
+const original=[tracked,Buffer.from(tracked.toString('utf8').replace(/\r?\n/g,'\r\n'))].find(b=>hash(b)===expected);
+assert(original,'Tracked log does not match baseline; preserve the working log.');
+assert(current.subarray(0,original.length).equals(original),'Non-append log changes; preserve them.');
+const sqliteWarning="[1126/030945.547:WARNING:net\\extras\\sqlite\\sqlite_persistent_store_backend_base.cc:181] Failed to post task from operator()@net\\extras\\sqlite\\sqlite_persistent_shared_dictionary_store.cc:259 to client_task_runner_.";
+const probe=await fs.stat("docs/phase2f4/password-driver-probe.json");const warningAt=new Date(probe.mtime);warningAt.setHours(3,9,45,547);assert(Math.abs(probe.mtimeMs-warningAt.getTime())<1000,"SQLite warning does not match owned probe completion");
+const suffix=current.subarray(original.length);const lines=suffix.toString('utf8').trim().split(/\r?\n/).filter(Boolean);
+assert(lines.every(line=>line===sqliteWarning||/^\[1126\/0[123]\d{4}\.\d{3}:WARNING:services\\audio\\sync_reader\.cc:(?:175|154)\] /.test(line)),'Unexpected log activity; preserve the working log.');
+const previous=await fs.readFile('docs/phase2f4/chromium-startup.log').catch(()=>Buffer.alloc(0));const retained=Buffer.concat([previous,suffix]);await fs.writeFile('docs/phase2f4/chromium-startup.log',retained);await fs.writeFile('debug.log',original);
+await fs.writeFile('docs/phase2f4/debug-log-preservation.json',JSON.stringify({originalHash:expected,restoredHash:hash(await fs.readFile('debug.log')),retainedWarnings:retained.toString("utf8").trim().split(/\r?\n/).filter(Boolean),sqliteProbeMtime:probe.mtime.toISOString(),appendOnlyVerified:true},null,2));

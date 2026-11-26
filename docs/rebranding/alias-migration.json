@@ -1,0 +1,332 @@
+[
+  {
+    "path": "styles/editorial-sections.css",
+    "property": "--amber",
+    "before": "#f5f5f3",
+    "after": "var(--brand-accent)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "property": "--soft-amber",
+    "before": "#d8d8d7",
+    "after": "var(--brand-champagne)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "property": "--divider",
+    "before": "#44444b",
+    "after": "var(--brand-border)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "property": "--ivory",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "property": "--ink",
+    "before": "#08090b",
+    "after": "var(--brand-bg)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "property": "--surface",
+    "before": "#1b1b1f",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "property": "--amber",
+    "before": "#f5f5f3",
+    "after": "var(--brand-accent)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "property": "--soft-amber",
+    "before": "#d8d8d7",
+    "after": "var(--brand-champagne)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "property": "--ink",
+    "before": "#08090b",
+    "after": "var(--brand-bg)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "property": "--divider",
+    "before": "#44444b",
+    "after": "var(--brand-border)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "property": "--amber",
+    "before": "#f5f5f3",
+    "after": "var(--brand-accent)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "property": "--soft-amber",
+    "before": "#dddddb",
+    "after": "var(--brand-champagne)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "property": "--ink",
+    "before": "#08090b",
+    "after": "var(--brand-bg)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "property": "--surface",
+    "before": "#1b1b1f",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "property": "--divider",
+    "before": "#44444b",
+    "after": "var(--brand-border)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "property": "--ink",
+    "before": "#08090b",
+    "after": "var(--brand-bg)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "property": "--surface",
+    "before": "#1b1b1f",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "property": "--amber",
+    "before": "#08090b",
+    "after": "var(--brand-accent)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "property": "--soft-amber",
+    "before": "#1b1b1f",
+    "after": "var(--brand-champagne)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "property": "--teal",
+    "before": "#8c8d93",
+    "after": "var(--brand-success)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "property": "--ivory",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "property": "--silver",
+    "before": "#8c8d93",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "property": "--divider",
+    "before": "#cfcfce",
+    "after": "var(--brand-border)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "property": "--amber",
+    "before": "#f5f5f3",
+    "after": "var(--brand-accent)"
+  },
+  {
+    "path": "styles/globals.css",
+    "property": "--color-ink",
+    "before": "#0b1018",
+    "after": "var(--brand-bg)"
+  },
+  {
+    "path": "styles/globals.css",
+    "property": "--color-surface",
+    "before": "#171e28",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "styles/globals.css",
+    "property": "--color-amber",
+    "before": "#f1ae64",
+    "after": "var(--brand-accent)"
+  },
+  {
+    "path": "styles/globals.css",
+    "property": "--color-ivory",
+    "before": "#f6f2e9",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/globals.css",
+    "property": "--ink",
+    "before": "#0b1018",
+    "after": "var(--brand-bg)"
+  },
+  {
+    "path": "styles/globals.css",
+    "property": "--surface",
+    "before": "#171e28",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "styles/globals.css",
+    "property": "--amber",
+    "before": "#f1ae64",
+    "after": "var(--brand-accent)"
+  },
+  {
+    "path": "styles/globals.css",
+    "property": "--soft-amber",
+    "before": "#ffca8b",
+    "after": "var(--brand-champagne)"
+  },
+  {
+    "path": "styles/globals.css",
+    "property": "--teal",
+    "before": "#7fc9c2",
+    "after": "var(--brand-success)"
+  },
+  {
+    "path": "styles/globals.css",
+    "property": "--ivory",
+    "before": "#f6f2e9",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/globals.css",
+    "property": "--silver",
+    "before": "#abb4c0",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/globals.css",
+    "property": "--divider",
+    "before": "#343a42",
+    "after": "var(--brand-border)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "property": "--cinema-bg",
+    "before": "#08090b",
+    "after": "var(--brand-bg)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "property": "--cinema-text",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "property": "--cinema-muted",
+    "before": "#a7a7af",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "property": "--cinema-panel",
+    "before": "#17181c",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "property": "--cinema-line",
+    "before": "#33343b",
+    "after": "var(--brand-border)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "property": "--entry-ink",
+    "before": "#08090b",
+    "after": "var(--brand-bg)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "property": "--entry-paper",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "property": "--entry-muted",
+    "before": "#a7a7af",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "property": "--entry-line",
+    "before": "#3f3f46",
+    "after": "var(--brand-border-strong)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "property": "--entry-focus",
+    "before": "#f5f5f3",
+    "after": "var(--brand-focus)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "property": "--entry-focus",
+    "before": "#08090b",
+    "after": "var(--brand-focus)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "property": "--entry-muted",
+    "before": "#626269",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "property": "--entry-line",
+    "before": "#c4c4c9",
+    "after": "var(--brand-border-strong)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "property": "--amber",
+    "before": "#f5f5f3",
+    "after": "var(--brand-accent)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "property": "--soft-amber",
+    "before": "#f5f5f3",
+    "after": "var(--brand-champagne)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "property": "--ink",
+    "before": "#08090b",
+    "after": "var(--brand-bg)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "property": "--ivory",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "property": "--silver",
+    "before": "#a7a7af",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/player.css",
+    "property": "--player-muted",
+    "before": "#adaeb7",
+    "after": "var(--brand-text-secondary)"
+  }
+]

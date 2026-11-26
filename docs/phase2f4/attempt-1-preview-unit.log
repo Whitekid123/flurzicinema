@@ -1,0 +1,45 @@
+
+> flurzi-cinema@0.1.0 test:unit
+> vitest run --maxWorkers=1
+
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - ESM syntax in a file loaded as CommonJS (vitest.config.ts:1:1). Use a `.mjs` extension or set `"type": "module"` in the closest package.json
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+
+ RUN  v5.1.1 C:/Users/USER/Downloads/flurzicinema
+
+ ❯ tests/streaming-entry.unit.test.ts (0 test)
+ ❯ tests/datasense.unit.test.ts (83 tests | 1 failed) 112ms
+   ❯ source telemetry, deduplication and lifecycle (18)
+     × expires and disposes transport once, removing private snapshots 10ms
+
+⎯⎯⎯⎯⎯⎯ Failed Suites 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/streaming-entry.unit.test.ts [ tests/streaming-entry.unit.test.ts ]
+Error: Cannot find module './mocks/mockServices'
+Require stack:
+- C:\Users\USER\Downloads\flurzicinema\lib\api\client.ts
+ ❯ lib/api/client.ts:13:90
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/2]⎯
+
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/datasense.unit.test.ts > source telemetry, deduplication and lifecycle > expires and disposes transport once, removing private snapshots
+AssertionError: expected "vi.fn()" to be called once, but got 2 times
+ ❯ tests/datasense.unit.test.ts:64:573
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/2]⎯
+
+
+ Test Files  2 failed | 9 passed (11)
+      Tests  1 failed | 353 passed (354)
+   Start at  01:48:37
+   Duration  48.78s (tests 90%, transform 7%, import 2%)
+
+    Isolate  11 workers spawned · ~398ms startup each (spawn + environment, per file)
+             at least ~3.98s faster with isolate: false — reuses workers across files instead of one per file
+

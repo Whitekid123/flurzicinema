@@ -1,0 +1,147 @@
+{
+  "mode": "preview",
+  "screens": [
+    {
+      "name": "public-calculator",
+      "width": 1920,
+      "overflow": 0
+    },
+    {
+      "name": "public-calculator",
+      "width": 1440,
+      "overflow": 0
+    },
+    {
+      "name": "public-calculator",
+      "width": 1024,
+      "overflow": 0
+    },
+    {
+      "name": "public-calculator",
+      "width": 768,
+      "overflow": 0
+    },
+    {
+      "name": "public-calculator",
+      "width": 430,
+      "overflow": 0
+    },
+    {
+      "name": "public-calculator",
+      "width": 390,
+      "overflow": 0
+    },
+    {
+      "name": "public-calculator",
+      "width": 375,
+      "overflow": 0
+    },
+    {
+      "name": "public-calculator",
+      "width": 360,
+      "overflow": 0
+    },
+    {
+      "name": "public-calculator",
+      "width": 320,
+      "overflow": 0
+    },
+    {
+      "name": "title-unavailable-planning",
+      "width": 1920,
+      "overflow": 0
+    },
+    {
+      "name": "title-unavailable-planning",
+      "width": 1440,
+      "overflow": 0
+    },
+    {
+      "name": "title-unavailable-planning",
+      "width": 1024,
+      "overflow": 0
+    },
+    {
+      "name": "title-unavailable-planning",
+      "width": 768,
+      "overflow": 0
+    },
+    {
+      "name": "title-unavailable-planning",
+      "width": 430,
+      "overflow": 0
+    },
+    {
+      "name": "title-unavailable-planning",
+      "width": 390,
+      "overflow": 0
+    },
+    {
+      "name": "title-unavailable-planning",
+      "width": 375,
+      "overflow": 0
+    },
+    {
+      "name": "title-unavailable-planning",
+      "width": 360,
+      "overflow": 0
+    },
+    {
+      "name": "title-unavailable-planning",
+      "width": 320,
+      "overflow": 0
+    }
+  ],
+  "interactions": [],
+  "errors": [],
+  "http": [],
+  "authSteps": [
+    {
+      "name": "password-tap",
+      "email": "demo@flurzi.example",
+      "passwordLength": 0,
+      "passwordAttributeLength": 0,
+      "active": "password",
+      "documentFocus": true,
+      "readOnly": false,
+      "disabled": false
+    },
+    {
+      "name": "password-entered",
+      "email": "demo@flurzi.example",
+      "passwordLength": 12,
+      "passwordAttributeLength": 12,
+      "active": "password",
+      "documentFocus": true,
+      "readOnly": false,
+      "disabled": false
+    },
+    {
+      "name": "password-shown",
+      "email": "demo@flurzi.example",
+      "passwordLength": 12,
+      "passwordAttributeLength": 12,
+      "active": "password",
+      "documentFocus": true,
+      "readOnly": false,
+      "disabled": false
+    },
+    {
+      "name": "password-hidden",
+      "email": "demo@flurzi.example",
+      "passwordLength": 12,
+      "passwordAttributeLength": 12,
+      "active": "password",
+      "documentFocus": true,
+      "readOnly": false,
+      "disabled": false
+    }
+  ],
+  "passwordEntryMethod": "tap and standard input events",
+  "failure": "locator.tap: Timeout 45000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('link', { name: 'Preferences', exact: true }).first()\u001b[22m\n\n    at C:\\Users\\USER\\Downloads\\flurzicinema\\scripts\\phase2f4-browser.mjs:85:219",
+  "failedPage": {
+    "url": "http://127.0.0.1:3017/account",
+    "text": "Skip to content\nflurzi✳\nCINEMA\n⌄\n\n○ Development preview · Fictional catalog. No streaming access. Changes reset on refresh.\n\n← Back to cinema\n\nYour account.\n\nOverview\nAccount details\nMembership & billing\nSecurity\nDevices\nViewing preferences\nACCOUNT OVERVIEW\nMake yourself at home.\n\nYour membership, your settings and the people you watch with.\n\n01\nThe account holder\nDemo Viewer\n\ndemo@flurzi.example\n\nEmail verified\nView account details ↗\n02\nYour membership\nNo active membership\n\nA viewing preference is selected. No payment or streaming access.\n\nMembership & billing ↗\n03\nYour seat in the cinema\n\nViewing preferences belong to a profile, not the account.\n\nMain\n\nCurrent viewing profile\n\nViewing preferences\nSwitch profile ↗\nManage profiles ↗\n↗\nKeep it yours.\n\nPassword recovery, verification and your session.\n\nAccount security\n↗\nWhere you watch.\n\nReview the devices associated with your account.\n\nManage devices\n\nFinished for now?\nYou can pick up where you left off next time.\n\nSign out of this session\nFlurzi Cinema · Account centre\nNeed a hand? Visit Help ↗\nHome\nMovies\nSeries\nSearch\nMy List",
+    "inputs": []
+  }
+}

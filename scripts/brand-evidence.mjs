@@ -1,0 +1,5 @@
+import fs from 'node:fs/promises';
+const before=JSON.parse(await fs.readFile('docs/rebranding/before-browser.json','utf8'));const expected={home:'/',login:'/login',subscribe:'/subscribe',profiles:'/profiles',browse:'/browse',title:'/browse/title/mock-quiet-beyond',datasense:'/browse/title/mock-quiet-beyond',storylens:'/browse/title/mock-quiet-beyond',account:'/account',rooms:'/browse/rooms',storymatch:'/browse/storymatch'};
+const records=before.map(r=>({...r,validForComparison:r.url&&new URL(r.url).pathname===expected[r.name],reason:r.url&&new URL(r.url).pathname===expected[r.name]?'Expected route captured':'Navigation had not completed; exclude this labelled capture'}));
+await fs.writeFile('docs/rebranding/before-evidence-audit.json',JSON.stringify({valid:records.filter(r=>r.validForComparison).length,excluded:records.filter(r=>!r.validForComparison).length,records},null,2));
+console.log(JSON.stringify({valid:records.filter(r=>r.validForComparison).length,excluded:records.filter(r=>!r.validForComparison).length}));

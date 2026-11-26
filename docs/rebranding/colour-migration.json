@@ -1,0 +1,4790 @@
+[
+  {
+    "path": "styles/editorial-sections.css",
+    "selector": ".editorial-home .editorial-features",
+    "property": "background",
+    "before": "#08090b",
+    "after": "var(--brand-bg)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "selector": ".editorial-home .editorial-features",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "selector": ".editorial-home .editorial-features .section-heading>p",
+    "property": "color",
+    "before": "#a9a9af",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "selector": ".editorial-home .feature-tabs button",
+    "property": "color",
+    "before": "#b0b0b6",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "selector": ".editorial-home .feature-tabs button[aria-selected=true]",
+    "property": "background",
+    "before": "#f5f5f3",
+    "after": "var(--brand-selected-bg)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "selector": ".editorial-home .feature-tabs button[aria-selected=true]",
+    "property": "color",
+    "before": "#08090b",
+    "after": "var(--brand-selected-text)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "selector": ".editorial-home .feature-text>p",
+    "property": "color",
+    "before": "#b0b0b6",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "selector": ".editorial-home .feature-demo",
+    "property": "background",
+    "before": "#1b1b1f",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "selector": ".editorial-home .feature-demo .button",
+    "property": "background",
+    "before": "#f5f5f3",
+    "after": "var(--brand-action)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "selector": ".editorial-home .feature-demo .button",
+    "property": "color",
+    "before": "#08090b",
+    "after": "var(--brand-on-action)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "selector": ".editorial-home .feature-demo .button",
+    "property": "border-color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-border-strong)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "selector": ".editorial-home :is(.room-demo,.match-demo,.lens-demo,.data-demo)",
+    "property": "background",
+    "before": "#1b1b1f",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "selector": ".editorial-home :is(.room-demo,.match-demo,.lens-demo,.data-demo)",
+    "property": "border-color",
+    "before": "#44444b",
+    "after": "var(--brand-border)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "selector": ".editorial-home :is(.demo-window-top,.room-people,.lens-options)",
+    "property": "background",
+    "before": "#1b1b1f",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "selector": ".editorial-home :is(.demo-window-top,.room-people,.lens-options)",
+    "property": "border-color",
+    "before": "#44444b",
+    "after": "var(--brand-border)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "selector": ".editorial-home .quality-display",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "selector": ".editorial-home .quality-options input:checked+span",
+    "property": "background",
+    "before": "#f5f5f3",
+    "after": "var(--brand-selected-bg)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "selector": ".editorial-home .quality-options input:checked+span",
+    "property": "color",
+    "before": "#08090b",
+    "after": "var(--brand-selected-text)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "selector": ".editorial-home .quality-options input:checked+span",
+    "property": "border-color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-border-strong)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "selector": ".editorial-home .mood-options button[aria-pressed=true],.editorial-home .lens-options button[aria-pressed=true]",
+    "property": "background",
+    "before": "#f5f5f3",
+    "after": "var(--brand-selected-bg)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "selector": ".editorial-home .mood-options button[aria-pressed=true],.editorial-home .lens-options button[aria-pressed=true]",
+    "property": "color",
+    "before": "#08090b",
+    "after": "var(--brand-selected-text)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "selector": ".editorial-home .feature-journey-note",
+    "property": "color",
+    "before": "#8c8d93",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "selector": ".editorial-home .feature-footnote",
+    "property": "color",
+    "before": "#a1a1a8",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "selector": ".editorial-spotlight",
+    "property": "background",
+    "before": "#1b1b1f",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "selector": ".editorial-spotlight",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "selector": ".editorial-button.inverse",
+    "property": "background",
+    "before": "#f5f5f3",
+    "after": "var(--brand-action)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "selector": ".editorial-button.inverse",
+    "property": "color",
+    "before": "#08090b",
+    "after": "var(--brand-on-action)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "selector": ".editorial-button.inverse",
+    "property": "border-color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-border-strong)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "selector": ".editorial-button.inverse:hover",
+    "property": "background",
+    "before": "#dededd",
+    "after": "var(--brand-action)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "selector": ".editorial-note",
+    "property": "color",
+    "before": "#8c8d93",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "selector": ".spotlight-sticker",
+    "property": "background",
+    "before": "#f5f5f3",
+    "after": "var(--brand-bg-secondary)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "selector": ".spotlight-sticker",
+    "property": "color",
+    "before": "#08090b",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "selector": ".editorial-home .faq-section>div>p:last-child",
+    "property": "color",
+    "before": "#66666d",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "selector": ".editorial-home .faq-item h3 button",
+    "property": "color",
+    "before": "#08090b",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "selector": ".editorial-home .faq-item h3 button>span",
+    "property": "color",
+    "before": "#08090b",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "selector": ".editorial-home .faq-item p",
+    "property": "color",
+    "before": "#606069",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "selector": ".editorial-finale",
+    "property": "background",
+    "before": "#e9e9e7",
+    "after": "var(--brand-bg-secondary)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "selector": ".finale-door",
+    "property": "background",
+    "before": "#08090b",
+    "after": "var(--brand-bg)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "selector": ".editorial-home .footer",
+    "property": "background",
+    "before": "#08090b",
+    "after": "var(--brand-bg)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "selector": ".editorial-home .footer",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "selector": ".editorial-home .footer .brand-star",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "selector": ".editorial-home .footer a",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "selector": ".editorial-home .modal",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "selector": ".editorial-home .modal",
+    "property": "background",
+    "before": "#1b1b1f",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "selector": ".editorial-home .modal .button",
+    "property": "background",
+    "before": "#f5f5f3",
+    "after": "var(--brand-action)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "selector": ".editorial-home .modal .button",
+    "property": "color",
+    "before": "#08090b",
+    "after": "var(--brand-on-action)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "selector": ".editorial-home .modal .button",
+    "property": "border-color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-border-strong)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "selector": ".editorial-home .modal .text-link",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "selector": ".editorial-home .modal .close-button",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "selector": ".editorial-home .avatars>span,.editorial-home .avatars>span:nth-child(2),.editorial-home .avatars>span:nth-child(3),.editorial-home .avatars>span.you-avatar",
+    "property": "background",
+    "before": "#45454b",
+    "after": "var(--brand-surface-hover)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "selector": ".editorial-home .avatars>span,.editorial-home .avatars>span:nth-child(2),.editorial-home .avatars>span:nth-child(3),.editorial-home .avatars>span.you-avatar",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "selector": ".editorial-home .avatars>span,.editorial-home .avatars>span:nth-child(2),.editorial-home .avatars>span:nth-child(3),.editorial-home .avatars>span.you-avatar",
+    "property": "border-color",
+    "before": "#1b1b1f",
+    "after": "var(--brand-border)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "selector": ".editorial-home .lens-pin",
+    "property": "background",
+    "before": "#f5f5f3",
+    "after": "var(--brand-bg-secondary)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "selector": ".editorial-home .lens-pin",
+    "property": "color",
+    "before": "#08090b",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "selector": ".editorial-home .lens-pin",
+    "property": "border-color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-border-strong)"
+  },
+  {
+    "path": "styles/editorial-sections.css",
+    "selector": ".editorial-home .feature-demo .button",
+    "property": "background",
+    "before": "#f5f5f3",
+    "after": "var(--brand-action)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".editorial-home",
+    "property": "background",
+    "before": "#f5f5f3",
+    "after": "var(--brand-bg-secondary)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".editorial-home",
+    "property": "color",
+    "before": "#08090b",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".editorial-home ::selection",
+    "property": "background",
+    "before": "#08090b",
+    "after": "var(--brand-bg)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".editorial-home ::selection",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".editorial-home .header",
+    "property": "color",
+    "before": "#08090b",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".editorial-home .desktop-nav a,.editorial-home .signin",
+    "property": "color",
+    "before": "#08090b",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".editorial-home .header .button",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".editorial-home .header .button",
+    "property": "background",
+    "before": "#08090b",
+    "after": "var(--brand-action)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".editorial-home .menu-toggle span",
+    "property": "background",
+    "before": "#08090b",
+    "after": "var(--brand-bg)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".editorial-home .skip-link",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".editorial-home .button",
+    "property": "background",
+    "before": "#08090b",
+    "after": "var(--brand-action)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".editorial-home .button",
+    "property": "border-color",
+    "before": "#08090b",
+    "after": "var(--brand-border)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".editorial-home .button",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".editorial-home .button:hover",
+    "property": "background",
+    "before": "#1b1b1f",
+    "after": "var(--brand-action)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".editorial-home .button-outline:hover",
+    "property": "background",
+    "before": "#08090b",
+    "after": "var(--brand-bg)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".editorial-home .button-outline:hover",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".editorial-button",
+    "property": "background",
+    "before": "#08090b",
+    "after": "var(--brand-action)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".editorial-button",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".editorial-button",
+    "property": "border",
+    "before": "1px solid #08090b",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".editorial-button:hover",
+    "property": "background",
+    "before": "#303035",
+    "after": "var(--brand-action)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".hero-image-field",
+    "property": "background-color",
+    "before": "#eeeeed",
+    "after": "var(--brand-bg-secondary)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".hero-grid-label",
+    "property": "color",
+    "before": "#616168",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".hero-frame-inner",
+    "property": "background",
+    "before": "#1b1b1f",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".frame-caption",
+    "property": "color",
+    "before": "#fff",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".hero-discovery-search",
+    "property": "background",
+    "before": "#dededd",
+    "after": "var(--brand-bg-secondary)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".hero-discovery-search",
+    "property": "border",
+    "before": "1px solid #d6d6d5",
+    "after": "1px solid var(--brand-border-strong)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".hero-discovery-search:focus-within",
+    "property": "outline",
+    "before": "1px solid #08090b",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".hero-discovery-search input",
+    "property": "color",
+    "before": "#08090b",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".hero-discovery-search input::placeholder",
+    "property": "color",
+    "before": "#48484d",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".hero-discovery-search button",
+    "property": "background",
+    "before": "#fdfdfc",
+    "after": "var(--brand-bg-secondary)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".hero-discovery-search button",
+    "property": "color",
+    "before": "#08090b",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".discovery-composition",
+    "property": "background",
+    "before": "#f5f5f3",
+    "after": "var(--brand-bg-secondary)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".floating-label",
+    "property": "background",
+    "before": "#08090b",
+    "after": "var(--brand-bg)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".floating-label",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".mosaic-browser-bar",
+    "property": "background",
+    "before": "#e9e9e8",
+    "after": "var(--brand-bg-secondary)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".mosaic-card",
+    "property": "background",
+    "before": "#1b1b1f",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".mosaic-card",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".mosaic-browser-bottom",
+    "property": "background",
+    "before": "#e9e9e8",
+    "after": "var(--brand-bg-secondary)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".editorial-home .vault-rescue",
+    "property": "background",
+    "before": "#e8e8e6",
+    "after": "var(--brand-bg-secondary)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".editorial-home .vault-rescue",
+    "property": "color",
+    "before": "#08090b",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".editorial-home .vault-intro p",
+    "property": "color",
+    "before": "#55555d",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".editorial-home .filter-group button",
+    "property": "color",
+    "before": "#56565c",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".editorial-home .filter-group button[aria-pressed=true]",
+    "property": "background",
+    "before": "#08090b",
+    "after": "var(--brand-selected-bg)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".editorial-home .filter-group button[aria-pressed=true]",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-selected-text)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".editorial-home .filter-group button[aria-pressed=true]",
+    "property": "border-color",
+    "before": "#08090b",
+    "after": "var(--brand-border)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".editorial-home .view-switch",
+    "property": "background",
+    "before": "#d8d8d6",
+    "after": "var(--brand-bg-secondary)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".editorial-home .view-switch",
+    "property": "color",
+    "before": "#08090b",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".editorial-home .view-switch button",
+    "property": "color",
+    "before": "#08090b",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".editorial-home .view-switch button[aria-pressed=true]",
+    "property": "background",
+    "before": "#08090b",
+    "after": "var(--brand-selected-bg)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".editorial-home .view-switch button[aria-pressed=true]",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-selected-text)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".editorial-home .vault-item .poster",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".editorial-home .selection-copy h3",
+    "property": "color",
+    "before": "#08090b",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".editorial-home :is(.selection-copy p,.selection-meta,.selection-disclaimer,.vault-caption span)",
+    "property": "color",
+    "before": "#5e5e66",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".editorial-home .year-markers button",
+    "property": "color",
+    "before": "#6b6b70",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".editorial-home .year-markers button[aria-pressed=true]",
+    "property": "color",
+    "before": "#08090b",
+    "after": "var(--brand-selected-text)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".editorial-home .fan-control",
+    "property": "background",
+    "before": "#08090b",
+    "after": "var(--brand-bg)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".editorial-home .fan-control",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".editorial-home .fan-control",
+    "property": "border-color",
+    "before": "#08090b",
+    "after": "var(--brand-border)"
+  },
+  {
+    "path": "styles/editorial.css",
+    "selector": ".editorial-home .vault-paging button",
+    "property": "color",
+    "before": "#08090b",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/exhibition.css",
+    "selector": ".record-rotor",
+    "property": "background",
+    "before": "repeating-radial-gradient(\n    circle at center,\n    #111722 0 2px,\n    #26303d 3px,\n    #111722 4px 7px\n  )",
+    "after": "repeating-radial-gradient(\n    circle at center,\n    var(--brand-surface) 0 2px,\n    var(--brand-surface-hover) 3px,\n    var(--brand-surface) 4px 7px\n  )"
+  },
+  {
+    "path": "styles/exhibition.css",
+    "selector": ".record-rotor",
+    "property": "border",
+    "before": "2px solid #56606a",
+    "after": "2px solid var(--brand-border)"
+  },
+  {
+    "path": "styles/globals.css",
+    "selector": ".desktop-nav a",
+    "property": "color",
+    "before": "#c1c3c5",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/globals.css",
+    "selector": ".poster-bottom",
+    "property": "color",
+    "before": "#dedad5",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/globals.css",
+    "selector": ".room-demo",
+    "property": "background",
+    "before": "#0b1018",
+    "after": "var(--brand-bg-secondary)"
+  },
+  {
+    "path": "styles/globals.css",
+    "selector": ".avatars > span",
+    "property": "border",
+    "before": "2px solid #0b1018",
+    "after": "2px solid var(--brand-border)"
+  },
+  {
+    "path": "styles/globals.css",
+    "selector": ".avatars > span:nth-child(3)",
+    "property": "background",
+    "before": "#4e546e",
+    "after": "var(--brand-surface-hover)"
+  },
+  {
+    "path": "styles/globals.css",
+    "selector": ".premiere-main > p:not(.label)",
+    "property": "color",
+    "before": "#dbd4d0",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/globals.css",
+    "selector": ".footer-description > .label",
+    "property": "color",
+    "before": "#8b959f",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/globals.css",
+    "selector": ".footer-bottom",
+    "property": "color",
+    "before": "#89929c",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/globals.css",
+    "selector": ".premiere-scrim",
+    "property": "background",
+    "before": "linear-gradient(90deg, #0b1018c9, transparent),\n      linear-gradient(0deg, #0b1018, transparent 45%, #0b10184d)",
+    "after": "linear-gradient(90deg, #0b1018c9, transparent),\n      linear-gradient(0deg, var(--brand-bg-secondary), transparent 45%, #0b10184d)"
+  },
+  {
+    "path": "styles/interaction-corrections.css",
+    "selector": ".development-notice",
+    "property": "background",
+    "before": "#1b1b1f",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "styles/interaction-corrections.css",
+    "selector": ".development-notice",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/motion-followup.css",
+    "selector": ".pointer-film",
+    "property": "background",
+    "before": "#08090b",
+    "after": "var(--brand-bg)"
+  },
+  {
+    "path": "styles/motion-followup.css",
+    "selector": ".pointer-film img",
+    "property": "background",
+    "before": "#08090b",
+    "after": "var(--brand-bg)"
+  },
+  {
+    "path": "styles/motion-followup.css",
+    "selector": ".pointer-film>span",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/motion-followup.css",
+    "selector": ".falling-films",
+    "property": "background",
+    "before": "#e8e8e6",
+    "after": "var(--brand-bg-secondary)"
+  },
+  {
+    "path": "styles/motion-followup.css",
+    "selector": ".falling-films",
+    "property": "color",
+    "before": "#08090b",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/motion-followup.css",
+    "selector": ".fall-card",
+    "property": "background",
+    "before": "#08090b",
+    "after": "var(--brand-bg)"
+  },
+  {
+    "path": "styles/motion-followup.css",
+    "selector": ".fall-card",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/motion-followup.css",
+    "selector": ".fall-card-caption small",
+    "property": "color",
+    "before": "#aaaab0",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/motion-followup.css",
+    "selector": ".editorial-home .feature-scroll-active .feature-journey-progress>span",
+    "property": "background",
+    "before": "#f5f5f3",
+    "after": "var(--brand-bg-secondary)"
+  },
+  {
+    "path": "styles/motion-followup.css",
+    "selector": ".finale-reveal-art",
+    "property": "background",
+    "before": "#1b1b1f",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "styles/motion-followup.css",
+    "selector": ".finale-door",
+    "property": "background",
+    "before": "#08090b",
+    "after": "var(--brand-bg)"
+  },
+  {
+    "path": "styles/motion-followup.css",
+    "selector": ".finale-door>span",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-brand>span",
+    "property": "border-left",
+    "before": "1px solid #77777d",
+    "after": "1px solid var(--brand-border-strong)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-desktop-nav>a",
+    "property": "color",
+    "before": "#b7b7be",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-desktop-nav>a:is(:hover,[aria-current=page])",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-desktop-nav>a[aria-current=page]:after",
+    "property": "background",
+    "before": "#f5f5f3",
+    "after": "var(--brand-surface-raised)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-profile-menu",
+    "property": "background",
+    "before": "#17181c",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-profile-menu",
+    "property": "border",
+    "before": "1px solid #3a3b42",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-profile-menu>p",
+    "property": "border-bottom",
+    "before": "1px solid #33343b",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-profile-menu>p",
+    "property": "color",
+    "before": "#a7a7af",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-profile-menu strong",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-profile-menu>a:hover,.cinema-profile-menu>button:hover",
+    "property": "background",
+    "before": "#292a31",
+    "after": "var(--brand-surface-hover)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-preview",
+    "property": "color",
+    "before": "#b1b1b8",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-preview",
+    "property": "background",
+    "before": "#141519",
+    "after": "var(--brand-bg-secondary)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".streaming-spotlight-shade",
+    "property": "background",
+    "before": "linear-gradient(90deg,#08090bf0 0%,#08090bbd 30%,#08090b2b 67%,#08090b15),linear-gradient(0deg,#08090b 0%,#08090b00 43%)",
+    "after": "linear-gradient(90deg,#08090bf0 0%,#08090bbd 30%,#08090b2b 67%,#08090b15),linear-gradient(0deg,var(--brand-bg) 0%,#08090b00 43%)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-eyebrow",
+    "property": "color",
+    "before": "#c3c3c9",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-metadata",
+    "property": "color",
+    "before": "#c5c5cb",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-metadata>span+span:before",
+    "property": "color",
+    "before": "#7d7d85",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-metadata .cinema-rating",
+    "property": "border",
+    "before": "1px solid #777",
+    "after": "1px solid var(--brand-border-strong)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".streaming-spotlight-genres",
+    "property": "color",
+    "before": "#e3e3e7",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".streaming-spotlight-synopsis",
+    "property": "color",
+    "before": "#cacacf",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-app .cinema-button",
+    "property": "border",
+    "before": "1px solid #77777f",
+    "after": "1px solid var(--brand-border-strong)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-app .cinema-button",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-app .cinema-button:hover",
+    "property": "background",
+    "before": "#36373e",
+    "after": "var(--brand-surface-hover)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-app .cinema-button:hover",
+    "property": "border-color",
+    "before": "#d5d5da",
+    "after": "var(--brand-border-strong)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-app .cinema-button.is-primary",
+    "property": "background",
+    "before": "#f5f5f3",
+    "after": "var(--brand-surface-raised)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-app .cinema-button.is-primary",
+    "property": "border-color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-border-strong)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-app .cinema-button.is-primary:hover",
+    "property": "background",
+    "before": "#d9d9db",
+    "after": "var(--brand-surface-raised)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-feature-picker",
+    "property": "border-bottom",
+    "before": "1px solid #33343b",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-feature-count>span",
+    "property": "color",
+    "before": "#7f7f89",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-feature-picker>div:nth-child(2)>button",
+    "property": "color",
+    "before": "#9b9ba5",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-picker-line",
+    "property": "background",
+    "before": "#50515b",
+    "after": "var(--brand-surface-hover)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-feature-picker button[aria-pressed=true]",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-selected-text)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-feature-picker button[aria-pressed=true] .cinema-picker-line",
+    "property": "background",
+    "before": "#f5f5f3",
+    "after": "var(--brand-selected-bg)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-feature-arrows button,.cinema-row-actions button",
+    "property": "border",
+    "before": "1px solid #44454d",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-feature-arrows button:hover,.cinema-row-actions button:not(:disabled):hover",
+    "property": "background",
+    "before": "#292a31",
+    "after": "var(--brand-surface-hover)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-welcome .cinema-eyebrow",
+    "property": "color",
+    "before": "#8f8f99",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-welcome>a",
+    "property": "color",
+    "before": "#c5c5cc",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-row-header p",
+    "property": "color",
+    "before": "#94949e",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-card-art",
+    "property": "background",
+    "before": "#1b1b1f",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-card-kind",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-app .cinema-card-tools>button",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-card-copy .cinema-metadata",
+    "property": "color",
+    "before": "#adadb5",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-card-copy>p",
+    "property": "color",
+    "before": "#82828d",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-continue progress",
+    "property": "accent-color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-accent)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-continue progress::-webkit-progress-bar",
+    "property": "background",
+    "before": "#414149",
+    "after": "var(--brand-surface-hover)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-continue progress::-webkit-progress-value",
+    "property": "background",
+    "before": "#f5f5f3",
+    "after": "var(--brand-surface-raised)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-resume",
+    "property": "background",
+    "before": "#f5f5f3",
+    "after": "var(--brand-surface-raised)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-discover",
+    "property": "border-top",
+    "before": "1px solid #33343b",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-discover",
+    "property": "border-bottom",
+    "before": "1px solid #33343b",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-discover .cinema-eyebrow",
+    "property": "color",
+    "before": "#90909a",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-genre-links>a",
+    "property": "border-bottom",
+    "before": "1px solid #33343b",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-genre-links>a:hover",
+    "property": "color",
+    "before": "#b1b1bc",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-list-empty",
+    "property": "border",
+    "before": "1px solid #33343b",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-list-empty>span",
+    "property": "border",
+    "before": "1px solid #55555e",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-list-empty p",
+    "property": "color",
+    "before": "#9f9faa",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-progress-empty",
+    "property": "color",
+    "before": "#85858f",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-footer",
+    "property": "border-top",
+    "before": "1px solid #33343b",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-footer",
+    "property": "color",
+    "before": "#91919d",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-footer>span",
+    "property": "color",
+    "before": "#c5c5cc",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-toast",
+    "property": "background",
+    "before": "#f5f5f3",
+    "after": "var(--brand-surface-raised)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-toast",
+    "property": "border",
+    "before": "1px solid #fff",
+    "after": "1px solid var(--brand-border-strong)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-service-notice",
+    "property": "background",
+    "before": "#202127",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-service-notice",
+    "property": "color",
+    "before": "#c5c5cf",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-home-body>.cinema-service-notice",
+    "property": "border",
+    "before": "1px solid #3f4049",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-state>span",
+    "property": "color",
+    "before": "#aaaab4",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-state p",
+    "property": "color",
+    "before": "#a7a7af",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-app .modal",
+    "property": "background",
+    "before": "#17181c",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-app .modal",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-app .modal",
+    "property": "border",
+    "before": "1px solid #3d3e46",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-app .close-button",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-info-art",
+    "property": "background",
+    "before": "#222329",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-info-copy>p:not(.cinema-eyebrow)",
+    "property": "color",
+    "before": "#babac4",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-info-copy .cinema-availability",
+    "property": "border",
+    "before": "1px solid #454650",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-skeleton-hero",
+    "property": "background",
+    "before": "#17181c",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-skeleton-row>div",
+    "property": "background",
+    "before": "#1b1b1f",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-mobile-nav",
+    "property": "border-top",
+    "before": "1px solid #373840",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-mobile-nav>a",
+    "property": "color",
+    "before": "#9696a2",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".cinema-mobile-nav>a[aria-current=page]",
+    "property": "color",
+    "before": "#fff",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".streaming-spotlight-shade",
+    "property": "background",
+    "before": "linear-gradient(90deg,#08090bd9,#08090b45),linear-gradient(0deg,#08090b 0%,transparent 100%)",
+    "after": "linear-gradient(90deg,#08090bd9,#08090b45),linear-gradient(0deg,var(--brand-bg) 0%,transparent 100%)"
+  },
+  {
+    "path": "styles/streaming-browse.css",
+    "selector": ".streaming-spotlight-shade",
+    "property": "background",
+    "before": "linear-gradient(0deg,#08090b 28%,#08090b44 80%,#08090b10)",
+    "after": "linear-gradient(0deg,var(--brand-bg) 28%,#08090b44 80%,#08090b10)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .discovery-heading .cinema-eyebrow",
+    "property": "color",
+    "before": "#92929d",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .discovery-heading>div>p:last-child",
+    "property": "color",
+    "before": "#a7a7b2",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .discovery-header-link",
+    "property": "border-bottom",
+    "before": "1px solid #5b5b65",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .discovery-filters",
+    "property": "border-top",
+    "before": "1px solid #36373f",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .discovery-filters",
+    "property": "border-bottom",
+    "before": "1px solid #36373f",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .discovery-filter-fields>label",
+    "property": "color",
+    "before": "#b0b0bc",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .discovery-filters :is(input,select),.cinema-app .detail-episodes select",
+    "property": "border",
+    "before": "1px solid #41424b",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .discovery-filters :is(input,select),.cinema-app .detail-episodes select",
+    "property": "background",
+    "before": "#15161b",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .discovery-filters :is(input,select),.cinema-app .detail-episodes select",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .discovery-filters select option,.cinema-app .detail-episodes option",
+    "property": "background",
+    "before": "#17181c",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .discovery-filters select option,.cinema-app .detail-episodes option",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .discovery-query>label",
+    "property": "color",
+    "before": "#b3b3bd",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .discovery-query button",
+    "property": "color",
+    "before": "#adadb8",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .discovery-active-filters>a",
+    "property": "border",
+    "before": "1px solid #4a4b56",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .discovery-active-filters .discovery-reset",
+    "property": "color",
+    "before": "#b0b0bc",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .discovery-notice",
+    "property": "border",
+    "before": "1px solid #40414a",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .discovery-notice",
+    "property": "background",
+    "before": "#191a20",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .discovery-notice",
+    "property": "color",
+    "before": "#bdbdc8",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .discovery-notice button",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .discovery-feedback",
+    "property": "color",
+    "before": "#d5d5dc",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .discovery-feedback",
+    "property": "border-left",
+    "before": "2px solid #bcbcc7",
+    "after": "2px solid var(--brand-border-strong)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .discovery-results-heading>p",
+    "property": "color",
+    "before": "#92929e",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .discovery-series-count",
+    "property": "color",
+    "before": "#9898a4",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .discovery-series-row",
+    "property": "border-bottom",
+    "before": "1px solid #33343d",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .discovery-series-row .cinema-eyebrow",
+    "property": "color",
+    "before": "#8f8f9c",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .discovery-series-synopsis",
+    "property": "color",
+    "before": "#dbdbe1",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .discovery-season-overview p",
+    "property": "border-top",
+    "before": "1px solid #3b3c45",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .discovery-season-overview span",
+    "property": "color",
+    "before": "#9696a3",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .discovery-pagination",
+    "property": "border-top",
+    "before": "1px solid #33343d",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .discovery-pagination",
+    "property": "color",
+    "before": "#a0a0ad",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .discovery-search-start>span",
+    "property": "color",
+    "before": "#b4b4c0",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .discovery-search-start>p",
+    "property": "color",
+    "before": "#9898a5",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .discovery-suggestions>a",
+    "property": "border",
+    "before": "1px solid #42434d",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .discovery-search-routes",
+    "property": "color",
+    "before": "#bdbdc8",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .discovery-library-tabs",
+    "property": "border-bottom",
+    "before": "1px solid #393a43",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .discovery-library-tabs>a",
+    "property": "color",
+    "before": "#9696a3",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .discovery-library-tabs>a[aria-current=page]",
+    "property": "border-bottom-color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-border-strong)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .discovery-library-tabs>a[aria-current=page]",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .discovery-library-tabs>span",
+    "property": "color",
+    "before": "#868694",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .discovery-missing",
+    "property": "border",
+    "before": "1px solid #40414b",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .discovery-missing p",
+    "property": "color",
+    "before": "#a7a7b3",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .discovery-history-list>li",
+    "property": "border-bottom",
+    "before": "1px solid #33343d",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .discovery-history-art",
+    "property": "background",
+    "before": "#202127",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .discovery-history-list p",
+    "property": "color",
+    "before": "#9b9ba9",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .discovery-history-list progress",
+    "property": "accent-color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-accent)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .discovery-skeleton-line",
+    "property": "background",
+    "before": "#23242c",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .discovery-skeleton-grid>div",
+    "property": "background",
+    "before": "#17181e",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .detail-backdrop",
+    "property": "background",
+    "before": "#15161b",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .detail-backdrop>div",
+    "property": "background",
+    "before": "linear-gradient(90deg,#08090bf2,#08090b99 40%,#08090b25 80%),linear-gradient(0deg,#08090b,transparent 65%)",
+    "after": "linear-gradient(90deg,#08090bf2,#08090b99 40%,#08090b25 80%),linear-gradient(0deg,var(--brand-bg),transparent 65%)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .detail-breadcrumbs",
+    "property": "color",
+    "before": "#c8c8d0",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .detail-genres",
+    "property": "color",
+    "before": "#c5c5cf",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .detail-tagline",
+    "property": "color",
+    "before": "#bcbcc8",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .detail-availability",
+    "property": "color",
+    "before": "#b3b3c0",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .detail-access-note",
+    "property": "color",
+    "before": "#b0b0be",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .detail-about",
+    "property": "border-bottom",
+    "before": "1px solid #34353d",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .detail-poster",
+    "property": "background",
+    "before": "#1b1b22",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .detail-about-copy>.cinema-eyebrow",
+    "property": "color",
+    "before": "#8f8f9d",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .detail-synopsis",
+    "property": "color",
+    "before": "#c1c1cc",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .detail-facts",
+    "property": "border-top",
+    "before": "1px solid #3a3b44",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .detail-facts dt",
+    "property": "color",
+    "before": "#888896",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .detail-credits li>span",
+    "property": "color",
+    "before": "#9696a5",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .detail-episodes-heading .cinema-eyebrow",
+    "property": "color",
+    "before": "#90909d",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .detail-episodes-heading label",
+    "property": "color",
+    "before": "#9e9eac",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .detail-season-description",
+    "property": "color",
+    "before": "#b9b9c5",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .detail-episode-note",
+    "property": "color",
+    "before": "#8f8f9e",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .detail-episode-grid article",
+    "property": "border",
+    "before": "1px solid #363740",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .detail-episode-grid article",
+    "property": "background",
+    "before": "#111217",
+    "after": "var(--brand-bg-secondary)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .detail-episode-art",
+    "property": "background",
+    "before": "#1a1b21",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .detail-episode-art>span",
+    "property": "color",
+    "before": "#747480",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .detail-episode-copy>div>span",
+    "property": "color",
+    "before": "#aaaab8",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .detail-episode-copy p",
+    "property": "color",
+    "before": "#aaaab8",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .detail-episode-copy .detail-episode-availability",
+    "property": "color",
+    "before": "#9191a1",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-discovery.css",
+    "selector": ".cinema-app .detail-backdrop>div",
+    "property": "background",
+    "before": "linear-gradient(0deg,#08090b 25%,#08090b55 80%,#08090b22)",
+    "after": "linear-gradient(0deg,var(--brand-bg) 25%,#08090b55 80%,#08090b22)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".entry-app ::selection",
+    "property": "background",
+    "before": "#bdbdc4",
+    "after": "var(--brand-surface-raised)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".entry-skip",
+    "property": "background",
+    "before": "#f5f5f3",
+    "after": "var(--brand-surface-raised)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".entry-skip",
+    "property": "border",
+    "before": "1px solid #08090b",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".auth-header",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".auth-header .entry-back",
+    "property": "color",
+    "before": "#08090b",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".auth-header .entry-back:focus-visible",
+    "property": "outline-color",
+    "before": "#08090b",
+    "after": "var(--brand-border)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".auth-cinema",
+    "property": "background",
+    "before": "#17171b",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".auth-cinema-copy>.entry-overline",
+    "property": "color",
+    "before": "#e1e1e3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".auth-film-caption",
+    "property": "color",
+    "before": "#e1e1e3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".auth-main",
+    "property": "background",
+    "before": "#f5f5f3",
+    "after": "var(--brand-bg-secondary)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".auth-main",
+    "property": "color",
+    "before": "#08090b",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".auth-content>.entry-overline",
+    "property": "color",
+    "before": "#5b5b62",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".entry-intro",
+    "property": "color",
+    "before": "#5b5b62",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".entry-preview",
+    "property": "border-top",
+    "before": "1px solid #cfcfd1",
+    "after": "1px solid var(--brand-border-strong)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".entry-preview",
+    "property": "border-bottom",
+    "before": "1px solid #cfcfd1",
+    "after": "1px solid var(--brand-border-strong)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".entry-preview",
+    "property": "color",
+    "before": "#5b5b62",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".entry-preview strong",
+    "property": "color",
+    "before": "#08090b",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".entry-button",
+    "property": "border",
+    "before": "1px solid #f5f5f3",
+    "after": "1px solid var(--brand-border-strong)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".entry-button",
+    "property": "background",
+    "before": "#f5f5f3",
+    "after": "var(--brand-action)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".entry-button",
+    "property": "color",
+    "before": "#08090b",
+    "after": "var(--brand-on-action)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".entry-button:hover",
+    "property": "background",
+    "before": "#dcdcdf",
+    "after": "var(--brand-action)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".entry-button.secondary",
+    "property": "border-color",
+    "before": "#64646b",
+    "after": "var(--brand-border)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".entry-button.secondary:hover",
+    "property": "background",
+    "before": "#242429",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".auth-main .entry-button",
+    "property": "background",
+    "before": "#08090b",
+    "after": "var(--brand-action)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".auth-main .entry-button",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".auth-main .entry-button",
+    "property": "border-color",
+    "before": "#08090b",
+    "after": "var(--brand-border)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".auth-main .entry-button:hover",
+    "property": "background",
+    "before": "#303036",
+    "after": "var(--brand-action)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".auth-main .entry-button.secondary",
+    "property": "color",
+    "before": "#08090b",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".auth-main .entry-button.secondary",
+    "property": "border-color",
+    "before": "#a3a3aa",
+    "after": "var(--brand-border-strong)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".entry-check input",
+    "property": "accent-color",
+    "before": "#08090b",
+    "after": "var(--brand-accent)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".entry-switch",
+    "property": "color",
+    "before": "#5b5b62",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".auth-footer",
+    "property": "color",
+    "before": "#626269",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".entry-envelope",
+    "property": "border",
+    "before": "1px solid #bdbdc2",
+    "after": "1px solid var(--brand-border-strong)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".entry-loading",
+    "property": "color",
+    "before": "#b7b7bd",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".viewer-footer",
+    "property": "color",
+    "before": "#a7a7af",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".viewer-footer",
+    "property": "border-top",
+    "before": "1px solid #2b2b31",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".entry-section-heading>p",
+    "property": "color",
+    "before": "#b7b7bd",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".entry-section-heading .entry-overline",
+    "property": "color",
+    "before": "#a7a7af",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".entry-gate p",
+    "property": "color",
+    "before": "#b7b7bd",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".welcome-copy>p",
+    "property": "color",
+    "before": "#b7b7bd",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".welcome-steps",
+    "property": "border-top",
+    "before": "1px solid #3f3f46",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".welcome-steps p",
+    "property": "color",
+    "before": "#a7a7af",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".welcome-film-note",
+    "property": "color",
+    "before": "#b7b7bd",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".subscription-disclosure",
+    "property": "color",
+    "before": "#b7b7bd",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".subscription-disclosure",
+    "property": "border-left",
+    "before": "2px solid #777780",
+    "after": "2px solid var(--brand-border-strong)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".entry-plan",
+    "property": "border",
+    "before": "1px solid #45454c",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".entry-plan",
+    "property": "background",
+    "before": "#17171b",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".entry-plan",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".entry-plan:focus-within",
+    "property": "outline",
+    "before": "2px solid #f5f5f3",
+    "after": "2px solid var(--brand-border-strong)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".entry-plan.selected",
+    "property": "background",
+    "before": "#f5f5f3",
+    "after": "var(--brand-surface-raised)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".entry-plan.selected",
+    "property": "border-color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-border-strong)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".entry-radio-mark",
+    "property": "border",
+    "before": "1px solid #8d8d96",
+    "after": "1px solid var(--brand-border-strong)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".entry-plan.selected .entry-radio-mark:after",
+    "property": "background",
+    "before": "#08090b",
+    "after": "var(--brand-bg)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".entry-plan>strong>small",
+    "property": "color",
+    "before": "#aaaab2",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".entry-plan.selected>strong>small",
+    "property": "color",
+    "before": "#626269",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".entry-plan-rule",
+    "property": "background",
+    "before": "#55555d",
+    "after": "var(--brand-surface-hover)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".profile-tile",
+    "property": "color",
+    "before": "#b7b7bd",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".profile-tile:hover .profile-art,.profile-tile:focus-visible .profile-art",
+    "property": "border-color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-border-strong)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".profile-tile:hover,.profile-tile:focus-visible",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".viewer-avatar",
+    "property": "color",
+    "before": "#e8e8e6",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".avatar-frame",
+    "property": "color",
+    "before": "#bdbdc3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".avatar-wave",
+    "property": "color",
+    "before": "#b7b8b8",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".avatar-spark",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".profile-add .profile-art",
+    "property": "background",
+    "before": "#17171b",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".profile-add .profile-art",
+    "property": "border",
+    "before": "1px dashed #696970",
+    "after": "1px dashed var(--brand-border)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".profile-add .profile-art",
+    "property": "color",
+    "before": "#b7b7bd",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".profile-add:hover .profile-art",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".profile-edit-mark",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".profile-edit-mark",
+    "property": "border",
+    "before": "1px solid #f5f5f3",
+    "after": "1px solid var(--brand-border-strong)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".profile-demo-note",
+    "property": "color",
+    "before": "#a7a7af",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".profile-preview>span:not(.viewer-avatar)",
+    "property": "color",
+    "before": "#a7a7af",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".profile-preview>p",
+    "property": "color",
+    "before": "#b7b7bd",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".avatar-picker input:checked+.viewer-avatar",
+    "property": "border-color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-border-strong)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".avatar-picker label:focus-within",
+    "property": "outline",
+    "before": "2px solid #f5f5f3",
+    "after": "2px solid var(--brand-border-strong)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".profile-control-group",
+    "property": "border-top",
+    "before": "1px solid #3f3f46",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".profile-control-group .entry-check input,.profile-preferences .entry-check input",
+    "property": "accent-color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-accent)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".profile-preferences",
+    "property": "border-top",
+    "before": "1px solid #3f3f46",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".entry-app select option",
+    "property": "background",
+    "before": "#17171b",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".entry-app select option",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".profile-delete-button",
+    "property": "color",
+    "before": "#b7b7bd",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".entry-app .modal",
+    "property": "background",
+    "before": "#17171b",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".entry-app .modal",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".entry-app .modal",
+    "property": "border",
+    "before": "1px solid #55555d",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".entry-app .close-button",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".entry-app .close-button",
+    "property": "border",
+    "before": "1px solid #55555d",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".entry-pin-dialog>p,.entry-delete-dialog>p",
+    "property": "color",
+    "before": "#b7b7bd",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".viewer-streaming .header",
+    "property": "border-bottom",
+    "before": "1px solid #3f3f46",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".streaming-preview-note",
+    "property": "background",
+    "before": "#1b1b1f",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".streaming-preview-note",
+    "property": "border-bottom",
+    "before": "1px solid #3f3f46",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".streaming-preview-note",
+    "property": "color",
+    "before": "#b7b7bd",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".auth-header .entry-back",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".auth-header .entry-back:focus-visible",
+    "property": "outline-color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-border-strong)"
+  },
+  {
+    "path": "styles/streaming-entry.css",
+    "selector": ".profile-preview",
+    "property": "border-bottom",
+    "before": "1px solid #3f3f46",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".cinema-app .account-centre",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-centre a:focus-visible,.account-centre button:focus-visible,.account-centre select:focus-visible,.account-centre input:focus-visible",
+    "property": "outline",
+    "before": "2px solid #f5f5f3",
+    "after": "2px solid var(--brand-border-strong)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-masthead",
+    "property": "border-bottom",
+    "before": "1px solid #2a2b30",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-masthead>span",
+    "property": "color",
+    "before": "#a7a7af",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-wordmark span",
+    "property": "color",
+    "before": "#9b9ba2",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-sidebar nav a",
+    "property": "color",
+    "before": "#a7a7af",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-nav-number",
+    "property": "color",
+    "before": "#777780",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-sidebar nav a[aria-current=page]",
+    "property": "background",
+    "before": "#202126",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-sidebar nav a[aria-current=page]",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-sidebar nav a:hover",
+    "property": "background",
+    "before": "#17181c",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-sidebar nav a:hover",
+    "property": "color",
+    "before": "#fff",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-sidebar-note",
+    "property": "color",
+    "before": "#85858f",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-heading>span",
+    "property": "color",
+    "before": "#a7a7af",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-heading p",
+    "property": "color",
+    "before": "#a7a7af",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-section",
+    "property": "border",
+    "before": "1px solid #2a2b30",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-section",
+    "property": "background",
+    "before": "#101115",
+    "after": "var(--brand-bg-secondary)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-section-heading p,.account-section p",
+    "property": "color",
+    "before": "#a7a7af",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-section-mark",
+    "property": "border",
+    "before": "1px solid #44444d",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-section-mark",
+    "property": "color",
+    "before": "#a7a7af",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-centre .account-email",
+    "property": "color",
+    "before": "#d7d7dc",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-status",
+    "property": "color",
+    "before": "#c5c5cc",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-status",
+    "property": "border",
+    "before": "1px solid #37373f",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-link-pair",
+    "property": "border-top",
+    "before": "1px solid #292a30",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-destination",
+    "property": "border",
+    "before": "1px solid #2a2b30",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-destination:hover",
+    "property": "background",
+    "before": "#17181c",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-destination>span",
+    "property": "color",
+    "before": "#a7a7af",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-destination p",
+    "property": "color",
+    "before": "#a7a7af",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-detail-row",
+    "property": "border-bottom",
+    "before": "1px solid #292a30",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-detail-row>div>span",
+    "property": "color",
+    "before": "#a7a7af",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-unavailable",
+    "property": "background",
+    "before": "#16171b",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-unavailable",
+    "property": "border",
+    "before": "1px solid #292a30",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-unavailable>span",
+    "property": "color",
+    "before": "#a7a7af",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-unavailable p",
+    "property": "color",
+    "before": "#a7a7af",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-centre .account-footnote",
+    "property": "color",
+    "before": "#9999a3",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-form select",
+    "property": "background",
+    "before": "#1b1c21",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-form select",
+    "property": "border",
+    "before": "1px solid #44444c",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-form select",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-centre .entry-button.secondary",
+    "property": "border",
+    "before": "1px solid #494951",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-centre .entry-button.secondary",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-signout-row>p>span",
+    "property": "color",
+    "before": "#a7a7af",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-footer",
+    "property": "border-top",
+    "before": "1px solid #2a2b30",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-footer",
+    "property": "color",
+    "before": "#a7a7af",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-plan-grid article",
+    "property": "background",
+    "before": "#191a1f",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-plan-grid article",
+    "property": "border",
+    "before": "1px solid #34343c",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-plan-grid article>span",
+    "property": "color",
+    "before": "#a7a7af",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-plan-grid small",
+    "property": "color",
+    "before": "#c9c9ce",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-billing-list article",
+    "property": "border-bottom",
+    "before": "1px solid #292a30",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-billing-list span,.account-billing-list a",
+    "property": "color",
+    "before": "#a7a7af",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-device",
+    "property": "border-bottom",
+    "before": "1px solid #292a30",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-device-symbol",
+    "property": "color",
+    "before": "#a7a7af",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-device small",
+    "property": "color",
+    "before": "#a7a7af",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-confirm",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-confirm p",
+    "property": "color",
+    "before": "#a7a7af",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-centre .modal",
+    "property": "background",
+    "before": "#101115",
+    "after": "var(--brand-bg-secondary)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-centre .modal",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-centre .modal",
+    "property": "border-color",
+    "before": "#393a42",
+    "after": "var(--brand-border)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-centre .modal .close-button",
+    "property": "background",
+    "before": "#202126",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-centre .modal .close-button",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-centre .modal .close-button",
+    "property": "border-color",
+    "before": "#45454d",
+    "after": "var(--brand-border)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-centre .modal .close-button:hover",
+    "property": "background",
+    "before": "#34343c",
+    "after": "var(--brand-surface-hover)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-centre .modal .close-button:hover",
+    "property": "color",
+    "before": "#fff",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".account-centre .account-confirm .entry-overline",
+    "property": "color",
+    "before": "#a7a7af",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/account.css",
+    "selector": ".cinema-app .account-centre .entry-button:not(.secondary)",
+    "property": "background",
+    "before": "#f5f5f3",
+    "after": "var(--brand-surface-raised)"
+  },
+  {
+    "path": "components/streaming/datasense.css",
+    "selector": ".data-sense",
+    "property": "color",
+    "before": "#f3f2ee",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/datasense.css",
+    "selector": ".data-sense h2 span",
+    "property": "color",
+    "before": "#b6b3a9",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/datasense.css",
+    "selector": ".ds-eyebrow",
+    "property": "color",
+    "before": "#b8b7bf",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/datasense.css",
+    "selector": ".ds-lead",
+    "property": "color",
+    "before": "#c5c5cd",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/datasense.css",
+    "selector": ".ds-note,.ds-footnote,.ds-context-note",
+    "property": "color",
+    "before": "#adaeb7",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/datasense.css",
+    "selector": ".data-sense label",
+    "property": "color",
+    "before": "#ceced4",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/datasense.css",
+    "selector": ".data-sense input,.data-sense select",
+    "property": "background",
+    "before": "#131417",
+    "after": "var(--brand-bg-secondary)"
+  },
+  {
+    "path": "components/streaming/datasense.css",
+    "selector": ".data-sense input,.data-sense select",
+    "property": "color",
+    "before": "#f5f4ed",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/datasense.css",
+    "selector": ".data-sense input::placeholder",
+    "property": "color",
+    "before": "#8e909a",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/datasense.css",
+    "selector": ".data-sense button",
+    "property": "background",
+    "before": "#1c1d21",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "components/streaming/datasense.css",
+    "selector": ".data-sense button",
+    "property": "color",
+    "before": "#f3f2ee",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/datasense.css",
+    "selector": ".data-sense :is(input,select,button,a,summary):focus-visible",
+    "property": "outline",
+    "before": "2px solid #e4e0d5",
+    "after": "2px solid var(--brand-border-strong)"
+  },
+  {
+    "path": "components/streaming/datasense.css",
+    "selector": ".data-sense .ds-primary",
+    "property": "background",
+    "before": "#e8e5dc",
+    "after": "var(--brand-action)"
+  },
+  {
+    "path": "components/streaming/datasense.css",
+    "selector": ".data-sense .ds-primary",
+    "property": "border-color",
+    "before": "#e8e5dc",
+    "after": "var(--brand-border-strong)"
+  },
+  {
+    "path": "components/streaming/datasense.css",
+    "selector": ".data-sense .ds-primary",
+    "property": "color",
+    "before": "#161719",
+    "after": "var(--brand-on-action)"
+  },
+  {
+    "path": "components/streaming/datasense.css",
+    "selector": ".data-sense .ds-text-button",
+    "property": "color",
+    "before": "#c0bec5",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/datasense.css",
+    "selector": ".ds-calculator",
+    "property": "background",
+    "before": "#15161a",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "components/streaming/datasense.css",
+    "selector": ".ds-hero-number>span",
+    "property": "color",
+    "before": "#b4b3bb",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/datasense.css",
+    "selector": ".ds-hero-number p",
+    "property": "color",
+    "before": "#b6b6c0",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/datasense.css",
+    "selector": ".ds-comparison-head span",
+    "property": "color",
+    "before": "#b4b3bb",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/datasense.css",
+    "selector": ".ds-comparison p",
+    "property": "color",
+    "before": "#bdbec7",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/datasense.css",
+    "selector": ".ds-comparison .ds-result",
+    "property": "color",
+    "before": "#f3f2ee",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/datasense.css",
+    "selector": ".ds-comparison progress",
+    "property": "accent-color",
+    "before": "#d4d0c1",
+    "after": "var(--brand-accent)"
+  },
+  {
+    "path": "components/streaming/datasense.css",
+    "selector": ".ds-comparison progress::-webkit-progress-value",
+    "property": "background",
+    "before": "#d4d0c1",
+    "after": "var(--brand-surface-raised)"
+  },
+  {
+    "path": "components/streaming/datasense.css",
+    "selector": ".ds-launch",
+    "property": "background",
+    "before": "#17181c",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "components/streaming/datasense.css",
+    "selector": ".ds-launch",
+    "property": "color",
+    "before": "#f3f2ee",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/datasense.css",
+    "selector": ".ds-launch small",
+    "property": "color",
+    "before": "#b2b2ba",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/datasense.css",
+    "selector": ".ds-panel",
+    "property": "background",
+    "before": "#17181c",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "components/streaming/datasense.css",
+    "selector": ".ds-unavailable",
+    "property": "color",
+    "before": "#b9bbc4",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/datasense.css",
+    "selector": ".ds-quality-comparison p,.ds-quality-comparison small",
+    "property": "color",
+    "before": "#bcbec6",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/datasense.css",
+    "selector": ".ds-live-facts dt",
+    "property": "color",
+    "before": "#a6a7b2",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/datasense.css",
+    "selector": ".ds-preferences",
+    "property": "background",
+    "before": "#17181c",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "components/streaming/datasense.css",
+    "selector": ".ds-preferences>p",
+    "property": "color",
+    "before": "#bcbec7",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/datasense.css",
+    "selector": ".ds-notification",
+    "property": "background",
+    "before": "#23242a",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "components/streaming/datasense.css",
+    "selector": ".ds-notification",
+    "property": "border-left",
+    "before": "2px solid #d4d0c1",
+    "after": "2px solid var(--brand-border-strong)"
+  },
+  {
+    "path": "components/streaming/player.css",
+    "selector": ".flurzi-player",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/player.css",
+    "selector": ".flurzi-player",
+    "property": "background",
+    "before": "#050506",
+    "after": "var(--brand-bg)"
+  },
+  {
+    "path": "components/streaming/player.css",
+    "selector": ".player-stage",
+    "property": "background",
+    "before": "#000",
+    "after": "var(--brand-bg)"
+  },
+  {
+    "path": "components/streaming/player.css",
+    "selector": ".flurzi-player input[type=range]",
+    "property": "accent-color",
+    "before": "#fff",
+    "after": "var(--brand-accent)"
+  },
+  {
+    "path": "components/streaming/player.css",
+    "selector": ".player-settings select",
+    "property": "color",
+    "before": "#fff",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/player.css",
+    "selector": ".player-settings select",
+    "property": "background",
+    "before": "#28292e",
+    "after": "var(--brand-surface-hover)"
+  },
+  {
+    "path": "components/streaming/player.css",
+    "selector": ".player-loading>span",
+    "property": "border-top-color",
+    "before": "#fff",
+    "after": "var(--brand-border-strong)"
+  },
+  {
+    "path": "components/streaming/player.css",
+    "selector": ".player-error button,.player-ended button",
+    "property": "background",
+    "before": "#f5f5f3",
+    "after": "var(--brand-surface-raised)"
+  },
+  {
+    "path": "components/streaming/player.css",
+    "selector": ".player-footer",
+    "property": "color",
+    "before": "#898a94",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/player.css",
+    "selector": ".player-unavailable",
+    "property": "background",
+    "before": "#08090b",
+    "after": "var(--brand-bg)"
+  },
+  {
+    "path": "components/streaming/player.css",
+    "selector": ".player-unavailable",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/player.css",
+    "selector": ".player-unavailable p",
+    "property": "color",
+    "before": "#adaeb7",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/player.css",
+    "selector": ".player-unavailable a,.player-unavailable button",
+    "property": "color",
+    "before": "#f5f5f3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-page",
+    "property": "color",
+    "before": "#f5f4f2",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-page a:focus-visible,.rooms-page button:focus-visible,.rooms-page input:focus-visible,.rooms-page select:focus-visible,.rooms-page summary:focus-visible",
+    "property": "outline",
+    "before": "2px solid #fff",
+    "after": "2px solid var(--brand-border-strong)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-preview",
+    "property": "border-block",
+    "before": "1px solid #333",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-heading>p,.rooms-eyebrow,.rooms-lobby-copy>p:first-child,.rooms-detail-header>div>p,.rooms-discover>div>p",
+    "property": "color",
+    "before": "#bbb",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-page .rooms-button",
+    "property": "border",
+    "before": "1px solid #555",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-page .rooms-button",
+    "property": "color",
+    "before": "#f5f4f2",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-page .rooms-button.primary",
+    "property": "background",
+    "before": "#eeeae4",
+    "after": "var(--brand-action)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-page .rooms-button.primary",
+    "property": "color",
+    "before": "#141414",
+    "after": "var(--brand-on-action)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-page .rooms-button.primary",
+    "property": "border-color",
+    "before": "#eeeae4",
+    "after": "var(--brand-border-strong)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-page .rooms-button:hover",
+    "property": "border-color",
+    "before": "#eee",
+    "after": "var(--brand-border-strong)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-screen-line",
+    "property": "border-top",
+    "before": "2px solid #a6a49f",
+    "after": "2px solid var(--brand-border-strong)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-seating em",
+    "property": "color",
+    "before": "#aaa",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-seating span",
+    "property": "background",
+    "before": "#292929",
+    "after": "var(--brand-surface-hover)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-seating span",
+    "property": "border-bottom",
+    "before": "7px solid #3d3c3a",
+    "after": "7px solid var(--brand-border)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-seating>div:last-child span",
+    "property": "background",
+    "before": "#333230",
+    "after": "var(--brand-surface-hover)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-home-section",
+    "property": "border-top",
+    "before": "1px solid #353535",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-empty",
+    "property": "background",
+    "before": "#181818",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-empty-mark",
+    "property": "color",
+    "before": "#c6c2bc",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-discover",
+    "property": "border-top",
+    "before": "1px solid #353535",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-current",
+    "property": "background",
+    "before": "#202020",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-create-main>section",
+    "property": "border-top",
+    "before": "1px solid #3b3b3b",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-page input:not([type=checkbox]),.rooms-page select",
+    "property": "background",
+    "before": "#202020",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-page input:not([type=checkbox]),.rooms-page select",
+    "property": "border",
+    "before": "1px solid #555",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-page input:not([type=checkbox]),.rooms-page select",
+    "property": "color",
+    "before": "#f5f4f2",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-page input::placeholder",
+    "property": "color",
+    "before": "#aaa",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-page .rooms-title-choice",
+    "property": "background",
+    "before": "#1c1c1c",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-page .rooms-title-choice",
+    "property": "color",
+    "before": "#eee",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-page .rooms-title-choice[aria-pressed=true]",
+    "property": "border-color",
+    "before": "#d4d0ca",
+    "after": "var(--brand-border-strong)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-page .rooms-title-choice[aria-pressed=true]",
+    "property": "background",
+    "before": "#292826",
+    "after": "var(--brand-selected-bg)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-title-choice small",
+    "property": "color",
+    "before": "#bbb",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-create-aside",
+    "property": "background",
+    "before": "#1c1c1c",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-join form",
+    "property": "background",
+    "before": "#1b1b1b",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-join-confirm",
+    "property": "border-block",
+    "before": "1px solid #444",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-join-confirm>span",
+    "property": "color",
+    "before": "#bbb",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-feedback",
+    "property": "border-left",
+    "before": "2px solid #c0b8b0",
+    "after": "2px solid var(--brand-border-strong)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-feedback",
+    "property": "background",
+    "before": "#24201e",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-feedback button,.rooms-empty button,.rooms-social button:not(.rooms-button),.rooms-connection button",
+    "property": "color",
+    "before": "#eee",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-feedback button,.rooms-empty button,.rooms-social button:not(.rooms-button),.rooms-connection button",
+    "property": "border",
+    "before": "1px solid #555",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-loading",
+    "property": "color",
+    "before": "#bbb",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-detail-header [role=status]",
+    "property": "color",
+    "before": "#bbb",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-lobby-copy>p",
+    "property": "color",
+    "before": "#ddd",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-lobby-bottom>div>p:not(.rooms-eyebrow)",
+    "property": "color",
+    "before": "#aaa",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-access",
+    "property": "border-top",
+    "before": "1px solid #414141",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-access p",
+    "property": "color",
+    "before": "#aaa",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-social",
+    "property": "background",
+    "before": "#1b1b1b",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-participants li>div>span",
+    "property": "color",
+    "before": "#aaa",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-participants .rooms-presence",
+    "property": "color",
+    "before": "#d6d2cc",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-ready",
+    "property": "background",
+    "before": "#e0dcd5",
+    "after": "var(--brand-surface-raised)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-invite",
+    "property": "border-top",
+    "before": "1px solid #444",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-invite p",
+    "property": "color",
+    "before": "#aaa",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-settings",
+    "property": "border-top",
+    "before": "1px solid #444",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-settings",
+    "property": "color",
+    "before": "#bbb",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-settings summary",
+    "property": "color",
+    "before": "#eee",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-connection",
+    "property": "background",
+    "before": "#292622",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-video-unavailable",
+    "property": "background",
+    "before": "#151515",
+    "after": "var(--brand-bg-secondary)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-video-unavailable>span",
+    "property": "color",
+    "before": "#aaa",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-video-unavailable>p",
+    "property": "color",
+    "before": "#bbb",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-checkbox",
+    "property": "color",
+    "before": "#bbb",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-checkbox input",
+    "property": "accent-color",
+    "before": "#ddd",
+    "after": "var(--brand-accent)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-notice",
+    "property": "color",
+    "before": "#ccc",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-ended>span",
+    "property": "color",
+    "before": "#aaa",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".modal:has(.rooms-dialog)",
+    "property": "background",
+    "before": "#1b1b1b",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".modal:has(.rooms-dialog)",
+    "property": "color",
+    "before": "#eee",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".modal:has(.rooms-dialog)",
+    "property": "border",
+    "before": "1px solid #555",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".modal:has(.rooms-dialog) .modal-close",
+    "property": "color",
+    "before": "#eee",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-dialog p",
+    "property": "color",
+    "before": "#bbb",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-dialog .rooms-button",
+    "property": "color",
+    "before": "#eee",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-dialog .rooms-button",
+    "property": "border",
+    "before": "1px solid #777",
+    "after": "1px solid var(--brand-border-strong)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-dialog .rooms-button.primary",
+    "property": "background",
+    "before": "#eeeae4",
+    "after": "var(--brand-action)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-dialog .rooms-button.primary",
+    "property": "color",
+    "before": "#141414",
+    "after": "var(--brand-on-action)"
+  },
+  {
+    "path": "components/streaming/rooms.css",
+    "selector": ".rooms-dialog .rooms-button:focus-visible",
+    "property": "outline",
+    "before": "2px solid #fff",
+    "after": "2px solid var(--brand-border-strong)"
+  },
+  {
+    "path": "components/streaming/storylens.css",
+    "selector": ".storylens",
+    "property": "color",
+    "before": "#f3f2ee",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/storylens.css",
+    "selector": ".lens-launch",
+    "property": "background",
+    "before": "#17181c",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "components/streaming/storylens.css",
+    "selector": ".lens-launch",
+    "property": "color",
+    "before": "#f3f2ee",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/storylens.css",
+    "selector": ".lens-launch-note",
+    "property": "color",
+    "before": "#b2b2ba",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/storylens.css",
+    "selector": ".lens-panel",
+    "property": "background",
+    "before": "linear-gradient(150deg,#202125,#111215 60%)",
+    "after": "linear-gradient(150deg,var(--brand-surface),var(--brand-bg-secondary) 60%)"
+  },
+  {
+    "path": "components/streaming/storylens.css",
+    "selector": ".lens-header p,.lens-section-label",
+    "property": "color",
+    "before": "#b5b5bd",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/storylens.css",
+    "selector": ".lens-header h2 span",
+    "property": "color",
+    "before": "#aca798",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/storylens.css",
+    "selector": ".lens-header button",
+    "property": "color",
+    "before": "#eee",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/storylens.css",
+    "selector": ".lens-title",
+    "property": "color",
+    "before": "#c3c3c9",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/storylens.css",
+    "selector": ".lens-categories button,.lens-categories>span",
+    "property": "color",
+    "before": "#c6c6cd",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/storylens.css",
+    "selector": ".lens-categories button[aria-pressed=true]",
+    "property": "background",
+    "before": "#eeede7",
+    "after": "var(--brand-selected-bg)"
+  },
+  {
+    "path": "components/streaming/storylens.css",
+    "selector": ".lens-categories button[aria-pressed=true]",
+    "property": "color",
+    "before": "#17181b",
+    "after": "var(--brand-selected-text)"
+  },
+  {
+    "path": "components/streaming/storylens.css",
+    "selector": ".lens-categories button[aria-pressed=true]",
+    "property": "border-color",
+    "before": "#eeede7",
+    "after": "var(--brand-border-strong)"
+  },
+  {
+    "path": "components/streaming/storylens.css",
+    "selector": ".lens-section p,.lens-notice p",
+    "property": "color",
+    "before": "#c3c3cc",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/storylens.css",
+    "selector": ".lens-person small,.lens-source",
+    "property": "color",
+    "before": "#aaaab3",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/storylens.css",
+    "selector": ".lens-portrait",
+    "property": "color",
+    "before": "#bcbab3",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/storylens.css",
+    "selector": ".storylens button:focus-visible,.storylens a:focus-visible",
+    "property": "outline",
+    "before": "2px solid #e8e6dc",
+    "after": "2px solid var(--brand-border-strong)"
+  },
+  {
+    "path": "components/streaming/storylens.css",
+    "selector": ".lens-notice button,.lens-spoiler button,.lens-related-actions>button,.lens-navigation button",
+    "property": "color",
+    "before": "#f3f2ee",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/storylens.css",
+    "selector": ".lens-footnote",
+    "property": "color",
+    "before": "#92929e",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/storylens.css",
+    "selector": ".lens-related-art",
+    "property": "background",
+    "before": "#24252a",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "components/streaming/storylens.css",
+    "selector": ".lens-facts dt",
+    "property": "color",
+    "before": "#92929e",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/storylens.css",
+    "selector": ".lens-loading",
+    "property": "color",
+    "before": "#bdbdc6",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/storylens.css",
+    "selector": ".lens-loading span",
+    "property": "background",
+    "before": "#ccc8b8",
+    "after": "var(--brand-surface-raised)"
+  },
+  {
+    "path": "components/streaming/storylens.css",
+    "selector": ".lens-navigation",
+    "property": "color",
+    "before": "#f3f2ee",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".storymatch-page",
+    "property": "color",
+    "before": "#f1efec",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".storymatch-page :is(a,button,input,select,summary):focus-visible",
+    "property": "outline",
+    "before": "2px solid #e9e5df",
+    "after": "2px solid var(--brand-border-strong)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-preview",
+    "property": "border-block",
+    "before": "1px solid #333",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-preview strong",
+    "property": "color",
+    "before": "#e0dcd5",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-eyebrow",
+    "property": "color",
+    "before": "#c8c3bb",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-home-intro h1 span",
+    "property": "color",
+    "before": "#aaa7a4",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-intro-art>div",
+    "property": "background",
+    "before": "linear-gradient(0deg,#111 0%,transparent 85%)",
+    "after": "linear-gradient(0deg,var(--brand-bg-secondary) 0%,transparent 85%)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-intro-art>p",
+    "property": "color",
+    "before": "#fff",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-intro-art em",
+    "property": "color",
+    "before": "#d1c7b9",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-mode",
+    "property": "background",
+    "before": "#1a1a1a",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-mode-art>span",
+    "property": "background",
+    "before": "linear-gradient(0deg,#1a1a1a,transparent 80%)",
+    "after": "linear-gradient(0deg,var(--brand-surface),transparent 80%)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-mode p:first-child",
+    "property": "color",
+    "before": "#d1cbc3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-mode strong",
+    "property": "border-bottom",
+    "before": "1px solid #777",
+    "after": "1px solid var(--brand-border-strong)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-return",
+    "property": "border-top",
+    "before": "1px solid #3b3b3b",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-session-link",
+    "property": "background",
+    "before": "#202020",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-invitation",
+    "property": "border-block",
+    "before": "1px solid #383838",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-invitation summary",
+    "property": "color",
+    "before": "#eee",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".storymatch-page input:not([type=checkbox]),.storymatch-page select",
+    "property": "background",
+    "before": "#222",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".storymatch-page input:not([type=checkbox]),.storymatch-page select",
+    "property": "color",
+    "before": "#eee",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".storymatch-page input:not([type=checkbox]),.storymatch-page select",
+    "property": "border",
+    "before": "1px solid #626262",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".storymatch-page input::placeholder",
+    "property": "color",
+    "before": "#aaa",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".storymatch-page .sm-button",
+    "property": "border",
+    "before": "1px solid #62615f",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".storymatch-page .sm-button",
+    "property": "color",
+    "before": "#f0eeeb",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".storymatch-page .sm-button.primary",
+    "property": "background",
+    "before": "#e9e5df",
+    "after": "var(--brand-action)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".storymatch-page .sm-button.primary",
+    "property": "color",
+    "before": "#171717",
+    "after": "var(--brand-on-action)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".storymatch-page .sm-button.primary",
+    "property": "border-color",
+    "before": "#e9e5df",
+    "after": "var(--brand-border-strong)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".storymatch-page .sm-button:hover",
+    "property": "border-color",
+    "before": "#eee",
+    "after": "var(--brand-border-strong)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-mode-nav a",
+    "property": "color",
+    "before": "#aaa",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-mode-nav a[aria-current=page]",
+    "property": "color",
+    "before": "#f4f1eb",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-mode-nav a[aria-current=page]",
+    "property": "border-color",
+    "before": "#d8d0c4",
+    "after": "var(--brand-border-strong)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-new-form",
+    "property": "background",
+    "before": "#1a1a1a",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-new-form label>span",
+    "property": "color",
+    "before": "#aaa",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-host small",
+    "property": "color",
+    "before": "#aaa",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-empty",
+    "property": "background",
+    "before": "#1a1a1a",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-loading",
+    "property": "color",
+    "before": "#b6b1aa",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-feedback",
+    "property": "background",
+    "before": "#272320",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-feedback",
+    "property": "border-left",
+    "before": "2px solid #c6bcb0",
+    "after": "2px solid var(--brand-border-strong)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-session-layout",
+    "property": "border-top",
+    "before": "1px solid #383838",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-people li",
+    "property": "border-bottom",
+    "before": "1px solid #393939",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-people li>div>span",
+    "property": "color",
+    "before": "#aaa",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-remove",
+    "property": "color",
+    "before": "#ccc",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-session-aside",
+    "property": "background",
+    "before": "#20201f",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-session-aside h2>span",
+    "property": "color",
+    "before": "#aaa",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-journey",
+    "property": "border-top",
+    "before": "1px solid #3a3a3a",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-steps",
+    "property": "color",
+    "before": "#999",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-steps span",
+    "property": "border-top",
+    "before": "2px solid #3e3e3e",
+    "after": "2px solid var(--brand-border)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-steps [aria-current=step]",
+    "property": "border-color",
+    "before": "#e4ddd2",
+    "after": "var(--brand-border-strong)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-steps [aria-current=step]",
+    "property": "color",
+    "before": "#e4ddd2",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".storymatch-page .sm-mood",
+    "property": "background",
+    "before": "#1c1c1c",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".storymatch-page .sm-mood",
+    "property": "color",
+    "before": "#eee",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".storymatch-page .sm-mood",
+    "property": "border",
+    "before": "1px solid #424240",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".storymatch-page .sm-mood[aria-pressed=true]",
+    "property": "border-color",
+    "before": "#e5dfd3",
+    "after": "var(--brand-border-strong)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".storymatch-page .sm-mood[aria-pressed=true]",
+    "property": "background",
+    "before": "#302e2a",
+    "after": "var(--brand-selected-bg)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-mood-mark",
+    "property": "color",
+    "before": "#c7beb0",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-mood>span:not(.sm-mood-mark)",
+    "property": "color",
+    "before": "#aaa",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-mood small",
+    "property": "color",
+    "before": "#d5cec3",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-journey-actions",
+    "property": "border-top",
+    "before": "1px solid #444",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-preference-sections legend>span",
+    "property": "color",
+    "before": "#aaa",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".storymatch-page .sm-chips button",
+    "property": "border",
+    "before": "1px solid #555",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".storymatch-page .sm-chips button",
+    "property": "color",
+    "before": "#ddd",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".storymatch-page .sm-chips button",
+    "property": "background",
+    "before": "#191919",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".storymatch-page .sm-chips button[aria-pressed=true]",
+    "property": "background",
+    "before": "#e4ded4",
+    "after": "var(--brand-selected-bg)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".storymatch-page .sm-chips button[aria-pressed=true]",
+    "property": "color",
+    "before": "#191919",
+    "after": "var(--brand-selected-text)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".storymatch-page .sm-chips button[aria-pressed=true]",
+    "property": "border-color",
+    "before": "#e4ded4",
+    "after": "var(--brand-border-strong)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-summary",
+    "property": "background",
+    "before": "#22211f",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-summary p",
+    "property": "color",
+    "before": "#bbb",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-check input",
+    "property": "accent-color",
+    "before": "#e5ded2",
+    "after": "var(--brand-accent)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-common",
+    "property": "border-block",
+    "before": "1px solid #383838",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-result",
+    "property": "background",
+    "before": "#1b1b1b",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-result-art>span",
+    "property": "color",
+    "before": "#e9e3d9",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-result-copy>p",
+    "property": "color",
+    "before": "#b7b4b0",
+    "after": "var(--brand-text-secondary)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-explanations",
+    "property": "color",
+    "before": "#d2cbc1",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-result-copy .cinema-button",
+    "property": "color",
+    "before": "#eee",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-no-match",
+    "property": "background",
+    "before": "#1b1b1b",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-no-match>span",
+    "property": "color",
+    "before": "#bbb",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-no-match p",
+    "property": "color",
+    "before": "#bbb",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-decision",
+    "property": "border-top",
+    "before": "1px solid #444",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-decision p",
+    "property": "color",
+    "before": "#bbb",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-shortlist>div",
+    "property": "border-bottom",
+    "before": "1px solid #444",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-watchlist-feedback",
+    "property": "color",
+    "before": "#cfc6b8",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-ended p:not(.sm-eyebrow)",
+    "property": "color",
+    "before": "#bbb",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".modal:has(.sm-dialog)",
+    "property": "border",
+    "before": "1px solid #555",
+    "after": "1px solid var(--brand-border)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".modal:has(.sm-dialog)",
+    "property": "background",
+    "before": "#1b1b1b",
+    "after": "var(--brand-surface)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".modal:has(.sm-dialog)",
+    "property": "color",
+    "before": "#eee",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".modal:has(.sm-dialog) .modal-close",
+    "property": "color",
+    "before": "#eee",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-dialog>p",
+    "property": "color",
+    "before": "#bbb",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-dialog .sm-button",
+    "property": "border",
+    "before": "1px solid #777",
+    "after": "1px solid var(--brand-border-strong)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-dialog .sm-button",
+    "property": "color",
+    "before": "#eee",
+    "after": "var(--brand-text)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-dialog .sm-button.primary",
+    "property": "background",
+    "before": "#e9e5df",
+    "after": "var(--brand-action)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-dialog .sm-button.primary",
+    "property": "color",
+    "before": "#171717",
+    "after": "var(--brand-on-action)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-dialog .sm-button:focus-visible",
+    "property": "outline",
+    "before": "2px solid #fff",
+    "after": "2px solid var(--brand-border-strong)"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-mode-art>span",
+    "property": "background",
+    "before": "linear-gradient(90deg,transparent,#1a1a1a)",
+    "after": "linear-gradient(90deg,transparent,var(--brand-surface))"
+  },
+  {
+    "path": "components/streaming/storymatch.css",
+    "selector": ".sm-mode-art>span",
+    "property": "background",
+    "before": "linear-gradient(0deg,#1a1a1a,transparent 80%)",
+    "after": "linear-gradient(0deg,var(--brand-surface),transparent 80%)"
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "name": "home",
+    "width": 1440,
+    "url": "http://127.0.0.1:3000/"
+  },
+  {
+    "name": "home",
+    "width": 390,
+    "url": "http://127.0.0.1:3000/"
+  },
+  {
+    "name": "login",
+    "width": 1440,
+    "url": "http://127.0.0.1:3000/login"
+  },
+  {
+    "name": "login",
+    "width": 390,
+    "url": "http://127.0.0.1:3000/login"
+  },
+  {
+    "name": "subscribe",
+    "width": 1440,
+    "url": "http://127.0.0.1:3000/subscribe"
+  },
+  {
+    "name": "subscribe",
+    "width": 390,
+    "url": "http://127.0.0.1:3000/subscribe"
+  },
+  {
+    "name": "profiles",
+    "width": 1440,
+    "url": "http://127.0.0.1:3000/subscribe"
+  },
+  {
+    "name": "profiles",
+    "width": 390,
+    "url": "http://127.0.0.1:3000/subscribe"
+  },
+  {
+    "name": "browse",
+    "width": 1440,
+    "url": "http://127.0.0.1:3000/browse"
+  },
+  {
+    "name": "browse",
+    "width": 390,
+    "url": "http://127.0.0.1:3000/browse"
+  },
+  {
+    "name": "title",
+    "width": 1440,
+    "url": "http://127.0.0.1:3000/browse/title/mock-quiet-beyond"
+  },
+  {
+    "name": "title",
+    "width": 390,
+    "url": "http://127.0.0.1:3000/browse/title/mock-quiet-beyond"
+  },
+  {
+    "name": "datasense",
+    "width": 1440,
+    "url": "http://127.0.0.1:3000/browse/title/mock-quiet-beyond"
+  },
+  {
+    "name": "datasense",
+    "width": 390,
+    "url": "http://127.0.0.1:3000/browse/title/mock-quiet-beyond"
+  },
+  {
+    "name": "storylens",
+    "width": 1440,
+    "url": "http://127.0.0.1:3000/browse/title/mock-quiet-beyond"
+  },
+  {
+    "name": "storylens",
+    "width": 390,
+    "url": "http://127.0.0.1:3000/browse/title/mock-quiet-beyond"
+  },
+  {
+    "name": "account",
+    "width": 1440,
+    "url": "http://127.0.0.1:3000/browse/title/mock-quiet-beyond"
+  },
+  {
+    "name": "account",
+    "width": 390,
+    "url": "http://127.0.0.1:3000/browse/title/mock-quiet-beyond"
+  },
+  {
+    "name": "rooms",
+    "width": 1440,
+    "url": "http://127.0.0.1:3000/browse/title/mock-quiet-beyond"
+  },
+  {
+    "name": "rooms",
+    "width": 390,
+    "url": "http://127.0.0.1:3000/browse/title/mock-quiet-beyond"
+  },
+  {
+    "name": "storymatch",
+    "width": 1440,
+    "url": "http://127.0.0.1:3000/browse/title/mock-quiet-beyond"
+  },
+  {
+    "name": "storymatch",
+    "width": 390,
+    "url": "http://127.0.0.1:3000/browse/title/mock-quiet-beyond"
+  }
+]

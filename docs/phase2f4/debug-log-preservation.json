@@ -1,0 +1,11 @@
+{
+  "originalHash": "9928770cf4c158c91c5bb44ff37f5517631380707cfde56d9ae1712eb6edf8d0",
+  "restoredHash": "9928770cf4c158c91c5bb44ff37f5517631380707cfde56d9ae1712eb6edf8d0",
+  "retainedWarnings": [
+    "[1126/013240.363:WARNING:services\\audio\\sync_reader.cc:154] ASR: No room in socket buffer.: The pipe is being closed. (0xE8)",
+    "[1126/013940.502:WARNING:services\\audio\\sync_reader.cc:154] ASR: No room in socket buffer.: The pipe is being closed. (0xE8)",
+    "[1126/030945.547:WARNING:net\\extras\\sqlite\\sqlite_persistent_store_backend_base.cc:181] Failed to post task from operator()@net\\extras\\sqlite\\sqlite_persistent_shared_dictionary_store.cc:259 to client_task_runner_."
+  ],
+  "sqliteProbeMtime": "2026-11-26T01:09:45.189Z",
+  "appendOnlyVerified": true
+}

@@ -1,0 +1,8 @@
+{
+  "mode": "development",
+  "screens": [],
+  "interactions": [],
+  "errors": [],
+  "http": [],
+  "failure": "AssertionError [ERR_ASSERTION]: Owned server ready\n    at file:///C:/Users/USER/Downloads/flurzicinema/scripts/phase2f3-browser.mjs:19:185"
+}

@@ -1,0 +1,9 @@
+{
+  "sourceNulBytes": [],
+  "retained": [
+    "docs/phase2f4/interrupted-preview-validation.bin",
+    "docs/phase2f4/interrupted-build-id.bin",
+    "docs/phase2f4/interrupted-preview-build.log"
+  ],
+  "observedAt": "2026-11-26T07:01:08.633Z"
+}

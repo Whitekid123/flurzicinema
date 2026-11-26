@@ -1,0 +1,25 @@
+/* Preserve page styling while making focus, touch and short viewports usable. */
+html{scroll-padding-bottom:96px}
+.auth-cinema-shade,.auth-cinema-copy{pointer-events:none}
+.entry-app :is(input,select,textarea){scroll-margin-block:80px}
+.entry-app .modal{margin:auto;max-height:calc(100dvh - 32px);overflow-y:auto;overscroll-behavior:contain}
+.entry-app .modal .modal-inner{position:relative}
+.viewer-main>.entry-preview{max-width:1040px;margin:24px auto}
+@media(pointer:coarse){
+ .entry-app :is(input:not([type=checkbox]):not([type=radio]),select,textarea),.public-site :is(input,select,textarea){font-size:16px}
+ .entry-app :is(button,a,summary){touch-action:manipulation}
+ .cinema-app .cinema-feature-arrows button,.cinema-app .cinema-card-tools>button{min-width:44px;min-height:44px}
+ .avatar-picker label{min-height:44px;min-width:44px}
+ .entry-switch a{display:inline-flex;align-items:center;min-height:44px}
+}
+@media(max-width:800px){
+ .cinema-app{padding-bottom:calc(88px + env(safe-area-inset-bottom))}
+ .cinema-app :is(input,select,button,a,summary){scroll-margin-bottom:100px}
+ .cinema-profile-menu{max-height:calc(100dvh - 160px);overflow-y:auto;overscroll-behavior:contain}
+ .entry-app .modal{width:calc(100% - 32px)}
+}
+
+.development-notice{padding:16px 5%;background:#1b1b1f;color:#f5f5f3;font-size:13px;line-height:1.6}.development-notice strong{margin-right:10px}
+.modal{margin:auto;max-height:calc(100dvh - 32px)}
+
+@media(pointer:coarse){.entry-app :is(button,summary),.public-site :is(button,summary){min-height:44px;min-width:44px}}

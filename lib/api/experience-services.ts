@@ -11,3 +11,9 @@ export function roomServiceForViewer(profile:ViewerProfile,sessionId:string,isDe
 export function storyMatchServiceForViewer(profile:ViewerProfile,sessionId:string,isDevelopmentSession:boolean){
  return mockMode&&isDevelopmentSession?createStoryMatchPreview(streamingServices.auth,streamingServices.profiles,streamingServices.catalog,profile,sessionId):unavailableStoryMatchService;
 }
+
+// No contextual fixtures are installed in either customer or preview catalogs.
+// Replace this fail-closed adapter with the approved, viewer-authorized service.
+export {unavailableStoryLensService as storyLensService} from './storylens-service';
+export function storyLensServiceForViewer(){return unavailableStoryLensService;}
+import {unavailableStoryLensService} from './storylens-service';

@@ -1,0 +1,5 @@
+import fs from 'node:fs/promises';import net from 'node:net';import assert from 'node:assert/strict';
+async function probe(port){return new Promise(resolve=>{const socket=net.createConnection({host:'127.0.0.1',port});socket.setTimeout(3000);socket.on('connect',()=>{socket.destroy();resolve({port,listening:true});});socket.on('error',e=>resolve({port,listening:false,code:e.code}));socket.on('timeout',()=>{socket.destroy();resolve({port,listening:null,code:'TIMEOUT'});});});}
+const owned=await Promise.all([3018,3019,3020].map(probe));for(const p of owned)assert(p.listening===false,'Owned server still listening '+p.port);
+const existing=await probe(3000);let existingHttp;try{existingHttp=(await fetch('http://127.0.0.1:3000/',{signal:AbortSignal.timeout(6000)})).status;}catch(e){existingHttp=e.message;}
+const result={owned,existingDevelopmentPort:existing,existingHttp,noUserServerStopped:true,snapshotAbsent:!(await fs.stat('.brand-lab').catch(()=>null))};await fs.writeFile('docs/rebranding/final-teardown.json',JSON.stringify(result,null,2));console.log(result);

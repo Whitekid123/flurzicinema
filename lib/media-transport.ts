@@ -1,6 +1,7 @@
+import type {DataSenseTransportSession} from "@/types/datasense";
 import type {PlaybackMetadata} from "@/types/streaming";
 import {PlaybackFailure,sourceUrl} from "./playback";
-export interface MediaTransport {attach(video:HTMLVideoElement,metadata:PlaybackMetadata):()=>void;}
+export interface MediaTransport {createDataSession?(video:HTMLVideoElement,metadata:PlaybackMetadata):DataSenseTransportSession;attach(video:HTMLVideoElement,metadata:PlaybackMetadata):()=>void;}
 export function mediaCapabilities(video:HTMLVideoElement,doc:Document=document){return {fullscreen:Boolean(typeof video.requestFullscreen==="function"&&doc.fullscreenEnabled),pip:Boolean(doc.pictureInPictureEnabled&&typeof video.requestPictureInPicture==="function"),speed:"playbackRate" in video};}
 export function canUseNative(video:Pick<HTMLVideoElement,"canPlayType">,type:PlaybackMetadata["sourceType"]){
  const mime=type==="hls"?"application/vnd.apple.mpegurl":type==="mp4"?"video/mp4":type==="webm"?"video/webm":"";

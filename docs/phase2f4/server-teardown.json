@@ -1,0 +1,8 @@
+{
+  "ports": {
+    "owned3017": false,
+    "existing3000": true
+  },
+  "noExistingServerStopped": true,
+  "ownedSnapshotRemoved": true
+}

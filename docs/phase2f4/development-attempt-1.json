@@ -1,0 +1,71 @@
+{
+  "mode": "development",
+  "screens": [
+    {
+      "name": "player-datasense",
+      "width": 1920,
+      "overflow": 0,
+      "videoWidth": 1036
+    },
+    {
+      "name": "player-datasense",
+      "width": 1440,
+      "overflow": 0,
+      "videoWidth": 996
+    },
+    {
+      "name": "player-datasense",
+      "width": 1024,
+      "overflow": 0,
+      "videoWidth": 984
+    },
+    {
+      "name": "player-datasense",
+      "width": 768,
+      "overflow": 0,
+      "videoWidth": 728
+    },
+    {
+      "name": "player-datasense",
+      "width": 430,
+      "overflow": 0,
+      "videoWidth": 390
+    },
+    {
+      "name": "player-datasense",
+      "width": 390,
+      "overflow": 0,
+      "videoWidth": 350
+    },
+    {
+      "name": "player-datasense",
+      "width": 375,
+      "overflow": 0,
+      "videoWidth": 335
+    },
+    {
+      "name": "player-datasense",
+      "width": 360,
+      "overflow": 0,
+      "videoWidth": 320
+    },
+    {
+      "name": "player-datasense",
+      "width": 320,
+      "overflow": 0,
+      "videoWidth": 280
+    },
+    {
+      "name": "landscape-player",
+      "width": 844,
+      "overflow": 0,
+      "videoWidth": 804
+    }
+  ],
+  "interactions": [
+    "Player: nine widths; touch typing/focus during playback; panel exclusivity; local example transfer deduplication and notification dismissal; confirmed example selection preserves source/position; zero auxiliary room intents; reduced motion; landscape; fullscreen; native unknown telemetry"
+  ],
+  "errors": [],
+  "http": [],
+  "failure": "Error: expect(locator).toContainText(expected) failed\n\nLocator: getByRole('region', { name: 'Independent data calculator' })\nExpected substring: \"Estimated use fits your budget\"\nReceived string:    \"PLAN YOUR NEXT WATCHA little planning.A longer movie night.Explore an estimate using your own bitrate, viewing time and data allowance. These inputs do not describe a catalog title or change playback.Available viewing budgetGBMBYour own allowance, not a mobile-provider balance. Decimal MB and GB.Clear budgetCombined audio + video bitrate (Mbps)Viewing time (minutes)Reset calculatorESTIMATED ENCODED MEDIA1.8 GB1.8 GB per hourYOUR VIEWING PLAN2 GBEstimate is approaching your budgetEstimated use: 1.8 GBEstimated allowance after viewing: 200 MBEstimated viewing time: 1h 6mThis is a planning estimate, not measured traffic or a provider charge. Buffering, retries, overhead, caching and changing bitrates can affect real use. 1 MB = 1,000,000 bytes; 1 GB = 1,000,000,000 bytes. If the estimate exceeds your allowance, try a lower assumed bitrate or a shorter viewing time.\"\nTimeout: 5000ms\n\nCall log:\n  - Expect \"toContainText\" getByRole('region', { name: 'Independent data calculator' }) with timeout 5000ms\n  - waiting for getByRole('region', { name: 'Independent data calculator' })\n    13 × locator resolved to <section class=\"data-sense ds-calculator\" aria-label=\"Independent data calculator\">…</section>\n       - unexpected value \"PLAN YOUR NEXT WATCHA little planning.A longer movie night.Explore an estimate using your own bitrate, viewing time and data allowance. These inputs do not describe a catalog title or change playback.Available viewing budgetGBMBYour own allowance, not a mobile-provider balance. Decimal MB and GB.Clear budgetCombined audio + video bitrate (Mbps)Viewing time (minutes)Reset calculatorESTIMATED ENCODED MEDIA1.8 GB1.8 GB per hourYOUR VIEWING PLAN2 GBEstimate is approaching your budgetEstimated use: 1.8 GBEstimated allowance after viewing: 200 MBEstimated viewing time: 1h 6mThis is a planning estimate, not measured traffic or a provider charge. Buffering, retries, overhead, caching and changing bitrates can affect real use. 1 MB = 1,000,000 bytes; 1 GB = 1,000,000,000 bytes. If the estimate exceeds your allowance, try a lower assumed bitrate or a shorter viewing time.\"\n\n    at captureRawStack (C:\\Users\\USER\\Downloads\\flurzicinema\\node_modules\\playwright-core\\lib\\coreBundle.js:9551:17)\n    at callMatcherAsStep (C:\\Users\\USER\\Downloads\\flurzicinema\\node_modules\\playwright\\lib\\matchers\\expect.js:13342:57)\n    at Object.toContainText (C:\\Users\\USER\\Downloads\\flurzicinema\\node_modules\\playwright\\lib\\matchers\\expect.js:13334:23)\n    at calculator (C:\\Users\\USER\\Downloads\\flurzicinema\\scripts\\phase2f4-browser.mjs:26:21)\n    at async file:///C:/Users/USER/Downloads/flurzicinema/scripts/phase2f4-browser.mjs:79:78"
+}

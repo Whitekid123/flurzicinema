@@ -2,32 +2,32 @@
 .cinema-app .discovery-page{width:92%;max-width:1900px;margin:0 auto;padding-top:64px;min-height:75svh}
 .cinema-app .discovery-heading{display:flex;justify-content:space-between;align-items:end;gap:32px;margin-bottom:42px}
 .cinema-app .discovery-heading>div{min-width:0}
-.cinema-app .discovery-heading .cinema-eyebrow{margin-bottom:17px;color:#92929d;overflow-wrap:anywhere}
+.cinema-app .discovery-heading .cinema-eyebrow{margin-bottom:17px;color:var(--brand-text-secondary);overflow-wrap:anywhere}
 .cinema-app .discovery-heading h1{font-size:clamp(44px,5.3vw,84px);line-height:1.04;letter-spacing:-.065em;margin:0 0 19px;font-weight:500;text-wrap:balance}
-.cinema-app .discovery-heading>div>p:last-child{font-size:15px;color:#a7a7b2;max-width:62ch;margin:0;line-height:1.7}
-.cinema-app .discovery-header-link{font-size:12px;min-height:44px;display:flex;align-items:center;white-space:nowrap;border-bottom:1px solid #5b5b65;flex:none}
-.cinema-app .discovery-filters{border-top:1px solid #36373f;border-bottom:1px solid #36373f;padding:24px 0;margin:0 0 16px}
+.cinema-app .discovery-heading>div>p:last-child{font-size:15px;color:var(--brand-text-secondary);max-width:62ch;margin:0;line-height:1.7}
+.cinema-app .discovery-header-link{font-size:12px;min-height:44px;display:flex;align-items:center;white-space:nowrap;border-bottom:1px solid var(--brand-border);flex:none}
+.cinema-app .discovery-filters{border-top:1px solid var(--brand-border);border-bottom:1px solid var(--brand-border);padding:24px 0;margin:0 0 16px}
 .cinema-app .discovery-filter-fields{display:flex;gap:18px;align-items:end;flex-wrap:wrap}
-.cinema-app .discovery-filter-fields>label{flex:1;min-width:145px;display:flex;flex-direction:column;gap:10px;font-size:11px;color:#b0b0bc}
+.cinema-app .discovery-filter-fields>label{flex:1;min-width:145px;display:flex;flex-direction:column;gap:10px;font-size:11px;color:var(--brand-text-secondary)}
 .cinema-app .discovery-filter-fields>label:has(input){max-width:160px;min-width:130px}
-.cinema-app .discovery-filters :is(input,select),.cinema-app .detail-episodes select{min-height:48px;border:1px solid #41424b;border-radius:5px;padding:11px 13px;background:#15161b;color:#f5f5f3;font-size:14px;line-height:1.5}
+.cinema-app .discovery-filters :is(input,select),.cinema-app .detail-episodes select{min-height:48px;border:1px solid var(--brand-border);border-radius:5px;padding:11px 13px;background:var(--brand-surface);color:var(--brand-text);font-size:14px;line-height:1.5}
 .cinema-app .discovery-filters :is(input,select):focus-visible{outline-offset:3px}
-.cinema-app .discovery-filters select option,.cinema-app .detail-episodes option{background:#17181c;color:#f5f5f3}
+.cinema-app .discovery-filters select option,.cinema-app .detail-episodes option{background:var(--brand-surface);color:var(--brand-text)}
 .cinema-app .discovery-filter-fields>.cinema-button{min-width:135px}
 .cinema-app .discovery-query{margin-bottom:24px;max-width:900px}
-.cinema-app .discovery-query>label{display:block;font-size:13px;color:#b3b3bd;margin-bottom:12px}
+.cinema-app .discovery-query>label{display:block;font-size:13px;color:var(--brand-text-secondary);margin-bottom:12px}
 .cinema-app .discovery-query>div{position:relative}
 .cinema-app .discovery-query input{min-height:66px;font-size:22px;padding:16px 64px 16px 20px;width:100%;letter-spacing:-.025em}
-.cinema-app .discovery-query button{position:absolute;right:10px;top:10px;width:46px;height:46px;border:0;background:none;font-size:26px;color:#adadb8}
+.cinema-app .discovery-query button{position:absolute;right:10px;top:10px;width:46px;height:46px;border:0;background:none;font-size:26px;color:var(--brand-text-secondary)}
 .cinema-app .discovery-active-filters{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:0 0 25px}
-.cinema-app .discovery-active-filters>a{display:flex;align-items:center;gap:15px;font-size:12px;min-height:38px;max-width:100%;padding:8px 13px;border:1px solid #4a4b56;border-radius:4px;overflow-wrap:anywhere}
-.cinema-app .discovery-active-filters .discovery-reset{border-color:transparent;color:#b0b0bc;text-decoration:underline;padding-left:5px}
-.cinema-app .discovery-notice{border:1px solid #40414a;background:#191a20;padding:15px 18px;margin:0 0 22px;font-size:13px;line-height:1.65;color:#bdbdc8;border-radius:5px;display:flex;align-items:center;justify-content:space-between;gap:20px}
-.cinema-app .discovery-notice button{border:0;background:none;color:#f5f5f3;text-decoration:underline;min-height:44px;padding:8px 4px;white-space:nowrap}
-.cinema-app .discovery-feedback{font-size:13px;margin:16px 0 24px;color:#d5d5dc;border-left:2px solid #bcbcc7;padding:8px 16px;line-height:1.6}
+.cinema-app .discovery-active-filters>a{display:flex;align-items:center;gap:15px;font-size:12px;min-height:38px;max-width:100%;padding:8px 13px;border:1px solid var(--brand-border);border-radius:4px;overflow-wrap:anywhere}
+.cinema-app .discovery-active-filters .discovery-reset{border-color:transparent;color:var(--brand-text-secondary);text-decoration:underline;padding-left:5px}
+.cinema-app .discovery-notice{border:1px solid var(--brand-border);background:var(--brand-surface);padding:15px 18px;margin:0 0 22px;font-size:13px;line-height:1.65;color:var(--brand-text);border-radius:5px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.cinema-app .discovery-notice button{border:0;background:none;color:var(--brand-text);text-decoration:underline;min-height:44px;padding:8px 4px;white-space:nowrap}
+.cinema-app .discovery-feedback{font-size:13px;margin:16px 0 24px;color:var(--brand-text);border-left:2px solid var(--brand-border-strong);padding:8px 16px;line-height:1.6}
 .cinema-app .discovery-results-heading{display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin:34px 0 24px}
 .cinema-app .discovery-results-heading h2{font-size:25px;line-height:1.3;margin:0}
-.cinema-app .discovery-results-heading>p{font-size:12px;color:#92929e;margin:0;overflow-wrap:anywhere;text-align:right}
+.cinema-app .discovery-results-heading>p{font-size:12px;color:var(--brand-text-secondary);margin:0;overflow-wrap:anywhere;text-align:right}
 .cinema-app .discovery-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px 24px;list-style:none;padding:0;margin:0}
 .cinema-app .discovery-grid>li{min-width:0}
 .cinema-app .discovery-grid.is-portrait-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
@@ -35,104 +35,104 @@
 .cinema-app .discovery-grid .is-portrait .cinema-card-art{aspect-ratio:3/4}
 .cinema-app .discovery-grid .cinema-card-copy{padding-top:16px}
 .cinema-app .discovery-grid .cinema-card-copy h3{font-size:18px}
-.cinema-app .discovery-series-count{font-size:11px;color:#9898a4;margin:11px 0 0}
+.cinema-app .discovery-series-count{font-size:11px;color:var(--brand-text-secondary);margin:11px 0 0}
 .cinema-app .discovery-series-list{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:40px}
-.cinema-app .discovery-series-row{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:5%;padding:10px 0 38px;border-bottom:1px solid #33343d}
+.cinema-app .discovery-series-row{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:5%;padding:10px 0 38px;border-bottom:1px solid var(--brand-border)}
 .cinema-app .discovery-series-row>.cinema-card{max-width:600px}
 .cinema-app .discovery-series-row>div{min-width:0;align-self:center}
-.cinema-app .discovery-series-row .cinema-eyebrow{color:#8f8f9c;margin-bottom:14px}
-.cinema-app .discovery-series-synopsis{font-size:clamp(16px,1.7vw,23px);line-height:1.6;max-width:48ch;margin:0 0 18px;letter-spacing:-.025em;color:#dbdbe1}
+.cinema-app .discovery-series-row .cinema-eyebrow{color:var(--brand-text-secondary);margin-bottom:14px}
+.cinema-app .discovery-series-synopsis{font-size:clamp(16px,1.7vw,23px);line-height:1.6;max-width:48ch;margin:0 0 18px;letter-spacing:-.025em;color:var(--brand-text)}
 .cinema-app .discovery-season-overview{margin:24px 0}
-.cinema-app .discovery-season-overview p{display:flex;gap:24px;justify-content:space-between;border-top:1px solid #3b3c45;padding:14px 0 0;font-size:13px;margin:0 0 12px}
-.cinema-app .discovery-season-overview span{color:#9696a3;font-size:12px}
+.cinema-app .discovery-season-overview p{display:flex;gap:24px;justify-content:space-between;border-top:1px solid var(--brand-border);padding:14px 0 0;font-size:13px;margin:0 0 12px}
+.cinema-app .discovery-season-overview span{color:var(--brand-text-secondary);font-size:12px}
 .cinema-app .discovery-series-actions{display:flex;gap:12px;flex-wrap:wrap}
-.cinema-app .discovery-pagination{display:flex;align-items:center;justify-content:space-between;gap:16px;border-top:1px solid #33343d;margin-top:40px;padding:24px 0;font-size:12px;color:#a0a0ad}
+.cinema-app .discovery-pagination{display:flex;align-items:center;justify-content:space-between;gap:16px;border-top:1px solid var(--brand-border);margin-top:40px;padding:24px 0;font-size:12px;color:var(--brand-text-secondary)}
 .cinema-app .discovery-pagination>span{min-width:20px;text-align:center}
 .cinema-app .discovery-search-start{max-width:800px;margin:70px auto 90px;text-align:center}
-.cinema-app .discovery-search-start>span{font-size:60px;color:#b4b4c0;line-height:1}
+.cinema-app .discovery-search-start>span{font-size:60px;color:var(--brand-text-secondary);line-height:1}
 .cinema-app .discovery-search-start h2{font-size:clamp(28px,3vw,42px);margin:25px 0 15px;line-height:1.15}
-.cinema-app .discovery-search-start>p{font-size:14px;color:#9898a5;line-height:1.7}
+.cinema-app .discovery-search-start>p{font-size:14px;color:var(--brand-text-secondary);line-height:1.7}
 .cinema-app .discovery-suggestions{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:30px}
-.cinema-app .discovery-suggestions>a{border:1px solid #42434d;border-radius:5px;padding:13px 19px;min-height:48px;font-size:13px}
-.cinema-app .discovery-search-routes{display:flex;justify-content:center;gap:30px;margin-top:28px;font-size:12px;color:#bdbdc8}
+.cinema-app .discovery-suggestions>a{border:1px solid var(--brand-border);border-radius:5px;padding:13px 19px;min-height:48px;font-size:13px}
+.cinema-app .discovery-search-routes{display:flex;justify-content:center;gap:30px;margin-top:28px;font-size:12px;color:var(--brand-text)}
 .cinema-app .discovery-search-routes a{display:flex;align-items:center;min-height:44px}
-.cinema-app .discovery-library-tabs{display:flex;align-items:center;gap:30px;border-bottom:1px solid #393a43;margin:0 0 30px}
-.cinema-app .discovery-library-tabs>a{min-height:50px;display:flex;align-items:center;color:#9696a3;font-size:14px;border-bottom:2px solid transparent}
-.cinema-app .discovery-library-tabs>a[aria-current=page]{border-bottom-color:#f5f5f3;color:#f5f5f3}
-.cinema-app .discovery-library-tabs>span{margin-left:auto;font-size:12px;color:#868694;max-width:35%;overflow-wrap:anywhere;text-align:right}
+.cinema-app .discovery-library-tabs{display:flex;align-items:center;gap:30px;border-bottom:1px solid var(--brand-border);margin:0 0 30px}
+.cinema-app .discovery-library-tabs>a{min-height:50px;display:flex;align-items:center;color:var(--brand-text-secondary);font-size:14px;border-bottom:2px solid transparent}
+.cinema-app .discovery-library-tabs>a[aria-current=page]{border-bottom-color:var(--brand-border-strong);color:var(--brand-text)}
+.cinema-app .discovery-library-tabs>span{margin-left:auto;font-size:12px;color:var(--brand-text-secondary);max-width:35%;overflow-wrap:anywhere;text-align:right}
 .cinema-app .discovery-library-group{margin:30px 0 48px}
 .cinema-app .discovery-library-group>h3{font-size:22px;margin:0 0 22px}
-.cinema-app .discovery-missing{display:flex;justify-content:space-between;align-items:center;gap:24px;border:1px solid #40414b;border-radius:6px;padding:24px;margin:20px 0}
+.cinema-app .discovery-missing{display:flex;justify-content:space-between;align-items:center;gap:24px;border:1px solid var(--brand-border);border-radius:6px;padding:24px;margin:20px 0}
 .cinema-app .discovery-missing h3{font-size:18px;margin:0 0 10px}
-.cinema-app .discovery-missing p{font-size:13px;color:#a7a7b3;margin:0}
+.cinema-app .discovery-missing p{font-size:13px;color:var(--brand-text-secondary);margin:0}
 .cinema-app .discovery-missing button{flex:none}
 .cinema-app .discovery-history-list{list-style:none;padding:0;margin:0}
-.cinema-app .discovery-history-list>li{display:flex;align-items:center;gap:28px;padding:25px 0;border-bottom:1px solid #33343d}
-.cinema-app .discovery-history-art{position:relative;aspect-ratio:16/10;width:220px;flex:none;border-radius:6px;overflow:hidden;background:#202127}
+.cinema-app .discovery-history-list>li{display:flex;align-items:center;gap:28px;padding:25px 0;border-bottom:1px solid var(--brand-border)}
+.cinema-app .discovery-history-art{position:relative;aspect-ratio:16/10;width:220px;flex:none;border-radius:6px;overflow:hidden;background:var(--brand-surface)}
 .cinema-app .discovery-history-art img{object-fit:cover}
 .cinema-app .discovery-history-list>li>div{flex:1;min-width:0}
 .cinema-app .discovery-history-list h3{font-size:21px;margin:0 0 8px;overflow-wrap:anywhere}
-.cinema-app .discovery-history-list p{font-size:12px;color:#9b9ba9;margin:6px 0}
-.cinema-app .discovery-history-list progress{display:block;width:min(100%,360px);height:3px;margin:14px 0;accent-color:#f5f5f3}
+.cinema-app .discovery-history-list p{font-size:12px;color:var(--brand-text-secondary);margin:6px 0}
+.cinema-app .discovery-history-list progress{display:block;width:min(100%,360px);height:3px;margin:14px 0;accent-color:var(--brand-accent)}
 .cinema-app .discovery-history-list .cinema-button{flex:none}
 .cinema-app .discovery-loading{padding:28px 0}
-.cinema-app .discovery-skeleton-line{width:220px;height:24px;background:#23242c;border-radius:4px;margin-bottom:25px}
+.cinema-app .discovery-skeleton-line{width:220px;height:24px;background:var(--brand-surface);border-radius:4px;margin-bottom:25px}
 .cinema-app .discovery-skeleton-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px}
-.cinema-app .discovery-skeleton-grid>div{aspect-ratio:3/4;background:#17181e;border-radius:7px}
+.cinema-app .discovery-skeleton-grid>div{aspect-ratio:3/4;background:var(--brand-surface);border-radius:7px}
 .cinema-app .detail-page{min-height:100svh}
 .cinema-app .detail-hero{position:relative;isolation:isolate;min-height:620px}
-.cinema-app .detail-backdrop{position:absolute;inset:0;z-index:-1;background:#15161b;overflow:hidden}
+.cinema-app .detail-backdrop{position:absolute;inset:0;z-index:-1;background:var(--brand-surface);overflow:hidden}
 .cinema-app .detail-backdrop img{object-fit:cover;object-position:66% 40%}
-.cinema-app .detail-backdrop>div{position:absolute;inset:0;background:linear-gradient(90deg,#08090bf2,#08090b99 40%,#08090b25 80%),linear-gradient(0deg,#08090b,transparent 65%)}
+.cinema-app .detail-backdrop>div{position:absolute;inset:0;background:linear-gradient(90deg,#08090bf2,#08090b99 40%,#08090b25 80%),linear-gradient(0deg,var(--brand-bg),transparent 65%)}
 .cinema-app .detail-hero-copy{position:relative;max-width:900px;padding:40px 4vw 60px}
-.cinema-app .detail-breadcrumbs{display:flex;gap:14px;align-items:center;font-size:11px;color:#c8c8d0;margin-bottom:55px;min-height:44px}
+.cinema-app .detail-breadcrumbs{display:flex;gap:14px;align-items:center;font-size:11px;color:var(--brand-text);margin-bottom:55px;min-height:44px}
 .cinema-app .detail-breadcrumbs a{display:flex;align-items:center;min-height:44px}
 .cinema-app .detail-hero .cinema-eyebrow{margin-bottom:20px}
 .cinema-app .detail-hero h1{font-size:clamp(48px,6.2vw,106px);letter-spacing:-.065em;line-height:1.02;max-width:760px;font-weight:500;margin:0 0 23px;text-wrap:balance;overflow-wrap:anywhere}
-.cinema-app .detail-genres{font-size:12px;color:#c5c5cf;margin:12px 0 0}
-.cinema-app .detail-tagline{font-size:18px;color:#bcbcc8;margin-top:25px}
+.cinema-app .detail-genres{font-size:12px;color:var(--brand-text);margin:12px 0 0}
+.cinema-app .detail-tagline{font-size:18px;color:var(--brand-text);margin-top:25px}
 .cinema-app .detail-hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin:28px 0 20px}
-.cinema-app .detail-availability{display:flex;gap:12px;max-width:58ch;font-size:12px;line-height:1.7;color:#b3b3c0}
+.cinema-app .detail-availability{display:flex;gap:12px;max-width:58ch;font-size:12px;line-height:1.7;color:var(--brand-text-secondary)}
 .cinema-app .detail-availability>span{flex:none}
-.cinema-app .detail-access-note{font-size:12px;color:#b0b0be;margin-top:14px}
+.cinema-app .detail-access-note{font-size:12px;color:var(--brand-text-secondary);margin-top:14px}
 .cinema-app .detail-access-note a{text-decoration:underline;display:inline-flex;align-items:center;min-height:44px}
 .cinema-app .detail-body{width:92%;max-width:1900px;margin:auto}
-.cinema-app .detail-about{display:grid;grid-template-columns:230px minmax(0,1fr);gap:5%;padding:35px 0 60px;border-bottom:1px solid #34353d;margin-bottom:55px;scroll-margin-top:115px}
-.cinema-app .detail-poster{position:relative;aspect-ratio:3/4;align-self:start;border-radius:7px;overflow:hidden;background:#1b1b22}
+.cinema-app .detail-about{display:grid;grid-template-columns:230px minmax(0,1fr);gap:5%;padding:35px 0 60px;border-bottom:1px solid var(--brand-border);margin-bottom:55px;scroll-margin-top:115px}
+.cinema-app .detail-poster{position:relative;aspect-ratio:3/4;align-self:start;border-radius:7px;overflow:hidden;background:var(--brand-surface)}
 .cinema-app .detail-poster img{object-fit:cover}
 .cinema-app .detail-about-copy{max-width:1060px}
-.cinema-app .detail-about-copy>.cinema-eyebrow{color:#8f8f9d;margin-bottom:16px}
+.cinema-app .detail-about-copy>.cinema-eyebrow{color:var(--brand-text-secondary);margin-bottom:16px}
 .cinema-app .detail-about-copy>h2{font-size:clamp(28px,3.1vw,46px);margin:0 0 22px;line-height:1.2;overflow-wrap:anywhere}
-.cinema-app .detail-synopsis{font-size:clamp(16px,1.7vw,22px);line-height:1.75;color:#c1c1cc;max-width:62ch;margin:0 0 30px}
-.cinema-app .detail-facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:25px;margin:28px 0 0;padding:25px 0;border-top:1px solid #3a3b44}
-.cinema-app .detail-facts dt{font-size:11px;color:#888896;margin-bottom:9px}
+.cinema-app .detail-synopsis{font-size:clamp(16px,1.7vw,22px);line-height:1.75;color:var(--brand-text);max-width:62ch;margin:0 0 30px}
+.cinema-app .detail-facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:25px;margin:28px 0 0;padding:25px 0;border-top:1px solid var(--brand-border)}
+.cinema-app .detail-facts dt{font-size:11px;color:var(--brand-text-secondary);margin-bottom:9px}
 .cinema-app .detail-facts dd{font-size:13px;margin:0;line-height:1.6;overflow-wrap:anywhere}
 .cinema-app .detail-credits{margin-top:30px}
 .cinema-app .detail-credits h3{font-size:20px;margin:0 0 16px}
 .cinema-app .detail-credits ul{list-style:none;padding:0;display:flex;gap:20px 45px;flex-wrap:wrap}
 .cinema-app .detail-credits li{font-size:14px}
-.cinema-app .detail-credits li>span{display:block;color:#9696a5;font-size:12px;margin-top:6px}
+.cinema-app .detail-credits li>span{display:block;color:var(--brand-text-secondary);font-size:12px;margin-top:6px}
 .cinema-app .detail-episodes{margin:0 0 60px;scroll-margin-top:115px}
 .cinema-app .detail-episodes-heading{display:flex;align-items:end;justify-content:space-between;gap:24px;margin:0 0 20px}
-.cinema-app .detail-episodes-heading .cinema-eyebrow{color:#90909d;margin-bottom:12px}
+.cinema-app .detail-episodes-heading .cinema-eyebrow{color:var(--brand-text-secondary);margin-bottom:12px}
 .cinema-app .detail-episodes-heading h2{font-size:clamp(34px,4vw,56px);line-height:1.1;margin:0}
-.cinema-app .detail-episodes-heading label{font-size:11px;color:#9e9eac;display:flex;flex-direction:column;gap:10px;min-width:160px}
+.cinema-app .detail-episodes-heading label{font-size:11px;color:var(--brand-text-secondary);display:flex;flex-direction:column;gap:10px;min-width:160px}
 .cinema-app .detail-episodes select{width:100%;font:inherit;font-size:14px}
 .cinema-app .detail-episodes select:disabled{opacity:.8}
-.cinema-app .detail-season-description{max-width:70ch;color:#b9b9c5;font-size:15px}
-.cinema-app .detail-episode-note{font-size:12px;color:#8f8f9e;margin-bottom:25px}
+.cinema-app .detail-season-description{max-width:70ch;color:var(--brand-text);font-size:15px}
+.cinema-app .detail-episode-note{font-size:12px;color:var(--brand-text-secondary);margin-bottom:25px}
 .cinema-app .detail-episode-grid{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}
 .cinema-app .detail-episode-grid>li{min-width:0}
-.cinema-app .detail-episode-grid article{height:100%;border:1px solid #363740;border-radius:8px;overflow:hidden;background:#111217}
-.cinema-app .detail-episode-art{position:relative;aspect-ratio:2.15;background:#1a1b21;display:grid;place-items:center}
+.cinema-app .detail-episode-grid article{height:100%;border:1px solid var(--brand-border);border-radius:8px;overflow:hidden;background:var(--brand-bg-secondary)}
+.cinema-app .detail-episode-art{position:relative;aspect-ratio:2.15;background:var(--brand-surface);display:grid;place-items:center}
 .cinema-app .detail-episode-art img{object-fit:cover}
-.cinema-app .detail-episode-art>span{font-size:clamp(65px,8vw,120px);font-weight:400;letter-spacing:-.07em;color:#747480}
+.cinema-app .detail-episode-art>span{font-size:clamp(65px,8vw,120px);font-weight:400;letter-spacing:-.07em;color:var(--brand-text-secondary)}
 .cinema-app .detail-episode-copy{padding:22px 24px}
 .cinema-app .detail-episode-copy>div{display:flex;justify-content:space-between;align-items:baseline;gap:20px}
 .cinema-app .detail-episode-copy h3{font-size:19px;line-height:1.45;margin:0;overflow-wrap:anywhere}
-.cinema-app .detail-episode-copy>div>span{font-size:11px;color:#aaaab8;white-space:nowrap}
-.cinema-app .detail-episode-copy p{font-size:13px;color:#aaaab8;margin:15px 0 0;line-height:1.7}
-.cinema-app .detail-episode-copy .detail-episode-availability{font-size:11px;color:#9191a1}
+.cinema-app .detail-episode-copy>div>span{font-size:11px;color:var(--brand-text-secondary);white-space:nowrap}
+.cinema-app .detail-episode-copy p{font-size:13px;color:var(--brand-text-secondary);margin:15px 0 0;line-height:1.7}
+.cinema-app .detail-episode-copy .detail-episode-availability{font-size:11px;color:var(--brand-text-secondary)}
 @media(max-width:1100px){.cinema-app .discovery-heading h1{font-size:64px}.cinema-app .discovery-grid.is-portrait-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.cinema-app .discovery-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.cinema-app .discovery-series-row{gap:4%}.cinema-app .detail-about{grid-template-columns:190px minmax(0,1fr);gap:5%}.cinema-app .detail-facts{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:800px){.cinema-app .discovery-page{padding-top:40px}.cinema-app .discovery-heading{margin-bottom:30px;align-items:start;flex-direction:column;gap:14px}.cinema-app .discovery-heading h1{font-size:55px}.cinema-app .discovery-heading>div>p:last-child{font-size:14px}.cinema-app .discovery-heading .cinema-eyebrow{font-size:9px}.cinema-app .discovery-filter-fields{gap:16px}.cinema-app .discovery-filter-fields>.cinema-button{flex:1}.cinema-app .discovery-series-row{grid-template-columns:1fr;gap:26px}.cinema-app .discovery-series-row>.cinema-card{max-width:none}.cinema-app .discovery-series-synopsis{font-size:20px}.cinema-app .discovery-history-list>li{flex-wrap:wrap;gap:18px}.cinema-app .discovery-history-list .cinema-button{margin-left:auto}.cinema-app .detail-hero{min-height:570px}.cinema-app .detail-breadcrumbs{margin-bottom:40px}.cinema-app .detail-hero h1{font-size:70px}.cinema-app .detail-about{grid-template-columns:150px minmax(0,1fr)}.cinema-app .detail-about-copy h2{font-size:29px}.cinema-app .detail-synopsis{font-size:16px}.cinema-app .detail-episode-grid{gap:18px}.cinema-app .detail-episode-copy{padding:19px}.cinema-app .detail-episode-copy>div{flex-direction:column;gap:6px}}
-@media(max-width:600px){.cinema-app .discovery-page{width:90%;padding-top:32px}.cinema-app .discovery-heading h1{font-size:clamp(40px,12vw,54px);margin-bottom:16px}.cinema-app .discovery-heading>div>p:last-child{font-size:13px}.cinema-app .discovery-heading{gap:8px}.cinema-app .discovery-header-link{font-size:11px}.cinema-app .discovery-filters{padding:20px 0}.cinema-app .discovery-filter-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px 12px}.cinema-app .discovery-filter-fields>label{min-width:0;font-size:10px}.cinema-app .discovery-filter-fields>label:has(input){max-width:none;min-width:0}.cinema-app .discovery-filter-fields>.cinema-button{min-width:0;min-height:49px;width:100%;grid-column:1/-1}.cinema-app .discovery-filters :is(input,select){font-size:16px;padding:11px 10px;min-height:50px;max-width:100%;min-width:0}.cinema-app .discovery-query input{font-size:18px;min-height:62px;padding-right:54px;padding-left:14px}.cinema-app .discovery-query button{top:8px;right:5px}.cinema-app .discovery-query{margin-bottom:22px}.cinema-app .discovery-query>label{font-size:12px}.cinema-app .discovery-active-filters{gap:8px;margin-bottom:20px}.cinema-app .discovery-active-filters>a{min-height:44px;font-size:11px;gap:10px}.cinema-app .discovery-results-heading{margin-top:28px;align-items:start;flex-direction:column;gap:8px}.cinema-app .discovery-results-heading h2{font-size:23px}.cinema-app .discovery-results-heading>p{text-align:left;font-size:11px}.cinema-app .discovery-grid{grid-template-columns:1fr;gap:28px}.cinema-app .discovery-grid.is-portrait-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:30px 15px}.cinema-app .discovery-grid .cinema-card-copy h3{font-size:15px}.cinema-app .discovery-grid .cinema-card-copy .cinema-metadata{font-size:10px;gap:5px}.cinema-app .discovery-grid .cinema-card-copy .cinema-metadata>span+span:before{margin-right:5px}.cinema-app .discovery-grid .cinema-card-tools{right:6px;top:7px;gap:4px}.cinema-app .discovery-series-count{font-size:10px;line-height:1.5}.cinema-app .discovery-series-synopsis{font-size:18px}.cinema-app .discovery-season-overview{margin:20px 0}.cinema-app .discovery-notice{font-size:12px;padding:15px;gap:10px;flex-wrap:wrap}.cinema-app .discovery-search-start{margin:45px auto 65px}.cinema-app .discovery-search-start h2{font-size:29px}.cinema-app .discovery-search-start>p{font-size:13px}.cinema-app .discovery-suggestions{gap:9px}.cinema-app .discovery-suggestions>a{font-size:12px;min-height:46px;padding:12px 15px}.cinema-app .discovery-search-routes{gap:20px;font-size:11px}.cinema-app .discovery-library-tabs{gap:20px;margin-bottom:24px}.cinema-app .discovery-library-tabs>a{font-size:12px;min-height:48px}.cinema-app .discovery-library-tabs>span{font-size:10px}.cinema-app .discovery-library-group>h3{font-size:20px}.cinema-app .discovery-missing{flex-direction:column;align-items:start;padding:20px;gap:18px}.cinema-app .discovery-missing h3{font-size:17px}.cinema-app .discovery-missing p{font-size:12px}.cinema-app .discovery-history-art{width:36%;align-self:start}.cinema-app .discovery-history-list>li{gap:16px;padding:22px 0}.cinema-app .discovery-history-list h3{font-size:17px}.cinema-app .discovery-history-list p{font-size:11px}.cinema-app .discovery-history-list .cinema-button{font-size:12px;min-height:44px}.cinema-app .discovery-pagination{font-size:10px;gap:8px}.cinema-app .discovery-pagination .cinema-button{font-size:11px;padding:10px;min-height:44px}.cinema-app .discovery-skeleton-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.cinema-app .detail-hero{min-height:620px}.cinema-app .detail-backdrop img{height:410px!important;object-position:64% 35%}.cinema-app .detail-backdrop>div{background:linear-gradient(0deg,#08090b 25%,#08090b55 80%,#08090b22)}.cinema-app .detail-hero-copy{padding:14px 5% 36px;max-width:none}.cinema-app .detail-breadcrumbs{margin:0 0 205px;font-size:10px}.cinema-app .detail-hero h1{font-size:clamp(44px,12vw,65px);margin-bottom:19px}.cinema-app .detail-hero .cinema-eyebrow{font-size:9px;margin-bottom:13px}.cinema-app .detail-hero-actions{gap:10px;margin:22px 0}.cinema-app .detail-hero-actions .cinema-button{font-size:12px;padding:12px;min-height:48px}.cinema-app .detail-availability{font-size:11px;gap:9px}.cinema-app .detail-body{width:90%}.cinema-app .detail-about{grid-template-columns:100px minmax(0,1fr);gap:20px;padding-top:22px;padding-bottom:36px;margin-bottom:40px;scroll-margin-top:90px}.cinema-app .detail-about-copy>.cinema-eyebrow{font-size:8px}.cinema-app .detail-about-copy>h2{font-size:23px;margin-bottom:15px}.cinema-app .detail-synopsis{font-size:13px;line-height:1.7;margin-bottom:20px}.cinema-app .detail-facts{grid-template-columns:1fr;gap:18px;margin-top:18px;padding-top:18px}.cinema-app .detail-facts dt{font-size:10px;margin-bottom:5px}.cinema-app .detail-facts dd{font-size:12px}.cinema-app .detail-credits ul{gap:18px}.cinema-app .detail-episodes{scroll-margin-top:90px}.cinema-app .detail-episodes-heading{gap:14px}.cinema-app .detail-episodes-heading .cinema-eyebrow{font-size:8px;letter-spacing:.1em}.cinema-app .detail-episodes-heading h2{font-size:36px}.cinema-app .detail-episodes-heading label{min-width:125px;max-width:45%;font-size:10px}.cinema-app .detail-episodes select{font-size:16px;padding:11px 10px}.cinema-app .detail-episode-grid{grid-template-columns:1fr;gap:22px}.cinema-app .detail-episode-note{font-size:11px}.cinema-app .detail-episode-copy h3{font-size:18px}.cinema-app .detail-episode-copy{padding:20px}.cinema-app .detail-episode-copy>div{flex-direction:row;align-items:start}.cinema-app .detail-episode-copy>div>span{font-size:10px;padding-top:5px}.cinema-app .detail-season-description{font-size:13px}}
+@media(max-width:600px){.cinema-app .discovery-page{width:90%;padding-top:32px}.cinema-app .discovery-heading h1{font-size:clamp(40px,12vw,54px);margin-bottom:16px}.cinema-app .discovery-heading>div>p:last-child{font-size:13px}.cinema-app .discovery-heading{gap:8px}.cinema-app .discovery-header-link{font-size:11px}.cinema-app .discovery-filters{padding:20px 0}.cinema-app .discovery-filter-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px 12px}.cinema-app .discovery-filter-fields>label{min-width:0;font-size:10px}.cinema-app .discovery-filter-fields>label:has(input){max-width:none;min-width:0}.cinema-app .discovery-filter-fields>.cinema-button{min-width:0;min-height:49px;width:100%;grid-column:1/-1}.cinema-app .discovery-filters :is(input,select){font-size:16px;padding:11px 10px;min-height:50px;max-width:100%;min-width:0}.cinema-app .discovery-query input{font-size:18px;min-height:62px;padding-right:54px;padding-left:14px}.cinema-app .discovery-query button{top:8px;right:5px}.cinema-app .discovery-query{margin-bottom:22px}.cinema-app .discovery-query>label{font-size:12px}.cinema-app .discovery-active-filters{gap:8px;margin-bottom:20px}.cinema-app .discovery-active-filters>a{min-height:44px;font-size:11px;gap:10px}.cinema-app .discovery-results-heading{margin-top:28px;align-items:start;flex-direction:column;gap:8px}.cinema-app .discovery-results-heading h2{font-size:23px}.cinema-app .discovery-results-heading>p{text-align:left;font-size:11px}.cinema-app .discovery-grid{grid-template-columns:1fr;gap:28px}.cinema-app .discovery-grid.is-portrait-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:30px 15px}.cinema-app .discovery-grid .cinema-card-copy h3{font-size:15px}.cinema-app .discovery-grid .cinema-card-copy .cinema-metadata{font-size:10px;gap:5px}.cinema-app .discovery-grid .cinema-card-copy .cinema-metadata>span+span:before{margin-right:5px}.cinema-app .discovery-grid .cinema-card-tools{right:6px;top:7px;gap:4px}.cinema-app .discovery-series-count{font-size:10px;line-height:1.5}.cinema-app .discovery-series-synopsis{font-size:18px}.cinema-app .discovery-season-overview{margin:20px 0}.cinema-app .discovery-notice{font-size:12px;padding:15px;gap:10px;flex-wrap:wrap}.cinema-app .discovery-search-start{margin:45px auto 65px}.cinema-app .discovery-search-start h2{font-size:29px}.cinema-app .discovery-search-start>p{font-size:13px}.cinema-app .discovery-suggestions{gap:9px}.cinema-app .discovery-suggestions>a{font-size:12px;min-height:46px;padding:12px 15px}.cinema-app .discovery-search-routes{gap:20px;font-size:11px}.cinema-app .discovery-library-tabs{gap:20px;margin-bottom:24px}.cinema-app .discovery-library-tabs>a{font-size:12px;min-height:48px}.cinema-app .discovery-library-tabs>span{font-size:10px}.cinema-app .discovery-library-group>h3{font-size:20px}.cinema-app .discovery-missing{flex-direction:column;align-items:start;padding:20px;gap:18px}.cinema-app .discovery-missing h3{font-size:17px}.cinema-app .discovery-missing p{font-size:12px}.cinema-app .discovery-history-art{width:36%;align-self:start}.cinema-app .discovery-history-list>li{gap:16px;padding:22px 0}.cinema-app .discovery-history-list h3{font-size:17px}.cinema-app .discovery-history-list p{font-size:11px}.cinema-app .discovery-history-list .cinema-button{font-size:12px;min-height:44px}.cinema-app .discovery-pagination{font-size:10px;gap:8px}.cinema-app .discovery-pagination .cinema-button{font-size:11px;padding:10px;min-height:44px}.cinema-app .discovery-skeleton-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.cinema-app .detail-hero{min-height:620px}.cinema-app .detail-backdrop img{height:410px!important;object-position:64% 35%}.cinema-app .detail-backdrop>div{background:linear-gradient(0deg,var(--brand-bg) 25%,#08090b55 80%,#08090b22)}.cinema-app .detail-hero-copy{padding:14px 5% 36px;max-width:none}.cinema-app .detail-breadcrumbs{margin:0 0 205px;font-size:10px}.cinema-app .detail-hero h1{font-size:clamp(44px,12vw,65px);margin-bottom:19px}.cinema-app .detail-hero .cinema-eyebrow{font-size:9px;margin-bottom:13px}.cinema-app .detail-hero-actions{gap:10px;margin:22px 0}.cinema-app .detail-hero-actions .cinema-button{font-size:12px;padding:12px;min-height:48px}.cinema-app .detail-availability{font-size:11px;gap:9px}.cinema-app .detail-body{width:90%}.cinema-app .detail-about{grid-template-columns:100px minmax(0,1fr);gap:20px;padding-top:22px;padding-bottom:36px;margin-bottom:40px;scroll-margin-top:90px}.cinema-app .detail-about-copy>.cinema-eyebrow{font-size:8px}.cinema-app .detail-about-copy>h2{font-size:23px;margin-bottom:15px}.cinema-app .detail-synopsis{font-size:13px;line-height:1.7;margin-bottom:20px}.cinema-app .detail-facts{grid-template-columns:1fr;gap:18px;margin-top:18px;padding-top:18px}.cinema-app .detail-facts dt{font-size:10px;margin-bottom:5px}.cinema-app .detail-facts dd{font-size:12px}.cinema-app .detail-credits ul{gap:18px}.cinema-app .detail-episodes{scroll-margin-top:90px}.cinema-app .detail-episodes-heading{gap:14px}.cinema-app .detail-episodes-heading .cinema-eyebrow{font-size:8px;letter-spacing:.1em}.cinema-app .detail-episodes-heading h2{font-size:36px}.cinema-app .detail-episodes-heading label{min-width:125px;max-width:45%;font-size:10px}.cinema-app .detail-episodes select{font-size:16px;padding:11px 10px}.cinema-app .detail-episode-grid{grid-template-columns:1fr;gap:22px}.cinema-app .detail-episode-note{font-size:11px}.cinema-app .detail-episode-copy h3{font-size:18px}.cinema-app .detail-episode-copy{padding:20px}.cinema-app .detail-episode-copy>div{flex-direction:row;align-items:start}.cinema-app .detail-episode-copy>div>span{font-size:10px;padding-top:5px}.cinema-app .detail-season-description{font-size:13px}}

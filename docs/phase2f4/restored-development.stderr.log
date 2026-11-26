@@ -1,0 +1,125 @@
+⚠ Slow filesystem detected. The benchmark took 1829ms. If \\?\C:\Users\USER\Downloads\flurzicinema\.next\dev is a network drive, consider moving it to a local folder.
+See more: https://nextjs.org/docs/app/guides/local-development
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectErrorBoundary router={{...}}>
+      <InnerLayoutRouter url="/login" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+        <SegmentViewNode type="page" pagePath="login/page...">
+          <SegmentTrieNode>
+          <Page>
+            <Suspense fallback={{...}}>
+              <CredentialsScreen>
+                <AuthFrame scene="quiet" title={"A good n..."}>
+                  <div className="entry-app ...">
+                    <a>
+                    <header>
+                    <aside>
+                    <main id="entry-main" className="auth-main">
+                      <div className="auth-content">
+                        <span>
+                        <h1>
+                        <p>
+                        <PreviewNotice>
+                        <form className="entry-form" noValidate={true} onSubmit={function submit} aria-busy={false}>
+                          <Field id="email" label="Email address" type="email" autoComplete="email" inputMode="email" ...>
+                            <div className="entry-field">
+                              <label>
+                              <input
+                                id="email"
+                                type="email"
+                                autoComplete="email"
+                                inputMode="email"
+                                value=""
+                                onChange={function onChange}
+                                disabled={false}
+                                required={true}
+                                maxLength={254}
+                                aria-invalid={false}
+                                aria-describedby={undefined}
+-                               style={{caret-color:"transparent"}}
+                              >
+                          <PasswordField id="password" autoComplete="current-pa..." value="" onChange={function onChange} ...>
+                            <div className="entry-field">
+                              <label>
+                              <div className="entry-pass...">
+                                <input
+                                  ref={{current:null}}
+                                  id="password"
+                                  autoComplete="current-password"
+                                  value=""
+                                  onChange={function onChange}
+                                  disabled={false}
+                                  required={true}
+                                  maxLength={128}
+                                  type="password"
+                                  aria-invalid={false}
+                                  aria-describedby={undefined}
+-                                 style={{caret-color:"transparent"}}
+                                >
+                                ...
+                          ...
+                        ...
+                      ...
+        ...
+      ...
+ 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectErrorBoundary router={{...}}>
+      <InnerLayoutRouter url="/" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+        <SegmentViewNode type="page" pagePath="page.tsx">
+          <SegmentTrieNode>
+          <Page>
+            <CinemaHome titles={[...]}>
+              <CinemaCatalogProvider titles={[...]}>
+                <CinemaHomeContent>
+                  <div ref={{current:null}} className="cinema-hom...">
+                    <Header>
+                    <main id="main">
+                      <CinemaHero onMovie={function bound dispatchSetState}>
+                        <section ref={{current:null}} id="home" className="editorial-..." aria-labelledby="cinema-title">
+                          <div>
+                          <div className={"hero-ima..."}>
+                            <div>
+                            <div>
+                            <HeroPointerTrail>
+                            <form className="hero-disco..." role="search" onSubmit={function onSubmit}>
+                              <label>
+                              <input
+                                id="hero-discovery"
+                                placeholder="Search movies and TV series…"
+                                value=""
+                                onChange={function onChange}
+                                onFocus={function onFocus}
+                                onBlur={function onBlur}
+-                               style={{caret-color:"transparent"}}
+                              >
+                              ...
+                            ...
+                      ...
+                    ...
+        ...
+      ...
+ 

@@ -1,0 +1,5040 @@
+[
+  {
+    "mobile": false,
+    "id": "email",
+    "method": "type",
+    "length": 6,
+    "trace": [
+      {
+        "type": "focusin",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "length": 0
+      },
+      {
+        "type": "focusin",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "length": 0
+      },
+      {
+        "type": "keydown",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 0
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "email"
+      },
+      {
+        "type": "keydown",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 0
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "email"
+      },
+      {
+        "type": "keypress",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 0
+      },
+      {
+        "type": "keypress",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 0
+      },
+      {
+        "type": "beforeinput",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 0
+      },
+      {
+        "type": "beforeinput",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 0
+      },
+      {
+        "type": "input",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 1
+      },
+      {
+        "type": "input",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 1
+      },
+      {
+        "type": "keyup",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 1
+      },
+      {
+        "type": "keyup",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 1
+      },
+      {
+        "type": "keydown",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "b",
+        "length": 1
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "email"
+      },
+      {
+        "type": "keydown",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "b",
+        "length": 1
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "email"
+      },
+      {
+        "type": "keypress",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "b",
+        "length": 1
+      },
+      {
+        "type": "keypress",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "b",
+        "length": 1
+      },
+      {
+        "type": "beforeinput",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 1
+      },
+      {
+        "type": "beforeinput",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 1
+      },
+      {
+        "type": "input",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 2
+      },
+      {
+        "type": "input",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 2
+      },
+      {
+        "type": "keyup",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "b",
+        "length": 2
+      },
+      {
+        "type": "keyup",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "b",
+        "length": 2
+      },
+      {
+        "type": "keydown",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "c",
+        "length": 2
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "email"
+      },
+      {
+        "type": "keydown",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "c",
+        "length": 2
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "email"
+      },
+      {
+        "type": "keypress",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "c",
+        "length": 2
+      },
+      {
+        "type": "keypress",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "c",
+        "length": 2
+      },
+      {
+        "type": "beforeinput",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 2
+      },
+      {
+        "type": "beforeinput",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 2
+      },
+      {
+        "type": "input",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 3
+      },
+      {
+        "type": "input",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 3
+      },
+      {
+        "type": "keyup",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "c",
+        "length": 3
+      },
+      {
+        "type": "keyup",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "c",
+        "length": 3
+      },
+      {
+        "type": "keydown",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "1",
+        "length": 3
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "email"
+      },
+      {
+        "type": "keydown",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "1",
+        "length": 3
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "email"
+      },
+      {
+        "type": "keypress",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "1",
+        "length": 3
+      },
+      {
+        "type": "keypress",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "1",
+        "length": 3
+      },
+      {
+        "type": "beforeinput",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 3
+      },
+      {
+        "type": "beforeinput",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 3
+      },
+      {
+        "type": "input",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 4
+      },
+      {
+        "type": "input",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 4
+      },
+      {
+        "type": "keyup",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "1",
+        "length": 4
+      },
+      {
+        "type": "keyup",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "1",
+        "length": 4
+      },
+      {
+        "type": "keydown",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "2",
+        "length": 4
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "email"
+      },
+      {
+        "type": "keydown",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "2",
+        "length": 4
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "email"
+      },
+      {
+        "type": "keypress",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "2",
+        "length": 4
+      },
+      {
+        "type": "keypress",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "2",
+        "length": 4
+      },
+      {
+        "type": "beforeinput",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 4
+      },
+      {
+        "type": "beforeinput",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 4
+      },
+      {
+        "type": "input",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 5
+      },
+      {
+        "type": "input",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 5
+      },
+      {
+        "type": "keyup",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "2",
+        "length": 5
+      },
+      {
+        "type": "keyup",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "2",
+        "length": 5
+      },
+      {
+        "type": "keydown",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "3",
+        "length": 5
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "email"
+      },
+      {
+        "type": "keydown",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "3",
+        "length": 5
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "email"
+      },
+      {
+        "type": "keypress",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "3",
+        "length": 5
+      },
+      {
+        "type": "keypress",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "3",
+        "length": 5
+      },
+      {
+        "type": "beforeinput",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 5
+      },
+      {
+        "type": "beforeinput",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 5
+      },
+      {
+        "type": "input",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 6
+      },
+      {
+        "type": "input",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 6
+      },
+      {
+        "type": "keyup",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "3",
+        "length": 6
+      },
+      {
+        "type": "keyup",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "3",
+        "length": 6
+      }
+    ]
+  },
+  {
+    "mobile": false,
+    "id": "email",
+    "method": "press-KeyA",
+    "length": 1,
+    "trace": [
+      {
+        "type": "keydown",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "Delete",
+        "length": 6
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "email"
+      },
+      {
+        "type": "keydown",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "Delete",
+        "length": 6
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "email"
+      },
+      {
+        "type": "beforeinput",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "deleteContentForward",
+        "length": 6
+      },
+      {
+        "type": "beforeinput",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "deleteContentForward",
+        "length": 6
+      },
+      {
+        "type": "input",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "deleteContentForward",
+        "length": 0
+      },
+      {
+        "type": "input",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "deleteContentForward",
+        "length": 0
+      },
+      {
+        "type": "keyup",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "Delete",
+        "length": 0
+      },
+      {
+        "type": "keyup",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "Delete",
+        "length": 0
+      },
+      {
+        "type": "keydown",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 0
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "email"
+      },
+      {
+        "type": "keydown",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 0
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "email"
+      },
+      {
+        "type": "keypress",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 0
+      },
+      {
+        "type": "keypress",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 0
+      },
+      {
+        "type": "beforeinput",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 0
+      },
+      {
+        "type": "beforeinput",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 0
+      },
+      {
+        "type": "input",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 1
+      },
+      {
+        "type": "input",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 1
+      },
+      {
+        "type": "keyup",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 1
+      },
+      {
+        "type": "keyup",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 1
+      }
+    ]
+  },
+  {
+    "mobile": false,
+    "id": "password",
+    "method": "type",
+    "length": 6,
+    "trace": [
+      {
+        "type": "focusout",
+        "phase": true,
+        "target": "email",
+        "active": "",
+        "prevented": false,
+        "trusted": true,
+        "length": 1
+      },
+      {
+        "type": "focusout",
+        "phase": false,
+        "target": "email",
+        "active": "",
+        "prevented": false,
+        "trusted": true,
+        "length": 1
+      },
+      {
+        "type": "focusin",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "length": 0
+      },
+      {
+        "type": "focusin",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "length": 0
+      },
+      {
+        "type": "keydown",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 0
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "password"
+      },
+      {
+        "type": "keydown",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 0
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "password"
+      },
+      {
+        "type": "keypress",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 0
+      },
+      {
+        "type": "keypress",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 0
+      },
+      {
+        "type": "beforeinput",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 0
+      },
+      {
+        "type": "beforeinput",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 0
+      },
+      {
+        "type": "input",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 1
+      },
+      {
+        "type": "input",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 1
+      },
+      {
+        "type": "keyup",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 1
+      },
+      {
+        "type": "keyup",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 1
+      },
+      {
+        "type": "keydown",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "b",
+        "length": 1
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "password"
+      },
+      {
+        "type": "keydown",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "b",
+        "length": 1
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "password"
+      },
+      {
+        "type": "keypress",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "b",
+        "length": 1
+      },
+      {
+        "type": "keypress",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "b",
+        "length": 1
+      },
+      {
+        "type": "beforeinput",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 1
+      },
+      {
+        "type": "beforeinput",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 1
+      },
+      {
+        "type": "input",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 2
+      },
+      {
+        "type": "input",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 2
+      },
+      {
+        "type": "keyup",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "b",
+        "length": 2
+      },
+      {
+        "type": "keyup",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "b",
+        "length": 2
+      },
+      {
+        "type": "keydown",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "c",
+        "length": 2
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "password"
+      },
+      {
+        "type": "keydown",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "c",
+        "length": 2
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "password"
+      },
+      {
+        "type": "keypress",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "c",
+        "length": 2
+      },
+      {
+        "type": "keypress",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "c",
+        "length": 2
+      },
+      {
+        "type": "beforeinput",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 2
+      },
+      {
+        "type": "beforeinput",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 2
+      },
+      {
+        "type": "input",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 3
+      },
+      {
+        "type": "input",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 3
+      },
+      {
+        "type": "keyup",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "c",
+        "length": 3
+      },
+      {
+        "type": "keyup",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "c",
+        "length": 3
+      },
+      {
+        "type": "keydown",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "1",
+        "length": 3
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "password"
+      },
+      {
+        "type": "keydown",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "1",
+        "length": 3
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "password"
+      },
+      {
+        "type": "keypress",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "1",
+        "length": 3
+      },
+      {
+        "type": "keypress",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "1",
+        "length": 3
+      },
+      {
+        "type": "beforeinput",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 3
+      },
+      {
+        "type": "beforeinput",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 3
+      },
+      {
+        "type": "input",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 4
+      },
+      {
+        "type": "input",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 4
+      },
+      {
+        "type": "keyup",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "1",
+        "length": 4
+      },
+      {
+        "type": "keyup",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "1",
+        "length": 4
+      },
+      {
+        "type": "keydown",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "2",
+        "length": 4
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "password"
+      },
+      {
+        "type": "keydown",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "2",
+        "length": 4
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "password"
+      },
+      {
+        "type": "keypress",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "2",
+        "length": 4
+      },
+      {
+        "type": "keypress",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "2",
+        "length": 4
+      },
+      {
+        "type": "beforeinput",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 4
+      },
+      {
+        "type": "beforeinput",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 4
+      },
+      {
+        "type": "input",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 5
+      },
+      {
+        "type": "input",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 5
+      },
+      {
+        "type": "keyup",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "2",
+        "length": 5
+      },
+      {
+        "type": "keyup",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "2",
+        "length": 5
+      },
+      {
+        "type": "keydown",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "3",
+        "length": 5
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "password"
+      },
+      {
+        "type": "keydown",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "3",
+        "length": 5
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "password"
+      },
+      {
+        "type": "keypress",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "3",
+        "length": 5
+      },
+      {
+        "type": "keypress",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "3",
+        "length": 5
+      },
+      {
+        "type": "beforeinput",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 5
+      },
+      {
+        "type": "beforeinput",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 5
+      },
+      {
+        "type": "input",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 6
+      },
+      {
+        "type": "input",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 6
+      },
+      {
+        "type": "keyup",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "3",
+        "length": 6
+      },
+      {
+        "type": "keyup",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "3",
+        "length": 6
+      }
+    ]
+  },
+  {
+    "mobile": false,
+    "id": "password",
+    "method": "press-KeyA",
+    "length": 1,
+    "trace": [
+      {
+        "type": "keydown",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "Delete",
+        "length": 6
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "password"
+      },
+      {
+        "type": "keydown",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "Delete",
+        "length": 6
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "password"
+      },
+      {
+        "type": "beforeinput",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "deleteContentForward",
+        "length": 6
+      },
+      {
+        "type": "beforeinput",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "deleteContentForward",
+        "length": 6
+      },
+      {
+        "type": "input",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "deleteContentForward",
+        "length": 0
+      },
+      {
+        "type": "input",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "deleteContentForward",
+        "length": 0
+      },
+      {
+        "type": "keyup",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "Delete",
+        "length": 0
+      },
+      {
+        "type": "keyup",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "Delete",
+        "length": 0
+      },
+      {
+        "type": "keydown",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 0
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "password"
+      },
+      {
+        "type": "keydown",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 0
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "password"
+      },
+      {
+        "type": "keypress",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 0
+      },
+      {
+        "type": "keypress",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 0
+      },
+      {
+        "type": "beforeinput",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 0
+      },
+      {
+        "type": "beforeinput",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 0
+      },
+      {
+        "type": "input",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 1
+      },
+      {
+        "type": "input",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 1
+      },
+      {
+        "type": "keyup",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 1
+      },
+      {
+        "type": "keyup",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 1
+      }
+    ]
+  },
+  {
+    "mobile": false,
+    "id": "native-uncontrolled",
+    "length": 6,
+    "trace": [
+      {
+        "type": "focusout",
+        "phase": true,
+        "target": "password",
+        "active": "",
+        "prevented": false,
+        "trusted": true,
+        "length": 1
+      },
+      {
+        "type": "focusout",
+        "phase": false,
+        "target": "password",
+        "active": "",
+        "prevented": false,
+        "trusted": true,
+        "length": 1
+      },
+      {
+        "type": "focusin",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "length": 0
+      },
+      {
+        "type": "focusin",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "length": 0
+      },
+      {
+        "type": "keydown",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 0
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "native-probe"
+      },
+      {
+        "type": "keydown",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 0
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "native-probe"
+      },
+      {
+        "type": "keypress",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 0
+      },
+      {
+        "type": "keypress",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 0
+      },
+      {
+        "type": "beforeinput",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 0
+      },
+      {
+        "type": "beforeinput",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 0
+      },
+      {
+        "type": "input",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 1
+      },
+      {
+        "type": "input",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 1
+      },
+      {
+        "type": "keyup",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 1
+      },
+      {
+        "type": "keyup",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 1
+      },
+      {
+        "type": "keydown",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "b",
+        "length": 1
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "native-probe"
+      },
+      {
+        "type": "keydown",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "b",
+        "length": 1
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "native-probe"
+      },
+      {
+        "type": "keypress",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "b",
+        "length": 1
+      },
+      {
+        "type": "keypress",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "b",
+        "length": 1
+      },
+      {
+        "type": "beforeinput",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 1
+      },
+      {
+        "type": "beforeinput",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 1
+      },
+      {
+        "type": "input",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 2
+      },
+      {
+        "type": "input",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 2
+      },
+      {
+        "type": "keyup",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "b",
+        "length": 2
+      },
+      {
+        "type": "keyup",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "b",
+        "length": 2
+      },
+      {
+        "type": "keydown",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "c",
+        "length": 2
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "native-probe"
+      },
+      {
+        "type": "keydown",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "c",
+        "length": 2
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "native-probe"
+      },
+      {
+        "type": "keypress",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "c",
+        "length": 2
+      },
+      {
+        "type": "keypress",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "c",
+        "length": 2
+      },
+      {
+        "type": "beforeinput",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 2
+      },
+      {
+        "type": "beforeinput",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 2
+      },
+      {
+        "type": "input",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 3
+      },
+      {
+        "type": "input",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 3
+      },
+      {
+        "type": "keyup",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "c",
+        "length": 3
+      },
+      {
+        "type": "keyup",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "c",
+        "length": 3
+      },
+      {
+        "type": "keydown",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "1",
+        "length": 3
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "native-probe"
+      },
+      {
+        "type": "keydown",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "1",
+        "length": 3
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "native-probe"
+      },
+      {
+        "type": "keypress",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "1",
+        "length": 3
+      },
+      {
+        "type": "keypress",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "1",
+        "length": 3
+      },
+      {
+        "type": "beforeinput",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 3
+      },
+      {
+        "type": "beforeinput",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 3
+      },
+      {
+        "type": "input",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 4
+      },
+      {
+        "type": "input",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 4
+      },
+      {
+        "type": "keyup",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "1",
+        "length": 4
+      },
+      {
+        "type": "keyup",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "1",
+        "length": 4
+      },
+      {
+        "type": "keydown",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "2",
+        "length": 4
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "native-probe"
+      },
+      {
+        "type": "keydown",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "2",
+        "length": 4
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "native-probe"
+      },
+      {
+        "type": "keypress",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "2",
+        "length": 4
+      },
+      {
+        "type": "keypress",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "2",
+        "length": 4
+      },
+      {
+        "type": "beforeinput",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 4
+      },
+      {
+        "type": "beforeinput",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 4
+      },
+      {
+        "type": "input",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 5
+      },
+      {
+        "type": "input",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 5
+      },
+      {
+        "type": "keyup",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "2",
+        "length": 5
+      },
+      {
+        "type": "keyup",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "2",
+        "length": 5
+      },
+      {
+        "type": "keydown",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "3",
+        "length": 5
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "native-probe"
+      },
+      {
+        "type": "keydown",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "3",
+        "length": 5
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "native-probe"
+      },
+      {
+        "type": "keypress",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "3",
+        "length": 5
+      },
+      {
+        "type": "keypress",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "3",
+        "length": 5
+      },
+      {
+        "type": "beforeinput",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 5
+      },
+      {
+        "type": "beforeinput",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 5
+      },
+      {
+        "type": "input",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 6
+      },
+      {
+        "type": "input",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 6
+      },
+      {
+        "type": "keyup",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "3",
+        "length": 6
+      },
+      {
+        "type": "keyup",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "3",
+        "length": 6
+      }
+    ]
+  },
+  {
+    "mobile": false,
+    "id": "isolated-plain",
+    "length": 6
+  },
+  {
+    "mobile": false,
+    "id": "isolated-secure",
+    "length": 6
+  },
+  {
+    "mobile": true,
+    "id": "email",
+    "method": "type",
+    "length": 6,
+    "trace": [
+      {
+        "type": "focusin",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "length": 0
+      },
+      {
+        "type": "focusin",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "length": 0
+      },
+      {
+        "type": "keydown",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 0
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "email"
+      },
+      {
+        "type": "keydown",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 0
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "email"
+      },
+      {
+        "type": "keypress",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 0
+      },
+      {
+        "type": "keypress",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 0
+      },
+      {
+        "type": "beforeinput",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 0
+      },
+      {
+        "type": "beforeinput",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 0
+      },
+      {
+        "type": "input",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 1
+      },
+      {
+        "type": "input",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 1
+      },
+      {
+        "type": "keyup",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 1
+      },
+      {
+        "type": "keyup",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 1
+      },
+      {
+        "type": "keydown",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "b",
+        "length": 1
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "email"
+      },
+      {
+        "type": "keydown",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "b",
+        "length": 1
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "email"
+      },
+      {
+        "type": "keypress",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "b",
+        "length": 1
+      },
+      {
+        "type": "keypress",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "b",
+        "length": 1
+      },
+      {
+        "type": "beforeinput",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 1
+      },
+      {
+        "type": "beforeinput",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 1
+      },
+      {
+        "type": "input",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 2
+      },
+      {
+        "type": "input",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 2
+      },
+      {
+        "type": "keyup",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "b",
+        "length": 2
+      },
+      {
+        "type": "keyup",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "b",
+        "length": 2
+      },
+      {
+        "type": "keydown",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "c",
+        "length": 2
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "email"
+      },
+      {
+        "type": "keydown",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "c",
+        "length": 2
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "email"
+      },
+      {
+        "type": "keypress",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "c",
+        "length": 2
+      },
+      {
+        "type": "keypress",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "c",
+        "length": 2
+      },
+      {
+        "type": "beforeinput",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 2
+      },
+      {
+        "type": "beforeinput",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 2
+      },
+      {
+        "type": "input",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 3
+      },
+      {
+        "type": "input",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 3
+      },
+      {
+        "type": "keyup",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "c",
+        "length": 3
+      },
+      {
+        "type": "keyup",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "c",
+        "length": 3
+      },
+      {
+        "type": "keydown",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "1",
+        "length": 3
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "email"
+      },
+      {
+        "type": "keydown",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "1",
+        "length": 3
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "email"
+      },
+      {
+        "type": "keypress",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "1",
+        "length": 3
+      },
+      {
+        "type": "keypress",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "1",
+        "length": 3
+      },
+      {
+        "type": "beforeinput",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 3
+      },
+      {
+        "type": "beforeinput",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 3
+      },
+      {
+        "type": "input",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 4
+      },
+      {
+        "type": "input",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 4
+      },
+      {
+        "type": "keyup",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "1",
+        "length": 4
+      },
+      {
+        "type": "keyup",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "1",
+        "length": 4
+      },
+      {
+        "type": "keydown",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "2",
+        "length": 4
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "email"
+      },
+      {
+        "type": "keydown",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "2",
+        "length": 4
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "email"
+      },
+      {
+        "type": "keypress",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "2",
+        "length": 4
+      },
+      {
+        "type": "keypress",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "2",
+        "length": 4
+      },
+      {
+        "type": "beforeinput",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 4
+      },
+      {
+        "type": "beforeinput",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 4
+      },
+      {
+        "type": "input",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 5
+      },
+      {
+        "type": "input",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 5
+      },
+      {
+        "type": "keyup",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "2",
+        "length": 5
+      },
+      {
+        "type": "keyup",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "2",
+        "length": 5
+      },
+      {
+        "type": "keydown",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "3",
+        "length": 5
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "email"
+      },
+      {
+        "type": "keydown",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "3",
+        "length": 5
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "email"
+      },
+      {
+        "type": "keypress",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "3",
+        "length": 5
+      },
+      {
+        "type": "keypress",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "3",
+        "length": 5
+      },
+      {
+        "type": "beforeinput",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 5
+      },
+      {
+        "type": "beforeinput",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 5
+      },
+      {
+        "type": "input",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 6
+      },
+      {
+        "type": "input",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 6
+      },
+      {
+        "type": "keyup",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "3",
+        "length": 6
+      },
+      {
+        "type": "keyup",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "3",
+        "length": 6
+      }
+    ]
+  },
+  {
+    "mobile": true,
+    "id": "email",
+    "method": "press-KeyA",
+    "length": 1,
+    "trace": [
+      {
+        "type": "keydown",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "Delete",
+        "length": 6
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "email"
+      },
+      {
+        "type": "keydown",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "Delete",
+        "length": 6
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "email"
+      },
+      {
+        "type": "beforeinput",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "deleteContentForward",
+        "length": 6
+      },
+      {
+        "type": "beforeinput",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "deleteContentForward",
+        "length": 6
+      },
+      {
+        "type": "input",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "deleteContentForward",
+        "length": 0
+      },
+      {
+        "type": "input",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "deleteContentForward",
+        "length": 0
+      },
+      {
+        "type": "keyup",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "Delete",
+        "length": 0
+      },
+      {
+        "type": "keyup",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "Delete",
+        "length": 0
+      },
+      {
+        "type": "keydown",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 0
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "email"
+      },
+      {
+        "type": "keydown",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 0
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "email"
+      },
+      {
+        "type": "keypress",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 0
+      },
+      {
+        "type": "keypress",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 0
+      },
+      {
+        "type": "beforeinput",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 0
+      },
+      {
+        "type": "beforeinput",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 0
+      },
+      {
+        "type": "input",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 1
+      },
+      {
+        "type": "input",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 1
+      },
+      {
+        "type": "keyup",
+        "phase": true,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 1
+      },
+      {
+        "type": "keyup",
+        "phase": false,
+        "target": "email",
+        "active": "email",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 1
+      }
+    ]
+  },
+  {
+    "mobile": true,
+    "id": "password",
+    "method": "type",
+    "length": 6,
+    "trace": [
+      {
+        "type": "focusout",
+        "phase": true,
+        "target": "email",
+        "active": "",
+        "prevented": false,
+        "trusted": true,
+        "length": 1
+      },
+      {
+        "type": "focusout",
+        "phase": false,
+        "target": "email",
+        "active": "",
+        "prevented": false,
+        "trusted": true,
+        "length": 1
+      },
+      {
+        "type": "focusin",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "length": 0
+      },
+      {
+        "type": "focusin",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "length": 0
+      },
+      {
+        "type": "keydown",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 0
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "password"
+      },
+      {
+        "type": "keydown",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 0
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "password"
+      },
+      {
+        "type": "keypress",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 0
+      },
+      {
+        "type": "keypress",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 0
+      },
+      {
+        "type": "beforeinput",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 0
+      },
+      {
+        "type": "beforeinput",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 0
+      },
+      {
+        "type": "input",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 1
+      },
+      {
+        "type": "input",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 1
+      },
+      {
+        "type": "keyup",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 1
+      },
+      {
+        "type": "keyup",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 1
+      },
+      {
+        "type": "keydown",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "b",
+        "length": 1
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "password"
+      },
+      {
+        "type": "keydown",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "b",
+        "length": 1
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "password"
+      },
+      {
+        "type": "keypress",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "b",
+        "length": 1
+      },
+      {
+        "type": "keypress",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "b",
+        "length": 1
+      },
+      {
+        "type": "beforeinput",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 1
+      },
+      {
+        "type": "beforeinput",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 1
+      },
+      {
+        "type": "input",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 2
+      },
+      {
+        "type": "input",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 2
+      },
+      {
+        "type": "keyup",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "b",
+        "length": 2
+      },
+      {
+        "type": "keyup",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "b",
+        "length": 2
+      },
+      {
+        "type": "keydown",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "c",
+        "length": 2
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "password"
+      },
+      {
+        "type": "keydown",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "c",
+        "length": 2
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "password"
+      },
+      {
+        "type": "keypress",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "c",
+        "length": 2
+      },
+      {
+        "type": "keypress",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "c",
+        "length": 2
+      },
+      {
+        "type": "beforeinput",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 2
+      },
+      {
+        "type": "beforeinput",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 2
+      },
+      {
+        "type": "input",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 3
+      },
+      {
+        "type": "input",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 3
+      },
+      {
+        "type": "keyup",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "c",
+        "length": 3
+      },
+      {
+        "type": "keyup",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "c",
+        "length": 3
+      },
+      {
+        "type": "keydown",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "1",
+        "length": 3
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "password"
+      },
+      {
+        "type": "keydown",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "1",
+        "length": 3
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "password"
+      },
+      {
+        "type": "keypress",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "1",
+        "length": 3
+      },
+      {
+        "type": "keypress",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "1",
+        "length": 3
+      },
+      {
+        "type": "beforeinput",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 3
+      },
+      {
+        "type": "beforeinput",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 3
+      },
+      {
+        "type": "input",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 4
+      },
+      {
+        "type": "input",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 4
+      },
+      {
+        "type": "keyup",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "1",
+        "length": 4
+      },
+      {
+        "type": "keyup",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "1",
+        "length": 4
+      },
+      {
+        "type": "keydown",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "2",
+        "length": 4
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "password"
+      },
+      {
+        "type": "keydown",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "2",
+        "length": 4
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "password"
+      },
+      {
+        "type": "keypress",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "2",
+        "length": 4
+      },
+      {
+        "type": "keypress",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "2",
+        "length": 4
+      },
+      {
+        "type": "beforeinput",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 4
+      },
+      {
+        "type": "beforeinput",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 4
+      },
+      {
+        "type": "input",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 5
+      },
+      {
+        "type": "input",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 5
+      },
+      {
+        "type": "keyup",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "2",
+        "length": 5
+      },
+      {
+        "type": "keyup",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "2",
+        "length": 5
+      },
+      {
+        "type": "keydown",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "3",
+        "length": 5
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "password"
+      },
+      {
+        "type": "keydown",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "3",
+        "length": 5
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "password"
+      },
+      {
+        "type": "keypress",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "3",
+        "length": 5
+      },
+      {
+        "type": "keypress",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "3",
+        "length": 5
+      },
+      {
+        "type": "beforeinput",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 5
+      },
+      {
+        "type": "beforeinput",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 5
+      },
+      {
+        "type": "input",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 6
+      },
+      {
+        "type": "input",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 6
+      },
+      {
+        "type": "keyup",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "3",
+        "length": 6
+      },
+      {
+        "type": "keyup",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "3",
+        "length": 6
+      }
+    ]
+  },
+  {
+    "mobile": true,
+    "id": "password",
+    "method": "press-KeyA",
+    "length": 1,
+    "trace": [
+      {
+        "type": "keydown",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "Delete",
+        "length": 6
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "password"
+      },
+      {
+        "type": "keydown",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "Delete",
+        "length": 6
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "password"
+      },
+      {
+        "type": "beforeinput",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "deleteContentForward",
+        "length": 6
+      },
+      {
+        "type": "beforeinput",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "deleteContentForward",
+        "length": 6
+      },
+      {
+        "type": "input",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "deleteContentForward",
+        "length": 0
+      },
+      {
+        "type": "input",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "deleteContentForward",
+        "length": 0
+      },
+      {
+        "type": "keyup",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "Delete",
+        "length": 0
+      },
+      {
+        "type": "keyup",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "Delete",
+        "length": 0
+      },
+      {
+        "type": "keydown",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 0
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "password"
+      },
+      {
+        "type": "keydown",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 0
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "password"
+      },
+      {
+        "type": "keypress",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 0
+      },
+      {
+        "type": "keypress",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 0
+      },
+      {
+        "type": "beforeinput",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 0
+      },
+      {
+        "type": "beforeinput",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 0
+      },
+      {
+        "type": "input",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 1
+      },
+      {
+        "type": "input",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 1
+      },
+      {
+        "type": "keyup",
+        "phase": true,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 1
+      },
+      {
+        "type": "keyup",
+        "phase": false,
+        "target": "password",
+        "active": "password",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 1
+      }
+    ]
+  },
+  {
+    "mobile": true,
+    "id": "native-uncontrolled",
+    "length": 6,
+    "trace": [
+      {
+        "type": "focusout",
+        "phase": true,
+        "target": "password",
+        "active": "",
+        "prevented": false,
+        "trusted": true,
+        "length": 1
+      },
+      {
+        "type": "focusout",
+        "phase": false,
+        "target": "password",
+        "active": "",
+        "prevented": false,
+        "trusted": true,
+        "length": 1
+      },
+      {
+        "type": "focusin",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "length": 0
+      },
+      {
+        "type": "focusin",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "length": 0
+      },
+      {
+        "type": "keydown",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 0
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "native-probe"
+      },
+      {
+        "type": "keydown",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 0
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "native-probe"
+      },
+      {
+        "type": "keypress",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 0
+      },
+      {
+        "type": "keypress",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 0
+      },
+      {
+        "type": "beforeinput",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 0
+      },
+      {
+        "type": "beforeinput",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 0
+      },
+      {
+        "type": "input",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 1
+      },
+      {
+        "type": "input",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 1
+      },
+      {
+        "type": "keyup",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 1
+      },
+      {
+        "type": "keyup",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "a",
+        "length": 1
+      },
+      {
+        "type": "keydown",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "b",
+        "length": 1
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "native-probe"
+      },
+      {
+        "type": "keydown",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "b",
+        "length": 1
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "native-probe"
+      },
+      {
+        "type": "keypress",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "b",
+        "length": 1
+      },
+      {
+        "type": "keypress",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "b",
+        "length": 1
+      },
+      {
+        "type": "beforeinput",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 1
+      },
+      {
+        "type": "beforeinput",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 1
+      },
+      {
+        "type": "input",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 2
+      },
+      {
+        "type": "input",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 2
+      },
+      {
+        "type": "keyup",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "b",
+        "length": 2
+      },
+      {
+        "type": "keyup",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "b",
+        "length": 2
+      },
+      {
+        "type": "keydown",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "c",
+        "length": 2
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "native-probe"
+      },
+      {
+        "type": "keydown",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "c",
+        "length": 2
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "native-probe"
+      },
+      {
+        "type": "keypress",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "c",
+        "length": 2
+      },
+      {
+        "type": "keypress",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "c",
+        "length": 2
+      },
+      {
+        "type": "beforeinput",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 2
+      },
+      {
+        "type": "beforeinput",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 2
+      },
+      {
+        "type": "input",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 3
+      },
+      {
+        "type": "input",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 3
+      },
+      {
+        "type": "keyup",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "c",
+        "length": 3
+      },
+      {
+        "type": "keyup",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "c",
+        "length": 3
+      },
+      {
+        "type": "keydown",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "1",
+        "length": 3
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "native-probe"
+      },
+      {
+        "type": "keydown",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "1",
+        "length": 3
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "native-probe"
+      },
+      {
+        "type": "keypress",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "1",
+        "length": 3
+      },
+      {
+        "type": "keypress",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "1",
+        "length": 3
+      },
+      {
+        "type": "beforeinput",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 3
+      },
+      {
+        "type": "beforeinput",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 3
+      },
+      {
+        "type": "input",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 4
+      },
+      {
+        "type": "input",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 4
+      },
+      {
+        "type": "keyup",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "1",
+        "length": 4
+      },
+      {
+        "type": "keyup",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "1",
+        "length": 4
+      },
+      {
+        "type": "keydown",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "2",
+        "length": 4
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "native-probe"
+      },
+      {
+        "type": "keydown",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "2",
+        "length": 4
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "native-probe"
+      },
+      {
+        "type": "keypress",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "2",
+        "length": 4
+      },
+      {
+        "type": "keypress",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "2",
+        "length": 4
+      },
+      {
+        "type": "beforeinput",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 4
+      },
+      {
+        "type": "beforeinput",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 4
+      },
+      {
+        "type": "input",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 5
+      },
+      {
+        "type": "input",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 5
+      },
+      {
+        "type": "keyup",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "2",
+        "length": 5
+      },
+      {
+        "type": "keyup",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "2",
+        "length": 5
+      },
+      {
+        "type": "keydown",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "3",
+        "length": 5
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "native-probe"
+      },
+      {
+        "type": "keydown",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "3",
+        "length": 5
+      },
+      {
+        "type": "after-keydown",
+        "prevented": false,
+        "active": "native-probe"
+      },
+      {
+        "type": "keypress",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "3",
+        "length": 5
+      },
+      {
+        "type": "keypress",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "3",
+        "length": 5
+      },
+      {
+        "type": "beforeinput",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 5
+      },
+      {
+        "type": "beforeinput",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 5
+      },
+      {
+        "type": "input",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 6
+      },
+      {
+        "type": "input",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "inputType": "insertText",
+        "length": 6
+      },
+      {
+        "type": "keyup",
+        "phase": true,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "3",
+        "length": 6
+      },
+      {
+        "type": "keyup",
+        "phase": false,
+        "target": "native-probe",
+        "active": "native-probe",
+        "prevented": false,
+        "trusted": true,
+        "key": "3",
+        "length": 6
+      }
+    ]
+  },
+  {
+    "mobile": true,
+    "id": "isolated-plain",
+    "length": 6
+  },
+  {
+    "mobile": true,
+    "id": "isolated-secure",
+    "length": 6
+  }
+]

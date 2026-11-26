@@ -3,5 +3,5 @@ import type { NextConfig } from "next";
 if(process.env.NODE_ENV==='production'&&process.env.NEXT_PUBLIC_USE_MOCKS==='1'&&!usesDevelopmentServices("production",process.env.NEXT_PUBLIC_USE_MOCKS,process.env.NEXT_PUBLIC_FLURZI_CHANNEL)){
  throw new Error('Mock services require an explicit preview build. Clear NEXT_PUBLIC_USE_MOCKS for a release.');
 }
-const nextConfig: NextConfig = { poweredByHeader: false, devIndicators: false };
+const nextConfig: NextConfig = { poweredByHeader: false, devIndicators: false, productionBrowserSourceMaps: false, experimental: { serverSourceMaps: false, turbopackSourceMaps: process.env.NODE_ENV !== "production" } };
 export default nextConfig;

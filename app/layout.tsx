@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { SessionProvider } from "@/lib/state/SessionContext";
+import "@/styles/brand-tokens.css";
 import "@/styles/globals.css";
 import "@/styles/exhibition.css";
 import "@/styles/integration.css";
@@ -10,6 +11,7 @@ import "@/styles/streaming-entry.css";
 import "@/styles/streaming-browse.css";
 import "@/styles/streaming-discovery.css";
 import "@/styles/interaction-corrections.css";
+import "@/styles/brand-components.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL(
@@ -27,20 +29,20 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/images/quiet-beyond.webp",
-        width: 1536,
-        height: 1024,
-        alt: "Original artwork for the fictional film The Quiet Beyond",
+        url: "/brand/flurzi-cinema-official.jpg",
+        width: 1254,
+        height: 1254,
+        alt: "Official Flurzi Cinema brand artwork",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Flurzi Cinema — Movies & TV Streaming",
-    images: ["/images/quiet-beyond.webp"],
+    images: ["/brand/flurzi-cinema-official.jpg"],
   },
 };
-export const viewport: Viewport = { themeColor: "#0B1018" };
+export const viewport: Viewport = { themeColor: "#08090B" };
 export default function RootLayout({
   children,
 }: {

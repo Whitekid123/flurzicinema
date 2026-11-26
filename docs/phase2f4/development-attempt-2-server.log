@@ -1,0 +1,29 @@
+▲ Next.js 16.4.6 (Turbopack)
+- Local:         http://127.0.0.1:3017
+- Network:       http://127.0.0.1:3017
+✓ Ready in 8.8s
+⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of C:\Users\USER\Downloads\flurzicinema\package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * C:\Users\USER\Downloads\flurzicinema\.phase2f4-lab\package-lock.json
+
+✓ Running next.config.ts took 572ms
+Creating turbopack project {
+  dir: 'C:\\Users\\USER\\Downloads\\flurzicinema\\.phase2f4-lab',
+  testMode: true
+}
+⚠ Slow filesystem detected. The benchmark took 2936ms. If \\?\C:\Users\USER\Downloads\flurzicinema\.phase2f4-lab\.next\dev is a network drive, consider moving it to a local folder.
+See more: https://nextjs.org/docs/app/guides/local-development
+
+○ Compiling /login ...
+ GET /login 200 in 902ms (next.js: 408ms, application-code: 495ms)
+ GET /player-lab 200 in 1716ms (next.js: 1374ms, proxy.ts: 127ms, application-code: 216ms)
+ GET /features 200 in 285ms (next.js: 42ms, application-code: 243ms)
+ GET /browse/title/mock-quiet-beyond 200 in 2.1s (next.js: 1983ms, application-code: 158ms)
+ GET /player-lab 200 in 134ms (next.js: 16ms, proxy.ts: 9ms, application-code: 109ms)
+ GET /api/player-lab/original.webm 206 in 5.5s (next.js: 5.2s, proxy.ts: 11ms, application-code: 266ms)
+ GET /api/player-lab/original.webm 206 in 432ms (next.js: 345ms, proxy.ts: 28ms, application-code: 59ms)
+ GET /api/player-lab/captions.vtt 200 in 81ms (next.js: 32ms, proxy.ts: 19ms, application-code: 30ms)
+ GET /api/player-lab/original.webm 206 in 85ms (next.js: 37ms, proxy.ts: 12ms, application-code: 36ms)

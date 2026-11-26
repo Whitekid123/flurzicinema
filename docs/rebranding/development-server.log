@@ -1,0 +1,39 @@
+▲ Next.js 16.4.6 (Turbopack)
+- Local:         http://127.0.0.1:3020
+- Network:       http://127.0.0.1:3020
+✓ Ready in 9.1s
+⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of C:\Users\USER\Downloads\flurzicinema\package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * C:\Users\USER\Downloads\flurzicinema\.brand-lab\package-lock.json
+
+✓ Running next.config.ts took 833ms
+Creating turbopack project {
+  dir: 'C:\\Users\\USER\\Downloads\\flurzicinema\\.brand-lab',
+  testMode: true
+}
+⚠ Slow filesystem detected. The benchmark took 2829ms. If \\?\C:\Users\USER\Downloads\flurzicinema\.brand-lab\.next\dev is a network drive, consider moving it to a local folder.
+See more: https://nextjs.org/docs/app/guides/local-development
+- Experiments (use with caution):
+  ⨯ serverSourceMaps
+  ✓ turbopackSourceMaps
+
+○ Compiling /login ...
+ GET /login 200 in 960ms (next.js: 434ms, application-code: 526ms)
+ GET /player-lab 200 in 700ms (next.js: 348ms, proxy.ts: 134ms, application-code: 217ms)
+ GET /features 200 in 320ms (next.js: 43ms, application-code: 277ms)
+ GET /browse/title/mock-quiet-beyond 200 in 1822ms (next.js: 1589ms, application-code: 233ms)
+ GET /api/player-lab/original.webm 200 in 2.0s (next.js: 1942ms, proxy.ts: 23ms, application-code: 64ms)
+ GET /api/player-lab/captions.vtt 200 in 60ms (next.js: 25ms, proxy.ts: 9ms, application-code: 26ms)
+ GET /player-lab 200 in 218ms (next.js: 16ms, proxy.ts: 14ms, application-code: 188ms)
+ GET /api/player-lab/original.webm 206 in 98ms (next.js: 39ms, proxy.ts: 16ms, application-code: 43ms)
+ GET /api/player-lab/original.webm 206 in 71ms (next.js: 16ms, proxy.ts: 22ms, application-code: 32ms)
+ GET /api/player-lab/captions.vtt 200 in 221ms (next.js: 160ms, proxy.ts: 21ms, application-code: 40ms)
+ GET /api/player-lab/original.webm 206 in 173ms (next.js: 76ms, proxy.ts: 33ms, application-code: 64ms)
+ GET /api/player-lab/original.webm 206 in 96ms (next.js: 28ms, proxy.ts: 24ms, application-code: 44ms)
+ GET /features 200 in 260ms (next.js: 4ms, application-code: 256ms)
+ GET /player-lab 200 in 249ms (next.js: 74ms, proxy.ts: 15ms, application-code: 161ms)
+ GET /api/player-lab/original.webm 200 in 79ms (next.js: 30ms, proxy.ts: 13ms, application-code: 35ms)
+ GET /api/player-lab/captions.vtt 200 in 136ms (next.js: 20ms, proxy.ts: 47ms, application-code: 69ms)

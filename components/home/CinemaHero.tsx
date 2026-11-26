@@ -48,8 +48,8 @@ export function CinemaHero({ onMovie }: { onMovie: (movie: Movie) => void }) {
   }, [group]);
   return <section ref={root} id="home" className="editorial-hero" aria-labelledby="cinema-title">
     <div className="editorial-masthead">
-      <h1 id="cinema-title"><span className="hero-logotype" aria-hidden="true">flurzi<span>®</span></span><span className="hero-cinema-word" aria-hidden="true">cinema.</span><span className="sr-only">Flurzi Cinema — Movies and TV streaming.</span></h1>
-      <div className="hero-statement"><p data-editorial-lines>Movies. Series.<br />Entertainment.<br />All in one place.</p><Link href="/explore" className="editorial-button"><span className="button-image"><Artwork src={movies[0].poster} alt="" fill sizes="48px" /></span><span data-editorial-hover>Find your next watch</span><span aria-hidden="true">↗</span></Link></div>
+      <h1 id="cinema-title" className="hero-product-title"><span className="hero-logotype">A world of movies.<br />Endless entertainment.</span></h1>
+      <div className="hero-statement"><p data-editorial-lines>Discover movies, explore unforgettable series and experience cinema together.</p><Link href="/explore" className="editorial-button"><span className="button-image"><Artwork src={movies[0].poster} alt="" fill sizes="48px" /></span><span data-editorial-hover>Find your next watch</span><span aria-hidden="true">↗</span></Link></div>
     </div>
     <div className={"hero-image-field " + (focused ? "is-searching" : "")}>
       <div className="hero-grid-label"><span>MOVIE & TV STREAMING · PLATFORM PREVIEW</span><span>DISCOVERY / 001</span></div>

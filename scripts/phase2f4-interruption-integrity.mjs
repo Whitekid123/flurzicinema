@@ -1,0 +1,5 @@
+import fs from 'node:fs/promises';import assert from 'node:assert/strict';
+const bad=[];async function walk(dir){for(const e of await fs.readdir(dir,{withFileTypes:true})){const p=dir+'/'+e.name;if(e.isDirectory())await walk(p);else if(/\.(?:ts|tsx|css|mjs)$/.test(p)&&(await fs.readFile(p)).includes(0))bad.push(p);}}
+for(const dir of ['app','components','lib','types','tests','styles'])await walk(dir);assert.deepEqual(bad,[],'Source contains NUL bytes');
+const retained=[];for(const [source,target] of [['docs/phase2f4/preview-validation.json','docs/phase2f4/interrupted-preview-validation.bin'],['.next/BUILD_ID','docs/phase2f4/interrupted-build-id.bin'],['docs/phase2f4/preview-build.log','docs/phase2f4/interrupted-preview-build.log']]){await fs.copyFile(source,target);retained.push(target);}
+await fs.writeFile('docs/phase2f4/interruption-integrity.json',JSON.stringify({sourceNulBytes:bad,retained,observedAt:new Date().toISOString()},null,2));console.log('Source integrity passed; incomplete build evidence retained.');

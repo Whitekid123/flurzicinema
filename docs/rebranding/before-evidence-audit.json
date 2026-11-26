@@ -1,0 +1,160 @@
+{
+  "valid": 14,
+  "excluded": 8,
+  "records": [
+    {
+      "name": "home",
+      "width": 1440,
+      "url": "http://127.0.0.1:3000/",
+      "validForComparison": true,
+      "reason": "Expected route captured"
+    },
+    {
+      "name": "home",
+      "width": 390,
+      "url": "http://127.0.0.1:3000/",
+      "validForComparison": true,
+      "reason": "Expected route captured"
+    },
+    {
+      "name": "login",
+      "width": 1440,
+      "url": "http://127.0.0.1:3000/login",
+      "validForComparison": true,
+      "reason": "Expected route captured"
+    },
+    {
+      "name": "login",
+      "width": 390,
+      "url": "http://127.0.0.1:3000/login",
+      "validForComparison": true,
+      "reason": "Expected route captured"
+    },
+    {
+      "name": "subscribe",
+      "width": 1440,
+      "url": "http://127.0.0.1:3000/subscribe",
+      "validForComparison": true,
+      "reason": "Expected route captured"
+    },
+    {
+      "name": "subscribe",
+      "width": 390,
+      "url": "http://127.0.0.1:3000/subscribe",
+      "validForComparison": true,
+      "reason": "Expected route captured"
+    },
+    {
+      "name": "profiles",
+      "width": 1440,
+      "url": "http://127.0.0.1:3000/subscribe",
+      "validForComparison": false,
+      "reason": "Navigation had not completed; exclude this labelled capture"
+    },
+    {
+      "name": "profiles",
+      "width": 390,
+      "url": "http://127.0.0.1:3000/subscribe",
+      "validForComparison": false,
+      "reason": "Navigation had not completed; exclude this labelled capture"
+    },
+    {
+      "name": "browse",
+      "width": 1440,
+      "url": "http://127.0.0.1:3000/browse",
+      "validForComparison": true,
+      "reason": "Expected route captured"
+    },
+    {
+      "name": "browse",
+      "width": 390,
+      "url": "http://127.0.0.1:3000/browse",
+      "validForComparison": true,
+      "reason": "Expected route captured"
+    },
+    {
+      "name": "title",
+      "width": 1440,
+      "url": "http://127.0.0.1:3000/browse/title/mock-quiet-beyond",
+      "validForComparison": true,
+      "reason": "Expected route captured"
+    },
+    {
+      "name": "title",
+      "width": 390,
+      "url": "http://127.0.0.1:3000/browse/title/mock-quiet-beyond",
+      "validForComparison": true,
+      "reason": "Expected route captured"
+    },
+    {
+      "name": "datasense",
+      "width": 1440,
+      "url": "http://127.0.0.1:3000/browse/title/mock-quiet-beyond",
+      "validForComparison": true,
+      "reason": "Expected route captured"
+    },
+    {
+      "name": "datasense",
+      "width": 390,
+      "url": "http://127.0.0.1:3000/browse/title/mock-quiet-beyond",
+      "validForComparison": true,
+      "reason": "Expected route captured"
+    },
+    {
+      "name": "storylens",
+      "width": 1440,
+      "url": "http://127.0.0.1:3000/browse/title/mock-quiet-beyond",
+      "validForComparison": true,
+      "reason": "Expected route captured"
+    },
+    {
+      "name": "storylens",
+      "width": 390,
+      "url": "http://127.0.0.1:3000/browse/title/mock-quiet-beyond",
+      "validForComparison": true,
+      "reason": "Expected route captured"
+    },
+    {
+      "name": "account",
+      "width": 1440,
+      "url": "http://127.0.0.1:3000/browse/title/mock-quiet-beyond",
+      "validForComparison": false,
+      "reason": "Navigation had not completed; exclude this labelled capture"
+    },
+    {
+      "name": "account",
+      "width": 390,
+      "url": "http://127.0.0.1:3000/browse/title/mock-quiet-beyond",
+      "validForComparison": false,
+      "reason": "Navigation had not completed; exclude this labelled capture"
+    },
+    {
+      "name": "rooms",
+      "width": 1440,
+      "url": "http://127.0.0.1:3000/browse/title/mock-quiet-beyond",
+      "validForComparison": false,
+      "reason": "Navigation had not completed; exclude this labelled capture"
+    },
+    {
+      "name": "rooms",
+      "width": 390,
+      "url": "http://127.0.0.1:3000/browse/title/mock-quiet-beyond",
+      "validForComparison": false,
+      "reason": "Navigation had not completed; exclude this labelled capture"
+    },
+    {
+      "name": "storymatch",
+      "width": 1440,
+      "url": "http://127.0.0.1:3000/browse/title/mock-quiet-beyond",
+      "validForComparison": false,
+      "reason": "Navigation had not completed; exclude this labelled capture"
+    },
+    {
+      "name": "storymatch",
+      "width": 390,
+      "url": "http://127.0.0.1:3000/browse/title/mock-quiet-beyond",
+      "validForComparison": false,
+      "reason": "Navigation had not completed; exclude this labelled capture"
+    }
+  ]
+}

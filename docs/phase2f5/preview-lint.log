@@ -1,0 +1,13 @@
+
+> flurzi-cinema@0.1.0 lint
+> eslint .
+
+
+C:\Users\USER\Downloads\flurzicinema\scripts\phase2f5-browser.mjs
+  2:123  warning  'net' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\USER\Downloads\flurzicinema\scripts\phase2f5-investigate.mjs
+  22:41  warning  'trace' is defined but never used  @typescript-eslint/no-unused-vars
+
+✖ 2 problems (0 errors, 2 warnings)
+

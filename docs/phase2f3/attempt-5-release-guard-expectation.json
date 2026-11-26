@@ -1,0 +1,54 @@
+{
+  "mode": "release",
+  "screens": [
+    {
+      "name": "release-auth-input",
+      "width": 1920,
+      "overflow": 0
+    },
+    {
+      "name": "release-auth-input",
+      "width": 1440,
+      "overflow": 0
+    },
+    {
+      "name": "release-auth-input",
+      "width": 1024,
+      "overflow": 0
+    },
+    {
+      "name": "release-auth-input",
+      "width": 768,
+      "overflow": 0
+    },
+    {
+      "name": "release-auth-input",
+      "width": 430,
+      "overflow": 0
+    },
+    {
+      "name": "release-auth-input",
+      "width": 390,
+      "overflow": 0
+    },
+    {
+      "name": "release-auth-input",
+      "width": 375,
+      "overflow": 0
+    },
+    {
+      "name": "release-auth-input",
+      "width": 360,
+      "overflow": 0
+    },
+    {
+      "name": "release-auth-input",
+      "width": 320,
+      "overflow": 0
+    }
+  ],
+  "interactions": [],
+  "errors": [],
+  "http": [],
+  "failure": "page.waitForURL: Timeout 45000ms exceeded.\n=========================== logs ===========================\nwaiting for navigation to \"**/login\" until \"load\"\n  navigated to \"http://127.0.0.1:3016/browse/movies\"\n============================================================\n    at C:\\Users\\USER\\Downloads\\flurzicinema\\scripts\\phase2f3-browser.mjs:68:151"
+}

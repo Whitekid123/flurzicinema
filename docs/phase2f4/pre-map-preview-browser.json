@@ -1,0 +1,207 @@
+{
+  "mode": "preview",
+  "screens": [
+    {
+      "name": "public-calculator",
+      "width": 1920,
+      "overflow": 0
+    },
+    {
+      "name": "public-calculator",
+      "width": 1440,
+      "overflow": 0
+    },
+    {
+      "name": "public-calculator",
+      "width": 1024,
+      "overflow": 0
+    },
+    {
+      "name": "public-calculator",
+      "width": 768,
+      "overflow": 0
+    },
+    {
+      "name": "public-calculator",
+      "width": 430,
+      "overflow": 0
+    },
+    {
+      "name": "public-calculator",
+      "width": 390,
+      "overflow": 0
+    },
+    {
+      "name": "public-calculator",
+      "width": 375,
+      "overflow": 0
+    },
+    {
+      "name": "public-calculator",
+      "width": 360,
+      "overflow": 0
+    },
+    {
+      "name": "public-calculator",
+      "width": 320,
+      "overflow": 0
+    },
+    {
+      "name": "title-unavailable-planning",
+      "width": 1920,
+      "overflow": 0
+    },
+    {
+      "name": "title-unavailable-planning",
+      "width": 1440,
+      "overflow": 0
+    },
+    {
+      "name": "title-unavailable-planning",
+      "width": 1024,
+      "overflow": 0
+    },
+    {
+      "name": "title-unavailable-planning",
+      "width": 768,
+      "overflow": 0
+    },
+    {
+      "name": "title-unavailable-planning",
+      "width": 430,
+      "overflow": 0
+    },
+    {
+      "name": "title-unavailable-planning",
+      "width": 390,
+      "overflow": 0
+    },
+    {
+      "name": "title-unavailable-planning",
+      "width": 375,
+      "overflow": 0
+    },
+    {
+      "name": "title-unavailable-planning",
+      "width": 360,
+      "overflow": 0
+    },
+    {
+      "name": "title-unavailable-planning",
+      "width": 320,
+      "overflow": 0
+    },
+    {
+      "name": "account-preference",
+      "width": 1920,
+      "overflow": 0
+    },
+    {
+      "name": "account-preference",
+      "width": 1440,
+      "overflow": 0
+    },
+    {
+      "name": "account-preference",
+      "width": 1024,
+      "overflow": 0
+    },
+    {
+      "name": "account-preference",
+      "width": 768,
+      "overflow": 0
+    },
+    {
+      "name": "account-preference",
+      "width": 430,
+      "overflow": 0
+    },
+    {
+      "name": "account-preference",
+      "width": 390,
+      "overflow": 0
+    },
+    {
+      "name": "account-preference",
+      "width": 375,
+      "overflow": 0
+    },
+    {
+      "name": "account-preference",
+      "width": 360,
+      "overflow": 0
+    },
+    {
+      "name": "account-preference",
+      "width": 320,
+      "overflow": 0
+    }
+  ],
+  "interactions": [
+    "Episode-specific 42/44 minute runtime; no bitrate/video fabrication; actual Kids PIN flow and separated Main/Kids preferences",
+    "Normal preview auth/profile flow; title unknown metadata and budget input; account preference cancel/save/client-navigation persistence"
+  ],
+  "errors": [],
+  "http": [
+    {
+      "path": "/player-lab",
+      "status": 404
+    },
+    {
+      "path": "/api/player-lab/original.webm",
+      "status": 404
+    },
+    {
+      "path": "/api/player-lab/captions.vtt",
+      "status": 404
+    },
+    {
+      "path": "/scripts/fixtures/player/original.webm",
+      "status": 404
+    }
+  ],
+  "authSteps": [
+    {
+      "name": "password-tap",
+      "email": "demo@flurzi.example",
+      "passwordLength": 0,
+      "passwordAttributeLength": 0,
+      "active": "password",
+      "documentFocus": true,
+      "readOnly": false,
+      "disabled": false
+    },
+    {
+      "name": "password-entered",
+      "email": "demo@flurzi.example",
+      "passwordLength": 12,
+      "passwordAttributeLength": 12,
+      "active": "password",
+      "documentFocus": true,
+      "readOnly": false,
+      "disabled": false
+    },
+    {
+      "name": "password-shown",
+      "email": "demo@flurzi.example",
+      "passwordLength": 12,
+      "passwordAttributeLength": 12,
+      "active": "password",
+      "documentFocus": true,
+      "readOnly": false,
+      "disabled": false
+    },
+    {
+      "name": "password-hidden",
+      "email": "demo@flurzi.example",
+      "passwordLength": 12,
+      "passwordAttributeLength": 12,
+      "active": "password",
+      "documentFocus": true,
+      "readOnly": false,
+      "disabled": false
+    }
+  ],
+  "passwordEntryMethod": "tap and standard input events",
+  "complete": true
+}

@@ -1,0 +1,223 @@
+/* Shared brand treatments. Layout, interaction and media rules remain in their
+   existing area stylesheets; colour and identity are owned here. */
+html body { background:var(--brand-bg); color:var(--brand-text); }
+:root body :is(a,button,input,select,textarea,summary):focus-visible {
+  outline:2px solid var(--brand-focus); outline-offset:4px;
+}
+body ::selection { background:var(--brand-champagne); color:var(--brand-on-action); }
+body :is(input,select,textarea) { color-scheme:dark; accent-color:var(--brand-accent); }
+body :is(input,select,textarea)::placeholder { color:var(--brand-text-muted); opacity:1; }
+body :is(button,a,input,select,summary) { -webkit-tap-highlight-color:transparent; }
+
+/* Supplied film-strip F plus LURZI; the symbol supplies the initial letter. */
+:root .flurzi-wordmark {
+  display:inline-flex; flex-direction:row; align-items:center; gap:2px;
+  color:var(--brand-champagne); line-height:1; white-space:nowrap;
+  vertical-align:middle; flex-shrink:0;
+}
+:root .flurzi-wordmark .flurzi-symbol {
+  display:block; width:42px; height:46px; object-fit:contain; flex-shrink:0;
+}
+:root .flurzi-wordmark .flurzi-name {
+  display:flex; flex-direction:column; align-items:center; gap:5px;
+  padding:0; border:0; margin:0; line-height:1;
+}
+:root .flurzi-wordmark .flurzi-name strong {
+  font-family:var(--brand-display); font-size:30px; font-weight:400;
+  letter-spacing:.035em; line-height:.9;
+}
+:root .flurzi-wordmark .flurzi-name>span {
+  font-family:var(--font-sans); font-size:7px; font-weight:600;
+  letter-spacing:.38em; padding-left:.38em; line-height:1.2;
+}
+:root .brand { display:inline-flex; padding:0; }
+:root :is(.entry-brand,.cinema-brand)>.flurzi-wordmark {
+  padding:0; border:0; margin:0; font-size:inherit;
+}
+:root :is(.header,.cinema-nav,.viewer-header) {
+  background:var(--brand-scrim); border-bottom-color:var(--brand-border);
+  color:var(--brand-text);
+}
+:root .header.is-scrolled { background:var(--brand-scrim); }
+:root :is(.desktop-nav a,.signin,.cinema-desktop-nav a,.entry-back) { color:var(--brand-text-secondary); }
+:root :is(.desktop-nav a[aria-current],.cinema-desktop-nav a[aria-current]) { color:var(--brand-champagne); }
+:root .menu-toggle span { background:var(--brand-text); }
+:root .cinema-mobile-nav { background:var(--brand-scrim); border-top-color:var(--brand-border); }
+:root .cinema-mobile-nav a[aria-current] { color:var(--brand-champagne); }
+:root :is(.cinema-profile-menu,.cinema-search-panel) { background:var(--brand-surface-raised); border-color:var(--brand-border); }
+:root .cinema-profile-trigger[aria-expanded=true] { outline:1px solid var(--brand-border-strong); outline-offset:3px; }
+
+/* Consistent primary actions, never general body copy or all white surfaces. */
+:root :is(.button,.editorial-button,.entry-button,.cinema-primary,.cinema-button.is-primary,
+  .rooms-button.primary,.sm-button.primary,.data-sense button.ds-primary,
+  .data-sense .ds-actions>button:first-child,.lens-reveal) {
+  background:var(--brand-action); color:var(--brand-on-action);
+  border-color:var(--brand-action); text-shadow:none;
+}
+:root :is(.button,.editorial-button,.entry-button,.cinema-primary,.cinema-button.is-primary,
+  .rooms-button.primary,.sm-button.primary,.data-sense button.ds-primary,
+  .data-sense .ds-actions>button:first-child,.lens-reveal):hover:not(:disabled) {
+  background:var(--brand-action-hover); color:var(--brand-on-action);
+  border-color:var(--brand-action-hover); box-shadow:none;
+}
+:root :is(.button-outline,.entry-button.secondary,.cinema-secondary) {
+  background:var(--brand-secondary-action); color:var(--brand-text);
+  border:1px solid var(--brand-border-strong);
+}
+:root :is(.button-outline,.entry-button.secondary,.cinema-secondary):hover:not(:disabled) {
+  background:var(--brand-surface-hover); color:var(--brand-text);
+  border-color:var(--brand-champagne);
+}
+:root :is(.public-radio-group button,.public-chip,.public-filter-toggle,
+  .rooms-button:not(.primary),.sm-button:not(.primary)) {
+  color:var(--brand-text); border-color:var(--brand-border-strong);
+}
+:root :is(button[aria-pressed=true],button[aria-selected=true],
+  .public-chip[aria-pressed=true],.public-help-categories button.is-active,
+  .feature-tabs button[aria-selected=true],.sm-choice[aria-pressed=true],
+  .account-sidebar nav a[aria-current=page],.lens-categories button[aria-selected=true]) {
+  background:var(--brand-selected-bg); color:var(--brand-selected-text);
+  border-color:var(--brand-accent);
+}
+:root :is(.entry-button,.button,.rooms-button,.sm-button):disabled,
+:root :is(.entry-button,.button,.rooms-button,.sm-button)[aria-disabled=true] {
+  background:var(--brand-disabled-bg); color:var(--brand-disabled-text);
+  border-color:var(--brand-border); opacity:.8; transform:none; cursor:default;
+}
+:root :is(.entry-spinner,.cinema-spinner,.player-spinner) {
+  border-color:var(--brand-border); border-top-color:var(--brand-accent);
+}
+
+/* Homepage composition and motion are retained, with an obsidian editorial stock. */
+:root .editorial-home,
+:root .editorial-home .editorial-features {
+  --ink:var(--brand-bg); --surface:var(--brand-surface); --amber:var(--brand-accent);
+  --soft-amber:var(--brand-champagne); --ivory:var(--brand-text);
+  --silver:var(--brand-text-secondary); --divider:var(--brand-border);
+  --teal:var(--brand-success);
+  background:var(--brand-bg); color:var(--brand-text);
+}
+:root .editorial-masthead {
+  background:linear-gradient(120deg,#d9a44109,transparent 58%),var(--brand-bg);
+}
+:root .hero-product-title { min-width:0; }
+:root .hero-product-title .hero-logotype {
+  display:block; color:var(--brand-champagne); font-family:var(--brand-display);
+  font-size:clamp(48px,5.7vw,108px); font-weight:400;
+  letter-spacing:-.045em; line-height:1.02; margin-left:0;
+  overflow-wrap:normal;
+}
+:root .hero-statement>p {
+  font-size:clamp(18px,1.65vw,27px); line-height:1.4;
+  letter-spacing:-.025em; max-width:26ch;
+}
+:root .hero-image-field {
+  background-color:var(--brand-bg-secondary);
+  background-image:linear-gradient(var(--brand-line-soft) 1px,transparent 1px),
+    linear-gradient(90deg,var(--brand-line-soft) 1px,transparent 1px);
+}
+:root .hero-discovery-search { background:var(--brand-surface); border-color:var(--brand-border-strong); }
+:root .hero-discovery-search input { color:var(--brand-text); }
+:root :is(.hero-grid-label,.editorial-home .eyebrow) { color:var(--brand-text-secondary); }
+:root :is(.falling-films,.editorial-manifesto,.editorial-vault,.editorial-membership,.editorial-faq) {
+  background:var(--brand-bg-secondary); color:var(--brand-text);
+}
+:root .editorial-home .muted-serif { font-family:var(--brand-display); font-style:italic; }
+:root .editorial-home .text-link { color:var(--brand-text); border-color:var(--brand-border-strong); }
+:root .editorial-home .footer { color:var(--brand-text); background:transparent; }
+:root .footer :is(.label,.footer-description>p,.footer-bottom) { color:var(--brand-text-secondary); }
+:root .footer-wordmark { color:var(--brand-border); }
+:root .footer-wordmark .flurzi-wordmark { color:inherit; gap:12px; }
+:root .footer-wordmark .flurzi-symbol { width:auto; height:clamp(64px,15vw,220px); }
+:root .footer-wordmark .flurzi-name strong { font-size:clamp(42px,11vw,170px); letter-spacing:-.04em; }
+:root .footer-wordmark .flurzi-name>span { font-size:clamp(9px,1.5vw,22px); }
+
+/* Public editorial routes share the same surfaces and quiet champagne accents. */
+:root .public-site { background:var(--brand-bg); color:var(--brand-text); }
+:root :is(.public-filters,.public-feature-demo,.public-contact-form,.public-price-card,.public-detail-note,.public-faq,.public-success) { background:var(--brand-surface); border-color:var(--brand-border); }
+:root :is(.public-site .eyebrow,.public-breadcrumbs,.public-small) { color:var(--brand-text-secondary); }
+:root .public-site .muted-serif { color:var(--brand-champagne); }
+:root :is(.public-field input,.public-field select,.public-field textarea,.public-filters input,.public-filters select) { background:var(--brand-bg-secondary); color:var(--brand-text); border-color:var(--brand-border-strong); }
+:root :is(.public-legal-nav a[aria-current],.public-help-categories button[aria-pressed=true]) { color:var(--brand-selected-text); border-color:var(--brand-accent); }
+.official-brand-art { max-width:560px; margin:24px auto 60px; }
+.official-brand-art img { width:100%; height:auto; object-fit:contain; display:block; border:1px solid var(--brand-border); }
+.official-brand-art figcaption { color:var(--brand-text-secondary); font-size:12px; line-height:1.7; text-align:center; margin-top:16px; }
+
+/* Entry geometry, password selection and focus logic remain unchanged. */
+:root .entry-app { --entry-ink:var(--brand-bg); --entry-paper:var(--brand-text); --entry-muted:var(--brand-text-secondary); --entry-line:var(--brand-border-strong); --entry-focus:var(--brand-focus); background:var(--brand-bg); color:var(--brand-text); }
+:root .auth-main { --entry-focus:var(--brand-focus); --entry-muted:var(--brand-text-secondary); --entry-line:var(--brand-border-strong); background:var(--brand-bg-secondary); color:var(--brand-text); }
+:root .auth-header .entry-back { color:var(--brand-text-secondary); }
+:root :is(.auth-content>.entry-overline,.entry-intro,.entry-preview,.auth-footer,.entry-hint) { color:var(--brand-text-secondary); }
+:root .entry-preview { border-color:var(--brand-border); }
+:root .entry-preview strong { color:var(--brand-champagne); }
+:root .auth-main .entry-field input { background:var(--brand-surface); }
+:root .entry-app :is(input[aria-invalid=true],select[aria-invalid=true]) { border-color:var(--brand-error); }
+:root :is(.entry-field-error,.public-error,.ds-error) { color:var(--brand-error); }
+:root .entry-feedback.is-error { background:var(--brand-error-bg); border-color:var(--brand-error); color:var(--brand-text); }
+:root .entry-feedback:not(.is-error) { background:var(--brand-surface); border-color:var(--brand-border); color:var(--brand-text); }
+:root .entry-app :is(input[type=checkbox],input[type=radio]) { accent-color:var(--brand-accent); }
+:root :is(.viewer-plan.is-selected,.profile-avatar-option[aria-pressed=true]) { border-color:var(--brand-accent); background:var(--brand-selected-bg); }
+:root .viewer-profile:hover .viewer-avatar,:root .viewer-profile:focus-visible .viewer-avatar { outline-color:var(--brand-champagne); }
+:root :is(.entry-skip,.skip-link) { background:var(--brand-action); color:var(--brand-on-action); }
+
+/* Browsing, account management and signature features. */
+:root .cinema-app { --cinema-bg:var(--brand-bg); --cinema-text:var(--brand-text); --cinema-muted:var(--brand-text-secondary); --cinema-panel:var(--brand-surface); --cinema-line:var(--brand-border); }
+:root :is(.cinema-preview,.cinema-feedback,.rooms-preview,.sm-preview) { color:var(--brand-text-secondary); border-color:var(--brand-border); }
+:root :is(.account-section,.account-unavailable,.rooms-create-aside,.rooms-empty,.rooms-settings,.sm-empty,.sm-form-panel,.sm-result-card,.ds-preferences,.ds-panel,.lens-body) { background:var(--brand-surface); border-color:var(--brand-border); }
+:root :is(.account-heading>span,.rooms-eyebrow,.sm-eyebrow,.lens-eyebrow,.ds-eyebrow) { color:var(--brand-champagne); }
+:root :is(.account-heading h1,.rooms-heading h1,.sm-heading h1) { color:var(--brand-text); }
+:root .account-status { color:var(--brand-text-secondary); border-color:var(--brand-border-strong); }
+:root :is(.account-form select,.rooms-app input,.rooms-app select,.storymatch-app input,.storymatch-app select) { background:var(--brand-bg-secondary); color:var(--brand-text); border-color:var(--brand-border-strong); }
+:root .account-centre .entry-button:not(.secondary) { background:var(--brand-action); color:var(--brand-on-action); border-color:var(--brand-action); }
+:root :is(.account-confirmation,.rooms-confirmation,.sm-confirmation,.modal) { background:var(--brand-surface); color:var(--brand-text); border-color:var(--brand-border); }
+:root dialog::backdrop { background:#08090bd9; }
+:root :is(.rooms-ready,.rooms-presence-joined,.sm-vote-confirmed) { color:var(--brand-success); }
+:root :is(.rooms-feedback,.sm-feedback) { border-color:var(--brand-error); background:var(--brand-error-bg); }
+
+/* A black viewing environment, with colour reserved for progress and selection. */
+:root .flurzi-player { background:#050506; color:var(--brand-text); }
+:root :is(.player-menu,.player-error,.player-unavailable) { background:var(--brand-bg-secondary); border-color:var(--brand-border); }
+:root :is(.player-progress input,.player-volume input,.data-sense progress) { accent-color:var(--brand-accent); }
+:root .flurzi-player input[type=range] { accent-color:var(--brand-accent); }
+:root .flurzi-player .player-seek { color:var(--brand-accent); }
+:root :is(.lens-launch,.ds-launch) { background:var(--brand-surface)!important; color:var(--brand-text); border-color:var(--brand-border); }
+:root :is(.lens-category[aria-selected=true],.lens-reveal,.ds-notification) { border-color:var(--brand-accent); }
+:root .data-sense .ds-notification { background:var(--brand-warning-bg); border-left-color:var(--brand-warning); }
+:root .data-sense progress::-webkit-progress-value { background:var(--brand-accent); }
+:root .data-sense progress::-moz-progress-bar { background:var(--brand-accent); }
+:root :is(.data-sense,.storylens) :is(input,select) { color:var(--brand-text); background:var(--brand-bg-secondary); border-color:var(--brand-border-strong); }
+:root .data-sense .ds-feedback { color:var(--brand-success); }
+:root .storylens :is(.lens-portrait-fallback,.lens-record) { border-color:var(--brand-border); }
+
+@media(max-width:650px) {
+  :root .flurzi-wordmark .flurzi-symbol { width:34px; height:38px; }
+  :root .flurzi-wordmark .flurzi-name strong { font-size:25px; }
+  :root .hero-product-title .hero-logotype { font-size:clamp(36px,8.7vw,57px); }
+  :root .hero-statement { display:block; margin-top:24px; }
+  :root .hero-statement>p { max-width:34ch; font-size:17px; }
+  :root .hero-statement .editorial-button { margin-top:20px; max-width:none; width:fit-content; font-size:11px; }
+  .official-brand-art { margin-block:12px 40px; }
+}
+@media(prefers-reduced-motion:reduce) {
+  .flurzi-wordmark,.official-brand-art { animation:none!important; transition:none!important; }
+}
+
+/* Resolve legacy aliases after their historical per-area declarations. */
+:root {
+  --ink:var(--brand-bg); --surface:var(--brand-surface); --amber:var(--brand-accent);
+  --soft-amber:var(--brand-champagne); --teal:var(--brand-success);
+  --ivory:var(--brand-text); --silver:var(--brand-text-secondary); --divider:var(--brand-border);
+}
+
+:root .header .button { min-height:44px; padding-block:10px; }
+:root :is(.desktop-nav a,.signin,.cinema-desktop-nav a) { font-family:var(--font-sans); }
+
+:root .entry-switch a { color:var(--brand-champagne); }
+
+/* Keep text and selection readable in legacy light-theme entry/browse states. */
+:root .entry-app ::selection { background:var(--brand-champagne); color:var(--brand-on-action); }
+:root .cinema-toast { background:var(--brand-surface-raised); color:var(--brand-text); border:1px solid var(--brand-border); }
+:root .cinema-resume { background:var(--brand-selected-bg); color:var(--brand-champagne); }
+:root .entry-plan.selected { background:var(--brand-selected-bg); color:var(--brand-selected-text); border-color:var(--brand-accent); }
+
+:root .hero-field-bottom { background:var(--brand-bg-secondary); color:var(--brand-text-secondary); border-top:1px solid var(--brand-border); }

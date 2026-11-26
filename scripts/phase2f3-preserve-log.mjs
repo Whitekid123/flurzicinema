@@ -1,0 +1,13 @@
+import fs from 'node:fs/promises';import crypto from 'node:crypto';import {execFile} from 'node:child_process';
+const hash=b=>crypto.createHash('sha256').update(b).digest('hex');
+const expected=JSON.parse(await fs.readFile('docs/phase2f3/baseline.json','utf8'))['debug.log'];
+const current=await fs.readFile('debug.log');
+const tracked=await new Promise((resolve,reject)=>execFile('git',['show','HEAD:debug.log'],{encoding:'buffer',maxBuffer:2000000,windowsHide:true},(error,stdout)=>error?reject(error):resolve(stdout)));
+const original=[tracked,Buffer.from(tracked.toString('utf8').replace(/\r?\n/g,'\r\n'))].find(b=>hash(b)===expected);
+if(!original)throw Error('Tracked log does not match the initial working-file hash; do not restore.');
+if(!current.subarray(0,original.length).equals(original))throw Error('Log has non-append changes; preserve them.');
+const suffix=current.subarray(original.length);const lines=suffix.toString('utf8').trim().split(/\r?\n/).filter(Boolean);
+if(lines.some(line=>!/^\[1126\/(?:001815\.116|002858\.733):WARNING:services\\audio\\sync_reader\.cc:(?:175|154)\] /.test(line)))throw Error('Unexpected log activity; do not remove it.');
+await fs.writeFile('docs/phase2f3/chromium-startup.log',suffix);
+await fs.writeFile('debug.log',original);
+await fs.writeFile('docs/phase2f3/debug-log-preservation.json',JSON.stringify({originalHash:expected,restoredHash:hash(await fs.readFile('debug.log')),retainedWarnings:lines,appendOnlyVerified:true},null,2));

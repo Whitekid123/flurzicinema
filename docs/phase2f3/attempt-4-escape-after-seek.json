@@ -1,0 +1,197 @@
+{
+  "mode": "development",
+  "screens": [
+    {
+      "name": "player-panel",
+      "width": 1920,
+      "overflow": 0,
+      "video": 1056
+    },
+    {
+      "name": "player-panel",
+      "width": 1440,
+      "overflow": 0,
+      "video": 1016
+    },
+    {
+      "name": "player-panel",
+      "width": 1024,
+      "overflow": 0,
+      "video": 984
+    },
+    {
+      "name": "player-panel",
+      "width": 768,
+      "overflow": 0,
+      "video": 728
+    },
+    {
+      "name": "player-panel",
+      "width": 430,
+      "overflow": 0,
+      "video": 390
+    },
+    {
+      "name": "player-panel",
+      "width": 390,
+      "overflow": 0,
+      "video": 350
+    },
+    {
+      "name": "player-panel",
+      "width": 375,
+      "overflow": 0,
+      "video": 335
+    },
+    {
+      "name": "player-panel",
+      "width": 360,
+      "overflow": 0,
+      "video": 320
+    },
+    {
+      "name": "player-panel",
+      "width": 320,
+      "overflow": 0,
+      "video": 280
+    }
+  ],
+  "interactions": [],
+  "errors": [],
+  "http": [],
+  "seeks": [
+    {
+      "time": 5,
+      "paused": true,
+      "duration": 19.955492,
+      "seekable": [
+        [
+          0,
+          19.955492
+        ]
+      ]
+    },
+    {
+      "time": 5,
+      "paused": true,
+      "duration": 19.955492,
+      "seekable": [
+        [
+          0,
+          19.955492
+        ]
+      ]
+    },
+    {
+      "time": 5,
+      "paused": true,
+      "duration": 19.955492,
+      "seekable": [
+        [
+          0,
+          19.955492
+        ]
+      ]
+    },
+    {
+      "time": 5,
+      "paused": true,
+      "duration": 19.955492,
+      "seekable": [
+        [
+          0,
+          19.955492
+        ]
+      ]
+    },
+    {
+      "time": 5,
+      "paused": true,
+      "duration": 19.955492,
+      "seekable": [
+        [
+          0,
+          19.955492
+        ]
+      ]
+    },
+    {
+      "time": 5,
+      "paused": true,
+      "duration": 19.955492,
+      "seekable": [
+        [
+          0,
+          19.955492
+        ]
+      ]
+    },
+    {
+      "time": 5,
+      "paused": true,
+      "duration": 19.955492,
+      "seekable": [
+        [
+          0,
+          19.955492
+        ]
+      ]
+    },
+    {
+      "time": 5,
+      "paused": true,
+      "duration": 19.955492,
+      "seekable": [
+        [
+          0,
+          19.955492
+        ]
+      ]
+    },
+    {
+      "time": 5,
+      "paused": true,
+      "duration": 19.955492,
+      "seekable": [
+        [
+          0,
+          19.955492
+        ]
+      ]
+    },
+    {
+      "time": 14,
+      "paused": true,
+      "duration": 19.955492,
+      "seekable": [
+        [
+          0,
+          19.955492
+        ]
+      ]
+    },
+    {
+      "time": 12,
+      "paused": true,
+      "duration": 19.955492,
+      "seekable": [
+        [
+          0,
+          19.955492
+        ]
+      ]
+    },
+    {
+      "time": 5,
+      "paused": true,
+      "duration": 19.955492,
+      "seekable": [
+        [
+          0,
+          19.955492
+        ]
+      ]
+    }
+  ],
+  "failure": "Error: expect(locator).toBeFocused() failed\n\nLocator:  locator('.lens-launch')\nExpected: focused\nReceived: inactive\nTimeout:  5000ms\n\nCall log:\n  - Expect \"toBeFocused\" locator('.lens-launch') with timeout 5000ms\n  - waiting for locator('.lens-launch')\n    14 × locator resolved to <button class=\"lens-launch\" aria-expanded=\"true\" aria-controls=\"_R_2kpbn5rlb_\">…</button>\n       - unexpected value \"inactive\"\n\n    at captureRawStack (C:\\Users\\USER\\Downloads\\flurzicinema\\node_modules\\playwright-core\\lib\\coreBundle.js:9551:17)\n    at callMatcherAsStep (C:\\Users\\USER\\Downloads\\flurzicinema\\node_modules\\playwright\\lib\\matchers\\expect.js:13342:57)\n    at Object.toBeFocused (C:\\Users\\USER\\Downloads\\flurzicinema\\node_modules\\playwright\\lib\\matchers\\expect.js:13334:23)\n    at C:\\Users\\USER\\Downloads\\flurzicinema\\scripts\\phase2f3-browser.mjs:40:76"
+}

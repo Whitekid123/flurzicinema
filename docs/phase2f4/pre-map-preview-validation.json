@@ -1,0 +1,14 @@
+[
+  {
+    "command": "npm run build",
+    "code": 0,
+    "seconds": 81.506,
+    "log": "docs/phase2f4/preview-build.log"
+  },
+  {
+    "command": "npm run test:unit -- --maxWorkers=1",
+    "code": 0,
+    "seconds": 54.379,
+    "log": "docs/phase2f4/preview-unit.log"
+  }
+]

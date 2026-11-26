@@ -1,0 +1,24 @@
+{
+  "removed": [
+    "C:\\Users\\USER\\Downloads\\flurzicinema\\.next\\cache\\.previewinfo",
+    "C:\\Users\\USER\\Downloads\\flurzicinema\\.next\\cache\\.rscinfo",
+    "C:\\Users\\USER\\Downloads\\flurzicinema\\.next\\cache\\.tsbuildinfo",
+    "C:\\Users\\USER\\Downloads\\flurzicinema\\.next\\cache\\swc",
+    "C:\\Users\\USER\\Downloads\\flurzicinema\\.next\\cache\\turbopack",
+    "C:\\Users\\USER\\Downloads\\flurzicinema\\.next\\cache\\webpack",
+    "C:\\Users\\USER\\Downloads\\flurzicinema\\.next\\cache\\_events_17620_f95e8b24a1795f69.json",
+    "C:\\Users\\USER\\Downloads\\flurzicinema\\.next\\cache\\_events_19688_572ea40e45feec36.json",
+    "C:\\Users\\USER\\Downloads\\flurzicinema\\.next\\cache\\_events_19952_5621952ddf176ea1.json",
+    "C:\\Users\\USER\\Downloads\\flurzicinema\\.next\\cache\\_events_8904_eaded79bb40978bd.json",
+    "C:\\Users\\USER\\Downloads\\flurzicinema\\.next\\diagnostics",
+    "C:\\Users\\USER\\Downloads\\flurzicinema\\.next\\package.json",
+    "C:\\Users\\USER\\Downloads\\flurzicinema\\.next\\trace",
+    "C:\\Users\\USER\\Downloads\\flurzicinema\\.next\\trace-build",
+    "C:\\Users\\USER\\Downloads\\flurzicinema\\.next\\types"
+  ],
+  "preserved": [
+    "C:\\Users\\USER\\Downloads\\flurzicinema\\.next\\cache\\images",
+    "C:\\Users\\USER\\Downloads\\flurzicinema\\.next\\dev"
+  ],
+  "sourceFilesChanged": false
+}

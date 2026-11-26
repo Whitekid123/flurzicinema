@@ -1,0 +1,487 @@
+{
+  "buildIds": {
+    "preview": "LTbf173gV_G4sP6UIXhNV",
+    "release": "vQ-WBf4DnPvJjLBuqJrtw"
+  },
+  "totalTests": 369,
+  "newTests": 83,
+  "previousTests": 286,
+  "preview": [
+    {
+      "command": "npm run typecheck",
+      "code": 0,
+      "seconds": 28.187,
+      "log": "docs/phase2f4/preview-typecheck.log"
+    },
+    {
+      "command": "npm run lint",
+      "code": 0,
+      "seconds": 184.854,
+      "log": "docs/phase2f4/preview-lint.log"
+    },
+    {
+      "command": "npm run build",
+      "code": 0,
+      "seconds": 124.816,
+      "log": "docs/phase2f4/preview-build.log"
+    },
+    {
+      "command": "npm run test:unit -- --maxWorkers=1",
+      "code": 0,
+      "seconds": 65.891,
+      "log": "docs/phase2f4/preview-unit.log"
+    }
+  ],
+  "release": [
+    {
+      "command": "npm run build",
+      "code": 0,
+      "seconds": 26.286,
+      "log": "docs/phase2f4/release-build.log"
+    },
+    {
+      "command": "npm run test:unit -- --maxWorkers=1",
+      "code": 0,
+      "seconds": 54.466,
+      "log": "docs/phase2f4/release-unit.log"
+    }
+  ],
+  "screenCount": 64,
+  "screens": [
+    {
+      "mode": "development",
+      "name": "player-datasense",
+      "width": 1920,
+      "overflow": 0,
+      "videoWidth": 1036
+    },
+    {
+      "mode": "development",
+      "name": "player-datasense",
+      "width": 1440,
+      "overflow": 0,
+      "videoWidth": 996
+    },
+    {
+      "mode": "development",
+      "name": "player-datasense",
+      "width": 1024,
+      "overflow": 0,
+      "videoWidth": 984
+    },
+    {
+      "mode": "development",
+      "name": "player-datasense",
+      "width": 768,
+      "overflow": 0,
+      "videoWidth": 728
+    },
+    {
+      "mode": "development",
+      "name": "player-datasense",
+      "width": 430,
+      "overflow": 0,
+      "videoWidth": 390
+    },
+    {
+      "mode": "development",
+      "name": "player-datasense",
+      "width": 390,
+      "overflow": 0,
+      "videoWidth": 350
+    },
+    {
+      "mode": "development",
+      "name": "player-datasense",
+      "width": 375,
+      "overflow": 0,
+      "videoWidth": 335
+    },
+    {
+      "mode": "development",
+      "name": "player-datasense",
+      "width": 360,
+      "overflow": 0,
+      "videoWidth": 320
+    },
+    {
+      "mode": "development",
+      "name": "player-datasense",
+      "width": 320,
+      "overflow": 0,
+      "videoWidth": 280
+    },
+    {
+      "mode": "development",
+      "name": "landscape-player",
+      "width": 844,
+      "overflow": 0,
+      "videoWidth": 804
+    },
+    {
+      "mode": "development",
+      "name": "public-calculator",
+      "width": 1920,
+      "overflow": 0
+    },
+    {
+      "mode": "development",
+      "name": "public-calculator",
+      "width": 1440,
+      "overflow": 0
+    },
+    {
+      "mode": "development",
+      "name": "public-calculator",
+      "width": 1024,
+      "overflow": 0
+    },
+    {
+      "mode": "development",
+      "name": "public-calculator",
+      "width": 768,
+      "overflow": 0
+    },
+    {
+      "mode": "development",
+      "name": "public-calculator",
+      "width": 430,
+      "overflow": 0
+    },
+    {
+      "mode": "development",
+      "name": "public-calculator",
+      "width": 390,
+      "overflow": 0
+    },
+    {
+      "mode": "development",
+      "name": "public-calculator",
+      "width": 375,
+      "overflow": 0
+    },
+    {
+      "mode": "development",
+      "name": "public-calculator",
+      "width": 360,
+      "overflow": 0
+    },
+    {
+      "mode": "development",
+      "name": "public-calculator",
+      "width": 320,
+      "overflow": 0
+    },
+    {
+      "mode": "preview",
+      "name": "public-calculator",
+      "width": 1920,
+      "overflow": 0
+    },
+    {
+      "mode": "preview",
+      "name": "public-calculator",
+      "width": 1440,
+      "overflow": 0
+    },
+    {
+      "mode": "preview",
+      "name": "public-calculator",
+      "width": 1024,
+      "overflow": 0
+    },
+    {
+      "mode": "preview",
+      "name": "public-calculator",
+      "width": 768,
+      "overflow": 0
+    },
+    {
+      "mode": "preview",
+      "name": "public-calculator",
+      "width": 430,
+      "overflow": 0
+    },
+    {
+      "mode": "preview",
+      "name": "public-calculator",
+      "width": 390,
+      "overflow": 0
+    },
+    {
+      "mode": "preview",
+      "name": "public-calculator",
+      "width": 375,
+      "overflow": 0
+    },
+    {
+      "mode": "preview",
+      "name": "public-calculator",
+      "width": 360,
+      "overflow": 0
+    },
+    {
+      "mode": "preview",
+      "name": "public-calculator",
+      "width": 320,
+      "overflow": 0
+    },
+    {
+      "mode": "preview",
+      "name": "title-unavailable-planning",
+      "width": 1920,
+      "overflow": 0
+    },
+    {
+      "mode": "preview",
+      "name": "title-unavailable-planning",
+      "width": 1440,
+      "overflow": 0
+    },
+    {
+      "mode": "preview",
+      "name": "title-unavailable-planning",
+      "width": 1024,
+      "overflow": 0
+    },
+    {
+      "mode": "preview",
+      "name": "title-unavailable-planning",
+      "width": 768,
+      "overflow": 0
+    },
+    {
+      "mode": "preview",
+      "name": "title-unavailable-planning",
+      "width": 430,
+      "overflow": 0
+    },
+    {
+      "mode": "preview",
+      "name": "title-unavailable-planning",
+      "width": 390,
+      "overflow": 0
+    },
+    {
+      "mode": "preview",
+      "name": "title-unavailable-planning",
+      "width": 375,
+      "overflow": 0
+    },
+    {
+      "mode": "preview",
+      "name": "title-unavailable-planning",
+      "width": 360,
+      "overflow": 0
+    },
+    {
+      "mode": "preview",
+      "name": "title-unavailable-planning",
+      "width": 320,
+      "overflow": 0
+    },
+    {
+      "mode": "preview",
+      "name": "account-preference",
+      "width": 1920,
+      "overflow": 0
+    },
+    {
+      "mode": "preview",
+      "name": "account-preference",
+      "width": 1440,
+      "overflow": 0
+    },
+    {
+      "mode": "preview",
+      "name": "account-preference",
+      "width": 1024,
+      "overflow": 0
+    },
+    {
+      "mode": "preview",
+      "name": "account-preference",
+      "width": 768,
+      "overflow": 0
+    },
+    {
+      "mode": "preview",
+      "name": "account-preference",
+      "width": 430,
+      "overflow": 0
+    },
+    {
+      "mode": "preview",
+      "name": "account-preference",
+      "width": 390,
+      "overflow": 0
+    },
+    {
+      "mode": "preview",
+      "name": "account-preference",
+      "width": 375,
+      "overflow": 0
+    },
+    {
+      "mode": "preview",
+      "name": "account-preference",
+      "width": 360,
+      "overflow": 0
+    },
+    {
+      "mode": "preview",
+      "name": "account-preference",
+      "width": 320,
+      "overflow": 0
+    },
+    {
+      "mode": "release",
+      "name": "public-calculator",
+      "width": 1920,
+      "overflow": 0
+    },
+    {
+      "mode": "release",
+      "name": "public-calculator",
+      "width": 1440,
+      "overflow": 0
+    },
+    {
+      "mode": "release",
+      "name": "public-calculator",
+      "width": 1024,
+      "overflow": 0
+    },
+    {
+      "mode": "release",
+      "name": "public-calculator",
+      "width": 768,
+      "overflow": 0
+    },
+    {
+      "mode": "release",
+      "name": "public-calculator",
+      "width": 430,
+      "overflow": 0
+    },
+    {
+      "mode": "release",
+      "name": "public-calculator",
+      "width": 390,
+      "overflow": 0
+    },
+    {
+      "mode": "release",
+      "name": "public-calculator",
+      "width": 375,
+      "overflow": 0
+    },
+    {
+      "mode": "release",
+      "name": "public-calculator",
+      "width": 360,
+      "overflow": 0
+    },
+    {
+      "mode": "release",
+      "name": "public-calculator",
+      "width": 320,
+      "overflow": 0
+    },
+    {
+      "mode": "release",
+      "name": "release-auth",
+      "width": 1920,
+      "overflow": 0
+    },
+    {
+      "mode": "release",
+      "name": "release-auth",
+      "width": 1440,
+      "overflow": 0
+    },
+    {
+      "mode": "release",
+      "name": "release-auth",
+      "width": 1024,
+      "overflow": 0
+    },
+    {
+      "mode": "release",
+      "name": "release-auth",
+      "width": 768,
+      "overflow": 0
+    },
+    {
+      "mode": "release",
+      "name": "release-auth",
+      "width": 430,
+      "overflow": 0
+    },
+    {
+      "mode": "release",
+      "name": "release-auth",
+      "width": 390,
+      "overflow": 0
+    },
+    {
+      "mode": "release",
+      "name": "release-auth",
+      "width": 375,
+      "overflow": 0
+    },
+    {
+      "mode": "release",
+      "name": "release-auth",
+      "width": 360,
+      "overflow": 0
+    },
+    {
+      "mode": "release",
+      "name": "release-auth",
+      "width": 320,
+      "overflow": 0
+    }
+  ],
+  "interactions": [
+    {
+      "mode": "development",
+      "interactions": [
+        "Player: nine widths; touch typing/focus during playback; panel exclusivity; local example transfer deduplication and notification dismissal; confirmed example selection preserves source/position; zero auxiliary room intents; reduced motion; landscape; fullscreen; native unknown telemetry"
+      ]
+    },
+    {
+      "mode": "preview",
+      "interactions": [
+        "Episode-specific 42/44 minute runtime; no bitrate/video fabrication; actual Kids PIN flow and separated Main/Kids preferences",
+        "Normal preview auth/profile flow; title unknown metadata and budget input; account preference cancel/save/client-navigation persistence"
+      ]
+    },
+    {
+      "mode": "release",
+      "interactions": [
+        "Release login tap/type/visibility focus at nine widths; unavailable submission remains accurate; no test credentials"
+      ]
+    }
+  ],
+  "ports": {
+    "owned3017": false,
+    "existing3000": true
+  },
+  "protectedCount": 194,
+  "changed": [
+    "components/home/FeatureLab.tsx",
+    "components/public/FeatureShowcase.tsx",
+    "components/streaming/AccountScreens.tsx",
+    "components/streaming/MediaPlayer.tsx",
+    "components/streaming/PlayerLab.tsx",
+    "components/streaming/ProfileScreens.tsx",
+    "components/streaming/StoryLens.tsx",
+    "components/streaming/TitleDetails.tsx",
+    "lib/api/services.ts",
+    "lib/media-transport.ts",
+    "types/streaming.ts",
+    "next.config.ts"
+  ],
+  "releaseAssetCount": 1185
+}

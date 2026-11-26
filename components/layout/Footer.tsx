@@ -1,3 +1,4 @@
+import {BrandWordmark} from "@/components/ui/BrandWordmark";
 import { Brand } from "./Header";
 import Link from "next/link";
 
@@ -41,7 +42,7 @@ export function Footer() {
         <span>For the love of a good story.</span>
       </div>
       <div className="footer-wordmark" aria-hidden="true">
-        flurzi<span>✳</span>
+        <BrandWordmark/>
       </div>
     </footer>
   );

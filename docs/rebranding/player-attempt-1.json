@@ -1,0 +1,24 @@
+{
+  "mode": "development",
+  "screens": [],
+  "interactions": [],
+  "errors": [],
+  "http": [],
+  "failure": "locator.tap: Timeout 45000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.ds-player').locator('.ds-launch')\u001b[22m\n\n    at player (C:\\Users\\USER\\Downloads\\flurzicinema\\scripts\\brand-player.mjs:45:78)\n    at async file:///C:/Users/USER/Downloads/flurzicinema/scripts/brand-player.mjs:80:26",
+  "failedPage": {
+    "url": "http://127.0.0.1:3020/player-lab",
+    "text": "Leave development lab\nflurzi\nCINEMA\n\nORIGINAL DEVELOPMENT CLIP\n\nMotion study\nFLURZI CINEMA\n\nPLAYBACK INTERRUPTED\n\nWe couldn’t play this video.\n\nThe video connection was interrupted. Try again.\n\nRequest playback again\nLeave development lab\n00:00\n00:00\n−10\n+10\nTEST MEDIA · SESSION MEMORY ONLY\nSpace / K · play & pause   ← → · seek   M · mute\nEnable isolated room-control test\n\nRoom intents: 0\n\nUse native unknown telemetryAdd example 1 MB transferRepeat example transfer event\n\nDataSense uses illustrative rates and transfer events, not actual media measurements. Example selections do not change video quality.\n\nDevelopment only · Original generated test media\n\nIndependent from the fictional catalog. Progress is component memory and resets when this page is left.\n\nReload with saved progress Test invalid source Test save failure\n\nNo progress reported\n\nNot completed",
+    "inputs": [
+      {
+        "id": "",
+        "type": "range",
+        "value": "0"
+      },
+      {
+        "id": "",
+        "type": "range",
+        "value": "1"
+      }
+    ]
+  }
+}

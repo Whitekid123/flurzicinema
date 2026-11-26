@@ -1,0 +1,26 @@
+[
+  {
+    "command": "npm run typecheck",
+    "code": 0,
+    "seconds": 45.502,
+    "log": "docs/phase2f5/release-typecheck.log"
+  },
+  {
+    "command": "npm run lint",
+    "code": 0,
+    "seconds": 160.498,
+    "log": "docs/phase2f5/release-lint.log"
+  },
+  {
+    "command": "npm run build",
+    "code": 0,
+    "seconds": 126.544,
+    "log": "docs/phase2f5/release-build.log"
+  },
+  {
+    "command": "npm run test:unit -- --maxWorkers=1",
+    "code": 0,
+    "seconds": 62.845,
+    "log": "docs/phase2f5/release-unit.log"
+  }
+]

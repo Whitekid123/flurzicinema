@@ -1,0 +1,26 @@
+[
+  {
+    "command": "npm run typecheck",
+    "code": 0,
+    "seconds": 10.13,
+    "log": "docs/rebranding/release-typecheck.log"
+  },
+  {
+    "command": "npm run lint",
+    "code": 0,
+    "seconds": 110.665,
+    "log": "docs/rebranding/release-lint.log"
+  },
+  {
+    "command": "npm run build",
+    "code": 0,
+    "seconds": 41.338,
+    "log": "docs/rebranding/release-build.log"
+  },
+  {
+    "command": "npm run test:unit -- --maxWorkers=1",
+    "code": 0,
+    "seconds": 54.237,
+    "log": "docs/rebranding/release-unit.log"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "path": "/icon.png",
+    "status": 200,
+    "type": "image/png",
+    "bytes": 66473,
+    "sha256": "9d3f43f7b430b453b9fdde6454cb5348db2181db9f1aaec564a4f0126238e810"
+  },
+  {
+    "path": "/brand/flurzi-f-symbol.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 16558,
+    "sha256": "d0a677a063c04d233886ac4c1ac57ea8577e1b5f80c33ae761d76f98a58d2062"
+  },
+  {
+    "path": "/brand/flurzi-cinema-official.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 166108,
+    "sha256": "09280ebcef81f5aab66ea66fe3aa3df3ef7e469a173fc797a6d477f1f9f296d0"
+  }
+]

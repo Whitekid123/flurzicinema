@@ -1,0 +1,19 @@
+
+> flurzi-cinema@0.1.0 test:unit
+> vitest run --maxWorkers=1
+
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - ESM syntax in a file loaded as CommonJS (vitest.config.ts:1:1). Use a `.mjs` extension or set `"type": "module"` in the closest package.json
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+
+ RUN  v5.1.1 C:/Users/USER/Downloads/flurzicinema
+
+
+ Test Files  11 passed (11)
+      Tests  369 passed (369)
+   Start at  10:08:22
+   Duration  50.26s (tests 98%, import 1%)
+
+    Isolate  11 workers spawned · ~285ms startup each (spawn + environment, per file)
+             at least ~2.85s faster with isolate: false — reuses workers across files instead of one per file
+

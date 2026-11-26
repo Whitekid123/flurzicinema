@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "builder": "Turbopack",
+  "staticPages": 53,
+  "buildId": "1_QOimRLsu-1pF6tC86kc",
+  "configuration": {
+    "NEXT_PUBLIC_USE_MOCKS": "1",
+    "NEXT_PUBLIC_FLURZI_CHANNEL": "preview"
+  }
+}

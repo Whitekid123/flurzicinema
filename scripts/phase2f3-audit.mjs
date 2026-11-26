@@ -1,0 +1,9 @@
+import fs from 'node:fs/promises';import crypto from 'node:crypto';import net from 'node:net';
+const baseline=JSON.parse(await fs.readFile('docs/phase2f3/baseline.json','utf8'));const changed=[],unchanged=[],missing=[];
+for(const [p,hash]of Object.entries(baseline)){try{(crypto.createHash('sha256').update(await fs.readFile(p)).digest('hex')===hash?unchanged:changed).push(p);}catch{missing.push(p);}}
+const allowed=['app/player-lab/page.tsx','components/streaming/TitleDetails.tsx','components/streaming/MediaPlayer.tsx','components/streaming/WatchScreen.tsx','components/streaming/Rooms.tsx','components/streaming/PlayerLab.tsx','components/home/FeatureLab.tsx','components/public/FeatureShowcase.tsx','lib/api/experience-services.ts'];
+const unexpected=changed.filter(p=>!allowed.includes(p));const hits=[];
+async function scan(d){for(const e of await fs.readdir(d,{withFileTypes:true})){const p=d+'/'+e.name;if(e.isDirectory())await scan(p);else if(p.endsWith('.js')){const s=await fs.readFile(p,'utf8');for(const term of ['FUTURE_TEST_SECRET','UNCLASSIFIED_TEST_SECRET','REVEALED_TEST_DETAIL','Synthetic biography','synthetic-test-person','demo@flurzi.example','preview-only','mock-reset','mock-verification','mock-account-1','test PIN 1234'])if(s.includes(term))hits.push({file:p,term});}}}
+await scan('.next/static');const portClosed=await new Promise(resolve=>{const s=net.connect(3016,'127.0.0.1');s.on('error',()=>resolve(true));s.on('connect',()=>{s.destroy();resolve(false);});});
+const out={changed,unchanged,missing,unexpected,releaseAssetHits:hits,ownedPortClosed:portClosed,buildId:(await fs.readFile('.next/BUILD_ID','utf8')).trim(),passed:!missing.length&&!unexpected.length&&!hits.length&&portClosed};
+await fs.writeFile('docs/phase2f3/source-release-audit.json',JSON.stringify(out,null,2));console.log(JSON.stringify({changed,unexpected,hits,portClosed,passed:out.passed}));if(!out.passed)process.exitCode=1;

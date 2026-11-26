@@ -1,0 +1,324 @@
+[
+  {
+    "stage": "entered",
+    "start": 13,
+    "end": 13,
+    "length": 13,
+    "type": "password",
+    "active": "password"
+  },
+  {
+    "stage": "shown",
+    "start": 13,
+    "end": 13,
+    "length": 13,
+    "type": "text",
+    "active": "password"
+  },
+  {
+    "stage": "appended",
+    "start": 14,
+    "end": 14,
+    "length": 14,
+    "type": "text",
+    "active": "password"
+  },
+  {
+    "stage": "hidden",
+    "start": 14,
+    "end": 14,
+    "length": 14,
+    "type": "password",
+    "active": "password"
+  },
+  {
+    "stage": "backspace",
+    "start": 13,
+    "end": 13,
+    "length": 13,
+    "type": "password",
+    "active": "password"
+  },
+  {
+    "trace": [
+      {
+        "kind": "pointerdown",
+        "start": 0,
+        "end": 0,
+        "type": "password",
+        "active": ""
+      },
+      {
+        "kind": "pointerdown-microtask",
+        "start": 0,
+        "end": 0,
+        "type": "password",
+        "active": ""
+      },
+      {
+        "kind": "mousedown",
+        "start": 0,
+        "end": 0,
+        "type": "password",
+        "active": ""
+      },
+      {
+        "kind": "mousedown-microtask",
+        "start": 0,
+        "end": 0,
+        "type": "password",
+        "active": ""
+      },
+      {
+        "kind": "mouseup",
+        "start": 0,
+        "end": 0,
+        "type": "password",
+        "active": "password"
+      },
+      {
+        "kind": "mouseup-microtask",
+        "start": 0,
+        "end": 0,
+        "type": "password",
+        "active": "password"
+      },
+      {
+        "kind": "click",
+        "start": 0,
+        "end": 0,
+        "type": "password",
+        "active": "password"
+      },
+      {
+        "kind": "click-microtask",
+        "start": 0,
+        "end": 0,
+        "type": "password",
+        "active": "password"
+      },
+      {
+        "kind": "selectionchange",
+        "start": 0,
+        "end": 0,
+        "type": "password",
+        "active": "password"
+      },
+      {
+        "kind": "selectionchange-microtask",
+        "start": 0,
+        "end": 0,
+        "type": "password",
+        "active": "password"
+      },
+      {
+        "kind": "selectionchange",
+        "start": 1,
+        "end": 1,
+        "type": "password",
+        "active": "password"
+      },
+      {
+        "kind": "selectionchange-microtask",
+        "start": 1,
+        "end": 1,
+        "type": "password",
+        "active": "password"
+      },
+      {
+        "kind": "selectionchange",
+        "start": 2,
+        "end": 2,
+        "type": "password",
+        "active": "password"
+      },
+      {
+        "kind": "selectionchange-microtask",
+        "start": 2,
+        "end": 2,
+        "type": "password",
+        "active": "password"
+      },
+      {
+        "kind": "selectionchange",
+        "start": 5,
+        "end": 5,
+        "type": "password",
+        "active": "password"
+      },
+      {
+        "kind": "selectionchange-microtask",
+        "start": 5,
+        "end": 5,
+        "type": "password",
+        "active": "password"
+      },
+      {
+        "kind": "selectionchange",
+        "start": 8,
+        "end": 8,
+        "type": "password",
+        "active": "password"
+      },
+      {
+        "kind": "selectionchange-microtask",
+        "start": 8,
+        "end": 8,
+        "type": "password",
+        "active": "password"
+      },
+      {
+        "kind": "selectionchange",
+        "start": 13,
+        "end": 13,
+        "type": "password",
+        "active": "password"
+      },
+      {
+        "kind": "selectionchange-microtask",
+        "start": 13,
+        "end": 13,
+        "type": "password",
+        "active": "password"
+      },
+      {
+        "kind": "pointerdown",
+        "start": 13,
+        "end": 13,
+        "type": "password",
+        "active": "password"
+      },
+      {
+        "kind": "pointerdown-microtask",
+        "start": 13,
+        "end": 13,
+        "type": "password",
+        "active": "password"
+      },
+      {
+        "kind": "click",
+        "start": 13,
+        "end": 13,
+        "type": "password",
+        "active": "password"
+      },
+      {
+        "kind": "click-microtask",
+        "start": 13,
+        "end": 13,
+        "type": "password",
+        "active": "password"
+      },
+      {
+        "kind": "setSelectionRange",
+        "args": [
+          13,
+          13,
+          "forward"
+        ]
+      },
+      {
+        "kind": "range-after-call",
+        "start": 13,
+        "end": 13
+      },
+      {
+        "kind": "selectionchange",
+        "start": 13,
+        "end": 13,
+        "type": "text",
+        "active": "password"
+      },
+      {
+        "kind": "selectionchange-microtask",
+        "start": 13,
+        "end": 13,
+        "type": "text",
+        "active": "password"
+      },
+      {
+        "kind": "selectionchange",
+        "start": 14,
+        "end": 14,
+        "type": "text",
+        "active": "password"
+      },
+      {
+        "kind": "selectionchange-microtask",
+        "start": 14,
+        "end": 14,
+        "type": "text",
+        "active": "password"
+      },
+      {
+        "kind": "pointerdown",
+        "start": 14,
+        "end": 14,
+        "type": "text",
+        "active": "password"
+      },
+      {
+        "kind": "pointerdown-microtask",
+        "start": 14,
+        "end": 14,
+        "type": "text",
+        "active": "password"
+      },
+      {
+        "kind": "click",
+        "start": 14,
+        "end": 14,
+        "type": "text",
+        "active": "password"
+      },
+      {
+        "kind": "click-microtask",
+        "start": 14,
+        "end": 14,
+        "type": "text",
+        "active": "password"
+      },
+      {
+        "kind": "setSelectionRange",
+        "args": [
+          14,
+          14,
+          "forward"
+        ]
+      },
+      {
+        "kind": "range-after-call",
+        "start": 14,
+        "end": 14
+      },
+      {
+        "kind": "selectionchange",
+        "start": 14,
+        "end": 14,
+        "type": "password",
+        "active": "password"
+      },
+      {
+        "kind": "selectionchange-microtask",
+        "start": 14,
+        "end": 14,
+        "type": "password",
+        "active": "password"
+      },
+      {
+        "kind": "selectionchange",
+        "start": 13,
+        "end": 13,
+        "type": "password",
+        "active": "password"
+      },
+      {
+        "kind": "selectionchange-microtask",
+        "start": 13,
+        "end": 13,
+        "type": "password",
+        "active": "password"
+      }
+    ]
+  }
+]

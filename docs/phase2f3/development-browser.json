@@ -1,0 +1,222 @@
+{
+  "mode": "development",
+  "screens": [
+    {
+      "name": "player-panel",
+      "width": 1920,
+      "overflow": 0,
+      "video": 1056
+    },
+    {
+      "name": "player-panel",
+      "width": 1440,
+      "overflow": 0,
+      "video": 1016
+    },
+    {
+      "name": "player-panel",
+      "width": 1024,
+      "overflow": 0,
+      "video": 984
+    },
+    {
+      "name": "player-panel",
+      "width": 768,
+      "overflow": 0,
+      "video": 728
+    },
+    {
+      "name": "player-panel",
+      "width": 430,
+      "overflow": 0,
+      "video": 390
+    },
+    {
+      "name": "player-panel",
+      "width": 390,
+      "overflow": 0,
+      "video": 350
+    },
+    {
+      "name": "player-panel",
+      "width": 375,
+      "overflow": 0,
+      "video": 335
+    },
+    {
+      "name": "player-panel",
+      "width": 360,
+      "overflow": 0,
+      "video": 320
+    },
+    {
+      "name": "player-panel",
+      "width": 320,
+      "overflow": 0,
+      "video": 280
+    },
+    {
+      "name": "landscape-player",
+      "width": 844,
+      "overflow": 0,
+      "video": 804
+    }
+  ],
+  "interactions": [
+    "Nine widths: panel tap/category/close/focus; boundary/forward/backward seek; explicit spoiler reveal/reset; unknown/future suppression; playback continues; captions retained; zero panel room intents; reduced motion; landscape and fullscreen"
+  ],
+  "errors": [],
+  "http": [
+    {
+      "path": "/player-lab",
+      "status": 200
+    },
+    {
+      "path": "/api/player-lab/original.webm",
+      "status": 200
+    },
+    {
+      "path": "/api/player-lab/captions.vtt",
+      "status": 200
+    },
+    {
+      "path": "/scripts/fixtures/player/original.webm",
+      "status": 404
+    }
+  ],
+  "seeks": [
+    {
+      "time": 5,
+      "paused": true,
+      "duration": 19.955492,
+      "seekable": [
+        [
+          0,
+          19.955492
+        ]
+      ]
+    },
+    {
+      "time": 5,
+      "paused": true,
+      "duration": 19.955492,
+      "seekable": [
+        [
+          0,
+          19.955492
+        ]
+      ]
+    },
+    {
+      "time": 5,
+      "paused": true,
+      "duration": 19.955492,
+      "seekable": [
+        [
+          0,
+          19.955492
+        ]
+      ]
+    },
+    {
+      "time": 5,
+      "paused": true,
+      "duration": 19.955492,
+      "seekable": [
+        [
+          0,
+          19.955492
+        ]
+      ]
+    },
+    {
+      "time": 5,
+      "paused": true,
+      "duration": 19.955492,
+      "seekable": [
+        [
+          0,
+          19.955492
+        ]
+      ]
+    },
+    {
+      "time": 5,
+      "paused": true,
+      "duration": 19.955492,
+      "seekable": [
+        [
+          0,
+          19.955492
+        ]
+      ]
+    },
+    {
+      "time": 5,
+      "paused": true,
+      "duration": 19.955492,
+      "seekable": [
+        [
+          0,
+          19.955492
+        ]
+      ]
+    },
+    {
+      "time": 5,
+      "paused": true,
+      "duration": 19.955492,
+      "seekable": [
+        [
+          0,
+          19.955492
+        ]
+      ]
+    },
+    {
+      "time": 5,
+      "paused": true,
+      "duration": 19.955492,
+      "seekable": [
+        [
+          0,
+          19.955492
+        ]
+      ]
+    },
+    {
+      "time": 14,
+      "paused": true,
+      "duration": 19.955492,
+      "seekable": [
+        [
+          0,
+          19.955492
+        ]
+      ]
+    },
+    {
+      "time": 12,
+      "paused": true,
+      "duration": 19.955492,
+      "seekable": [
+        [
+          0,
+          19.955492
+        ]
+      ]
+    },
+    {
+      "time": 5,
+      "paused": true,
+      "duration": 19.955492,
+      "seekable": [
+        [
+          0,
+          19.955492
+        ]
+      ]
+    }
+  ],
+  "complete": true
+}

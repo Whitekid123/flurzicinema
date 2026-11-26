@@ -1,0 +1,4257 @@
+{
+  "mode": "preview",
+  "observations": [
+    {
+      "name": "home",
+      "width": 1920,
+      "url": "http://127.0.0.1:3019/",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "home",
+      "width": 1440,
+      "url": "http://127.0.0.1:3019/",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "home",
+      "width": 1024,
+      "url": "http://127.0.0.1:3019/",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "home",
+      "width": 768,
+      "url": "http://127.0.0.1:3019/",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "home",
+      "width": 430,
+      "url": "http://127.0.0.1:3019/",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "home",
+      "width": 390,
+      "url": "http://127.0.0.1:3019/",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "home",
+      "width": 375,
+      "url": "http://127.0.0.1:3019/",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "home",
+      "width": 360,
+      "url": "http://127.0.0.1:3019/",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "home",
+      "width": 320,
+      "url": "http://127.0.0.1:3019/",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "explore",
+      "width": 1920,
+      "url": "http://127.0.0.1:3019/explore",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "explore",
+      "width": 1440,
+      "url": "http://127.0.0.1:3019/explore",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "explore",
+      "width": 1024,
+      "url": "http://127.0.0.1:3019/explore",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "explore",
+      "width": 768,
+      "url": "http://127.0.0.1:3019/explore",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "explore",
+      "width": 430,
+      "url": "http://127.0.0.1:3019/explore",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "explore",
+      "width": 390,
+      "url": "http://127.0.0.1:3019/explore",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "explore",
+      "width": 375,
+      "url": "http://127.0.0.1:3019/explore",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "explore",
+      "width": 360,
+      "url": "http://127.0.0.1:3019/explore",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "explore",
+      "width": 320,
+      "url": "http://127.0.0.1:3019/explore",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "movies",
+      "width": 1920,
+      "url": "http://127.0.0.1:3019/movies",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "movies",
+      "width": 1440,
+      "url": "http://127.0.0.1:3019/movies",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "movies",
+      "width": 1024,
+      "url": "http://127.0.0.1:3019/movies",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "movies",
+      "width": 768,
+      "url": "http://127.0.0.1:3019/movies",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "movies",
+      "width": 430,
+      "url": "http://127.0.0.1:3019/movies",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "movies",
+      "width": 390,
+      "url": "http://127.0.0.1:3019/movies",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "movies",
+      "width": 375,
+      "url": "http://127.0.0.1:3019/movies",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "movies",
+      "width": 360,
+      "url": "http://127.0.0.1:3019/movies",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "movies",
+      "width": 320,
+      "url": "http://127.0.0.1:3019/movies",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "series",
+      "width": 1920,
+      "url": "http://127.0.0.1:3019/series",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "series",
+      "width": 1440,
+      "url": "http://127.0.0.1:3019/series",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "series",
+      "width": 1024,
+      "url": "http://127.0.0.1:3019/series",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "series",
+      "width": 768,
+      "url": "http://127.0.0.1:3019/series",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "series",
+      "width": 430,
+      "url": "http://127.0.0.1:3019/series",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "series",
+      "width": 390,
+      "url": "http://127.0.0.1:3019/series",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "series",
+      "width": 375,
+      "url": "http://127.0.0.1:3019/series",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "series",
+      "width": 360,
+      "url": "http://127.0.0.1:3019/series",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "series",
+      "width": 320,
+      "url": "http://127.0.0.1:3019/series",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "movies-quiet-beyond",
+      "width": 1920,
+      "url": "http://127.0.0.1:3019/movies/quiet-beyond",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "movies-quiet-beyond",
+      "width": 1440,
+      "url": "http://127.0.0.1:3019/movies/quiet-beyond",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "movies-quiet-beyond",
+      "width": 1024,
+      "url": "http://127.0.0.1:3019/movies/quiet-beyond",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "movies-quiet-beyond",
+      "width": 768,
+      "url": "http://127.0.0.1:3019/movies/quiet-beyond",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "movies-quiet-beyond",
+      "width": 430,
+      "url": "http://127.0.0.1:3019/movies/quiet-beyond",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "movies-quiet-beyond",
+      "width": 390,
+      "url": "http://127.0.0.1:3019/movies/quiet-beyond",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "movies-quiet-beyond",
+      "width": 375,
+      "url": "http://127.0.0.1:3019/movies/quiet-beyond",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "movies-quiet-beyond",
+      "width": 360,
+      "url": "http://127.0.0.1:3019/movies/quiet-beyond",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "movies-quiet-beyond",
+      "width": 320,
+      "url": "http://127.0.0.1:3019/movies/quiet-beyond",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "series-velvet-hours",
+      "width": 1920,
+      "url": "http://127.0.0.1:3019/series/velvet-hours",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "series-velvet-hours",
+      "width": 1440,
+      "url": "http://127.0.0.1:3019/series/velvet-hours",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "series-velvet-hours",
+      "width": 1024,
+      "url": "http://127.0.0.1:3019/series/velvet-hours",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "series-velvet-hours",
+      "width": 768,
+      "url": "http://127.0.0.1:3019/series/velvet-hours",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "series-velvet-hours",
+      "width": 430,
+      "url": "http://127.0.0.1:3019/series/velvet-hours",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "series-velvet-hours",
+      "width": 390,
+      "url": "http://127.0.0.1:3019/series/velvet-hours",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "series-velvet-hours",
+      "width": 375,
+      "url": "http://127.0.0.1:3019/series/velvet-hours",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "series-velvet-hours",
+      "width": 360,
+      "url": "http://127.0.0.1:3019/series/velvet-hours",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "series-velvet-hours",
+      "width": 320,
+      "url": "http://127.0.0.1:3019/series/velvet-hours",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "originals",
+      "width": 1920,
+      "url": "http://127.0.0.1:3019/originals",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "originals",
+      "width": 1440,
+      "url": "http://127.0.0.1:3019/originals",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "originals",
+      "width": 1024,
+      "url": "http://127.0.0.1:3019/originals",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "originals",
+      "width": 768,
+      "url": "http://127.0.0.1:3019/originals",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "originals",
+      "width": 430,
+      "url": "http://127.0.0.1:3019/originals",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "originals",
+      "width": 390,
+      "url": "http://127.0.0.1:3019/originals",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "originals",
+      "width": 375,
+      "url": "http://127.0.0.1:3019/originals",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "originals",
+      "width": 360,
+      "url": "http://127.0.0.1:3019/originals",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "originals",
+      "width": 320,
+      "url": "http://127.0.0.1:3019/originals",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "premieres",
+      "width": 1920,
+      "url": "http://127.0.0.1:3019/premieres",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "premieres",
+      "width": 1440,
+      "url": "http://127.0.0.1:3019/premieres",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "premieres",
+      "width": 1024,
+      "url": "http://127.0.0.1:3019/premieres",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "premieres",
+      "width": 768,
+      "url": "http://127.0.0.1:3019/premieres",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "premieres",
+      "width": 430,
+      "url": "http://127.0.0.1:3019/premieres",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "premieres",
+      "width": 390,
+      "url": "http://127.0.0.1:3019/premieres",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "premieres",
+      "width": 375,
+      "url": "http://127.0.0.1:3019/premieres",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "premieres",
+      "width": 360,
+      "url": "http://127.0.0.1:3019/premieres",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "premieres",
+      "width": 320,
+      "url": "http://127.0.0.1:3019/premieres",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "features",
+      "width": 1920,
+      "url": "http://127.0.0.1:3019/features",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "features",
+      "width": 1440,
+      "url": "http://127.0.0.1:3019/features",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "features",
+      "width": 1024,
+      "url": "http://127.0.0.1:3019/features",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "features",
+      "width": 768,
+      "url": "http://127.0.0.1:3019/features",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "features",
+      "width": 430,
+      "url": "http://127.0.0.1:3019/features",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "features",
+      "width": 390,
+      "url": "http://127.0.0.1:3019/features",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "features",
+      "width": 375,
+      "url": "http://127.0.0.1:3019/features",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "features",
+      "width": 360,
+      "url": "http://127.0.0.1:3019/features",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "features",
+      "width": 320,
+      "url": "http://127.0.0.1:3019/features",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "pricing",
+      "width": 1920,
+      "url": "http://127.0.0.1:3019/pricing",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "pricing",
+      "width": 1440,
+      "url": "http://127.0.0.1:3019/pricing",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "pricing",
+      "width": 1024,
+      "url": "http://127.0.0.1:3019/pricing",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "pricing",
+      "width": 768,
+      "url": "http://127.0.0.1:3019/pricing",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "pricing",
+      "width": 430,
+      "url": "http://127.0.0.1:3019/pricing",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "pricing",
+      "width": 390,
+      "url": "http://127.0.0.1:3019/pricing",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "pricing",
+      "width": 375,
+      "url": "http://127.0.0.1:3019/pricing",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "pricing",
+      "width": 360,
+      "url": "http://127.0.0.1:3019/pricing",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "pricing",
+      "width": 320,
+      "url": "http://127.0.0.1:3019/pricing",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "about",
+      "width": 1920,
+      "url": "http://127.0.0.1:3019/about",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "about",
+      "width": 1440,
+      "url": "http://127.0.0.1:3019/about",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "about",
+      "width": 1024,
+      "url": "http://127.0.0.1:3019/about",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "about",
+      "width": 768,
+      "url": "http://127.0.0.1:3019/about",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "about",
+      "width": 430,
+      "url": "http://127.0.0.1:3019/about",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "about",
+      "width": 390,
+      "url": "http://127.0.0.1:3019/about",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "about",
+      "width": 375,
+      "url": "http://127.0.0.1:3019/about",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "about",
+      "width": 360,
+      "url": "http://127.0.0.1:3019/about",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "about",
+      "width": 320,
+      "url": "http://127.0.0.1:3019/about",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "contact",
+      "width": 1920,
+      "url": "http://127.0.0.1:3019/contact",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "contact",
+      "width": 1440,
+      "url": "http://127.0.0.1:3019/contact",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "contact",
+      "width": 1024,
+      "url": "http://127.0.0.1:3019/contact",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "contact",
+      "width": 768,
+      "url": "http://127.0.0.1:3019/contact",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "contact",
+      "width": 430,
+      "url": "http://127.0.0.1:3019/contact",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "contact",
+      "width": 390,
+      "url": "http://127.0.0.1:3019/contact",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "contact",
+      "width": 375,
+      "url": "http://127.0.0.1:3019/contact",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "contact",
+      "width": 360,
+      "url": "http://127.0.0.1:3019/contact",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "contact",
+      "width": 320,
+      "url": "http://127.0.0.1:3019/contact",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "help",
+      "width": 1920,
+      "url": "http://127.0.0.1:3019/help",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "help",
+      "width": 1440,
+      "url": "http://127.0.0.1:3019/help",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "help",
+      "width": 1024,
+      "url": "http://127.0.0.1:3019/help",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "help",
+      "width": 768,
+      "url": "http://127.0.0.1:3019/help",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "help",
+      "width": 430,
+      "url": "http://127.0.0.1:3019/help",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "help",
+      "width": 390,
+      "url": "http://127.0.0.1:3019/help",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "help",
+      "width": 375,
+      "url": "http://127.0.0.1:3019/help",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "help",
+      "width": 360,
+      "url": "http://127.0.0.1:3019/help",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "help",
+      "width": 320,
+      "url": "http://127.0.0.1:3019/help",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "legal-privacy",
+      "width": 1920,
+      "url": "http://127.0.0.1:3019/legal/privacy",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "legal-privacy",
+      "width": 1440,
+      "url": "http://127.0.0.1:3019/legal/privacy",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "legal-privacy",
+      "width": 1024,
+      "url": "http://127.0.0.1:3019/legal/privacy",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "legal-privacy",
+      "width": 768,
+      "url": "http://127.0.0.1:3019/legal/privacy",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "legal-privacy",
+      "width": 430,
+      "url": "http://127.0.0.1:3019/legal/privacy",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "legal-privacy",
+      "width": 390,
+      "url": "http://127.0.0.1:3019/legal/privacy",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "legal-privacy",
+      "width": 375,
+      "url": "http://127.0.0.1:3019/legal/privacy",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "legal-privacy",
+      "width": 360,
+      "url": "http://127.0.0.1:3019/legal/privacy",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "legal-privacy",
+      "width": 320,
+      "url": "http://127.0.0.1:3019/legal/privacy",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "legal-terms",
+      "width": 1920,
+      "url": "http://127.0.0.1:3019/legal/terms",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "legal-terms",
+      "width": 1440,
+      "url": "http://127.0.0.1:3019/legal/terms",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "legal-terms",
+      "width": 1024,
+      "url": "http://127.0.0.1:3019/legal/terms",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "legal-terms",
+      "width": 768,
+      "url": "http://127.0.0.1:3019/legal/terms",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "legal-terms",
+      "width": 430,
+      "url": "http://127.0.0.1:3019/legal/terms",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "legal-terms",
+      "width": 390,
+      "url": "http://127.0.0.1:3019/legal/terms",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "legal-terms",
+      "width": 375,
+      "url": "http://127.0.0.1:3019/legal/terms",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "legal-terms",
+      "width": 360,
+      "url": "http://127.0.0.1:3019/legal/terms",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "legal-terms",
+      "width": 320,
+      "url": "http://127.0.0.1:3019/legal/terms",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "legal-cookies",
+      "width": 1920,
+      "url": "http://127.0.0.1:3019/legal/cookies",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "legal-cookies",
+      "width": 1440,
+      "url": "http://127.0.0.1:3019/legal/cookies",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "legal-cookies",
+      "width": 1024,
+      "url": "http://127.0.0.1:3019/legal/cookies",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "legal-cookies",
+      "width": 768,
+      "url": "http://127.0.0.1:3019/legal/cookies",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "legal-cookies",
+      "width": 430,
+      "url": "http://127.0.0.1:3019/legal/cookies",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "legal-cookies",
+      "width": 390,
+      "url": "http://127.0.0.1:3019/legal/cookies",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "legal-cookies",
+      "width": 375,
+      "url": "http://127.0.0.1:3019/legal/cookies",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "legal-cookies",
+      "width": 360,
+      "url": "http://127.0.0.1:3019/legal/cookies",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "legal-cookies",
+      "width": 320,
+      "url": "http://127.0.0.1:3019/legal/cookies",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "legal-copyright",
+      "width": 1920,
+      "url": "http://127.0.0.1:3019/legal/copyright",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "legal-copyright",
+      "width": 1440,
+      "url": "http://127.0.0.1:3019/legal/copyright",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "legal-copyright",
+      "width": 1024,
+      "url": "http://127.0.0.1:3019/legal/copyright",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "legal-copyright",
+      "width": 768,
+      "url": "http://127.0.0.1:3019/legal/copyright",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "legal-copyright",
+      "width": 430,
+      "url": "http://127.0.0.1:3019/legal/copyright",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "legal-copyright",
+      "width": 390,
+      "url": "http://127.0.0.1:3019/legal/copyright",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "legal-copyright",
+      "width": 375,
+      "url": "http://127.0.0.1:3019/legal/copyright",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "legal-copyright",
+      "width": 360,
+      "url": "http://127.0.0.1:3019/legal/copyright",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "legal-copyright",
+      "width": 320,
+      "url": "http://127.0.0.1:3019/legal/copyright",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "sign-in",
+      "width": 1920,
+      "url": "http://127.0.0.1:3019/login",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "sign-in",
+      "width": 1440,
+      "url": "http://127.0.0.1:3019/login",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "sign-in",
+      "width": 1024,
+      "url": "http://127.0.0.1:3019/login",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "sign-in",
+      "width": 768,
+      "url": "http://127.0.0.1:3019/login",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "sign-in",
+      "width": 430,
+      "url": "http://127.0.0.1:3019/login",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "sign-in",
+      "width": 390,
+      "url": "http://127.0.0.1:3019/login",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "sign-in",
+      "width": 375,
+      "url": "http://127.0.0.1:3019/login",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "sign-in",
+      "width": 360,
+      "url": "http://127.0.0.1:3019/login",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "sign-in",
+      "width": 320,
+      "url": "http://127.0.0.1:3019/login",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "get-started",
+      "width": 1920,
+      "url": "http://127.0.0.1:3019/signup",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "get-started",
+      "width": 1440,
+      "url": "http://127.0.0.1:3019/signup",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "get-started",
+      "width": 1024,
+      "url": "http://127.0.0.1:3019/signup",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "get-started",
+      "width": 768,
+      "url": "http://127.0.0.1:3019/signup",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "get-started",
+      "width": 430,
+      "url": "http://127.0.0.1:3019/signup",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "get-started",
+      "width": 390,
+      "url": "http://127.0.0.1:3019/signup",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "get-started",
+      "width": 375,
+      "url": "http://127.0.0.1:3019/signup",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "get-started",
+      "width": 360,
+      "url": "http://127.0.0.1:3019/signup",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "get-started",
+      "width": 320,
+      "url": "http://127.0.0.1:3019/signup",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "subscribe",
+      "width": 1920,
+      "url": "http://127.0.0.1:3019/subscribe",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "subscribe",
+      "width": 1440,
+      "url": "http://127.0.0.1:3019/subscribe",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "subscribe",
+      "width": 1024,
+      "url": "http://127.0.0.1:3019/subscribe",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "subscribe",
+      "width": 768,
+      "url": "http://127.0.0.1:3019/subscribe",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "subscribe",
+      "width": 430,
+      "url": "http://127.0.0.1:3019/subscribe",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "subscribe",
+      "width": 390,
+      "url": "http://127.0.0.1:3019/subscribe",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "subscribe",
+      "width": 375,
+      "url": "http://127.0.0.1:3019/subscribe",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "subscribe",
+      "width": 360,
+      "url": "http://127.0.0.1:3019/subscribe",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "subscribe",
+      "width": 320,
+      "url": "http://127.0.0.1:3019/subscribe",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "profiles",
+      "width": 1920,
+      "url": "http://127.0.0.1:3019/profiles",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "profiles",
+      "width": 1440,
+      "url": "http://127.0.0.1:3019/profiles",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "profiles",
+      "width": 1024,
+      "url": "http://127.0.0.1:3019/profiles",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "profiles",
+      "width": 768,
+      "url": "http://127.0.0.1:3019/profiles",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "profiles",
+      "width": 430,
+      "url": "http://127.0.0.1:3019/profiles",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "profiles",
+      "width": 390,
+      "url": "http://127.0.0.1:3019/profiles",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "profiles",
+      "width": 375,
+      "url": "http://127.0.0.1:3019/profiles",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "profiles",
+      "width": 360,
+      "url": "http://127.0.0.1:3019/profiles",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "profiles",
+      "width": 320,
+      "url": "http://127.0.0.1:3019/profiles",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "browse",
+      "width": 1920,
+      "url": "http://127.0.0.1:3019/browse",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "browse",
+      "width": 1440,
+      "url": "http://127.0.0.1:3019/browse",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "browse",
+      "width": 1024,
+      "url": "http://127.0.0.1:3019/browse",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "browse",
+      "width": 768,
+      "url": "http://127.0.0.1:3019/browse",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "browse",
+      "width": 430,
+      "url": "http://127.0.0.1:3019/browse",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "browse",
+      "width": 390,
+      "url": "http://127.0.0.1:3019/browse",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "browse",
+      "width": 375,
+      "url": "http://127.0.0.1:3019/browse",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "browse",
+      "width": 360,
+      "url": "http://127.0.0.1:3019/browse",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "browse",
+      "width": 320,
+      "url": "http://127.0.0.1:3019/browse",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "movies-app",
+      "width": 1920,
+      "url": "http://127.0.0.1:3019/browse/movies",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "movies-app",
+      "width": 1440,
+      "url": "http://127.0.0.1:3019/browse/movies",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "movies-app",
+      "width": 1024,
+      "url": "http://127.0.0.1:3019/browse/movies",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "movies-app",
+      "width": 768,
+      "url": "http://127.0.0.1:3019/browse/movies",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "movies-app",
+      "width": 430,
+      "url": "http://127.0.0.1:3019/browse/movies",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "movies-app",
+      "width": 390,
+      "url": "http://127.0.0.1:3019/browse/movies",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "movies-app",
+      "width": 375,
+      "url": "http://127.0.0.1:3019/browse/movies",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "movies-app",
+      "width": 360,
+      "url": "http://127.0.0.1:3019/browse/movies",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "movies-app",
+      "width": 320,
+      "url": "http://127.0.0.1:3019/browse/movies",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "series-app",
+      "width": 1920,
+      "url": "http://127.0.0.1:3019/browse/series",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "series-app",
+      "width": 1440,
+      "url": "http://127.0.0.1:3019/browse/series",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "series-app",
+      "width": 1024,
+      "url": "http://127.0.0.1:3019/browse/series",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "series-app",
+      "width": 768,
+      "url": "http://127.0.0.1:3019/browse/series",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "series-app",
+      "width": 430,
+      "url": "http://127.0.0.1:3019/browse/series",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "series-app",
+      "width": 390,
+      "url": "http://127.0.0.1:3019/browse/series",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "series-app",
+      "width": 375,
+      "url": "http://127.0.0.1:3019/browse/series",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "series-app",
+      "width": 360,
+      "url": "http://127.0.0.1:3019/browse/series",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "series-app",
+      "width": 320,
+      "url": "http://127.0.0.1:3019/browse/series",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "search",
+      "width": 1920,
+      "url": "http://127.0.0.1:3019/browse/search",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "search",
+      "width": 1440,
+      "url": "http://127.0.0.1:3019/browse/search",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "search",
+      "width": 1024,
+      "url": "http://127.0.0.1:3019/browse/search",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "search",
+      "width": 768,
+      "url": "http://127.0.0.1:3019/browse/search",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "search",
+      "width": 430,
+      "url": "http://127.0.0.1:3019/browse/search",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "search",
+      "width": 390,
+      "url": "http://127.0.0.1:3019/browse/search",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "search",
+      "width": 375,
+      "url": "http://127.0.0.1:3019/browse/search",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "search",
+      "width": 360,
+      "url": "http://127.0.0.1:3019/browse/search",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "search",
+      "width": 320,
+      "url": "http://127.0.0.1:3019/browse/search",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "my-list",
+      "width": 1920,
+      "url": "http://127.0.0.1:3019/browse/my-list",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "my-list",
+      "width": 1440,
+      "url": "http://127.0.0.1:3019/browse/my-list",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "my-list",
+      "width": 1024,
+      "url": "http://127.0.0.1:3019/browse/my-list",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "my-list",
+      "width": 768,
+      "url": "http://127.0.0.1:3019/browse/my-list",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "my-list",
+      "width": 430,
+      "url": "http://127.0.0.1:3019/browse/my-list",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "my-list",
+      "width": 390,
+      "url": "http://127.0.0.1:3019/browse/my-list",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "my-list",
+      "width": 375,
+      "url": "http://127.0.0.1:3019/browse/my-list",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "my-list",
+      "width": 360,
+      "url": "http://127.0.0.1:3019/browse/my-list",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "my-list",
+      "width": 320,
+      "url": "http://127.0.0.1:3019/browse/my-list",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "history",
+      "width": 1920,
+      "url": "http://127.0.0.1:3019/browse/history",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "history",
+      "width": 1440,
+      "url": "http://127.0.0.1:3019/browse/history",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "history",
+      "width": 1024,
+      "url": "http://127.0.0.1:3019/browse/history",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "history",
+      "width": 768,
+      "url": "http://127.0.0.1:3019/browse/history",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "history",
+      "width": 430,
+      "url": "http://127.0.0.1:3019/browse/history",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "history",
+      "width": 390,
+      "url": "http://127.0.0.1:3019/browse/history",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "history",
+      "width": 375,
+      "url": "http://127.0.0.1:3019/browse/history",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "history",
+      "width": 360,
+      "url": "http://127.0.0.1:3019/browse/history",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "history",
+      "width": 320,
+      "url": "http://127.0.0.1:3019/browse/history",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "title",
+      "width": 1920,
+      "url": "http://127.0.0.1:3019/browse/title/mock-quiet-beyond",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "title",
+      "width": 1440,
+      "url": "http://127.0.0.1:3019/browse/title/mock-quiet-beyond",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "title",
+      "width": 1024,
+      "url": "http://127.0.0.1:3019/browse/title/mock-quiet-beyond",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "title",
+      "width": 768,
+      "url": "http://127.0.0.1:3019/browse/title/mock-quiet-beyond",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "title",
+      "width": 430,
+      "url": "http://127.0.0.1:3019/browse/title/mock-quiet-beyond",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "title",
+      "width": 390,
+      "url": "http://127.0.0.1:3019/browse/title/mock-quiet-beyond",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "title",
+      "width": 375,
+      "url": "http://127.0.0.1:3019/browse/title/mock-quiet-beyond",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "title",
+      "width": 360,
+      "url": "http://127.0.0.1:3019/browse/title/mock-quiet-beyond",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "title",
+      "width": 320,
+      "url": "http://127.0.0.1:3019/browse/title/mock-quiet-beyond",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "storylens",
+      "width": 1920,
+      "url": "http://127.0.0.1:3019/browse/title/mock-quiet-beyond",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "storylens",
+      "width": 1440,
+      "url": "http://127.0.0.1:3019/browse/title/mock-quiet-beyond",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "storylens",
+      "width": 1024,
+      "url": "http://127.0.0.1:3019/browse/title/mock-quiet-beyond",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "storylens",
+      "width": 768,
+      "url": "http://127.0.0.1:3019/browse/title/mock-quiet-beyond",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "storylens",
+      "width": 430,
+      "url": "http://127.0.0.1:3019/browse/title/mock-quiet-beyond",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "storylens",
+      "width": 390,
+      "url": "http://127.0.0.1:3019/browse/title/mock-quiet-beyond",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "storylens",
+      "width": 375,
+      "url": "http://127.0.0.1:3019/browse/title/mock-quiet-beyond",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "storylens",
+      "width": 360,
+      "url": "http://127.0.0.1:3019/browse/title/mock-quiet-beyond",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "storylens",
+      "width": 320,
+      "url": "http://127.0.0.1:3019/browse/title/mock-quiet-beyond",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "datasense",
+      "width": 1920,
+      "url": "http://127.0.0.1:3019/browse/title/mock-quiet-beyond",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "datasense",
+      "width": 1440,
+      "url": "http://127.0.0.1:3019/browse/title/mock-quiet-beyond",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "datasense",
+      "width": 1024,
+      "url": "http://127.0.0.1:3019/browse/title/mock-quiet-beyond",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "datasense",
+      "width": 768,
+      "url": "http://127.0.0.1:3019/browse/title/mock-quiet-beyond",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "datasense",
+      "width": 430,
+      "url": "http://127.0.0.1:3019/browse/title/mock-quiet-beyond",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "datasense",
+      "width": 390,
+      "url": "http://127.0.0.1:3019/browse/title/mock-quiet-beyond",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "datasense",
+      "width": 375,
+      "url": "http://127.0.0.1:3019/browse/title/mock-quiet-beyond",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "datasense",
+      "width": 360,
+      "url": "http://127.0.0.1:3019/browse/title/mock-quiet-beyond",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "datasense",
+      "width": 320,
+      "url": "http://127.0.0.1:3019/browse/title/mock-quiet-beyond",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "account",
+      "width": 1920,
+      "url": "http://127.0.0.1:3019/account",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "account",
+      "width": 1440,
+      "url": "http://127.0.0.1:3019/account",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "account",
+      "width": 1024,
+      "url": "http://127.0.0.1:3019/account",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "account",
+      "width": 768,
+      "url": "http://127.0.0.1:3019/account",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "account",
+      "width": 430,
+      "url": "http://127.0.0.1:3019/account",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "account",
+      "width": 390,
+      "url": "http://127.0.0.1:3019/account",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "account",
+      "width": 375,
+      "url": "http://127.0.0.1:3019/account",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "account",
+      "width": 360,
+      "url": "http://127.0.0.1:3019/account",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "account",
+      "width": 320,
+      "url": "http://127.0.0.1:3019/account",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "account-details",
+      "width": 1920,
+      "url": "http://127.0.0.1:3019/account/details",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "account-details",
+      "width": 1440,
+      "url": "http://127.0.0.1:3019/account/details",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "account-details",
+      "width": 1024,
+      "url": "http://127.0.0.1:3019/account/details",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "account-details",
+      "width": 768,
+      "url": "http://127.0.0.1:3019/account/details",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "account-details",
+      "width": 430,
+      "url": "http://127.0.0.1:3019/account/details",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "account-details",
+      "width": 390,
+      "url": "http://127.0.0.1:3019/account/details",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "account-details",
+      "width": 375,
+      "url": "http://127.0.0.1:3019/account/details",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "account-details",
+      "width": 360,
+      "url": "http://127.0.0.1:3019/account/details",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "account-details",
+      "width": 320,
+      "url": "http://127.0.0.1:3019/account/details",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "billing",
+      "width": 1920,
+      "url": "http://127.0.0.1:3019/account/billing",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "billing",
+      "width": 1440,
+      "url": "http://127.0.0.1:3019/account/billing",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "billing",
+      "width": 1024,
+      "url": "http://127.0.0.1:3019/account/billing",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "billing",
+      "width": 768,
+      "url": "http://127.0.0.1:3019/account/billing",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "billing",
+      "width": 430,
+      "url": "http://127.0.0.1:3019/account/billing",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "billing",
+      "width": 390,
+      "url": "http://127.0.0.1:3019/account/billing",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "billing",
+      "width": 375,
+      "url": "http://127.0.0.1:3019/account/billing",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "billing",
+      "width": 360,
+      "url": "http://127.0.0.1:3019/account/billing",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "billing",
+      "width": 320,
+      "url": "http://127.0.0.1:3019/account/billing",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "security",
+      "width": 1920,
+      "url": "http://127.0.0.1:3019/account/security",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "security",
+      "width": 1440,
+      "url": "http://127.0.0.1:3019/account/security",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "security",
+      "width": 1024,
+      "url": "http://127.0.0.1:3019/account/security",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "security",
+      "width": 768,
+      "url": "http://127.0.0.1:3019/account/security",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "security",
+      "width": 430,
+      "url": "http://127.0.0.1:3019/account/security",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "security",
+      "width": 390,
+      "url": "http://127.0.0.1:3019/account/security",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "security",
+      "width": 375,
+      "url": "http://127.0.0.1:3019/account/security",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "security",
+      "width": 360,
+      "url": "http://127.0.0.1:3019/account/security",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "security",
+      "width": 320,
+      "url": "http://127.0.0.1:3019/account/security",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "devices",
+      "width": 1920,
+      "url": "http://127.0.0.1:3019/account/devices",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "devices",
+      "width": 1440,
+      "url": "http://127.0.0.1:3019/account/devices",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "devices",
+      "width": 1024,
+      "url": "http://127.0.0.1:3019/account/devices",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "devices",
+      "width": 768,
+      "url": "http://127.0.0.1:3019/account/devices",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "devices",
+      "width": 430,
+      "url": "http://127.0.0.1:3019/account/devices",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "devices",
+      "width": 390,
+      "url": "http://127.0.0.1:3019/account/devices",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "devices",
+      "width": 375,
+      "url": "http://127.0.0.1:3019/account/devices",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "devices",
+      "width": 360,
+      "url": "http://127.0.0.1:3019/account/devices",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "devices",
+      "width": 320,
+      "url": "http://127.0.0.1:3019/account/devices",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "preferences",
+      "width": 1920,
+      "url": "http://127.0.0.1:3019/account/preferences",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "preferences",
+      "width": 1440,
+      "url": "http://127.0.0.1:3019/account/preferences",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "preferences",
+      "width": 1024,
+      "url": "http://127.0.0.1:3019/account/preferences",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "preferences",
+      "width": 768,
+      "url": "http://127.0.0.1:3019/account/preferences",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "preferences",
+      "width": 430,
+      "url": "http://127.0.0.1:3019/account/preferences",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "preferences",
+      "width": 390,
+      "url": "http://127.0.0.1:3019/account/preferences",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "preferences",
+      "width": 375,
+      "url": "http://127.0.0.1:3019/account/preferences",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "preferences",
+      "width": 360,
+      "url": "http://127.0.0.1:3019/account/preferences",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "preferences",
+      "width": 320,
+      "url": "http://127.0.0.1:3019/account/preferences",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "profiles-manage",
+      "width": 1920,
+      "url": "http://127.0.0.1:3019/profiles/manage",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "profiles-manage",
+      "width": 1440,
+      "url": "http://127.0.0.1:3019/profiles/manage",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "profiles-manage",
+      "width": 1024,
+      "url": "http://127.0.0.1:3019/profiles/manage",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "profiles-manage",
+      "width": 768,
+      "url": "http://127.0.0.1:3019/profiles/manage",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "profiles-manage",
+      "width": 430,
+      "url": "http://127.0.0.1:3019/profiles/manage",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "profiles-manage",
+      "width": 390,
+      "url": "http://127.0.0.1:3019/profiles/manage",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "profiles-manage",
+      "width": 375,
+      "url": "http://127.0.0.1:3019/profiles/manage",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "profiles-manage",
+      "width": 360,
+      "url": "http://127.0.0.1:3019/profiles/manage",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "profiles-manage",
+      "width": 320,
+      "url": "http://127.0.0.1:3019/profiles/manage",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "profile-new",
+      "width": 1920,
+      "url": "http://127.0.0.1:3019/profiles/new",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "profile-new",
+      "width": 1440,
+      "url": "http://127.0.0.1:3019/profiles/new",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "profile-new",
+      "width": 1024,
+      "url": "http://127.0.0.1:3019/profiles/new",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "profile-new",
+      "width": 768,
+      "url": "http://127.0.0.1:3019/profiles/new",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "profile-new",
+      "width": 430,
+      "url": "http://127.0.0.1:3019/profiles/new",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "profile-new",
+      "width": 390,
+      "url": "http://127.0.0.1:3019/profiles/new",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "profile-new",
+      "width": 375,
+      "url": "http://127.0.0.1:3019/profiles/new",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "profile-new",
+      "width": 360,
+      "url": "http://127.0.0.1:3019/profiles/new",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "profile-new",
+      "width": 320,
+      "url": "http://127.0.0.1:3019/profiles/new",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "rooms",
+      "width": 1920,
+      "url": "http://127.0.0.1:3019/browse/rooms",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "rooms",
+      "width": 1440,
+      "url": "http://127.0.0.1:3019/browse/rooms",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "rooms",
+      "width": 1024,
+      "url": "http://127.0.0.1:3019/browse/rooms",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "rooms",
+      "width": 768,
+      "url": "http://127.0.0.1:3019/browse/rooms",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "rooms",
+      "width": 430,
+      "url": "http://127.0.0.1:3019/browse/rooms",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "rooms",
+      "width": 390,
+      "url": "http://127.0.0.1:3019/browse/rooms",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "rooms",
+      "width": 375,
+      "url": "http://127.0.0.1:3019/browse/rooms",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "rooms",
+      "width": 360,
+      "url": "http://127.0.0.1:3019/browse/rooms",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "rooms",
+      "width": 320,
+      "url": "http://127.0.0.1:3019/browse/rooms",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "room-join",
+      "width": 1920,
+      "url": "http://127.0.0.1:3019/browse/rooms/join",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "room-join",
+      "width": 1440,
+      "url": "http://127.0.0.1:3019/browse/rooms/join",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "room-join",
+      "width": 1024,
+      "url": "http://127.0.0.1:3019/browse/rooms/join",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "room-join",
+      "width": 768,
+      "url": "http://127.0.0.1:3019/browse/rooms/join",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "room-join",
+      "width": 430,
+      "url": "http://127.0.0.1:3019/browse/rooms/join",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "room-join",
+      "width": 390,
+      "url": "http://127.0.0.1:3019/browse/rooms/join",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "room-join",
+      "width": 375,
+      "url": "http://127.0.0.1:3019/browse/rooms/join",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "room-join",
+      "width": 360,
+      "url": "http://127.0.0.1:3019/browse/rooms/join",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "room-join",
+      "width": 320,
+      "url": "http://127.0.0.1:3019/browse/rooms/join",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "room-create",
+      "width": 1920,
+      "url": "http://127.0.0.1:3019/browse/rooms/create",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "room-create",
+      "width": 1440,
+      "url": "http://127.0.0.1:3019/browse/rooms/create",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "room-create",
+      "width": 1024,
+      "url": "http://127.0.0.1:3019/browse/rooms/create",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "room-create",
+      "width": 768,
+      "url": "http://127.0.0.1:3019/browse/rooms/create",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "room-create",
+      "width": 430,
+      "url": "http://127.0.0.1:3019/browse/rooms/create",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "room-create",
+      "width": 390,
+      "url": "http://127.0.0.1:3019/browse/rooms/create",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "room-create",
+      "width": 375,
+      "url": "http://127.0.0.1:3019/browse/rooms/create",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "room-create",
+      "width": 360,
+      "url": "http://127.0.0.1:3019/browse/rooms/create",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "room-create",
+      "width": 320,
+      "url": "http://127.0.0.1:3019/browse/rooms/create",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "room-lobby",
+      "width": 1920,
+      "url": "http://127.0.0.1:3019/browse/rooms/preview-075b398f-deea-438f-bc1d-a93d742b5867",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "room-lobby",
+      "width": 1440,
+      "url": "http://127.0.0.1:3019/browse/rooms/preview-075b398f-deea-438f-bc1d-a93d742b5867",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "room-lobby",
+      "width": 1024,
+      "url": "http://127.0.0.1:3019/browse/rooms/preview-075b398f-deea-438f-bc1d-a93d742b5867",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "room-lobby",
+      "width": 768,
+      "url": "http://127.0.0.1:3019/browse/rooms/preview-075b398f-deea-438f-bc1d-a93d742b5867",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "room-lobby",
+      "width": 430,
+      "url": "http://127.0.0.1:3019/browse/rooms/preview-075b398f-deea-438f-bc1d-a93d742b5867",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "room-lobby",
+      "width": 390,
+      "url": "http://127.0.0.1:3019/browse/rooms/preview-075b398f-deea-438f-bc1d-a93d742b5867",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "room-lobby",
+      "width": 375,
+      "url": "http://127.0.0.1:3019/browse/rooms/preview-075b398f-deea-438f-bc1d-a93d742b5867",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "room-lobby",
+      "width": 360,
+      "url": "http://127.0.0.1:3019/browse/rooms/preview-075b398f-deea-438f-bc1d-a93d742b5867",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "room-lobby",
+      "width": 320,
+      "url": "http://127.0.0.1:3019/browse/rooms/preview-075b398f-deea-438f-bc1d-a93d742b5867",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "storymatch",
+      "width": 1920,
+      "url": "http://127.0.0.1:3019/browse/storymatch",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "storymatch",
+      "width": 1440,
+      "url": "http://127.0.0.1:3019/browse/storymatch",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "storymatch",
+      "width": 1024,
+      "url": "http://127.0.0.1:3019/browse/storymatch",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "storymatch",
+      "width": 768,
+      "url": "http://127.0.0.1:3019/browse/storymatch",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "storymatch",
+      "width": 430,
+      "url": "http://127.0.0.1:3019/browse/storymatch",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "storymatch",
+      "width": 390,
+      "url": "http://127.0.0.1:3019/browse/storymatch",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "storymatch",
+      "width": 375,
+      "url": "http://127.0.0.1:3019/browse/storymatch",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "storymatch",
+      "width": 360,
+      "url": "http://127.0.0.1:3019/browse/storymatch",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "storymatch",
+      "width": 320,
+      "url": "http://127.0.0.1:3019/browse/storymatch",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "match-new",
+      "width": 1920,
+      "url": "http://127.0.0.1:3019/browse/storymatch/new?mode=solo",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "match-new",
+      "width": 1440,
+      "url": "http://127.0.0.1:3019/browse/storymatch/new?mode=solo",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "match-new",
+      "width": 1024,
+      "url": "http://127.0.0.1:3019/browse/storymatch/new?mode=solo",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "match-new",
+      "width": 768,
+      "url": "http://127.0.0.1:3019/browse/storymatch/new?mode=solo",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "match-new",
+      "width": 430,
+      "url": "http://127.0.0.1:3019/browse/storymatch/new?mode=solo",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "match-new",
+      "width": 390,
+      "url": "http://127.0.0.1:3019/browse/storymatch/new?mode=solo",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "match-new",
+      "width": 375,
+      "url": "http://127.0.0.1:3019/browse/storymatch/new?mode=solo",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "match-new",
+      "width": 360,
+      "url": "http://127.0.0.1:3019/browse/storymatch/new?mode=solo",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "match-new",
+      "width": 320,
+      "url": "http://127.0.0.1:3019/browse/storymatch/new?mode=solo",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "match-session",
+      "width": 1920,
+      "url": "http://127.0.0.1:3019/browse/storymatch/session/match-preview-9380aeca-48c3-433a-858f-c0828780914e",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "match-session",
+      "width": 1440,
+      "url": "http://127.0.0.1:3019/browse/storymatch/session/match-preview-9380aeca-48c3-433a-858f-c0828780914e",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "match-session",
+      "width": 1024,
+      "url": "http://127.0.0.1:3019/browse/storymatch/session/match-preview-9380aeca-48c3-433a-858f-c0828780914e",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "match-session",
+      "width": 768,
+      "url": "http://127.0.0.1:3019/browse/storymatch/session/match-preview-9380aeca-48c3-433a-858f-c0828780914e",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "match-session",
+      "width": 430,
+      "url": "http://127.0.0.1:3019/browse/storymatch/session/match-preview-9380aeca-48c3-433a-858f-c0828780914e",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "match-session",
+      "width": 390,
+      "url": "http://127.0.0.1:3019/browse/storymatch/session/match-preview-9380aeca-48c3-433a-858f-c0828780914e",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "match-session",
+      "width": 375,
+      "url": "http://127.0.0.1:3019/browse/storymatch/session/match-preview-9380aeca-48c3-433a-858f-c0828780914e",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "match-session",
+      "width": 360,
+      "url": "http://127.0.0.1:3019/browse/storymatch/session/match-preview-9380aeca-48c3-433a-858f-c0828780914e",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "match-session",
+      "width": 320,
+      "url": "http://127.0.0.1:3019/browse/storymatch/session/match-preview-9380aeca-48c3-433a-858f-c0828780914e",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "match-preferences",
+      "width": 1920,
+      "url": "http://127.0.0.1:3019/browse/storymatch/session/match-preview-9380aeca-48c3-433a-858f-c0828780914e",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "match-preferences",
+      "width": 1440,
+      "url": "http://127.0.0.1:3019/browse/storymatch/session/match-preview-9380aeca-48c3-433a-858f-c0828780914e",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "match-preferences",
+      "width": 1024,
+      "url": "http://127.0.0.1:3019/browse/storymatch/session/match-preview-9380aeca-48c3-433a-858f-c0828780914e",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "match-preferences",
+      "width": 768,
+      "url": "http://127.0.0.1:3019/browse/storymatch/session/match-preview-9380aeca-48c3-433a-858f-c0828780914e",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "match-preferences",
+      "width": 430,
+      "url": "http://127.0.0.1:3019/browse/storymatch/session/match-preview-9380aeca-48c3-433a-858f-c0828780914e",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "match-preferences",
+      "width": 390,
+      "url": "http://127.0.0.1:3019/browse/storymatch/session/match-preview-9380aeca-48c3-433a-858f-c0828780914e",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "match-preferences",
+      "width": 375,
+      "url": "http://127.0.0.1:3019/browse/storymatch/session/match-preview-9380aeca-48c3-433a-858f-c0828780914e",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "match-preferences",
+      "width": 360,
+      "url": "http://127.0.0.1:3019/browse/storymatch/session/match-preview-9380aeca-48c3-433a-858f-c0828780914e",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "match-preferences",
+      "width": 320,
+      "url": "http://127.0.0.1:3019/browse/storymatch/session/match-preview-9380aeca-48c3-433a-858f-c0828780914e",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "match-results",
+      "width": 1920,
+      "url": "http://127.0.0.1:3019/browse/storymatch/results?session=match-preview-9380aeca-48c3-433a-858f-c0828780914e",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "match-results",
+      "width": 1440,
+      "url": "http://127.0.0.1:3019/browse/storymatch/results?session=match-preview-9380aeca-48c3-433a-858f-c0828780914e",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "match-results",
+      "width": 1024,
+      "url": "http://127.0.0.1:3019/browse/storymatch/results?session=match-preview-9380aeca-48c3-433a-858f-c0828780914e",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "match-results",
+      "width": 768,
+      "url": "http://127.0.0.1:3019/browse/storymatch/results?session=match-preview-9380aeca-48c3-433a-858f-c0828780914e",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "match-results",
+      "width": 430,
+      "url": "http://127.0.0.1:3019/browse/storymatch/results?session=match-preview-9380aeca-48c3-433a-858f-c0828780914e",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "match-results",
+      "width": 390,
+      "url": "http://127.0.0.1:3019/browse/storymatch/results?session=match-preview-9380aeca-48c3-433a-858f-c0828780914e",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "match-results",
+      "width": 375,
+      "url": "http://127.0.0.1:3019/browse/storymatch/results?session=match-preview-9380aeca-48c3-433a-858f-c0828780914e",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "match-results",
+      "width": 360,
+      "url": "http://127.0.0.1:3019/browse/storymatch/results?session=match-preview-9380aeca-48c3-433a-858f-c0828780914e",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "match-results",
+      "width": 320,
+      "url": "http://127.0.0.1:3019/browse/storymatch/results?session=match-preview-9380aeca-48c3-433a-858f-c0828780914e",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "match-decision",
+      "width": 1920,
+      "url": "http://127.0.0.1:3019/browse/storymatch/results?session=match-preview-9380aeca-48c3-433a-858f-c0828780914e",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "match-decision",
+      "width": 1440,
+      "url": "http://127.0.0.1:3019/browse/storymatch/results?session=match-preview-9380aeca-48c3-433a-858f-c0828780914e",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "match-decision",
+      "width": 1024,
+      "url": "http://127.0.0.1:3019/browse/storymatch/results?session=match-preview-9380aeca-48c3-433a-858f-c0828780914e",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "match-decision",
+      "width": 768,
+      "url": "http://127.0.0.1:3019/browse/storymatch/results?session=match-preview-9380aeca-48c3-433a-858f-c0828780914e",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "match-decision",
+      "width": 430,
+      "url": "http://127.0.0.1:3019/browse/storymatch/results?session=match-preview-9380aeca-48c3-433a-858f-c0828780914e",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "match-decision",
+      "width": 390,
+      "url": "http://127.0.0.1:3019/browse/storymatch/results?session=match-preview-9380aeca-48c3-433a-858f-c0828780914e",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "match-decision",
+      "width": 375,
+      "url": "http://127.0.0.1:3019/browse/storymatch/results?session=match-preview-9380aeca-48c3-433a-858f-c0828780914e",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "match-decision",
+      "width": 360,
+      "url": "http://127.0.0.1:3019/browse/storymatch/results?session=match-preview-9380aeca-48c3-433a-858f-c0828780914e",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    },
+    {
+      "name": "match-decision",
+      "width": 320,
+      "url": "http://127.0.0.1:3019/browse/storymatch/results?session=match-preview-9380aeca-48c3-433a-858f-c0828780914e",
+      "logo": "Flurzi Cinema",
+      "overflow": 0,
+      "background": "rgb(8, 9, 11)",
+      "brandBackground": "#08090b"
+    }
+  ],
+  "actions": [
+    "Public mobile navigation: tap, focus inside dialog, Escape and trigger focus restoration",
+    "Normal-motion hero image hover, pause/resume keyboard activation and all homepage feature tabs",
+    "DataSense preference cancel/save confirmation retained",
+    "Account confirmation: mobile bounds, Tab focus containment, Escape and restoration",
+    "Real preview room creation, title choice, lobby and leave confirmation; no fabricated participants/playback",
+    "Explicit solo preferences, strict service results, shortlist and confirmed host choice"
+  ],
+  "errors": [],
+  "contrast": [
+    {
+      "label": "Get Started",
+      "fg": "rgb(16, 13, 8)",
+      "bg": "rgb(217, 164, 65)",
+      "ratio": 8.620432891408594
+    },
+    {
+      "label": "SCROLL TO DISCOVER ↓THE FLURZI CINEMA COLLECT",
+      "fg": "rgb(184, 180, 173)",
+      "bg": "rgb(16, 18, 23)",
+      "ratio": 9.07284912334106
+    },
+    {
+      "label": "Take a seat",
+      "fg": "rgb(16, 13, 8)",
+      "bg": "rgb(217, 164, 65)",
+      "ratio": 8.620432891408594
+    },
+    {
+      "label": "Get Started",
+      "fg": "rgb(16, 13, 8)",
+      "bg": "rgb(217, 164, 65)",
+      "ratio": 8.620432891408594
+    },
+    {
+      "label": "Explore what comes next",
+      "fg": "rgb(16, 13, 8)",
+      "bg": "rgb(217, 164, 65)",
+      "ratio": 8.620432891408594
+    },
+    {
+      "label": "Get Started",
+      "fg": "rgb(16, 13, 8)",
+      "bg": "rgb(217, 164, 65)",
+      "ratio": 8.620432891408594
+    },
+    {
+      "label": "Discover the story",
+      "fg": "rgb(16, 13, 8)",
+      "bg": "rgb(217, 164, 65)",
+      "ratio": 8.620432891408594
+    },
+    {
+      "label": "Get Started",
+      "fg": "rgb(16, 13, 8)",
+      "bg": "rgb(217, 164, 65)",
+      "ratio": 8.620432891408594
+    },
+    {
+      "label": "Explore the episodes",
+      "fg": "rgb(16, 13, 8)",
+      "bg": "rgb(217, 164, 65)",
+      "ratio": 8.620432891408594
+    },
+    {
+      "label": "Get Started",
+      "fg": "rgb(16, 13, 8)",
+      "bg": "rgb(217, 164, 65)",
+      "ratio": 8.620432891408594
+    },
+    {
+      "label": "Get Started",
+      "fg": "rgb(16, 13, 8)",
+      "bg": "rgb(217, 164, 65)",
+      "ratio": 8.620432891408594
+    },
+    {
+      "label": "Get Started",
+      "fg": "rgb(16, 13, 8)",
+      "bg": "rgb(217, 164, 65)",
+      "ratio": 8.620432891408594
+    },
+    {
+      "label": "Get Started",
+      "fg": "rgb(16, 13, 8)",
+      "bg": "rgb(217, 164, 65)",
+      "ratio": 8.620432891408594
+    },
+    {
+      "label": "Get Started",
+      "fg": "rgb(16, 13, 8)",
+      "bg": "rgb(217, 164, 65)",
+      "ratio": 8.620432891408594
+    },
+    {
+      "label": "Explore what comes next",
+      "fg": "rgb(16, 13, 8)",
+      "bg": "rgb(217, 164, 65)",
+      "ratio": 8.620432891408594
+    },
+    {
+      "label": "Get Started",
+      "fg": "rgb(16, 13, 8)",
+      "bg": "rgb(217, 164, 65)",
+      "ratio": 8.620432891408594
+    },
+    {
+      "label": "Get Started",
+      "fg": "rgb(16, 13, 8)",
+      "bg": "rgb(217, 164, 65)",
+      "ratio": 8.620432891408594
+    },
+    {
+      "label": "Select test seat",
+      "fg": "rgb(16, 13, 8)",
+      "bg": "rgb(217, 164, 65)",
+      "ratio": 8.620432891408594
+    },
+    {
+      "label": "Find a story to explore",
+      "fg": "rgb(16, 13, 8)",
+      "bg": "rgb(217, 164, 65)",
+      "ratio": 8.620432891408594
+    },
+    {
+      "label": "Get Started",
+      "fg": "rgb(16, 13, 8)",
+      "bg": "rgb(217, 164, 65)",
+      "ratio": 8.620432891408594
+    },
+    {
+      "label": "Get Started",
+      "fg": "rgb(16, 13, 8)",
+      "bg": "rgb(217, 164, 65)",
+      "ratio": 8.620432891408594
+    },
+    {
+      "label": "Explore what comes next",
+      "fg": "rgb(16, 13, 8)",
+      "bg": "rgb(217, 164, 65)",
+      "ratio": 8.620432891408594
+    },
+    {
+      "label": "Get Started",
+      "fg": "rgb(16, 13, 8)",
+      "bg": "rgb(217, 164, 65)",
+      "ratio": 8.620432891408594
+    },
+    {
+      "label": "Preview inquiry",
+      "fg": "rgb(16, 13, 8)",
+      "bg": "rgb(217, 164, 65)",
+      "ratio": 8.620432891408594
+    },
+    {
+      "label": "Get Started",
+      "fg": "rgb(16, 13, 8)",
+      "bg": "rgb(217, 164, 65)",
+      "ratio": 8.620432891408594
+    },
+    {
+      "label": "Get Started",
+      "fg": "rgb(16, 13, 8)",
+      "bg": "rgb(217, 164, 65)",
+      "ratio": 8.620432891408594
+    },
+    {
+      "label": "Get Started",
+      "fg": "rgb(16, 13, 8)",
+      "bg": "rgb(217, 164, 65)",
+      "ratio": 8.620432891408594
+    },
+    {
+      "label": "Get Started",
+      "fg": "rgb(16, 13, 8)",
+      "bg": "rgb(217, 164, 65)",
+      "ratio": 8.620432891408594
+    },
+    {
+      "label": "Get Started",
+      "fg": "rgb(16, 13, 8)",
+      "bg": "rgb(217, 164, 65)",
+      "ratio": 8.620432891408594
+    },
+    {
+      "label": "Sign in",
+      "fg": "rgb(16, 13, 8)",
+      "bg": "rgb(217, 164, 65)",
+      "ratio": 8.620432891408594
+    },
+    {
+      "label": "Create account",
+      "fg": "rgb(16, 13, 8)",
+      "bg": "rgb(217, 164, 65)",
+      "ratio": 8.620432891408594
+    },
+    {
+      "label": "Save data preference",
+      "fg": "rgb(16, 13, 8)",
+      "bg": "rgb(217, 164, 65)",
+      "ratio": 8.620432891408594
+    },
+    {
+      "label": "Save language preferences",
+      "fg": "rgb(16, 13, 8)",
+      "bg": "rgb(217, 164, 65)",
+      "ratio": 8.620432891408594
+    }
+  ],
+  "routes": [
+    {
+      "url": "http://127.0.0.1:3019/",
+      "via": "public route"
+    },
+    {
+      "url": "http://127.0.0.1:3019/explore",
+      "via": "public route"
+    },
+    {
+      "url": "http://127.0.0.1:3019/movies",
+      "via": "public route"
+    },
+    {
+      "url": "http://127.0.0.1:3019/series",
+      "via": "public route"
+    },
+    {
+      "url": "http://127.0.0.1:3019/movies/quiet-beyond",
+      "via": "public route"
+    },
+    {
+      "url": "http://127.0.0.1:3019/series/velvet-hours",
+      "via": "public route"
+    },
+    {
+      "url": "http://127.0.0.1:3019/originals",
+      "via": "public route"
+    },
+    {
+      "url": "http://127.0.0.1:3019/premieres",
+      "via": "public route"
+    },
+    {
+      "url": "http://127.0.0.1:3019/features",
+      "via": "public route"
+    },
+    {
+      "url": "http://127.0.0.1:3019/pricing",
+      "via": "public route"
+    },
+    {
+      "url": "http://127.0.0.1:3019/about",
+      "via": "public route"
+    },
+    {
+      "url": "http://127.0.0.1:3019/contact",
+      "via": "public route"
+    },
+    {
+      "url": "http://127.0.0.1:3019/help",
+      "via": "public route"
+    },
+    {
+      "url": "http://127.0.0.1:3019/legal/privacy",
+      "via": "public route"
+    },
+    {
+      "url": "http://127.0.0.1:3019/legal/terms",
+      "via": "public route"
+    },
+    {
+      "url": "http://127.0.0.1:3019/legal/cookies",
+      "via": "public route"
+    },
+    {
+      "url": "http://127.0.0.1:3019/legal/copyright",
+      "via": "public route"
+    },
+    {
+      "url": "http://127.0.0.1:3019/login",
+      "via": "public route"
+    },
+    {
+      "url": "http://127.0.0.1:3019/signup",
+      "via": "public route"
+    },
+    {
+      "url": "http://127.0.0.1:3019/browse/movies",
+      "via": "existing link"
+    },
+    {
+      "url": "http://127.0.0.1:3019/browse/series",
+      "via": "existing link"
+    },
+    {
+      "url": "http://127.0.0.1:3019/browse/search",
+      "via": "existing link"
+    },
+    {
+      "url": "http://127.0.0.1:3019/browse/my-list",
+      "via": "existing link"
+    },
+    {
+      "url": "http://127.0.0.1:3019/browse/history",
+      "via": "existing link"
+    },
+    {
+      "url": "http://127.0.0.1:3019/browse",
+      "via": "existing link"
+    },
+    {
+      "url": "http://127.0.0.1:3019/account",
+      "via": "existing link"
+    },
+    {
+      "url": "http://127.0.0.1:3019/account/details",
+      "via": "existing link"
+    },
+    {
+      "url": "http://127.0.0.1:3019/account/billing",
+      "via": "existing link"
+    },
+    {
+      "url": "http://127.0.0.1:3019/account/security",
+      "via": "existing link"
+    },
+    {
+      "url": "http://127.0.0.1:3019/account/devices",
+      "via": "existing link"
+    },
+    {
+      "url": "http://127.0.0.1:3019/account/preferences",
+      "via": "existing link"
+    },
+    {
+      "url": "http://127.0.0.1:3019/account/security",
+      "via": "existing link"
+    },
+    {
+      "url": "http://127.0.0.1:3019/profiles/manage",
+      "via": "existing link"
+    },
+    {
+      "url": "http://127.0.0.1:3019/browse/rooms",
+      "via": "existing link"
+    },
+    {
+      "url": "http://127.0.0.1:3019/browse/rooms/join",
+      "via": "existing link"
+    },
+    {
+      "url": "http://127.0.0.1:3019/browse/rooms",
+      "via": "existing link"
+    },
+    {
+      "url": "http://127.0.0.1:3019/browse/rooms/create",
+      "via": "existing link"
+    },
+    {
+      "url": "http://127.0.0.1:3019/browse/storymatch",
+      "via": "existing link"
+    }
+  ],
+  "complete": true
+}

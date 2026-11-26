@@ -1,0 +1,91 @@
+
+> flurzi-cinema@0.1.0 test:unit
+> vitest run --maxWorkers=1
+
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - ESM syntax in a file loaded as CommonJS (vitest.config.ts:1:1). Use a `.mjs` extension or set `"type": "module"` in the closest package.json
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+
+ RUN  v5.1.1 C:/Users/USER/Downloads/flurzicinema
+
+ ❯ tests/storylens.unit.test.ts (42 tests | 4 failed) 54ms
+   ❯ StoryLens verified metadata (18)
+     × allows genuinely missing annotations 8ms
+   ❯ viewer lifetime, caching and unavailable services (8)
+     × coalesces pending reads and reuses bounded cache 4ms
+     × refreshes expired cache rather than applying it 1ms
+     × aborts pending transports on disposal 1ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 4 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/storylens.unit.test.ts > StoryLens verified metadata > allows genuinely missing annotations
+ServiceError: Context information could not be verified.
+ ❯ invalid lib/storylens.ts:29:32
+     27|  try{const url=new URL(value);if(url.protocol==='https:'&&!url.usernam…
+     28| }
+     29| function invalid():never{throw new ServiceError({code:'METADATA_INVALI…
+       |                                ^
+     30| export function validateLensContext(value:StoryLensContext,identity:Le…
+     31|  if(!value||value.titleId!==identity.titleId||value.episodeId!==identi…
+ ❯ record lib/storylens.ts:40:99
+ ❯ validateLensContext lib/storylens.ts:47:16
+ ❯ tests/storylens.unit.test.ts:20:91
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/4]⎯
+
+ FAIL  tests/storylens.unit.test.ts > viewer lifetime, caching and unavailable services > coalesces pending reads and reuses bounded cache
+ServiceError: Context information could not be verified.
+ ❯ invalid lib/storylens.ts:29:32
+     27|  try{const url=new URL(value);if(url.protocol==='https:'&&!url.usernam…
+     28| }
+     29| function invalid():never{throw new ServiceError({code:'METADATA_INVALI…
+       |                                ^
+     30| export function validateLensContext(value:StoryLensContext,identity:Le…
+     31|  if(!value||value.titleId!==identity.titleId||value.episodeId!==identi…
+ ❯ record lib/storylens.ts:40:99
+ ❯ validateLensContext lib/storylens.ts:47:16
+ ❯ lib/storylens.ts:88:12
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/4]⎯
+
+ FAIL  tests/storylens.unit.test.ts > viewer lifetime, caching and unavailable services > refreshes expired cache rather than applying it
+ServiceError: Context information could not be verified.
+ ❯ invalid lib/storylens.ts:29:32
+     27|  try{const url=new URL(value);if(url.protocol==='https:'&&!url.usernam…
+     28| }
+     29| function invalid():never{throw new ServiceError({code:'METADATA_INVALI…
+       |                                ^
+     30| export function validateLensContext(value:StoryLensContext,identity:Le…
+     31|  if(!value||value.titleId!==identity.titleId||value.episodeId!==identi…
+ ❯ record lib/storylens.ts:40:99
+ ❯ validateLensContext lib/storylens.ts:47:16
+ ❯ lib/storylens.ts:88:12
+ ❯ tests/storylens.unit.test.ts:37:243
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/4]⎯
+
+ FAIL  tests/storylens.unit.test.ts > viewer lifetime, caching and unavailable services > aborts pending transports on disposal
+ServiceError: Context information could not be verified.
+ ❯ invalid lib/storylens.ts:29:32
+     27|  try{const url=new URL(value);if(url.protocol==='https:'&&!url.usernam…
+     28| }
+     29| function invalid():never{throw new ServiceError({code:'METADATA_INVALI…
+       |                                ^
+     30| export function validateLensContext(value:StoryLensContext,identity:Le…
+     31|  if(!value||value.titleId!==identity.titleId||value.episodeId!==identi…
+ ❯ record lib/storylens.ts:40:99
+ ❯ validateLensContext lib/storylens.ts:47:16
+ ❯ lib/storylens.ts:88:12
+ ❯ tests/storylens.unit.test.ts:40:194
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[4/4]⎯
+
+
+ Test Files  1 failed | 9 passed (10)
+      Tests  4 failed | 282 passed (286)
+   Start at  00:34:14
+   Duration  56.76s (tests 93%, transform 5%, import 2%)
+
+    Isolate  10 workers spawned · ~457ms startup each (spawn + environment, per file)
+             at least ~4.12s faster with isolate: false — reuses workers across files instead of one per file
+

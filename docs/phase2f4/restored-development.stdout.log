@@ -1,0 +1,91 @@
+▲ Next.js 16.4.6 (Turbopack)
+- Local:         http://127.0.0.1:3000
+- Network:       http://127.0.0.1:3000
+- Environments: .env.local
+✓ Ready in 4.2s
+✓ Running next.config.ts took 146ms
+Creating turbopack project { dir: 'C:\\Users\\USER\\Downloads\\flurzicinema', testMode: true }
+○ Compiling proxy ...
+- Experiments (use with caution):
+  ⨯ serverSourceMaps
+  ✓ turbopackSourceMaps
+
+○ Compiling /login ...
+✓ Finished filesystem cache database compaction in 52s
+✓ Finished writing to filesystem cache in 13.2s
+✓ Finished filesystem cache database compaction in 10.8s
+✓ Finished writing to filesystem cache in 23.0s
+ GET /login 200 in 8.4s (next.js: 5.2s, application-code: 3.2s)
+ GET /login 200 in 148ms (next.js: 4ms, application-code: 144ms)
+ GET /login 200 in 256ms (next.js: 5ms, application-code: 251ms)
+ GET /login 200 in 100ms (next.js: 5ms, application-code: 96ms)
+✓ Finished filesystem cache database compaction in 17.5s
+ GET /login 200 in 100ms (next.js: 3ms, application-code: 97ms)
+ GET /login 200 in 197ms (next.js: 51ms, application-code: 146ms)
+ GET /login 200 in 105ms (next.js: 3ms, application-code: 102ms)
+ GET /login 200 in 219ms (next.js: 5ms, application-code: 214ms)
+ GET /login 200 in 99ms (next.js: 3ms, application-code: 96ms)
+ GET /login 200 in 184ms (next.js: 8ms, application-code: 176ms)
+ GET /login 200 in 96ms (next.js: 3ms, application-code: 93ms)
+ GET /login 200 in 476ms (next.js: 33ms, application-code: 443ms)
+ GET /login 200 in 112ms (next.js: 4ms, application-code: 108ms)
+○ Compiling / ...
+ GET / 200 in 2.1s (next.js: 645ms, application-code: 1441ms)
+○ Compiling /features ...
+✓ Finished writing to filesystem cache in 8.8min
+ GET / 200 in 434ms (next.js: 11ms, application-code: 423ms)
+ GET /login 200 in 208ms (next.js: 6ms, application-code: 202ms)
+○ Compiling /subscribe ...
+✓ Finished filesystem cache database compaction in 12.3s
+ GET /subscribe 200 in 831ms (next.js: 498ms, application-code: 333ms)
+ GET /subscribe 200 in 84ms (next.js: 5ms, application-code: 79ms)
+○ Compiling /profiles ...
+ GET /profiles 200 in 255ms (next.js: 63ms, application-code: 192ms)
+○ Compiling /browse ...
+ GET /browse 200 in 177ms (next.js: 91ms, application-code: 86ms)
+○ Compiling /browse/title/[id] ...
+ GET /browse/title/mock-quiet-beyond 200 in 12.0s (next.js: 11.7s, application-code: 295ms)
+○ Compiling /account ...
+✓ Finished writing to filesystem cache in 20.4s
+✓ Compiled in 82.9s
+✓ Finished filesystem cache database compaction in 102s
+✓ Finished writing to filesystem cache in 17.5s
+○ Compiling / ...
+ GET / 200 in 3.9s (next.js: 133ms, application-code: 3.8s)
+✓ Finished filesystem cache database compaction in 79s
+○ Compiling /login ...
+ GET /login 200 in 921ms (next.js: 92ms, application-code: 829ms)
+ GET /subscribe 200 in 208ms (next.js: 23ms, application-code: 185ms)
+ GET /subscribe 200 in 117ms (next.js: 7ms, application-code: 109ms)
+ GET /profiles 200 in 217ms (next.js: 32ms, application-code: 185ms)
+ GET /browse 200 in 338ms (next.js: 37ms, application-code: 300ms)
+○ Compiling /browse/title/[id] ...
+ GET /browse/title/mock-quiet-beyond 200 in 386ms (next.js: 64ms, application-code: 322ms)
+○ Compiling /account ...
+✓ Compiled in 31.6s
+○ Compiling /signup ...
+ GET /signup 200 in 595ms (next.js: 67ms, application-code: 528ms)
+ GET /login 200 in 433ms (next.js: 97ms, application-code: 337ms)
+○ Compiling /watch/[id] ...
+ GET / 200 in 554ms (next.js: 52ms, application-code: 502ms)
+ GET /watch/mock-quiet-beyond 200 in 5.4s (next.js: 4.7s, application-code: 716ms)
+ GET /login 200 in 142ms (next.js: 6ms, application-code: 135ms)
+✓ Finished writing to filesystem cache in 13.6s
+  Turbopack has seen frequent file updates and is waiting for the filesystem to settle (0.5s elapsed so far; last modified: "\\\\?\\C:\\Users\\USER\\Downloads\\flurzicinema\\.brand-lab\\components\\streaming\\OnboardingScreens.tsx").
+✓ Compiled in 14.7s
+ GET / 200 in 195ms (next.js: 5ms, application-code: 189ms)
+✓ Finished writing to filesystem cache in 115s
+✓ Finished filesystem cache database compaction in 13.4s
+○ Compiling / ...
+✓ Finished writing to filesystem cache in 30.4s
+✓ Compiled in 371s
+ GET / 200 in 716ms (next.js: 13ms, application-code: 703ms)
+ GET / 200 in 5.4s (next.js: 178ms, application-code: 5.2s)
+ GET / 200 in 3.9s (next.js: 7ms, application-code: 3.9s)
+ GET / 200 in 5.0s (next.js: 3ms, application-code: 5.0s)
+✓ Finished filesystem cache database compaction in 2.1min
+ GET / 200 in 477ms (next.js: 20ms, application-code: 457ms)
+✓ Compiled in 13.3s
+✓ Compiled in 949ms
+✓ Compiled in 527ms
+✓ Compiled in 23.1s

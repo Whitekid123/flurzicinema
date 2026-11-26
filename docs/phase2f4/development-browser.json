@@ -1,0 +1,133 @@
+{
+  "mode": "development",
+  "screens": [
+    {
+      "name": "player-datasense",
+      "width": 1920,
+      "overflow": 0,
+      "videoWidth": 1036
+    },
+    {
+      "name": "player-datasense",
+      "width": 1440,
+      "overflow": 0,
+      "videoWidth": 996
+    },
+    {
+      "name": "player-datasense",
+      "width": 1024,
+      "overflow": 0,
+      "videoWidth": 984
+    },
+    {
+      "name": "player-datasense",
+      "width": 768,
+      "overflow": 0,
+      "videoWidth": 728
+    },
+    {
+      "name": "player-datasense",
+      "width": 430,
+      "overflow": 0,
+      "videoWidth": 390
+    },
+    {
+      "name": "player-datasense",
+      "width": 390,
+      "overflow": 0,
+      "videoWidth": 350
+    },
+    {
+      "name": "player-datasense",
+      "width": 375,
+      "overflow": 0,
+      "videoWidth": 335
+    },
+    {
+      "name": "player-datasense",
+      "width": 360,
+      "overflow": 0,
+      "videoWidth": 320
+    },
+    {
+      "name": "player-datasense",
+      "width": 320,
+      "overflow": 0,
+      "videoWidth": 280
+    },
+    {
+      "name": "landscape-player",
+      "width": 844,
+      "overflow": 0,
+      "videoWidth": 804
+    },
+    {
+      "name": "public-calculator",
+      "width": 1920,
+      "overflow": 0
+    },
+    {
+      "name": "public-calculator",
+      "width": 1440,
+      "overflow": 0
+    },
+    {
+      "name": "public-calculator",
+      "width": 1024,
+      "overflow": 0
+    },
+    {
+      "name": "public-calculator",
+      "width": 768,
+      "overflow": 0
+    },
+    {
+      "name": "public-calculator",
+      "width": 430,
+      "overflow": 0
+    },
+    {
+      "name": "public-calculator",
+      "width": 390,
+      "overflow": 0
+    },
+    {
+      "name": "public-calculator",
+      "width": 375,
+      "overflow": 0
+    },
+    {
+      "name": "public-calculator",
+      "width": 360,
+      "overflow": 0
+    },
+    {
+      "name": "public-calculator",
+      "width": 320,
+      "overflow": 0
+    }
+  ],
+  "interactions": [
+    "Player: nine widths; touch typing/focus during playback; panel exclusivity; local example transfer deduplication and notification dismissal; confirmed example selection preserves source/position; zero auxiliary room intents; reduced motion; landscape; fullscreen; native unknown telemetry"
+  ],
+  "errors": [],
+  "http": [
+    {
+      "path": "/player-lab",
+      "status": 200
+    },
+    {
+      "path": "/api/player-lab/original.webm",
+      "status": 200
+    },
+    {
+      "path": "/api/player-lab/captions.vtt",
+      "status": 200
+    },
+    {
+      "path": "/scripts/fixtures/player/original.webm",
+      "status": 404
+    }
+  ],
+  "complete": true
+}

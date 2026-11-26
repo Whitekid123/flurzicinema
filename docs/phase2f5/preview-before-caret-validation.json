@@ -1,0 +1,26 @@
+[
+  {
+    "command": "npm run typecheck",
+    "code": 0,
+    "seconds": 19.643,
+    "log": "docs/phase2f5/preview-typecheck.log"
+  },
+  {
+    "command": "npm run lint",
+    "code": 0,
+    "seconds": 148.529,
+    "log": "docs/phase2f5/preview-lint.log"
+  },
+  {
+    "command": "npm run build",
+    "code": 0,
+    "seconds": 131.682,
+    "log": "docs/phase2f5/preview-build.log"
+  },
+  {
+    "command": "npm run test:unit -- --maxWorkers=1",
+    "code": 0,
+    "seconds": 64.533,
+    "log": "docs/phase2f5/preview-unit.log"
+  }
+]

@@ -1,0 +1,75 @@
+{
+  "typecheck": {
+    "passed": true,
+    "command": "npm run typecheck"
+  },
+  "lint": {
+    "passed": true,
+    "command": "npm run lint",
+    "errors": 0,
+    "warnings": 0,
+    "followup": "Targeted lint passed after the test-only provenance-copy correction."
+  },
+  "build": {
+    "passed": true,
+    "builder": "Turbopack",
+    "staticPages": 53,
+    "releaseBuildId": "WvDE2rygfsqJyicusT9fi",
+    "previewBuildId": "1_QOimRLsu-1pF6tC86kc",
+    "finalArtifact": "release, mocks disabled"
+  },
+  "unit": {
+    "passed": true,
+    "command": "npm run test:unit -- --maxWorkers=1",
+    "files": 10,
+    "total": 286,
+    "newStoryLensTests": 42,
+    "existingTests": 244,
+    "initialFailure": "Four new tests shared mutable provenance in the test factory; each record now receives a copy.",
+    "existingWarning": "Vitest native config-loader compatibility warning retained."
+  },
+  "browser": {
+    "passed": true,
+    "engine": "Chromium",
+    "widths": [
+      1920,
+      1440,
+      1024,
+      768,
+      430,
+      390,
+      375,
+      360,
+      320
+    ],
+    "developmentFinalObservations": 19,
+    "optimizedPreviewObservations": 9,
+    "releaseObservations": 9,
+    "totalObservations": 37,
+    "pageErrors": 0,
+    "physicalDevices": false,
+    "otherEnginesTested": false
+  },
+  "preservation": {
+    "passed": true,
+    "unchangedOriginalSources": 189,
+    "plannedExistingSourceChanges": 9,
+    "dependenciesChanged": false,
+    "sharedTestConfigurationChanged": false,
+    "originalTestsChanged": false,
+    "catalogDataChanged": false,
+    "userDevelopmentServerStopped": false,
+    "ownedPort3016Closed": true,
+    "debugLogRestoredWithWarningsRetained": true
+  },
+  "releaseAssetAudit": {
+    "passed": true,
+    "testMetadataHits": 0,
+    "credentialHits": 0
+  },
+  "limitations": [
+    "Production metadata adapters remain unavailable.",
+    "Real licensed episode context, external portraits, additional native audio and independently connected room clients require integration verification.",
+    "Physical devices, native phone keyboards, Safari, Firefox and real-device PiP/native fullscreen were not tested."
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "mode": "development",
+  "screens": [],
+  "interactions": [],
+  "errors": [],
+  "http": [],
+  "failure": "locator.evaluate: ReferenceError: time is not defined\n    at eval (eval at evaluate (:370:30), <anonymous>:1:27)\n    at UtilityScript.evaluate (<anonymous>:372:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\n    at C:\\Users\\USER\\Downloads\\flurzicinema\\scripts\\phase2f3-browser.mjs:17:146\n    at async seek (C:\\Users\\USER\\Downloads\\flurzicinema\\scripts\\phase2f3-browser.mjs:17:105)\n    at async file:///C:/Users/USER/Downloads/flurzicinema/scripts/phase2f3-browser.mjs:25:48"
+}

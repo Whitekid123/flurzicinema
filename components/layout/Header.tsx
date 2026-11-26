@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { BrandWordmark } from "@/components/ui/BrandWordmark";
 import { Modal } from "@/components/ui/Modal";
 
 const links = [
@@ -14,10 +15,7 @@ const links = [
 ];
 export function Brand() {
   return (
-    <span className="brand">
-      flurzi<span className="brand-star">✳</span>
-      <span className="brand-sub">CINEMA</span>
-    </span>
+    <span className="brand"><BrandWordmark/></span>
   );
 }
 export function Header({ onSignIn }: { onSignIn?: () => void }) {

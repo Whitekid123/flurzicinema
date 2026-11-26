@@ -1,0 +1,203 @@
+{
+  "mode": "development",
+  "screens": [
+    {
+      "name": "player-panel",
+      "width": 1920,
+      "overflow": 0,
+      "video": 1056
+    },
+    {
+      "name": "player-panel",
+      "width": 1440,
+      "overflow": 0,
+      "video": 1016
+    },
+    {
+      "name": "player-panel",
+      "width": 1024,
+      "overflow": 0,
+      "video": 984
+    },
+    {
+      "name": "player-panel",
+      "width": 768,
+      "overflow": 0,
+      "video": 728
+    },
+    {
+      "name": "player-panel",
+      "width": 430,
+      "overflow": 0,
+      "video": 390
+    },
+    {
+      "name": "player-panel",
+      "width": 390,
+      "overflow": 0,
+      "video": 350
+    },
+    {
+      "name": "player-panel",
+      "width": 375,
+      "overflow": 0,
+      "video": 335
+    },
+    {
+      "name": "player-panel",
+      "width": 360,
+      "overflow": 0,
+      "video": 320
+    },
+    {
+      "name": "player-panel",
+      "width": 320,
+      "overflow": 0,
+      "video": 280
+    },
+    {
+      "name": "landscape-player",
+      "width": 844,
+      "overflow": 0,
+      "video": 804
+    }
+  ],
+  "interactions": [],
+  "errors": [],
+  "http": [],
+  "seeks": [
+    {
+      "time": 5,
+      "paused": true,
+      "duration": 19.955492,
+      "seekable": [
+        [
+          0,
+          19.955492
+        ]
+      ]
+    },
+    {
+      "time": 5,
+      "paused": true,
+      "duration": 19.955492,
+      "seekable": [
+        [
+          0,
+          19.955492
+        ]
+      ]
+    },
+    {
+      "time": 5,
+      "paused": true,
+      "duration": 19.955492,
+      "seekable": [
+        [
+          0,
+          19.955492
+        ]
+      ]
+    },
+    {
+      "time": 5,
+      "paused": true,
+      "duration": 19.955492,
+      "seekable": [
+        [
+          0,
+          19.955492
+        ]
+      ]
+    },
+    {
+      "time": 5,
+      "paused": true,
+      "duration": 19.955492,
+      "seekable": [
+        [
+          0,
+          19.955492
+        ]
+      ]
+    },
+    {
+      "time": 5,
+      "paused": true,
+      "duration": 19.955492,
+      "seekable": [
+        [
+          0,
+          19.955492
+        ]
+      ]
+    },
+    {
+      "time": 5,
+      "paused": true,
+      "duration": 19.955492,
+      "seekable": [
+        [
+          0,
+          19.955492
+        ]
+      ]
+    },
+    {
+      "time": 5,
+      "paused": true,
+      "duration": 19.955492,
+      "seekable": [
+        [
+          0,
+          19.955492
+        ]
+      ]
+    },
+    {
+      "time": 5,
+      "paused": true,
+      "duration": 19.955492,
+      "seekable": [
+        [
+          0,
+          19.955492
+        ]
+      ]
+    },
+    {
+      "time": 14,
+      "paused": true,
+      "duration": 19.955492,
+      "seekable": [
+        [
+          0,
+          19.955492
+        ]
+      ]
+    },
+    {
+      "time": 12,
+      "paused": true,
+      "duration": 19.955492,
+      "seekable": [
+        [
+          0,
+          19.955492
+        ]
+      ]
+    },
+    {
+      "time": 5,
+      "paused": true,
+      "duration": 19.955492,
+      "seekable": [
+        [
+          0,
+          19.955492
+        ]
+      ]
+    }
+  ],
+  "failure": "page.waitForURL: Timeout 45000ms exceeded.\n=========================== logs ===========================\nwaiting for navigation to \"**/browse/title/mock-quiet-beyond\" until \"load\"\n============================================================\n    at auth (C:\\Users\\USER\\Downloads\\flurzicinema\\scripts\\phase2f3-browser.mjs:15:85)\n    at async catalog (C:\\Users\\USER\\Downloads\\flurzicinema\\scripts\\phase2f3-browser.mjs:19:3)\n    at async file:///C:/Users/USER/Downloads/flurzicinema/scripts/phase2f3-browser.mjs:61:46"
+}

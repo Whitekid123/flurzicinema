@@ -1,0 +1,55 @@
+/* Flurzi Cinema: semantic colours shared by every surface.
+   The supplied promotional artwork remains intact in public/brand. */
+:root {
+  color-scheme: dark;
+  --brand-obsidian: #08090b;
+  --brand-charcoal: #161619;
+  --brand-midnight: #0d1420;
+  --brand-gold: #d9a441;
+  --brand-champagne: #f3c86a;
+  --brand-ivory: #f6f0e6;
+  --brand-bronze: #94601d;
+  --brand-silver: #9c9a96;
+  --brand-theatre-red: #5b1015;
+
+  --brand-bg: var(--brand-obsidian);
+  --brand-bg-secondary: #101217;
+  --brand-surface: var(--brand-charcoal);
+  --brand-surface-raised: #202126;
+  --brand-surface-hover: #292a2e;
+  --brand-text: var(--brand-ivory);
+  --brand-text-secondary: #b8b4ad;
+  --brand-text-muted: #a5a19a;
+  --brand-accent: var(--brand-gold);
+  --brand-action: var(--brand-gold);
+  --brand-action-hover: var(--brand-champagne);
+  --brand-on-action: #100d08;
+  --brand-secondary-action: transparent;
+  --brand-selected-bg: #2b2419;
+  --brand-selected-text: var(--brand-champagne);
+  --brand-focus: var(--brand-champagne);
+  --brand-border: #3b3a36;
+  --brand-border-strong: #767168;
+  --brand-disabled-bg: #29292b;
+  --brand-disabled-text: #a5a19a;
+  --brand-error: #f1aaa1;
+  --brand-error-bg: #29181a;
+  --brand-warning: #f3c86a;
+  --brand-warning-bg: #2b2419;
+  --brand-success: #b7cfb1;
+  --brand-success-bg: #1b2821;
+  --brand-scrim: #08090be8;
+  --brand-line-soft: #f6f0e619;
+  --brand-display: Georgia, "Times New Roman", serif;
+  --brand-radius: 8px;
+
+  /* Compatibility names for existing public components. */
+  --ink: var(--brand-bg);
+  --surface: var(--brand-surface);
+  --amber: var(--brand-accent);
+  --soft-amber: var(--brand-champagne);
+  --teal: var(--brand-success);
+  --ivory: var(--brand-text);
+  --silver: var(--brand-text-secondary);
+  --divider: var(--brand-border);
+}

@@ -1,0 +1,23 @@
+{
+  "closed": true,
+  "removed": [
+    "C:\\Users\\USER\\Downloads\\flurzicinema\\.phase2f3-lab",
+    "C:\\Users\\USER\\Downloads\\flurzicinema\\.next-storylens-qa",
+    "C:\\Users\\USER\\Downloads\\flurzicinema\\scripts\\phase2f3-accessibility-fix.mjs",
+    "C:\\Users\\USER\\Downloads\\flurzicinema\\scripts\\phase2f3-adjust-harness.mjs",
+    "C:\\Users\\USER\\Downloads\\flurzicinema\\scripts\\phase2f3-browser-strengthen.mjs",
+    "C:\\Users\\USER\\Downloads\\flurzicinema\\scripts\\phase2f3-capture-harness.mjs",
+    "C:\\Users\\USER\\Downloads\\flurzicinema\\scripts\\phase2f3-escape-fix.mjs",
+    "C:\\Users\\USER\\Downloads\\flurzicinema\\scripts\\phase2f3-expiry-render-fix.mjs",
+    "C:\\Users\\USER\\Downloads\\flurzicinema\\scripts\\phase2f3-final-harness-detail.mjs",
+    "C:\\Users\\USER\\Downloads\\flurzicinema\\scripts\\phase2f3-handoff.mjs",
+    "C:\\Users\\USER\\Downloads\\flurzicinema\\scripts\\phase2f3-harness-fix.mjs",
+    "C:\\Users\\USER\\Downloads\\flurzicinema\\scripts\\phase2f3-integrate.mjs",
+    "C:\\Users\\USER\\Downloads\\flurzicinema\\scripts\\phase2f3-lab-integrate.mjs",
+    "C:\\Users\\USER\\Downloads\\flurzicinema\\scripts\\phase2f3-polish.mjs",
+    "C:\\Users\\USER\\Downloads\\flurzicinema\\scripts\\phase2f3-prewarm-harness.mjs",
+    "C:\\Users\\USER\\Downloads\\flurzicinema\\scripts\\phase2f3-pure-expiry-fix.mjs",
+    "C:\\Users\\USER\\Downloads\\flurzicinema\\scripts\\phase2f3-release-harness-fix.mjs",
+    "C:\\Users\\USER\\Downloads\\flurzicinema\\scripts\\phase2f3-seek-harness-fix.mjs"
+  ]
+}

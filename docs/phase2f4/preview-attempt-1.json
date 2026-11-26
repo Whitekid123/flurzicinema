@@ -1,0 +1,54 @@
+{
+  "mode": "preview",
+  "screens": [
+    {
+      "name": "public-calculator",
+      "width": 1920,
+      "overflow": 0
+    },
+    {
+      "name": "public-calculator",
+      "width": 1440,
+      "overflow": 0
+    },
+    {
+      "name": "public-calculator",
+      "width": 1024,
+      "overflow": 0
+    },
+    {
+      "name": "public-calculator",
+      "width": 768,
+      "overflow": 0
+    },
+    {
+      "name": "public-calculator",
+      "width": 430,
+      "overflow": 0
+    },
+    {
+      "name": "public-calculator",
+      "width": 390,
+      "overflow": 0
+    },
+    {
+      "name": "public-calculator",
+      "width": 375,
+      "overflow": 0
+    },
+    {
+      "name": "public-calculator",
+      "width": 360,
+      "overflow": 0
+    },
+    {
+      "name": "public-calculator",
+      "width": 320,
+      "overflow": 0
+    }
+  ],
+  "interactions": [],
+  "errors": [],
+  "http": [],
+  "failure": "page.waitForURL: Timeout 45000ms exceeded.\n=========================== logs ===========================\nwaiting for navigation to \"**/subscribe\" until \"load\"\n============================================================\n    at auth (C:\\Users\\USER\\Downloads\\flurzicinema\\scripts\\phase2f4-browser.mjs:36:10)\n    at async file:///C:/Users/USER/Downloads/flurzicinema/scripts/phase2f4-browser.mjs:82:3"
+}

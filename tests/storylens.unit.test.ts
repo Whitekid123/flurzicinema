@@ -1,0 +1,44 @@
+import {describe,it,expect,vi,afterEach} from 'vitest';
+import {activeLensScenes,approvedLensUrl,createLensReader,lensError,lensVisibility,validLensMedia,validateLensContext,type StoryLensContext,type StoryLensService} from '../lib/storylens';
+import {lensLabContext,lensLabTitle} from '../lib/development/storylens-fixture';
+import {unavailableStoryLensService} from '../lib/api/storylens-service';
+const identity={titleId:'original-player-test',profileId:'lab-viewer'};
+const fixture=()=>lensLabContext();
+afterEach(()=>vi.useRealTimers());
+describe('StoryLens verified metadata',()=>{
+ it('accepts exactly scoped supplied metadata',()=>expect(validateLensContext(fixture(),identity).version).toBe('motion-study-test-v1'));
+ it.each([{titleId:'other',profileId:identity.profileId},{...identity,profileId:'other'},{...identity,episodeId:'other'}])('rejects different media/profile %j',scope=>expect(()=>validateLensContext(fixture(),scope)).toThrow());
+ it('rejects expired metadata',()=>{const v=fixture();v.expiresAt='2000-01-01T00:00:00Z';expect(()=>validateLensContext(v,identity)).toThrow();});
+ it.each([NaN,-1,Infinity])('rejects invalid annotation timing %s',start=>{const v=fixture();v.annotations[0].startSeconds=start;expect(()=>validateLensContext(v,identity)).toThrow();});
+ it('rejects zero or reversed segments',()=>{const v=fixture();v.annotations[0].endSeconds=0;expect(()=>validateLensContext(v,identity)).toThrow();});
+ it('requires actual provenance',()=>{const v=fixture();v.records[0].source.label='';expect(()=>validateLensContext(v,identity)).toThrow();});
+ it('rejects duplicate record identities across scenes',()=>{const v=fixture();v.annotations[0].records[0].id=v.records[0].id;expect(()=>validateLensContext(v,identity)).toThrow();});
+ it('rejects records outside capabilities',()=>{const v=fixture();v.capabilities=[];expect(()=>validateLensContext(v,identity)).toThrow();});
+ it('rejects invalid spoiler classification',()=>{const v=fixture();v.records[0].spoiler.classification='inferred' as 'safe';expect(()=>validateLensContext(v,identity)).toThrow();});
+ it('rejects unsafe music, portrait and source links',()=>{for(const field of ['externalUrl','portraitUrl'] as const){const v=fixture();v.records[0][field]='javascript:alert(1)';expect(()=>validateLensContext(v,identity)).toThrow();}});
+ it('bounds incoming annotation counts',()=>{const v=fixture();v.annotations=Array(501).fill(v.annotations[0]);expect(()=>validateLensContext(v,identity)).toThrow();});
+ it('allows genuinely missing annotations',()=>{const v=fixture();v.annotations=[];expect(validateLensContext(v,identity).annotations).toEqual([]);});
+ it('does not accept unavailable data containing records',()=>{const v=fixture();v.availability='unavailable';expect(()=>validateLensContext(v,identity)).toThrow();});
+ it('rejects credential-bearing and media-local external URLs',()=>{for(const s of ['https://user:password@example.com','//example.com','http://example.com','/api/player-lab/original.webm'])expect(approvedLensUrl(s)).toBeUndefined();expect(approvedLensUrl('https://example.com/source')).toBe('https://example.com/source');});
+});
+describe('current media time and spoilers',()=>{
+ it.each([[0,'first-half'],[9.99,'first-half'],[10,'second-half'],[19.99,'second-half']])('uses start-inclusive end-exclusive %s',(time,id)=>expect(activeLensScenes(fixture(),Number(time)).map(a=>a.id)).toEqual([id]));
+ it.each([undefined,-1,NaN,Infinity,20])('has no active annotation at %s',time=>expect(activeLensScenes(fixture(),time)).toEqual([]));
+ it('reselects the earlier segment after a backward seek',()=>{const v=fixture();expect(activeLensScenes(v,15)[0].id).toBe('second-half');expect(activeLensScenes(v,2)[0].id).toBe('first-half');});
+ it('never reveals future or unclassified plot information',()=>{const v=fixture();expect(lensVisibility(v.records[4],11)).toBe('hidden');expect(lensVisibility(v.records[5],100)).toBe('hidden');});
+ it('requires explicit reveal at or beyond supplied threshold',()=>{const r=fixture().records[4];expect(lensVisibility(r,12)).toBe('reveal');expect(lensVisibility(r,undefined)).toBe('hidden');expect(lensVisibility(r,3)).toBe('hidden');});
+ it('does not infer safety from missing timing',()=>{const r=fixture().records[4];delete r.spoiler.revealAtSeconds;expect(lensVisibility(r,100)).toBe('hidden');});
+ it('shows safe supplied facts without a playback timestamp',()=>expect(lensVisibility(fixture().records[0])).toBe('visible'));
+ it('rejects movie episode identity',()=>{expect(validLensMedia(lensLabTitle,identity)).toBe(true);expect(validLensMedia(lensLabTitle,{...identity,episodeId:'fake'})).toBe(false);});
+ it('accepts only actual series episode ownership',()=>{const series={...lensLabTitle,mediaType:'series' as const,seasons:[{id:'s1',number:1,episodes:[{id:'e1',title:'One',episodeNumber:1,availability:{status:'metadata-only' as const},isLicensedForPlayback:false}]}]};expect(validLensMedia(series,{...identity,episodeId:'e1'})).toBe(true);expect(validLensMedia(series,{...identity,episodeId:'e2'})).toBe(false);});
+});
+describe('viewer lifetime, caching and unavailable services',()=>{
+ it('coalesces pending reads and reuses bounded cache',async()=>{const service={getContext:vi.fn(async()=>fixture())};const reader=createLensReader(service,identity);await Promise.all([reader.read(),reader.read()]);await reader.read();expect(service.getContext).toHaveBeenCalledTimes(1);reader.dispose();});
+ it('refreshes expired cache rather than applying it',async()=>{let now=Date.now();const service={getContext:vi.fn(async()=>({...fixture(),expiresAt:new Date(now+1000).toISOString()}))};const reader=createLensReader(service,identity,()=>now);await reader.read();now+=1001;await reader.read();expect(service.getContext).toHaveBeenCalledTimes(2);reader.dispose();});
+ it('suppresses late responses after a profile/media transition',async()=>{let finish!:(v:StoryLensContext)=>void;const service:StoryLensService={getContext:()=>new Promise(r=>{finish=r;})};const reader=createLensReader(service,identity);const result=reader.read();await Promise.resolve();reader.dispose();finish(fixture());await expect(result).rejects.toMatchObject({code:'ACCESS_DENIED'});});
+ it('does not reuse another profile response',async()=>{const reader=createLensReader({getContext:async()=>fixture()},{...identity,profileId:'new-viewer'});await expect(reader.read()).rejects.toMatchObject({code:'METADATA_INVALID'});reader.dispose();});
+ it('aborts pending transports on disposal',async()=>{let signal:AbortSignal|undefined;const reader=createLensReader({getContext:async input=>{signal=input.signal;return fixture();}},identity);await reader.read();reader.dispose();expect(signal?.aborted).toBe(true);});
+ it('bounds unavailable adapters at twenty seconds',async()=>{vi.useFakeTimers();const reader=createLensReader({getContext:()=>new Promise(()=>{})},identity);const checked=expect(reader.read()).rejects.toMatchObject({code:'TIMEOUT'});await vi.advanceTimersByTimeAsync(20001);await checked;reader.dispose();});
+ it('fails closed in production and has no preview success fallback',async()=>{await expect(unavailableStoryLensService.getContext(identity)).rejects.toMatchObject({code:'SERVICE_UNAVAILABLE'});});
+ it('maps errors without raw metadata or transport details',()=>{expect(lensError({code:'OTHER',message:'secret'})).not.toContain('secret');expect(lensError({code:'SESSION_EXPIRED'})).toContain('Sign in');});
+});
